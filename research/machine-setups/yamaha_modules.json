@@ -1,0 +1,5578 @@
+[
+ {
+  "machine": "Yamaha RM50 Rhythm Sound Module",
+  "pack_folders": [
+   "Yamaha RM 50"
+  ],
+  "maker": "Yamaha",
+  "year": 1992,
+  "kind": "drum sound module",
+  "voices": [
+   {
+    "label": "P-BD",
+    "name": "Preset Bass Drum voice bank (102 voices)",
+    "type": "Kick",
+    "controls": [
+     "voice: assign mode (mono, poly, mono/alt, poly/alt)",
+     "voice: alternate group (off, 1-7)",
+     "voice: output (stereo or individual 1-6) and individual level",
+     "element x2: wave, level, pan, pitch (+/-3 oct, 1-cent)",
+     "element: amplitude EG (attack/decay/release + punch)",
+     "element: filter LPF12/LPF24/HPF12/HPF24, cutoff, resonance, filter EG",
+     "element: pitch EG",
+     "element: LFO (amp/pitch/filter)",
+     "element: delay (1-7 repeats, 10 ms steps, level and pitch offsets)",
+     "element: velocity curve (12) and velocity sensitivities",
+     "Easy Edit: volume, pitch, decay, cutoff, element balance (variations)"
+    ],
+    "switch_alternate": null,
+    "notes": "Official order (Owner's Manual pp.114-117): 1 DR Kikin; 2 DR Hard; 3 DR Boom; 4 DR Danc1; 5 DR Danc2; 6 DR Danc3; 7 DR Danc4; 8 DR Jazz1; 9 DR Maple; 10 DR Pop1; 11 DR Byter; 12 DR LoCal; 13 DR Beef; 14 DR Clean; 15 DR Click; 16 DR Fuzzy; 17 DR Kinta; 18 DR Punch; 19 DR Round; 20 DR Slap1; 21 DR Slap2; 22 DR Solid; 23 DR Stud1; 24 DR Stud2; 25 DR Thump; 26 DR Woof; 27 DR Arid; 28 DR Huge; 29 DR Live; 30 JZ Lite; 31 JZ DbHd1; 32 JZ DbHd2; 33 JZ Loose; 34 JZ Hard; 35 JZ Swing; 36 JZ Swang; 37 JZ Smith; 38 RM Big; 39 RM Pow; 40 RM Boo; 41 RM Def; 42 RM Lizrd; 43 RM Crnch; 44 RM Piles; 45 RM Open; 46 RM AirHd; 47 RM Tight; 48 RM Soft; 49 RM Jazz; 50 RM Nuke; 51 RM March; 52 RV Bambi; 53 RV Kick; 54 RV Mondo; 55 RV Balad; 56 RV LoHz; 57 RV Orch; 58 RV Arena; 59 GT Tyron; 60 GT Mutha; 61 GT Tight; 62 GT Noizy; 63 GT Homer; 64 GT Aero; 65 GT Fist; 66 GT Stuff; 67 GT Blanc; 68 GT Snack; 69 GT Rattl; 70 GT Klass; 71 GT 5 Bar; 72 GT Grind; 73 AN Antek; 74 AN 919; 75 AN 929; 76 AN 939; 77 AN 818; 78 AN Sinus; 79 AN Booom; 80 EL Kirk; 81 EL Simm; 82 EL Paso; 83 EL Prinz; 84 EL Rap; 85 EL Efant; 86 EL Ectro; 87 EL Ouise; 88 EL Ektrn; 89 EL Sid; 90 EL Tech1; 91 EL Tech2; 92 FX Klam; 93 FX Klang; 94 FX Hell; 95 FX IYF; 96 FX Trash; 97 FX Zilla; 98 FX Atom; 99 FX Futur; 100 FX TNT; 101 FX Cicad; 102 FX Delay"
+   },
+   {
+    "label": "P-SD",
+    "name": "Preset Snare Drum voice bank (108 voices)",
+    "type": "Snare",
+    "controls": [
+     "voice: assign mode (mono, poly, mono/alt, poly/alt)",
+     "voice: alternate group (off, 1-7)",
+     "voice: output (stereo or individual 1-6) and individual level",
+     "element x2: wave, level, pan, pitch (+/-3 oct, 1-cent)",
+     "element: amplitude EG (attack/decay/release + punch)",
+     "element: filter LPF12/LPF24/HPF12/HPF24, cutoff, resonance, filter EG",
+     "element: pitch EG",
+     "element: LFO (amp/pitch/filter)",
+     "element: delay (1-7 repeats, 10 ms steps, level and pitch offsets)",
+     "element: velocity curve (12) and velocity sensitivities",
+     "Easy Edit: volume, pitch, decay, cutoff, element balance (variations)"
+    ],
+    "switch_alternate": null,
+    "notes": "Official order: 1 DR HiPop; 2 DR Digit; 3 DR Rim1; 4 DR Damn; 5 DR Custr; 6 DR Basic; 7 DR Kindl; 8 DR Smack; 9 DR M.O.R; 10 DR Metl1; 11 DR Brass; 12 DR Steel; 13 DR Rim2; 14 DR Tite1; 15 DR Tite2; 16 DR Maple; 17 DR Real1; 18 DR Norm; 19 DR 400; 20 DR Marly; 21 DR Danc1; 22 DR Danc2; 23 DR Danc3; 24 DR Arid1; 25 DR Arid2; 26 DR Arid3; 27 DR Arid4; 28 DR Rim3; 29 DR Rim4; 30 DR Vergn; 31 DR Wood; 32 DR Real2; 33 DR Krack; 34 JZ Playr; 35 JZ Cool; 36 JZ Brsa1; 37 JZ Swpa1; 38 JZ Brsb1; 39 JZ Swpb1; 40 JZ Swsh1; 41 JZ Brsa2; 42 JZ Swpa2; 43 JZ Brsb2; 44 JZ Swpb2; 45 JZ Swsh2; 46 RM Burnn; 47 RM Crank; 48 RM Karim; 49 RM Obese; 50 RM Diet; 51 RM Tubby; 52 RM No FC; 53 RM 9volt; 54 RV Gospl; 55 RV TheDB; 56 RV Spike; 57 RV Atom; 58 RV Sizzl; 59 RV Head; 60 RV Biznz; 61 RV Wham; 62 RV Bam; 63 RV Thanx; 64 RV Canon; 65 RV Bryte; 66 RV Ghost; 67 RV IYF; 68 GT Shock; 69 GT HiFab; 70 GT Short; 71 GT LoFab; 72 GT Sucks; 73 GT Thump; 74 GT EatIt; 75 GT Whip; 76 GT Tasty; 77 GT Anvil; 78 GT Stape; 79 GT Erake; 80 GT Fable; 81 GT Wacko; 82 AN Orexk; 83 AN 919; 84 AN 818; 85 AN 929; 86 AN 828; 87 EL Down; 88 EL Power; 89 EL Simm; 90 FX Tech; 91 FX 9Roll; 92 FX Ugly; 93 FX Pain; 94 FX Undys; 95 FX Igor; 96 FX Spit; 97 FX Sneez; 98 FX Cough; 99 FX Bakup; 100 FX Ruff; 101 FX Jam; 102 FX Spew; 103 FX Hack; 104 SS Ambi1; 105 SS Ambi2; 106 SS Dryer; 107 SS Dry; 108 SS Count. Manual misprints row 30 as 'JZ Lite' in every bank; SD30 'DR Vergn' comes from the RM50 Manager editor source."
+   },
+   {
+    "label": "P-TM",
+    "name": "Preset Tom voice bank (107 voices)",
+    "type": "Tom",
+    "controls": [
+     "voice: assign mode (mono, poly, mono/alt, poly/alt)",
+     "voice: alternate group (off, 1-7)",
+     "voice: output (stereo or individual 1-6) and individual level",
+     "element x2: wave, level, pan, pitch (+/-3 oct, 1-cent)",
+     "element: amplitude EG (attack/decay/release + punch)",
+     "element: filter LPF12/LPF24/HPF12/HPF24, cutoff, resonance, filter EG",
+     "element: pitch EG",
+     "element: LFO (amp/pitch/filter)",
+     "element: delay (1-7 repeats, 10 ms steps, level and pitch offsets)",
+     "element: velocity curve (12) and velocity sensitivities",
+     "Easy Edit: volume, pitch, decay, cutoff, element balance (variations)"
+    ],
+    "switch_alternate": null,
+    "notes": "Official order: 1 DR Nice1; 2 DR Nice2; 3 DR Nice3; 4 DR Nice4; 5 DR Slap1; 6 DR Slap2; 7 DR Slap3; 8 DR Slap4; 9 DR Mapl1; 10 DR Mapl2; 11 DR Mapl3; 12 DR Mapl4; 13 DR Powr1; 14 DR Powr2; 15 DR Powr3; 16 DR Powr4; 17 DR Danc1; 18 DR Danc2; 19 DR Danc3; 20 DR Danc4; 21 DR Jaz1; 22 DR Jaz2; 23 DR Jaz3; 24 DR Jaz4; 25 RM Bop1; 26 RM Bop2; 27 RM Bop3; 28 RM Bop4; 29 RM Metl1; 30 RM Metl2; 31 RM Metl3; 32 RM Metl4; 33 RM Metl5; 34 RM Metl6; 35 RM Klip1; 36 RM Klip2; 37 RM Klip3; 38 RM Klip4; 39 RM Wet1; 40 RM Wet2; 41 RM Wet3; 42 RM Wet4; 43 RM Hard1; 44 RM Hard2; 45 RM Hard3; 46 RM Hard4; 47 RV Atom1; 48 RV Atom2; 49 RV Atom3; 50 RV Atom4; 51 RV Huge1; 52 RV Huge2; 53 RV Huge3; 54 RV Huge4; 55 RV Stik1; 56 RV Stik2; 57 RV Stik3; 58 RV Stik4; 59 RV Stad1; 60 RV Stad2; 61 RV Stad3; 62 RV Stad4; 63 RV Ambi1; 64 RV Ambi2; 65 RV Ambi3; 66 RV Ambi4; 67 GT Tite1; 68 GT Tite2; 69 GT Tite3; 70 GT Tite4; 71 AN Sine1; 72 AN Sine2; 73 AN Sine3; 74 AN Sine4; 75 EL Simm1; 76 EL Simm2; 77 EL Simm3; 78 EL Simm4; 79 EL Phew1; 80 EL Phew2; 81 EL Phew3; 82 EL Phew4; 83 FX Hurt1; 84 FX Hurt2; 85 FX Hurt3; 86 FX Hurt4; 87 FX Cyn1; 88 FX Cyn2; 89 FX Cyn3; 90 FX Cyn4; 91 ET Buru1; 92 ET Buru2; 93 ET Buru3; 94 ET BStik; 95 FX Wack1; 96 FX Wack2; 97 FX Wack3; 98 FX Wack4; 99 FX Rvrs1; 100 FX Rvrs2; 101 FX Rvrs3; 102 FX Rvrs4; 103 FX Flng1; 104 FX Flng2; 105 FX Flng3; 106 FX Flng4; 107 FX Solo. TM30 'RM Metl2' from editor source (manual row-30 misprint)."
+   },
+   {
+    "label": "P-CY",
+    "name": "Preset Cymbal voice bank (67 voices; 1-29 hi-hats, 30-42 rides, 43-51 crashes, 52-54 splashes, 55-60 China, 61-65 FX cymbals, 66-67 two percussion voices)",
+    "type": "Cymbal",
+    "controls": [
+     "voice: assign mode (mono, poly, mono/alt, poly/alt)",
+     "voice: alternate group (off, 1-7)",
+     "voice: output (stereo or individual 1-6) and individual level",
+     "element x2: wave, level, pan, pitch (+/-3 oct, 1-cent)",
+     "element: amplitude EG (attack/decay/release + punch)",
+     "element: filter LPF12/LPF24/HPF12/HPF24, cutoff, resonance, filter EG",
+     "element: pitch EG",
+     "element: LFO (amp/pitch/filter)",
+     "element: delay (1-7 repeats, 10 ms steps, level and pitch offsets)",
+     "element: velocity curve (12) and velocity sensitivities",
+     "Easy Edit: volume, pitch, decay, cutoff, element balance (variations)"
+    ],
+    "switch_alternate": null,
+    "notes": "Official order: 1 HH RYCl1; 2 HH RYQt1; 3 HH RYHf1; 4 HH RYOp1; 5 HH RYPd1; 6 HH RYCl2; 7 HH RYOp2; 8 HH RkClR; 9 HH RkkCl; 10 HH RkQrt; 11 HH RkHlf; 12 HH RkOpn; 13 HH RkPed; 14 HH AmCls; 15 HH AmOpn; 16 HH AmPed; 17 HH VxCls; 18 HH VxOpn; 19 HH TecC1; 20 HH TecC2; 21 HH TecC3; 22 HH TecO1; 23 HH TecO2; 24 HH Pitch; 25 HH Stand; 26 HH AnCl1; 27 HH AnOp1; 28 HH AnCl2; 29 HH AnOp2; 30 RD Medi1; 31 RD EdgCp; 32 RD Bell; 33 RD Flat; 34 RD Rock; 35 RD RckBl; 36 RD Jazz1; 37 RD Jazz2; 38 RD Long; 39 RD Medi2; 40 RD Sizzl; 41 RD FxBel; 42 RD FxRid; 43 CR Crsh1; 44 CR Crsh2; 45 CR Dark1; 46 CR High1; 47 CR Dark2; 48 CR High2; 49 CR Rock1; 50 CR Rock2; 51 CR Choke; 52 CS Spls1; 53 CS Spls2; 54 CS Spls3; 55 CH Chin1; 56 CH Ride; 57 CH Short; 58 CH Chin2; 59 CH Gong; 60 CH Strok; 61 FX Big1; 62 FX Gong; 63 FX Elekt; 64 FX Revrs; 65 FX Tecko; 66 PC PopM4; 67 PC TekD. CY30 'RD Medi1' from editor source (manual row-30 misprint). The editor source moves 66-67 into the PC bank."
+   },
+   {
+    "label": "P-PC",
+    "name": "Preset Percussion voice bank (65 voices)",
+    "type": "Perc",
+    "controls": [
+     "voice: assign mode (mono, poly, mono/alt, poly/alt)",
+     "voice: alternate group (off, 1-7)",
+     "voice: output (stereo or individual 1-6) and individual level",
+     "element x2: wave, level, pan, pitch (+/-3 oct, 1-cent)",
+     "element: amplitude EG (attack/decay/release + punch)",
+     "element: filter LPF12/LPF24/HPF12/HPF24, cutoff, resonance, filter EG",
+     "element: pitch EG",
+     "element: LFO (amp/pitch/filter)",
+     "element: delay (1-7 repeats, 10 ms steps, level and pitch offsets)",
+     "element: velocity curve (12) and velocity sensitivities",
+     "Easy Edit: volume, pitch, decay, cutoff, element balance (variations)"
+    ],
+    "switch_alternate": null,
+    "notes": "Official order: 1 LP AgoHi; 2 LP AgoLo; 3 LP BngHi; 4 LP BngLo; 5 LP Caba1; 6 LP Caba2; 7 LP Caba3; 8 LP Caba4; 9 LP Clave; 10 LP Qnto1; 11 LP Cong1; 12 LP Tumb1; 13 LP Slap1; 14 LP Low1; 15 LP Mute1; 16 LP Heel1; 17 LP CgHi2; 18 LP CgLo2; 19 LP Slap2; 20 LP Mute2; 21 LP Heel2; 22 LP Cow1; 23 LP Cow2; 24 LP Cow3; 25 LP Guiro; 26 LP Shak1; 27 LP Shak2; 28 LP Tamb1; 29 LP Tamb2; 30 LP Tamb3; 31 LP Tmpl1; 32 LP Tmpl2; 33 LP Tmpl3; 34 LP Tmpl4; 35 LP TimH1; 36 LP TimL1; 37 LP TimH2; 38 LP TimL2; 39 LP Casc1; 40 LP Casc2; 41 LP Trian; 42 LP Whist; 43 PC Log1; 44 PC Log2; 45 PC Log3; 46 PC Log4; 47 PC Talk1; 48 PC Talk2; 49 PC Yoru1; 50 PC Yoru2; 51 PC Yoru3; 52 PC Yoru4; 53 PC Bott1; 54 PC Bott2; 55 PC Bott3; 56 PC Bott4; 57 PC Clap1; 58 PC Clap2; 59 PC AnaMu; 60 PC Snap; 61 PC MeloB; 62 PC Metal; 63 PC PopM1; 64 PC PopM2; 65 PC PopM3. PC30 'LP Tamb3' from editor source (manual row-30 misprint)."
+   },
+   {
+    "label": "P-SE",
+    "name": "Preset Sound Effects voice bank (51 voices; 48-51 are 'BA' bass voices)",
+    "type": "FX",
+    "controls": [
+     "voice: assign mode (mono, poly, mono/alt, poly/alt)",
+     "voice: alternate group (off, 1-7)",
+     "voice: output (stereo or individual 1-6) and individual level",
+     "element x2: wave, level, pan, pitch (+/-3 oct, 1-cent)",
+     "element: amplitude EG (attack/decay/release + punch)",
+     "element: filter LPF12/LPF24/HPF12/HPF24, cutoff, resonance, filter EG",
+     "element: pitch EG",
+     "element: LFO (amp/pitch/filter)",
+     "element: delay (1-7 repeats, 10 ms steps, level and pitch offsets)",
+     "element: velocity curve (12) and velocity sensitivities",
+     "Easy Edit: volume, pitch, decay, cutoff, element balance (variations)"
+    ],
+    "switch_alternate": null,
+    "notes": "Official order: 1 FX 7-11; 2 FX B-Ben; 3 FX Joker; 4 FX Tubey; 5 FX Daiko; 6 FX Mello; 7 FX Door; 8 FX Zero; 9 FX Blip; 10 FX Bubbl; 11 FX Canes; 12 FX OilDr; 13 FX Sheet; 14 FX Sword; 15 FX Stab; 16 FX Gongy; 17 FX Robot; 18 FX R2D2; 19 FX RvCrs; 20 FX Scene; 21 FX Scrat; 22 FX Shui; 23 FX Snark; 24 FX Spark; 25 FX Alien; 26 FX Steps; 27 FX Stix; 28 FX Wiggy; 29 FX Falic; 30 FX Afro; 31 FX Blow; 32 FX Log; 33 FX Metal; 34 FX Pip; 35 FX Revrs; 36 FX Rezzo; 37 FX Wet; 38 FX BDMth; 39 FX S1Mth; 40 FX S2Mth; 41 FX S3Mth; 42 FX CYMth; 43 FX HCMth; 44 FX HOMth; 45 FX Type; 46 FX Heart; 47 FX Tape; 48 BA Nasti; 49 BA KillB; 50 BA Softa; 51 BA 30. SE30 'FX Afro' from editor source (manual row-30 misprint)."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none (MIDI-driven module; velocity-sensitive with 12 velocity curves per element and per-element velocity sensitivity for level, pitch, EG, filter and LFO)",
+  "built_in_effects": [],
+  "global_features": [
+   "133 AWM2 16-bit ROM waveforms; 500 preset voices in 6 banks (BD 102, SD 108, TM 107, CY 67, PC 65, SE 51) + 500 variations + 128 user voices",
+   "64 preset + 64 internal rhythm kits (+64 per data card); kit notes B0-B4 (MIDI 35-83, Yamaha C3=60 naming); notes B0-A#1 hold two voices each",
+   "voice = 1 or 2 elements; mono/alt and poly/alt play the two elements alternately (e.g. snare rolls)",
+   "7 alternate (exclusive) groups set per voice",
+   "pitched-voice channel mode plays one voice chromatically C-2 to C8",
+   "16-note polyphony, 16-part multitimbral",
+   "stereo out + 6 individual outs; 6 trigger inputs",
+   "3 waveform card slots (RY30 RSC cards, SY77/SY55 cards) + 1 data card slot",
+   "optional SYEMB06 512 KB wave RAM (up to 64 user waveforms)",
+   "no audio effects processor; 'element delay' is a voice-level repeat (1-7 repeats, up to 1,280 ms)"
+  ],
+  "sound_bank": {
+   "total": 133,
+   "categories": [
+    {
+     "name": "Bass drum",
+     "count": 15,
+     "range": "1-15"
+    },
+    {
+     "name": "Snare drum (incl. rim, side stick, brush)",
+     "count": 27,
+     "range": "16-42"
+    },
+    {
+     "name": "Hi-hat",
+     "count": 8,
+     "range": "43-50"
+    },
+    {
+     "name": "Cymbal",
+     "count": 7,
+     "range": "51-57"
+    },
+    {
+     "name": "Tom",
+     "count": 9,
+     "range": "58-66"
+    },
+    {
+     "name": "Percussion",
+     "count": 21,
+     "range": "67-87"
+    },
+    {
+     "name": "Ambience",
+     "count": 6,
+     "range": "88-93"
+    },
+    {
+     "name": "Bass drum attack / body",
+     "count": 2,
+     "range": "94-95"
+    },
+    {
+     "name": "Sound effects",
+     "count": 32,
+     "range": "96-127"
+    },
+    {
+     "name": "Synth waveforms",
+     "count": 6,
+     "range": "128-133"
+    }
+   ],
+   "ordered_list": [
+    "1 BDAnlg",
+    "2 BDDryH",
+    "3 BDDryT1",
+    "4 BDDryT2",
+    "5 BDDryT3",
+    "6 BDJazHi",
+    "7 BDJazLo",
+    "8 BDGate1",
+    "9 BDGate2",
+    "10 BDProc1",
+    "11 BDProc2",
+    "12 BDProc3",
+    "13 BDRoom",
+    "14 BDSFX",
+    "15 BDTekno",
+    "16 SDAnlg1",
+    "17 SDAnlg2",
+    "18 SDDryH",
+    "19 SDDryT1",
+    "20 SDDryT2",
+    "21 SDDryT3",
+    "22 SDDryT4",
+    "23 SDWdRim",
+    "24 SDDrMtl",
+    "25 SDDry5H",
+    "26 SDDry5S",
+    "27 SDFab",
+    "28 SDGate1",
+    "29 SDGate2",
+    "30 SDGate3",
+    "31 SDProcs",
+    "32 SDRevrb",
+    "33 SDRim",
+    "34 SDRoom1",
+    "35 SDRoom2",
+    "36 SDRoom3",
+    "37 SDRoom4",
+    "38 SDRoom5",
+    "39 SDSide",
+    "40 SDTekno",
+    "41 SDBshTp",
+    "42 SDBshSw",
+    "43 HHAnlg",
+    "44 HHCls1a",
+    "45 HHCls1b",
+    "46 HHCls2",
+    "47 HHOpn1",
+    "48 HHOpn2",
+    "49 HHPedal",
+    "50 HHQtr",
+    "51 CYChina",
+    "52 CYCrash",
+    "53 CYCrsh2",
+    "54 CYCup",
+    "55 CYCup2",
+    "56 CYRide1",
+    "57 CYRide2",
+    "58 TMDry1",
+    "59 TMDry2",
+    "60 TMJazz",
+    "61 TMPwr1",
+    "62 TMPwr2",
+    "63 TMPwr3",
+    "64 TMRoom1",
+    "65 TMRoom2",
+    "66 TMTekno",
+    "67 Agogo",
+    "68 AnlgClp",
+    "69 AnlgCow",
+    "70 Bongo",
+    "71 Cabasa",
+    "72 Claves",
+    "73 CongaHi",
+    "74 CongaLo",
+    "75 CongaMu",
+    "76 CongaSl",
+    "77 CongaHl",
+    "78 Cowbell",
+    "79 Guiro",
+    "80 Shaker",
+    "81 Tambrin",
+    "82 TimblHi",
+    "83 TimblLo",
+    "84 TimCasc",
+    "85 Triangl",
+    "86 Whistle",
+    "87 WoodBlk",
+    "88 Ambient",
+    "89 BDAmb",
+    "90 SDAmb",
+    "91 SideAmb",
+    "92 HatAmb",
+    "93 TomAmb",
+    "94 BDAttak",
+    "95 BDBody",
+    "96 Bottle",
+    "97 FingSnp",
+    "98 Noise",
+    "99 RimTrn1",
+    "100 RimTrn2",
+    "101 Scratch",
+    "102 Tube",
+    "103 Stick",
+    "104 Typist",
+    "105 Metal 1",
+    "106 PotTap",
+    "107 ShorTom",
+    "108 WudSlap",
+    "109 MuteDrm",
+    "110 PotMute",
+    "111 Metal 2",
+    "112 Metal 3",
+    "113 CupHit",
+    "114 MetlWeb",
+    "115 OpenLo",
+    "116 GateMtl",
+    "117 Factory",
+    "118 Shakey",
+    "119 BuzStix",
+    "120 OilDrum",
+    "121 Whup",
+    "122 MouthBD",
+    "123 TomMute",
+    "124 MouthS1",
+    "125 MouthCY",
+    "126 WoodHit",
+    "127 MouthS2",
+    "128 DigWave",
+    "129 P10Wave",
+    "130 P25Wave",
+    "131 P50Wave",
+    "132 SawWave",
+    "133 TriWave"
+   ],
+   "list_source": "https://soundprogramming.net/manuals/drum/Yamaha_RM50_Manual3.pdf (RM50 Owner's Manual appendix p.118 'RM50 Waveforms'; counts per category match Music Technology Feb 1993 https://www.muzines.co.uk/articles/yamaha-rm50/2429)"
+  },
+  "default_kit": [],
+  "pack_contents": "488 WAVs (+.asd) in 5 folders, named only by number. The folders follow the 500 PRESET VOICES (6 banks), not the 133 waves. Bassdrums BD-001..BD-103 (103 mono files; 'BD-011..wav' has a double dot) vs 102 BD voices: BD-001..058 line up with BD 1-58 (the long RV reverb block BD 52-58 matches the longest files); one extra file sits somewhere after BD-058 (unidentified). Snaredrums SNAREDRUM_001..108 (108) = 108 SD voices by count; order not verified; 107-108 carry different 1999 metadata. Toms TOMS_001..108 (108) vs 107 TM voices: 001-048 fit TM 1-48 (hi-to-low groups of 4); TOMS_049 looks like an extra; 050-108 fit TM 49-107 (inferred). Cymbals CYMBAL_001..065 = CY 1-65 in order (strong evidence: closed/open/pedal hat lengths, CYMBAL_051 = 'CR Choke' is short, CYMBAL_062 = 'FX Gong' is longest); CY 66-67 (PC PopM4, PC TekD) are not in this folder. FX FX_001..139 with gaps (104 files; FX_136-138 are empty 48-byte files) = Percussion bank + Sound-effects bank: FX_001-004 = PC 1-4; PC 5-6 (Caba1-2) absent (gap 005-009); FX_010-027 = PC 7-24; PC 25 'LP Guiro' absent; FX_028-067 = PC 26-65; FX_068 = 'PC PopM4', FX_069 = 'PC TekD'; FX_070-120 = SE 1-51 at file number minus 69, with gaps = missing SE voices (077-078 = SE 8-9, 080-081 = SE 11-12, 084 = SE 15, 096-097 = SE 27-28, 099-115 = SE 30-46 incl. all mouth sounds, 117-118 = SE 48-49); FX_121-139 (15 files, 12 with audio) do not correspond to preset PC/SE voices (unknown origin). All FX mapping is inferred from lengths and third-party by-ear tags (tidal-drum-machines), not confirmed by listening.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://soundprogramming.net/manuals/drum/Yamaha_RM50_Manual3.pdf",
+   "https://soundprogramming.net/manuals/drum/Yamaha_RM50_Manual2.pdf",
+   "https://soundprogramming.net/manuals/drum/Yamaha_RM50_Manual1.pdf",
+   "https://github.com/draekko/rm50_manager",
+   "https://www.muzines.co.uk/articles/yamaha-rm50/2429",
+   "https://www.muzines.co.uk/articles/yamaha-rm50/10494",
+   "https://soundprogramming.net/drum-machines/yamaha/yamaha-rm50/",
+   "https://github.com/geikha/tidal-drum-machines"
+  ]
+ },
+ {
+  "machine": "Yamaha RY30 Rhythm Programmer (drum machine)",
+  "pack_folders": [
+   "Yamaha RY-30",
+   "Yamaha RY30"
+  ],
+  "maker": "Yamaha",
+  "year": 1991,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "TOM 1",
+    "name": "Tom Dry1",
+    "type": "Tom",
+    "controls": [
+     "level",
+     "pitch (6 octaves, 1-cent steps)",
+     "decay",
+     "pan (32 positions)",
+     "filter: LPF/HPF 12 or 24 dB, cutoff, resonance (LPF)",
+     "filter EG (initial level, rate)",
+     "pitch EG (initial level, rate)",
+     "wave balance (2 layers)",
+     "velocity sensitivity: level, pitch, EG, filter",
+     "poly/mono",
+     "alternate group (off, 1-7)",
+     "output assign (stereo and/or individual) + individual level",
+     "real-time wheel: pitch, decay, pan, filter, balance"
+    ],
+    "switch_alternate": null,
+    "notes": "pad A; Dry kit (pad bank 0) default = voice 34 Tom Dry1"
+   },
+   {
+    "label": "TOM 2",
+    "name": "Tom Dry2",
+    "type": "Tom",
+    "controls": [
+     "level",
+     "pitch (6 octaves, 1-cent steps)",
+     "decay",
+     "pan (32 positions)",
+     "filter: LPF/HPF 12 or 24 dB, cutoff, resonance (LPF)",
+     "filter EG (initial level, rate)",
+     "pitch EG (initial level, rate)",
+     "wave balance (2 layers)",
+     "velocity sensitivity: level, pitch, EG, filter",
+     "poly/mono",
+     "alternate group (off, 1-7)",
+     "output assign (stereo and/or individual) + individual level",
+     "real-time wheel: pitch, decay, pan, filter, balance"
+    ],
+    "switch_alternate": null,
+    "notes": "pad B; Dry kit (pad bank 0) default = voice 35 Tom Dry2"
+   },
+   {
+    "label": "TOM 3",
+    "name": "Tom Dry3",
+    "type": "Tom",
+    "controls": [
+     "level",
+     "pitch (6 octaves, 1-cent steps)",
+     "decay",
+     "pan (32 positions)",
+     "filter: LPF/HPF 12 or 24 dB, cutoff, resonance (LPF)",
+     "filter EG (initial level, rate)",
+     "pitch EG (initial level, rate)",
+     "wave balance (2 layers)",
+     "velocity sensitivity: level, pitch, EG, filter",
+     "poly/mono",
+     "alternate group (off, 1-7)",
+     "output assign (stereo and/or individual) + individual level",
+     "real-time wheel: pitch, decay, pan, filter, balance"
+    ],
+    "switch_alternate": null,
+    "notes": "pad C; Dry kit (pad bank 0) default = voice 36 Tom Dry3"
+   },
+   {
+    "label": "HH OPEN",
+    "name": "Hat Opn2",
+    "type": "Open Hat",
+    "controls": [
+     "level",
+     "pitch (6 octaves, 1-cent steps)",
+     "decay",
+     "pan (32 positions)",
+     "filter: LPF/HPF 12 or 24 dB, cutoff, resonance (LPF)",
+     "filter EG (initial level, rate)",
+     "pitch EG (initial level, rate)",
+     "wave balance (2 layers)",
+     "velocity sensitivity: level, pitch, EG, filter",
+     "poly/mono",
+     "alternate group (off, 1-7)",
+     "output assign (stereo and/or individual) + individual level",
+     "real-time wheel: pitch, decay, pan, filter, balance"
+    ],
+    "switch_alternate": null,
+    "notes": "pad D; Dry kit (pad bank 0) default = voice 56 Hat Opn2; both hats are in alternate group 2"
+   },
+   {
+    "label": "RIDE",
+    "name": "Edge->Cup",
+    "type": "Ride",
+    "controls": [
+     "level",
+     "pitch (6 octaves, 1-cent steps)",
+     "decay",
+     "pan (32 positions)",
+     "filter: LPF/HPF 12 or 24 dB, cutoff, resonance (LPF)",
+     "filter EG (initial level, rate)",
+     "pitch EG (initial level, rate)",
+     "wave balance (2 layers)",
+     "velocity sensitivity: level, pitch, EG, filter",
+     "poly/mono",
+     "alternate group (off, 1-7)",
+     "output assign (stereo and/or individual) + individual level",
+     "real-time wheel: pitch, decay, pan, filter, balance"
+    ],
+    "switch_alternate": null,
+    "notes": "pad E; Dry kit (pad bank 0) default = voice 61 Edge->Cup"
+   },
+   {
+    "label": "PERC 1",
+    "name": "Snr Side",
+    "type": "Rim",
+    "controls": [
+     "level",
+     "pitch (6 octaves, 1-cent steps)",
+     "decay",
+     "pan (32 positions)",
+     "filter: LPF/HPF 12 or 24 dB, cutoff, resonance (LPF)",
+     "filter EG (initial level, rate)",
+     "pitch EG (initial level, rate)",
+     "wave balance (2 layers)",
+     "velocity sensitivity: level, pitch, EG, filter",
+     "poly/mono",
+     "alternate group (off, 1-7)",
+     "output assign (stereo and/or individual) + individual level",
+     "real-time wheel: pitch, decay, pan, filter, balance"
+    ],
+    "switch_alternate": null,
+    "notes": "pad F; Dry kit (pad bank 0) default = voice 30 Snr Side"
+   },
+   {
+    "label": "BD",
+    "name": "Kik Dry2",
+    "type": "Kick",
+    "controls": [
+     "level",
+     "pitch (6 octaves, 1-cent steps)",
+     "decay",
+     "pan (32 positions)",
+     "filter: LPF/HPF 12 or 24 dB, cutoff, resonance (LPF)",
+     "filter EG (initial level, rate)",
+     "pitch EG (initial level, rate)",
+     "wave balance (2 layers)",
+     "velocity sensitivity: level, pitch, EG, filter",
+     "poly/mono",
+     "alternate group (off, 1-7)",
+     "output assign (stereo and/or individual) + individual level",
+     "real-time wheel: pitch, decay, pan, filter, balance"
+    ],
+    "switch_alternate": null,
+    "notes": "pad G; Dry kit (pad bank 0) default = voice 1 Kik Dry2"
+   },
+   {
+    "label": "SD",
+    "name": "Snr Dry1",
+    "type": "Snare",
+    "controls": [
+     "level",
+     "pitch (6 octaves, 1-cent steps)",
+     "decay",
+     "pan (32 positions)",
+     "filter: LPF/HPF 12 or 24 dB, cutoff, resonance (LPF)",
+     "filter EG (initial level, rate)",
+     "pitch EG (initial level, rate)",
+     "wave balance (2 layers)",
+     "velocity sensitivity: level, pitch, EG, filter",
+     "poly/mono",
+     "alternate group (off, 1-7)",
+     "output assign (stereo and/or individual) + individual level",
+     "real-time wheel: pitch, decay, pan, filter, balance"
+    ],
+    "switch_alternate": null,
+    "notes": "pad H; Dry kit (pad bank 0) default = voice 15 Snr Dry1"
+   },
+   {
+    "label": "TOM 4",
+    "name": "Tom Dry4",
+    "type": "Tom",
+    "controls": [
+     "level",
+     "pitch (6 octaves, 1-cent steps)",
+     "decay",
+     "pan (32 positions)",
+     "filter: LPF/HPF 12 or 24 dB, cutoff, resonance (LPF)",
+     "filter EG (initial level, rate)",
+     "pitch EG (initial level, rate)",
+     "wave balance (2 layers)",
+     "velocity sensitivity: level, pitch, EG, filter",
+     "poly/mono",
+     "alternate group (off, 1-7)",
+     "output assign (stereo and/or individual) + individual level",
+     "real-time wheel: pitch, decay, pan, filter, balance"
+    ],
+    "switch_alternate": null,
+    "notes": "pad I; Dry kit (pad bank 0) default = voice 37 Tom Dry4"
+   },
+   {
+    "label": "HH CLOSED",
+    "name": "Hat Cls2",
+    "type": "Closed Hat",
+    "controls": [
+     "level",
+     "pitch (6 octaves, 1-cent steps)",
+     "decay",
+     "pan (32 positions)",
+     "filter: LPF/HPF 12 or 24 dB, cutoff, resonance (LPF)",
+     "filter EG (initial level, rate)",
+     "pitch EG (initial level, rate)",
+     "wave balance (2 layers)",
+     "velocity sensitivity: level, pitch, EG, filter",
+     "poly/mono",
+     "alternate group (off, 1-7)",
+     "output assign (stereo and/or individual) + individual level",
+     "real-time wheel: pitch, decay, pan, filter, balance"
+    ],
+    "switch_alternate": null,
+    "notes": "pad J; Dry kit (pad bank 0) default = voice 55 Hat Cls2; both hats are in alternate group 2"
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash",
+    "type": "Crash",
+    "controls": [
+     "level",
+     "pitch (6 octaves, 1-cent steps)",
+     "decay",
+     "pan (32 positions)",
+     "filter: LPF/HPF 12 or 24 dB, cutoff, resonance (LPF)",
+     "filter EG (initial level, rate)",
+     "pitch EG (initial level, rate)",
+     "wave balance (2 layers)",
+     "velocity sensitivity: level, pitch, EG, filter",
+     "poly/mono",
+     "alternate group (off, 1-7)",
+     "output assign (stereo and/or individual) + individual level",
+     "real-time wheel: pitch, decay, pan, filter, balance"
+    ],
+    "switch_alternate": null,
+    "notes": "pad K; Dry kit (pad bank 0) default = voice 60 Crash"
+   },
+   {
+    "label": "PERC 2",
+    "name": "Shaker",
+    "type": "Shaker",
+    "controls": [
+     "level",
+     "pitch (6 octaves, 1-cent steps)",
+     "decay",
+     "pan (32 positions)",
+     "filter: LPF/HPF 12 or 24 dB, cutoff, resonance (LPF)",
+     "filter EG (initial level, rate)",
+     "pitch EG (initial level, rate)",
+     "wave balance (2 layers)",
+     "velocity sensitivity: level, pitch, EG, filter",
+     "poly/mono",
+     "alternate group (off, 1-7)",
+     "output assign (stereo and/or individual) + individual level",
+     "real-time wheel: pitch, decay, pan, filter, balance"
+    ],
+    "switch_alternate": null,
+    "notes": "pad L; manual prints \"60 Shaker\" (60 is Crash in the voice list; Shaker is voice 80)"
+   }
+  ],
+  "choke_groups": [
+   [
+    "HH OPEN",
+    "HH CLOSED"
+   ]
+  ],
+  "accent": "no accent key; 12 velocity-sensitive pads (or fixed velocity), velocity recorded per hit; a pattern job can offset/scale velocity",
+  "built_in_effects": [],
+  "global_features": [
+   "90 ROM waves (AWM2 16-bit, 48 kHz) + 84 reversed versions of the non-synth waves = 174",
+   "96 internal voices (0-95), each 1 or 2 wave layers; 32 card voices",
+   "12 pads A-L; 12 preset pad banks (0-11), banks 12-15 internal/card, bank 16 = one voice pitched across the 12 pads",
+   "factory alternate groups: 1 = voices 50-54 (Hat Cls1, Hat Qtr1, Hlf1, Hat Opn1, Hat Ped1), 2 = 55-56 (Hat Cls2, Hat Opn2), 3 = 57-58 (Hat Cls3, Hat Opn3 analog)",
+   "real-time control wheel (pitch, decay, pan, filter, wave balance) recordable",
+   "Swing job: shifts one voice's off-beats by -11..+11 clocks (1/8 quantize) or -5..+5 (1/16), written to a user pattern",
+   "clock move mode: shift hits by 1/24 of a quarter note",
+   "1/96 resolution, 40-250 BPM; 100 preset + 100 user patterns (up to 4 bars), 20 songs",
+   "15-note polyphony; 4 voice note-assign tables for MIDI",
+   "stereo out + 2 individual outs; 1 Rhythm Sound Card slot (RSC cards; some SY/TG wave cards)"
+  ],
+  "sound_bank": {
+   "total": 90,
+   "categories": [
+    {
+     "name": "Kicks",
+     "count": 12,
+     "range": "1-12"
+    },
+    {
+     "name": "Snares (incl. rim, side stick)",
+     "count": 19,
+     "range": "13-31"
+    },
+    {
+     "name": "Hi-hats",
+     "count": 8,
+     "range": "32-39"
+    },
+    {
+     "name": "Cymbals",
+     "count": 5,
+     "range": "40-44"
+    },
+    {
+     "name": "Toms",
+     "count": 8,
+     "range": "45-52"
+    },
+    {
+     "name": "Percussion",
+     "count": 20,
+     "range": "53-72"
+    },
+    {
+     "name": "Effects (incl. ambience, BD attack/body)",
+     "count": 12,
+     "range": "73-84"
+    },
+    {
+     "name": "Synth waveforms",
+     "count": 6,
+     "range": "85-90"
+    }
+   ],
+   "ordered_list": [
+    "BDAnlg",
+    "BDDryH",
+    "BDDryT1",
+    "BDDryT2",
+    "BDGate1",
+    "BDGate2",
+    "BDProc1",
+    "BDProc2",
+    "BDProc3",
+    "BDRoom",
+    "BDSFX",
+    "BDTekno",
+    "SDAnlg1",
+    "SDAnlg2",
+    "SDDryH",
+    "SDDryT1",
+    "SDDryT2",
+    "SDDryT3",
+    "SDGate1",
+    "SDGate2",
+    "SDGate3",
+    "SDProcs",
+    "SDRevrb",
+    "SDRim",
+    "SDRoom1",
+    "SDRoom2",
+    "SDRoom3",
+    "SDRoom4",
+    "SDRoom5",
+    "SDSide",
+    "SDTekno",
+    "HHAnlg",
+    "HHCls1a",
+    "HHCls1b",
+    "HHCls2",
+    "HHOpn1",
+    "HHOpn2",
+    "HHPedal",
+    "HHQtr",
+    "CYChina",
+    "CYCrash",
+    "CYCup",
+    "CYRide1",
+    "CYRide2",
+    "TMDry1",
+    "TMDry2",
+    "TMPwr1",
+    "TMPwr2",
+    "TMPwr3",
+    "TMRoom1",
+    "TMRoom2",
+    "TMTekno",
+    "Agogo",
+    "AnlgClp",
+    "AnlgCow",
+    "Bongo",
+    "Cabasa",
+    "Claves",
+    "CongaHi",
+    "CongaLo",
+    "CongaMu",
+    "CongaSl",
+    "CongaHl",
+    "Cowbell",
+    "Guiro",
+    "Shaker",
+    "Tambrin",
+    "TimbalH",
+    "TimbalL",
+    "Triangl",
+    "Whistle",
+    "WoodBlk",
+    "Ambient",
+    "BDAttak",
+    "BDBody",
+    "Bottle",
+    "FingSnp",
+    "Noise",
+    "RimTrn1",
+    "RimTrn2",
+    "Scratch",
+    "Tube",
+    "Stick",
+    "Typist",
+    "DigWave",
+    "P10Wave",
+    "P25Wave",
+    "P50Wave",
+    "SawWave",
+    "TriWave"
+   ],
+   "list_source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.82 'RY30 Wave List'; names printed without numbers, positions are list order; counts match Music Technology Jul 1991)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "pad A (TOM 1)",
+    "midi_note": null,
+    "sound": "voice 34 Tom Dry1"
+   },
+   {
+    "pad_or_key": "pad B (TOM 2)",
+    "midi_note": null,
+    "sound": "voice 35 Tom Dry2"
+   },
+   {
+    "pad_or_key": "pad C (TOM 3)",
+    "midi_note": null,
+    "sound": "voice 36 Tom Dry3"
+   },
+   {
+    "pad_or_key": "pad D (HH OPEN)",
+    "midi_note": null,
+    "sound": "voice 56 Hat Opn2"
+   },
+   {
+    "pad_or_key": "pad E (RIDE)",
+    "midi_note": null,
+    "sound": "voice 61 Edge->Cup"
+   },
+   {
+    "pad_or_key": "pad F (PERC 1)",
+    "midi_note": null,
+    "sound": "voice 30 Snr Side"
+   },
+   {
+    "pad_or_key": "pad G (BD)",
+    "midi_note": null,
+    "sound": "voice 1 Kik Dry2"
+   },
+   {
+    "pad_or_key": "pad H (SD)",
+    "midi_note": null,
+    "sound": "voice 15 Snr Dry1"
+   },
+   {
+    "pad_or_key": "pad I (TOM 4)",
+    "midi_note": null,
+    "sound": "voice 37 Tom Dry4"
+   },
+   {
+    "pad_or_key": "pad J (HH CLOSED)",
+    "midi_note": null,
+    "sound": "voice 55 Hat Cls2"
+   },
+   {
+    "pad_or_key": "pad K (CRASH)",
+    "midi_note": null,
+    "sound": "voice 60 Crash"
+   },
+   {
+    "pad_or_key": "pad L (PERC 2)",
+    "midi_note": null,
+    "sound": "voice 80 Shaker (printed as \"60 Shaker\")"
+   }
+  ],
+  "pack_contents": "'Yamaha RY-30': 84 stereo WAVs (+.asd) with descriptive (not official) names in 6 folders: BASSDRUM Bassdrum-01..13; SNARES Snare1..21 + Rimshot1-2; CYMBALS China, Crash1, Hat Closed-01/02, Hat Open-01..04, Hat Pedal-01/02, Ride-01..03; Toms 8 (Tom H-01..03, Tom M-03, Tom-04, Tom L-01, Toml L-02/03 - irregular names); Percussion 19 (Bell, Bongo-01/02, Cabasa-01/02, Clap, Conga-01/02, Cowbell-01/02, Quid, Stick, Tamb, Timb1/2, Triangle, Trill, Woodblock-01/02); Misc 8 (Button, Knock-01/02, Noise, Pipe, Scratch, Snap, String). No numbering to match against ROM order; Woodblock/Stick/Noise/Scratch/Snap echo ROM wave names, so it likely mixes raw waves and voices (inferred). 'Yamaha RY30': 56 mono WAVs, flat: RY30Kick01-12 (= 12 kick waves by count), RY30KickAtt/KickBody (= BDAttak/BDBody waves), RY30Snare01-20 + RY30Rimshot (21 vs 19 snare waves), RY30Hat_C1-C3, _O1-O3, _P, _Q (= 8 hi-hat waves incl. pedal and quarter-open), China, Crash, Ride01-03 (= 5 cymbal waves incl. cup), Clap, Cowbell, Tamborine, Ambi (= Ambient), Digital, Pulse10/25/50 (= DigWave, P10/P25/P50Wave). Looks like a raw-wave capture; no toms, Saw/Tri waves or most percussion/SFX. Mapping by name is inferred.",
+  "preset_patterns": [
+   {
+    "name": "100 Funk1V (4/4, 95 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "101 Funk1F (4/4, 95 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "102 Funk1C (4/4, 95 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "103 Funk2V (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "104 Funk2F (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "105 Funk2C (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "106 Tek1V (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "107 Tek1F (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "108 Tek1C (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "109 Tek2V (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "110 Tek2F (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "111 Tek2C (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "112 Euro1V (4/4, 115 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "113 Euro1F (4/4, 115 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "114 Euro1C (4/4, 115 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "115 Euro2V (4/4, 115 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "116 Euro2F (4/4, 115 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "117 Euro2C (4/4, 115 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "118 Hous1V (4/4, 123 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "119 Hous1F (4/4, 123 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "120 Hous1C (4/4, 123 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "121 Hous2V (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "122 Hous2F (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "123 Hous2C (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "124 Hous3V (4/4, 93 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "125 Hous3F (4/4, 93 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "126 Hous3C (4/4, 93 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "127 DanceV (4/4, 113 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "128 Rock1V (4/4, 160 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "129 Rock1F (4/4, 160 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "130 Rock1C (4/4, 160 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "131 Rock2V (4/4, 120 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "132 Rock2F (4/4, 120 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "133 Rock2C (4/4, 120 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "134 MetalV (4/4, 164 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "135 MetalF (4/4, 164 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "136 MetalC (4/4, 164 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "137 ZydecV (4/4, 184 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "138 ZydecF (4/4, 184 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "139 ZydecC (4/4, 184 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "140 R&B1V (4/4, 98 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "141 R&B1F (4/4, 98 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "142 R&B1C (4/4, 98 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "143 R&B2V (4/4, 92 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "144 R&B2F (4/4, 92 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "145 R&B2C (4/4, 92 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "146 Shuf1V (4/4, 136 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "147 Shuf1F (4/4, 136 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "148 Shuf1C (4/4, 136 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "149 Shuf2V (4/4, 80 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "150 Shuf2F (4/4, 80 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "151 Shuf2C (4/4, 80 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "152 Shuf3V (4/4, 114 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "153 Shuf3F (4/4, 114 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "154 Shuf3C (4/4, 114 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "155 FusioV (7/8, 114 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "156 FusioF (7/8, 114 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "157 FusioC (7/8, 114 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "158 Hip1V (4/4, 98 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "159 Hip2V (4/4, 98 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "160 Rap1V (4/4, 108 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "161 Rap2V (4/4, 104 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "162 Rap3V (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "163 NuAgeV (4/4, 94 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "164 NuAgeF (4/4, 94 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "165 NuAgeC (4/4, 94 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "166 Blld1V (6/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "167 Blld1F (6/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "168 Blld1C (6/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "169 Blld2V (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "170 Blld2F (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "171 Blld2C (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "172 AfricV (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "173 AfricF (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "174 AfricC (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "175 Jazz1V (4/4, 196 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "176 Jazz1F (4/4, 196 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "177 Jazz1C (4/4, 196 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "178 Jazz2V (6/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "179 Jazz2F (6/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "180 Jazz2C (6/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "181 Regg1V (4/4, 124 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "182 Regg1F (4/4, 124 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "183 Regg1C (4/4, 124 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "184 Regg2V (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "185 Regg2F (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "186 Regg2C (4/4, 120 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "187 Latn1V (4/4, 118 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "188 Latn1F (4/4, 118 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "189 Latn1C (4/4, 118 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "190 Latn2V (4/4, 120 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "191 Latn2F (4/4, 120 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "192 Latn2C (4/4, 120 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "193 SambaV (4/4, 114 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "194 SambaF (4/4, 114 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "195 SambaC (4/4, 114 BPM, 1 bar)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "196 BossaV (4/4, 130 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "197 SongoV (4/4, 108 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "198 SongoF (4/4, 108 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   },
+   {
+    "name": "199 SongoC (4/4, 108 BPM, 2 bars)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf (RY30 Owner's Manual p.52 'RY30 Preset Pattern List'; no step grids published)"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://soundprogramming.net/manuals/drum/Yamaha_RY30_Manual.pdf",
+   "https://www.muzines.co.uk/articles/yamaha-ry30/836",
+   "https://www.muzines.co.uk/articles/yamaha-ry30-rhythm-programmer/7445",
+   "https://www.muzines.co.uk/articles/yamaha-ry30-sound-cards/9408",
+   "https://www.vintagesynth.com/yamaha/ry30",
+   "https://soundprogramming.net/drum-machines/yamaha/yamaha-ry30/"
+  ]
+ },
+ {
+  "machine": "Yamaha CS6x / CS6R synthesizer (drum voices)",
+  "pack_folders": [
+   "Yamaha CS6"
+  ],
+  "maker": "Yamaha",
+  "year": 1999,
+  "kind": "synth with drum kit",
+  "voices": [
+   {
+    "label": "C0",
+    "name": "Dr BdVar5",
+    "type": "Kick",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 378; MIDI 24"
+   },
+   {
+    "label": "C#0",
+    "name": "Dr SdPcBH",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 389; MIDI 25"
+   },
+   {
+    "label": "D0",
+    "name": "Dr SdWdH",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 391; MIDI 26"
+   },
+   {
+    "label": "D#0",
+    "name": "Dr SdVar1",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 392; MIDI 27"
+   },
+   {
+    "label": "E0",
+    "name": "Dr BdVar3",
+    "type": "Kick",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 376; MIDI 28"
+   },
+   {
+    "label": "F0",
+    "name": "Dr SdRoll",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 405; MIDI 29"
+   },
+   {
+    "label": "F#0",
+    "name": "Dr SdBldH",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 382; MIDI 30"
+   },
+   {
+    "label": "G0",
+    "name": "Dr SdDry",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 400; MIDI 31"
+   },
+   {
+    "label": "G#0",
+    "name": "Dr Stick",
+    "type": "Rim",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 408; MIDI 32"
+   },
+   {
+    "label": "A0",
+    "name": "Dr BdVar4",
+    "type": "Kick",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 377; MIDI 33"
+   },
+   {
+    "label": "A#0",
+    "name": "Dr SdPcBH",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 389; MIDI 34"
+   },
+   {
+    "label": "B0",
+    "name": "Dr BdVar1",
+    "type": "Kick",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 374; MIDI 35"
+   },
+   {
+    "label": "C1",
+    "name": "Dr BdPop",
+    "type": "Kick",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 371; MIDI 36"
+   },
+   {
+    "label": "C#1",
+    "name": "Dr C.Rim2",
+    "type": "Rim",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 407; MIDI 37"
+   },
+   {
+    "label": "D1",
+    "name": "Dr SdHvy",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 387; MIDI 38"
+   },
+   {
+    "label": "D#1",
+    "name": "Pc Clap",
+    "type": "Clap",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 358; MIDI 39"
+   },
+   {
+    "label": "E1",
+    "name": "Dr SdGM",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 380; MIDI 40"
+   },
+   {
+    "label": "F1",
+    "name": "Dr Tom2L",
+    "type": "Tom",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 418; MIDI 41"
+   },
+   {
+    "label": "F#1",
+    "name": "Dr HHCl5",
+    "type": "Closed Hat",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 423; MIDI 42"
+   },
+   {
+    "label": "G1",
+    "name": "Dr Tom2L",
+    "type": "Tom",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 418; MIDI 43"
+   },
+   {
+    "label": "G#1",
+    "name": "Dr HHPdl2",
+    "type": "Pedal Hat",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 425; MIDI 44"
+   },
+   {
+    "label": "A1",
+    "name": "Dr Tom2L",
+    "type": "Tom",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 418; MIDI 45"
+   },
+   {
+    "label": "A#1",
+    "name": "Dr HHOpn",
+    "type": "Open Hat",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 426; MIDI 46"
+   },
+   {
+    "label": "B1",
+    "name": "Dr Tom2H",
+    "type": "Tom",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 417; MIDI 47"
+   },
+   {
+    "label": "C2",
+    "name": "Dr Tom2H",
+    "type": "Tom",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 417; MIDI 48"
+   },
+   {
+    "label": "C#2",
+    "name": "Dr Crash",
+    "type": "Crash",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 433; MIDI 49"
+   },
+   {
+    "label": "D2",
+    "name": "Dr Tom2H",
+    "type": "Tom",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 417; MIDI 50"
+   },
+   {
+    "label": "D#2",
+    "name": "Dr Ride",
+    "type": "Ride",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 429; MIDI 51"
+   },
+   {
+    "label": "E2",
+    "name": "Dr China",
+    "type": "Cymbal",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 435; MIDI 52"
+   },
+   {
+    "label": "F2",
+    "name": "Dr Cup",
+    "type": "Ride",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 431; MIDI 53"
+   },
+   {
+    "label": "F#2",
+    "name": "Pc Tmborn",
+    "type": "Tambourine",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 354; MIDI 54"
+   },
+   {
+    "label": "G2",
+    "name": "Dr Crash2",
+    "type": "Crash",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 434; MIDI 55"
+   },
+   {
+    "label": "G#2",
+    "name": "Pc Cowbel",
+    "type": "Cowbell",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 340; MIDI 56"
+   },
+   {
+    "label": "A2",
+    "name": "Dr Crash2",
+    "type": "Crash",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 434; MIDI 57"
+   },
+   {
+    "label": "A#2",
+    "name": "Pc VbSlp",
+    "type": "Perc",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 356; MIDI 58"
+   },
+   {
+    "label": "B2",
+    "name": "Dr Cup2",
+    "type": "Ride",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 432; MIDI 59"
+   },
+   {
+    "label": "C3",
+    "name": "Pc BongoH",
+    "type": "Bongo",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 336; MIDI 60"
+   },
+   {
+    "label": "C#3",
+    "name": "Pc BongoL",
+    "type": "Bongo",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 335; MIDI 61"
+   },
+   {
+    "label": "D3",
+    "name": "Pc CngSlp",
+    "type": "Conga",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 339; MIDI 62"
+   },
+   {
+    "label": "D#3",
+    "name": "Pc CongaH",
+    "type": "Conga",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 338; MIDI 63"
+   },
+   {
+    "label": "E3",
+    "name": "Pc CongaL",
+    "type": "Conga",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 337; MIDI 64"
+   },
+   {
+    "label": "F3",
+    "name": "Pc TmblsH",
+    "type": "Timbale",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 345; MIDI 65"
+   },
+   {
+    "label": "F#3",
+    "name": "Pc TmblsL",
+    "type": "Timbale",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 344; MIDI 66"
+   },
+   {
+    "label": "G3",
+    "name": "Pc AgogoL",
+    "type": "Agogo",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 341; MIDI 67"
+   },
+   {
+    "label": "G#3",
+    "name": "Pc AgogoL",
+    "type": "Agogo",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 341; MIDI 68"
+   },
+   {
+    "label": "A3",
+    "name": "Pc Cabasa",
+    "type": "Shaker",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 349; MIDI 69"
+   },
+   {
+    "label": "A#3",
+    "name": "Pc Maracs",
+    "type": "Shaker",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 352; MIDI 70"
+   },
+   {
+    "label": "B3",
+    "name": "Dr China",
+    "type": "Cymbal",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 435; MIDI 71"
+   },
+   {
+    "label": "C4",
+    "name": "Dr Crash2",
+    "type": "Crash",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 434; MIDI 72"
+   },
+   {
+    "label": "C#4",
+    "name": "Pc TrangL",
+    "type": "Triangle",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 355; MIDI 73"
+   },
+   {
+    "label": "D4",
+    "name": "Cp FngCym",
+    "type": "Cymbal",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 101; MIDI 74"
+   },
+   {
+    "label": "D#4",
+    "name": "Pc Claves",
+    "type": "Clave",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 350; MIDI 75"
+   },
+   {
+    "label": "E4",
+    "name": "Pc Wdblck",
+    "type": "Wood Block",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 348; MIDI 76"
+   },
+   {
+    "label": "F4",
+    "name": "Pc Wdblck",
+    "type": "Wood Block",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 348; MIDI 77"
+   },
+   {
+    "label": "F#4",
+    "name": "Cp Timpni",
+    "type": "Perc",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 113; MIDI 78"
+   },
+   {
+    "label": "G4",
+    "name": "Cp Timpni",
+    "type": "Perc",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 113; MIDI 79"
+   },
+   {
+    "label": "G#4",
+    "name": "Pc TrangL",
+    "type": "Triangle",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 355; MIDI 80"
+   },
+   {
+    "label": "A4",
+    "name": "Pc TrangL",
+    "type": "Triangle",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 355; MIDI 81"
+   },
+   {
+    "label": "A#4",
+    "name": "Pc Shaker",
+    "type": "Shaker",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 353; MIDI 82"
+   },
+   {
+    "label": "B4",
+    "name": "Pc JnglBl",
+    "type": "Perc",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 357; MIDI 83"
+   },
+   {
+    "label": "C5",
+    "name": "Dr BdStd",
+    "type": "Kick",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 370; MIDI 84"
+   },
+   {
+    "label": "C#5",
+    "name": "Dr SdRim1",
+    "type": "Rim",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 394; MIDI 85"
+   },
+   {
+    "label": "D5",
+    "name": "Dr SdBldH",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 382; MIDI 86"
+   },
+   {
+    "label": "D#5",
+    "name": "Dr SdHvy",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 387; MIDI 87"
+   },
+   {
+    "label": "E5",
+    "name": "Dr SdVar1",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 392; MIDI 88"
+   },
+   {
+    "label": "F5",
+    "name": "Dr SdVar2",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 393; MIDI 89"
+   },
+   {
+    "label": "F#5",
+    "name": "Dr SdAmb1",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 396; MIDI 90"
+   },
+   {
+    "label": "G5",
+    "name": "Dr SdFsnH",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 383; MIDI 91"
+   },
+   {
+    "label": "G#5",
+    "name": "Dr SdAmb3",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 398; MIDI 92"
+   },
+   {
+    "label": "A5",
+    "name": "Dr SdPclH",
+    "type": "Snare",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 388; MIDI 93"
+   },
+   {
+    "label": "A#5",
+    "name": "Dr BdHby",
+    "type": "Kick",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 372; MIDI 94"
+   },
+   {
+    "label": "B5",
+    "name": "Dr BdHby",
+    "type": "Kick",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 372; MIDI 95"
+   },
+   {
+    "label": "C6",
+    "name": "Dr BdLoJz",
+    "type": "Kick",
+    "controls": [
+     "element on/off",
+     "wave or normal voice per key",
+     "wave number",
+     "level + level velocity sensitivity",
+     "pan, random pan, alternate pan",
+     "coarse tune (+/-48) / fine tune, pitch velocity sensitivity",
+     "AEG attack, decay1, decay2, decay1 level",
+     "LPF/HPF cutoff (+ resonance)",
+     "alternate group (off, 1-127)",
+     "assign mode single/multi",
+     "receive note off",
+     "reverb send, chorus send",
+     "insertion switch thru/ins1/ins2",
+     "output select"
+    ],
+    "switch_alternate": null,
+    "notes": "wave 373; MIDI 96"
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none (velocity-sensitive keys; per-key level and pitch velocity sensitivity)",
+  "built_in_effects": [
+   {
+    "name": "Reverb",
+    "type": "reverb",
+    "notes": "12 types; per-key Reverb Send in drum voices"
+   },
+   {
+    "name": "Chorus",
+    "type": "other",
+    "notes": "23 modulation/delay types; per-key Chorus Send"
+   },
+   {
+    "name": "Insertion 1",
+    "type": "other",
+    "notes": "24 types; per-key Insertion switch thru/ins1/ins2"
+   },
+   {
+    "name": "Insertion 2",
+    "type": "other",
+    "notes": "92-93 types (SOS says 92, Vintage Synth Explorer 93); per-key switch"
+   },
+   {
+    "name": "Master EQ",
+    "type": "eq",
+    "notes": "4-band, whole instrument"
+   }
+  ],
+  "global_features": [
+   "479 waves in 16 MB ROM; drum/percussion waves Pc 335-369 and Dr 370-479",
+   "8 preset drum voices (Rock, House, Hip, Trance, Nasty, Brush, Pop, 8o8 Kit) + 2 internal (HipHop Kit, Urbanguard)",
+   "drum voice = up to 73 keys C0-C6 (MIDI 24-96), one wave (or a normal voice) per key with full AWM2 element parameters",
+   "128 arpeggio types incl. 31 drum types (':Dr', nos. 88-118)",
+   "Phrase Clip sampling kits; 2 PLG plug-in board slots",
+   "64-note polyphony, 16-part multitimbral"
+  ],
+  "sound_bank": {
+   "total": 145,
+   "categories": [
+    {
+     "name": "Pc (percussion) waves",
+     "count": 35,
+     "range": "335-369"
+    },
+    {
+     "name": "Dr (drum) waves incl. T8 (808-type) 437-455 and T9 (909-type) 456-475",
+     "count": 110,
+     "range": "370-479"
+    }
+   ],
+   "ordered_list": [
+    "335 Pc BongoL",
+    "336 Pc BongoH",
+    "337 Pc CongaL",
+    "338 Pc CongaH",
+    "339 Pc CngSlp",
+    "340 Pc Cowbel",
+    "341 Pc AgogoL",
+    "342 Pc GuiroL",
+    "343 Pc GiroCl",
+    "344 Pc TmblsL",
+    "345 Pc TmblsH",
+    "346 Pc CuicaL",
+    "347 Pc CuicaH",
+    "348 Pc Wdblck",
+    "349 Pc Cabasa",
+    "350 Pc Claves",
+    "351 Pc Castnt",
+    "352 Pc Maracs",
+    "353 Pc Shaker",
+    "354 Pc Tmborn",
+    "355 Pc TrangL",
+    "356 Pc VbSlp",
+    "357 Pc JnglBl",
+    "358 Pc Clap",
+    "359 Pc Whistl",
+    "360 Pc Bltree",
+    "361 Pc AnvlHt",
+    "362 Pc AnvlPp",
+    "363 Pc Scrch1",
+    "364 Pc Scrch2",
+    "365 Pc VoxDrm",
+    "366 Pc Ripper",
+    "367 Pc CONG",
+    "368 Pc StlClp",
+    "369 Pc WdBlk",
+    "370 Dr BdStd",
+    "371 Dr BdPop",
+    "372 Dr BdHby",
+    "373 Dr BdLoJz",
+    "374 Dr BdVar1",
+    "375 Dr BdVar2",
+    "376 Dr BdVar3",
+    "377 Dr BdVar4",
+    "378 Dr BdVar5",
+    "379 Dr BdAna",
+    "380 Dr SdGM",
+    "381 Dr SdBldS",
+    "382 Dr SdBldH",
+    "383 Dr SdFsnH",
+    "384 Dr SdLdwH",
+    "385 Dr SdSonA",
+    "386 Dr SdSonD",
+    "387 Dr SdHvy",
+    "388 Dr SdPclH",
+    "389 Dr SdPcBH",
+    "390 Dr SdPrmH",
+    "391 Dr SdWdH",
+    "392 Dr SdVar1",
+    "393 Dr SdVar2",
+    "394 Dr SdRim1",
+    "395 Dr SdRim2",
+    "396 Dr SdAmb1",
+    "397 Dr SdAmb2",
+    "398 Dr SdAmb3",
+    "399 Dr SdBkBt",
+    "400 Dr SdDry",
+    "401 Dr SdSwep",
+    "402 Dr SdBrsS",
+    "403 Dr SdBrsH",
+    "404 Dr SdBrsL",
+    "405 Dr SdRoll",
+    "406 Dr C.Rim1",
+    "407 Dr C.Rim2",
+    "408 Dr Stick",
+    "409 Dr TomF",
+    "410 Dr TomL",
+    "411 Dr TomM",
+    "412 Dr TomHL",
+    "413 Dr TomHH",
+    "414 Dr TmJzL",
+    "415 Dr TmJzM",
+    "416 Dr TmJzH",
+    "417 Dr Tom2H",
+    "418 Dr Tom2L",
+    "419 Dr HHCl1",
+    "420 Dr HHCL2",
+    "421 Dr HHCl3",
+    "422 Dr HHCl4",
+    "423 Dr HHCl5",
+    "424 Dr HHPdl",
+    "425 Dr HHPdl2",
+    "426 Dr HHOpn",
+    "427 Dr HHOpn2",
+    "428 Dr HHTip",
+    "429 Dr Ride",
+    "430 Dr Ride2",
+    "431 Dr Cup",
+    "432 Dr Cup2",
+    "433 Dr Crash",
+    "434 Dr Crash2",
+    "435 Dr China",
+    "436 Dr China2",
+    "437 Dr T8BdBm",
+    "438 Dr T8Bd",
+    "439 Dr T8SD1",
+    "440 Dr T8SD2",
+    "441 Dr T8SD3",
+    "442 Dr T8SD4",
+    "443 Dr T8Side",
+    "444 Dr T8Rmst",
+    "445 Dr T8Clap",
+    "446 Dr T8Tom",
+    "447 Dr T8HHCl",
+    "448 Dr T8HHOp",
+    "449 Dr T8Crsh",
+    "450 Dr T8CngL",
+    "451 Dr T8CngM",
+    "452 Dr T8CngH",
+    "453 Dr T8Cwbl",
+    "454 Dr T8Clve",
+    "455 Dr T8Mrcs",
+    "456 Dr T9BD1",
+    "457 Dr T9BD2",
+    "458 Dr T9BD3",
+    "459 Dr T9SD1",
+    "460 Dr T9SD2",
+    "461 Dr T9SD3",
+    "462 Dr T9SD4",
+    "463 Dr T9SD5",
+    "464 Dr T9SD6",
+    "465 Dr T9Clap",
+    "466 Dr T9Rim",
+    "467 Dr T9TomL",
+    "468 Dr T9TomM",
+    "469 Dr T9TomH",
+    "470 Dr T9HHC1",
+    "471 Dr T9HHC2",
+    "472 Dr T9HHO1",
+    "473 Dr T9HHO2",
+    "474 Dr T9Crsh",
+    "475 Dr T9Ride",
+    "476 Dr EuroBD",
+    "477 Dr DstKik",
+    "478 Dr Bd Kit",
+    "479 Dr Sn Kit"
+   ],
+   "list_source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (CS6x/CS6R Data List p.13 Wave List; drum/percussion subset of 479 waves)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "C0",
+    "midi_note": 24,
+    "sound": "378 Dr BdVar5"
+   },
+   {
+    "pad_or_key": "C#0",
+    "midi_note": 25,
+    "sound": "389 Dr SdPcBH"
+   },
+   {
+    "pad_or_key": "D0",
+    "midi_note": 26,
+    "sound": "391 Dr SdWdH"
+   },
+   {
+    "pad_or_key": "D#0",
+    "midi_note": 27,
+    "sound": "392 Dr SdVar1"
+   },
+   {
+    "pad_or_key": "E0",
+    "midi_note": 28,
+    "sound": "376 Dr BdVar3"
+   },
+   {
+    "pad_or_key": "F0",
+    "midi_note": 29,
+    "sound": "405 Dr SdRoll"
+   },
+   {
+    "pad_or_key": "F#0",
+    "midi_note": 30,
+    "sound": "382 Dr SdBldH"
+   },
+   {
+    "pad_or_key": "G0",
+    "midi_note": 31,
+    "sound": "400 Dr SdDry"
+   },
+   {
+    "pad_or_key": "G#0",
+    "midi_note": 32,
+    "sound": "408 Dr Stick"
+   },
+   {
+    "pad_or_key": "A0",
+    "midi_note": 33,
+    "sound": "377 Dr BdVar4"
+   },
+   {
+    "pad_or_key": "A#0",
+    "midi_note": 34,
+    "sound": "389 Dr SdPcBH"
+   },
+   {
+    "pad_or_key": "B0",
+    "midi_note": 35,
+    "sound": "374 Dr BdVar1"
+   },
+   {
+    "pad_or_key": "C1",
+    "midi_note": 36,
+    "sound": "371 Dr BdPop"
+   },
+   {
+    "pad_or_key": "C#1",
+    "midi_note": 37,
+    "sound": "407 Dr C.Rim2"
+   },
+   {
+    "pad_or_key": "D1",
+    "midi_note": 38,
+    "sound": "387 Dr SdHvy"
+   },
+   {
+    "pad_or_key": "D#1",
+    "midi_note": 39,
+    "sound": "358 Pc Clap"
+   },
+   {
+    "pad_or_key": "E1",
+    "midi_note": 40,
+    "sound": "380 Dr SdGM"
+   },
+   {
+    "pad_or_key": "F1",
+    "midi_note": 41,
+    "sound": "418 Dr Tom2L"
+   },
+   {
+    "pad_or_key": "F#1",
+    "midi_note": 42,
+    "sound": "423 Dr HHCl5"
+   },
+   {
+    "pad_or_key": "G1",
+    "midi_note": 43,
+    "sound": "418 Dr Tom2L"
+   },
+   {
+    "pad_or_key": "G#1",
+    "midi_note": 44,
+    "sound": "425 Dr HHPdl2"
+   },
+   {
+    "pad_or_key": "A1",
+    "midi_note": 45,
+    "sound": "418 Dr Tom2L"
+   },
+   {
+    "pad_or_key": "A#1",
+    "midi_note": 46,
+    "sound": "426 Dr HHOpn"
+   },
+   {
+    "pad_or_key": "B1",
+    "midi_note": 47,
+    "sound": "417 Dr Tom2H"
+   },
+   {
+    "pad_or_key": "C2",
+    "midi_note": 48,
+    "sound": "417 Dr Tom2H"
+   },
+   {
+    "pad_or_key": "C#2",
+    "midi_note": 49,
+    "sound": "433 Dr Crash"
+   },
+   {
+    "pad_or_key": "D2",
+    "midi_note": 50,
+    "sound": "417 Dr Tom2H"
+   },
+   {
+    "pad_or_key": "D#2",
+    "midi_note": 51,
+    "sound": "429 Dr Ride"
+   },
+   {
+    "pad_or_key": "E2",
+    "midi_note": 52,
+    "sound": "435 Dr China"
+   },
+   {
+    "pad_or_key": "F2",
+    "midi_note": 53,
+    "sound": "431 Dr Cup"
+   },
+   {
+    "pad_or_key": "F#2",
+    "midi_note": 54,
+    "sound": "354 Pc Tmborn"
+   },
+   {
+    "pad_or_key": "G2",
+    "midi_note": 55,
+    "sound": "434 Dr Crash2"
+   },
+   {
+    "pad_or_key": "G#2",
+    "midi_note": 56,
+    "sound": "340 Pc Cowbel"
+   },
+   {
+    "pad_or_key": "A2",
+    "midi_note": 57,
+    "sound": "434 Dr Crash2"
+   },
+   {
+    "pad_or_key": "A#2",
+    "midi_note": 58,
+    "sound": "356 Pc VbSlp"
+   },
+   {
+    "pad_or_key": "B2",
+    "midi_note": 59,
+    "sound": "432 Dr Cup2"
+   },
+   {
+    "pad_or_key": "C3",
+    "midi_note": 60,
+    "sound": "336 Pc BongoH"
+   },
+   {
+    "pad_or_key": "C#3",
+    "midi_note": 61,
+    "sound": "335 Pc BongoL"
+   },
+   {
+    "pad_or_key": "D3",
+    "midi_note": 62,
+    "sound": "339 Pc CngSlp"
+   },
+   {
+    "pad_or_key": "D#3",
+    "midi_note": 63,
+    "sound": "338 Pc CongaH"
+   },
+   {
+    "pad_or_key": "E3",
+    "midi_note": 64,
+    "sound": "337 Pc CongaL"
+   },
+   {
+    "pad_or_key": "F3",
+    "midi_note": 65,
+    "sound": "345 Pc TmblsH"
+   },
+   {
+    "pad_or_key": "F#3",
+    "midi_note": 66,
+    "sound": "344 Pc TmblsL"
+   },
+   {
+    "pad_or_key": "G3",
+    "midi_note": 67,
+    "sound": "341 Pc AgogoL"
+   },
+   {
+    "pad_or_key": "G#3",
+    "midi_note": 68,
+    "sound": "341 Pc AgogoL"
+   },
+   {
+    "pad_or_key": "A3",
+    "midi_note": 69,
+    "sound": "349 Pc Cabasa"
+   },
+   {
+    "pad_or_key": "A#3",
+    "midi_note": 70,
+    "sound": "352 Pc Maracs"
+   },
+   {
+    "pad_or_key": "B3",
+    "midi_note": 71,
+    "sound": "435 Dr China"
+   },
+   {
+    "pad_or_key": "C4",
+    "midi_note": 72,
+    "sound": "434 Dr Crash2"
+   },
+   {
+    "pad_or_key": "C#4",
+    "midi_note": 73,
+    "sound": "355 Pc TrangL"
+   },
+   {
+    "pad_or_key": "D4",
+    "midi_note": 74,
+    "sound": "101 Cp FngCym"
+   },
+   {
+    "pad_or_key": "D#4",
+    "midi_note": 75,
+    "sound": "350 Pc Claves"
+   },
+   {
+    "pad_or_key": "E4",
+    "midi_note": 76,
+    "sound": "348 Pc Wdblck"
+   },
+   {
+    "pad_or_key": "F4",
+    "midi_note": 77,
+    "sound": "348 Pc Wdblck"
+   },
+   {
+    "pad_or_key": "F#4",
+    "midi_note": 78,
+    "sound": "113 Cp Timpni"
+   },
+   {
+    "pad_or_key": "G4",
+    "midi_note": 79,
+    "sound": "113 Cp Timpni"
+   },
+   {
+    "pad_or_key": "G#4",
+    "midi_note": 80,
+    "sound": "355 Pc TrangL"
+   },
+   {
+    "pad_or_key": "A4",
+    "midi_note": 81,
+    "sound": "355 Pc TrangL"
+   },
+   {
+    "pad_or_key": "A#4",
+    "midi_note": 82,
+    "sound": "353 Pc Shaker"
+   },
+   {
+    "pad_or_key": "B4",
+    "midi_note": 83,
+    "sound": "357 Pc JnglBl"
+   },
+   {
+    "pad_or_key": "C5",
+    "midi_note": 84,
+    "sound": "370 Dr BdStd"
+   },
+   {
+    "pad_or_key": "C#5",
+    "midi_note": 85,
+    "sound": "394 Dr SdRim1"
+   },
+   {
+    "pad_or_key": "D5",
+    "midi_note": 86,
+    "sound": "382 Dr SdBldH"
+   },
+   {
+    "pad_or_key": "D#5",
+    "midi_note": 87,
+    "sound": "387 Dr SdHvy"
+   },
+   {
+    "pad_or_key": "E5",
+    "midi_note": 88,
+    "sound": "392 Dr SdVar1"
+   },
+   {
+    "pad_or_key": "F5",
+    "midi_note": 89,
+    "sound": "393 Dr SdVar2"
+   },
+   {
+    "pad_or_key": "F#5",
+    "midi_note": 90,
+    "sound": "396 Dr SdAmb1"
+   },
+   {
+    "pad_or_key": "G5",
+    "midi_note": 91,
+    "sound": "383 Dr SdFsnH"
+   },
+   {
+    "pad_or_key": "G#5",
+    "midi_note": 92,
+    "sound": "398 Dr SdAmb3"
+   },
+   {
+    "pad_or_key": "A5",
+    "midi_note": 93,
+    "sound": "388 Dr SdPclH"
+   },
+   {
+    "pad_or_key": "A#5",
+    "midi_note": 94,
+    "sound": "372 Dr BdHby"
+   },
+   {
+    "pad_or_key": "B5",
+    "midi_note": 95,
+    "sound": "372 Dr BdHby"
+   },
+   {
+    "pad_or_key": "C6",
+    "midi_note": 96,
+    "sound": "373 Dr BdLoJz"
+   }
+  ],
+  "pack_contents": "144 mono 44.1 kHz/16-bit WAVs, flat, numbered only: 'Yamaha CS6 001'..'092' (92) and 'Yamaha CS6 B 001'..'052' (52), plus readme.txt saying the author no longer has the machine and has no sound names. No gaps. 144 is one short of the 145 Pc+Dr waves (335-479), so the pack is probably a one-file-per-drum-wave capture (inferred), but the order does not cleanly match wave-number or kit-key order by length; 'B 001'-'B 010' are the ten longest (0.8-5.8 s, likely cymbals). Needs an ear check.",
+  "preset_patterns": [
+   {
+    "name": "Arpeggio 88 BigBeat1 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 89 BigBeat2 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 90 BigBeat3 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 91 BigBeat4 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 92 Rock1 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 93 Rock2 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 94 Rock3 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 95 BigBeat5 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 96 BigBeat6 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 97 BigBeat7 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 98 BigBeat8 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 99 BigBeat9 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 100 BrkTrnce (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 101 House1 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 102 House2 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 103 House3 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 104 Garage (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 105 House4 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 106 House5 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 107 HipHop (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 108 JazzHop (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 109 Abstract (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 110 LoBeat1 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 111 LoBeat2 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 112 LoBeat3 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 113 LoBeat4 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 114 LoBeat5 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 115 LoBeat6 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 116 Drm&Bs1 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 117 Drm&Bs2 (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   },
+   {
+    "name": "Arpeggio 118 Linear (drum type)",
+    "source": "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf (Arpeggio Type List p.16; names only)"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://soundprogramming.net/manuals/Yamaha_CS6x_CS6r_DataList.pdf",
+   "https://soundprogramming.net/synthesizers/yamaha/yamaha-cs6x/",
+   "https://www.soundonsound.com/reviews/yamaha-cs6x",
+   "https://www.vintagesynth.com/yamaha/cs6x"
+  ]
+ },
+ {
+  "machine": "Yamaha EX5 / EX5R / EX7 (drum voices)",
+  "pack_folders": [
+   "Yamaha EX5"
+  ],
+  "maker": "Yamaha",
+  "year": 1998,
+  "kind": "synth with drum kit",
+  "voices": [
+   {
+    "label": "C0",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 24; samples 1424"
+   },
+   {
+    "label": "C#0",
+    "name": "SdBrsS + Noise",
+    "type": "Snare",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 25; samples 1387, 1352"
+   },
+   {
+    "label": "D0",
+    "name": "SdBrsS + Noise",
+    "type": "Snare",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 26; samples 1387, 1352"
+   },
+   {
+    "label": "D#0",
+    "name": "SdBrsS + Noise",
+    "type": "Snare",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 27; samples 1387, 1352"
+   },
+   {
+    "label": "E0",
+    "name": "SdBrsS + Noise + SxBrth",
+    "type": "Snare",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 28; samples 1387, 1352, 0911"
+   },
+   {
+    "label": "F0",
+    "name": "SdBldM + SdGM + SdGM + SdGM",
+    "type": "Snare",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 29; samples 1368, 1366, 1366, 1366"
+   },
+   {
+    "label": "F#0",
+    "name": "Castnt",
+    "type": "Perc",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 30; samples 1425"
+   },
+   {
+    "label": "G0",
+    "name": "SdBldS + SdPrmS",
+    "type": "Snare",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 31; samples 1367, 1383"
+   },
+   {
+    "label": "G#0",
+    "name": "Stick",
+    "type": "Rim",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 32; samples 1391"
+   },
+   {
+    "label": "A0",
+    "name": "BdHby",
+    "type": "Kick",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 33; samples 1361"
+   },
+   {
+    "label": "A#0",
+    "name": "SdPcBH + SdPcBS + SdPclH",
+    "type": "Snare",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 34; samples 1382, 1381, 1380"
+   },
+   {
+    "label": "B0",
+    "name": "BdHby + BdHby",
+    "type": "Kick",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 35; samples 1361, 1361"
+   },
+   {
+    "label": "C1",
+    "name": "BdPop + BdPop",
+    "type": "Kick",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 36; samples 1360, 1360"
+   },
+   {
+    "label": "C#1",
+    "name": "C.Rim1",
+    "type": "Rim",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 37; samples 1389"
+   },
+   {
+    "label": "D1",
+    "name": "SdGM + SdSonB",
+    "type": "Snare",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 38; samples 1366, 1375"
+   },
+   {
+    "label": "D#1",
+    "name": "T8Clap",
+    "type": "Clap",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 39; samples 1443"
+   },
+   {
+    "label": "E1",
+    "name": "SdPcBH + SdPcBS",
+    "type": "Snare",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 40; samples 1382, 1381"
+   },
+   {
+    "label": "F1",
+    "name": "TomF + TmJzL",
+    "type": "Tom",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 41; samples 1392, 1397"
+   },
+   {
+    "label": "F#1",
+    "name": "HHCl1 + HHCl1",
+    "type": "Closed Hat",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 42; samples 1400, 1400"
+   },
+   {
+    "label": "G1",
+    "name": "TomF + TmJzL",
+    "type": "Tom",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 43; samples 1392, 1397"
+   },
+   {
+    "label": "G#1",
+    "name": "HHPdl",
+    "type": "Pedal Hat",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 44; samples 1403"
+   },
+   {
+    "label": "A1",
+    "name": "TomL + TmJzL",
+    "type": "Tom",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 45; samples 1393, 1397"
+   },
+   {
+    "label": "A#1",
+    "name": "HHOpn",
+    "type": "Open Hat",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 46; samples 1404"
+   },
+   {
+    "label": "B1",
+    "name": "TomM + TmJzH",
+    "type": "Tom",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 47; samples 1394, 1399"
+   },
+   {
+    "label": "C2",
+    "name": "TomHL + TmJzH",
+    "type": "Tom",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 48; samples 1395, 1399"
+   },
+   {
+    "label": "C#2",
+    "name": "Crash",
+    "type": "Crash",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 49; samples 1407"
+   },
+   {
+    "label": "D2",
+    "name": "TomHL + TmJzH",
+    "type": "Tom",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 50; samples 1395, 1399"
+   },
+   {
+    "label": "D#2",
+    "name": "Ride",
+    "type": "Ride",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 51; samples 1405"
+   },
+   {
+    "label": "E2",
+    "name": "China",
+    "type": "Cymbal",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 52; samples 1408"
+   },
+   {
+    "label": "F2",
+    "name": "Cup + Ride",
+    "type": "Ride",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 53; samples 1406, 1405"
+   },
+   {
+    "label": "F#2",
+    "name": "Tmborn",
+    "type": "Tambourine",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 54; samples 1428"
+   },
+   {
+    "label": "G2",
+    "name": "Crash",
+    "type": "Crash",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 55; samples 1407"
+   },
+   {
+    "label": "G#2",
+    "name": "Cowbel",
+    "type": "Cowbell",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 56; samples 1414"
+   },
+   {
+    "label": "A2",
+    "name": "Crash",
+    "type": "Crash",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 57; samples 1407"
+   },
+   {
+    "label": "A#2",
+    "name": "VbSlp",
+    "type": "Perc",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 58; samples 1430"
+   },
+   {
+    "label": "B2",
+    "name": "Ride",
+    "type": "Ride",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 59; samples 1405"
+   },
+   {
+    "label": "C3",
+    "name": "BongoH",
+    "type": "Bongo",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 60; samples 1410"
+   },
+   {
+    "label": "C#3",
+    "name": "BongoL",
+    "type": "Bongo",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 61; samples 1409"
+   },
+   {
+    "label": "D3",
+    "name": "CngSlp",
+    "type": "Conga",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 62; samples 1413"
+   },
+   {
+    "label": "D#3",
+    "name": "CongaH",
+    "type": "Conga",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 63; samples 1412"
+   },
+   {
+    "label": "E3",
+    "name": "CongaL",
+    "type": "Conga",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 64; samples 1411"
+   },
+   {
+    "label": "F3",
+    "name": "TmblsH + TmblsL",
+    "type": "Timbale",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 65; samples 1419, 1418"
+   },
+   {
+    "label": "F#3",
+    "name": "TmblsL",
+    "type": "Timbale",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 66; samples 1418"
+   },
+   {
+    "label": "G3",
+    "name": "AgogoL",
+    "type": "Agogo",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 67; samples 1415"
+   },
+   {
+    "label": "G#3",
+    "name": "AgogoL",
+    "type": "Agogo",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 68; samples 1415"
+   },
+   {
+    "label": "A3",
+    "name": "Cabasa",
+    "type": "Shaker",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 69; samples 1423"
+   },
+   {
+    "label": "A#3",
+    "name": "Maracs + Maracs",
+    "type": "Shaker",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 70; samples 1426, 1426"
+   },
+   {
+    "label": "B3",
+    "name": "Whistl",
+    "type": "Perc",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 71; samples 1431"
+   },
+   {
+    "label": "C4",
+    "name": "Whistl",
+    "type": "Perc",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 72; samples 1431"
+   },
+   {
+    "label": "C#4",
+    "name": "GiroCl",
+    "type": "Perc",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 73; samples 1417"
+   },
+   {
+    "label": "D4",
+    "name": "GuiroL",
+    "type": "Perc",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 74; samples 1416"
+   },
+   {
+    "label": "D#4",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 75; samples 1424"
+   },
+   {
+    "label": "E4",
+    "name": "Wdblck",
+    "type": "Wood Block",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 76; samples 1422"
+   },
+   {
+    "label": "F4",
+    "name": "Wdblck",
+    "type": "Wood Block",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 77; samples 1422"
+   },
+   {
+    "label": "F#4",
+    "name": "CuicaL",
+    "type": "Perc",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 78; samples 1420"
+   },
+   {
+    "label": "G4",
+    "name": "CuicaH",
+    "type": "Perc",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 79; samples 1421"
+   },
+   {
+    "label": "G#4",
+    "name": "TrangL",
+    "type": "Triangle",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 80; samples 1429"
+   },
+   {
+    "label": "A4",
+    "name": "TrangL",
+    "type": "Triangle",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 81; samples 1429"
+   },
+   {
+    "label": "A#4",
+    "name": "Shaker",
+    "type": "Shaker",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 82; samples 1427"
+   },
+   {
+    "label": "B4",
+    "name": "JnglBl",
+    "type": "Perc",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 83; samples 1433"
+   },
+   {
+    "label": "C5",
+    "name": "Bltree",
+    "type": "Perc",
+    "controls": [
+     "layers per key (velocity low/high + crossfade)",
+     "sample bank/number",
+     "coarse/fine tune, pitch EG depth + velocity sens",
+     "level, level velocity, expression low limit",
+     "pan / random pan + depth",
+     "reverb send, chorus send",
+     "insertion element switch 1/2/off",
+     "output select (L&R or individual)",
+     "start offset, loop length offset, key-on delay",
+     "sample play (forward/reverse)",
+     "receive note off",
+     "alternate group (off, 1-127)",
+     "key assign single/multi",
+     "EG"
+    ],
+    "switch_alternate": null,
+    "notes": "MIDI 84; samples 1434"
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none (velocity layers/zones with crossfade per key; level velocity per layer)",
+  "built_in_effects": [
+   {
+    "name": "Reverb",
+    "type": "reverb",
+    "notes": "12 types; per-element Reverb Send in drum voices"
+   },
+   {
+    "name": "Chorus",
+    "type": "other",
+    "notes": "17 types (chorus/flanger/phaser/symphonic); per-element Chorus Send"
+   },
+   {
+    "name": "Insertion 1",
+    "type": "other",
+    "notes": "24 types; per-element switch 1/2/off"
+   },
+   {
+    "name": "Insertion 2",
+    "type": "other",
+    "notes": "79 types (distortion, amp sim, wah, EQ, delay...); per-element switch"
+   }
+  ],
+  "global_features": [
+   "9 factory drum voices: Preset 2 123-128 (Pop, Velocity, Rock, Jazzy, House, Tech Kit) and Internal 2 126-128 (Alien, FX, Street Kit)",
+   "drum keys C-2..G8; factory kits use MIDI 24-91; several sample layers per key (up to 128 elements per drum voice)",
+   "drum voices play SAMPLES directly (Sample List nos. ~1351-1484 for drums), not 4-element AWM voices",
+   "drum/percussion AWM waves: Dr 294-343, Pc 344-369, Dr 370-410 (T8/T9 808/909-type), Pc 411-419",
+   "sampling (EX5/EX5R), 2 individual outs on EX5 (more with EXIDO1)",
+   "100 groove templates; 4-track arpeggiator (50 preset types); pattern + song sequencer"
+  ],
+  "sound_bank": {
+   "total": 126,
+   "categories": [
+    {
+     "name": "Dr waves (acoustic/electronic kit)",
+     "count": 50,
+     "range": "294-343"
+    },
+    {
+     "name": "Pc waves (percussion)",
+     "count": 26,
+     "range": "344-369"
+    },
+    {
+     "name": "Dr waves T8 (808-type), T9 (909-type), EuroBD, DstKik",
+     "count": 41,
+     "range": "370-410"
+    },
+    {
+     "name": "Pc waves (anvil, scratch, vox drum, misc)",
+     "count": 9,
+     "range": "411-419"
+    }
+   ],
+   "ordered_list": [
+    "294 Dr BdStd",
+    "295 Dr BdPop",
+    "296 Dr BdHby",
+    "297 Dr Bd2",
+    "298 Dr BdDeep",
+    "299 Dr BdHiJz",
+    "300 Dr BdLoJz",
+    "301 Dr SdGM",
+    "302 Dr SdBldS",
+    "303 Dr SdBldM",
+    "304 Dr SdBldH",
+    "305 Dr SdFsnL",
+    "306 Dr SdFsnH",
+    "307 Dr SdLdwS",
+    "308 Dr SdLdwH",
+    "309 Dr SdSonA",
+    "310 Dr SdSonB",
+    "311 Dr SdSonC",
+    "312 Dr SdSonD",
+    "313 Dr SdHvy",
+    "314 Dr SdPclS",
+    "315 Dr SdPclH",
+    "316 Dr SdPcBS",
+    "317 Dr SdPcBH",
+    "318 Dr SdPrmS",
+    "319 Dr SdPrmH",
+    "320 Dr SdWdS",
+    "321 Dr SdWdH",
+    "322 Dr SdBrsS",
+    "323 Dr SdBrsH",
+    "324 Dr C.Rim1",
+    "325 Dr C.Rim2",
+    "326 Dr Stick",
+    "327 Dr TomF",
+    "328 Dr TomL",
+    "329 Dr TomM",
+    "330 Dr TomHL",
+    "331 Dr TomHH",
+    "332 Dr TmJzL",
+    "333 Dr TmJzM",
+    "334 Dr TmJzH",
+    "335 Dr HHCl1",
+    "336 Dr HHCL2",
+    "337 Dr HHCl3",
+    "338 Dr HHPdl",
+    "339 Dr HHOpn",
+    "340 Dr Ride",
+    "341 Dr Cup",
+    "342 Dr Crash",
+    "343 Dr China",
+    "344 Pc BongoL",
+    "345 Pc BongoH",
+    "346 Pc CongaL",
+    "347 Pc CongaH",
+    "348 Pc CngSlp",
+    "349 Pc Cowbel",
+    "350 Pc AgogoL",
+    "351 Pc GuiroL",
+    "352 Pc GiroCl",
+    "353 Pc TmblsL",
+    "354 Pc TmblsH",
+    "355 Pc CuicaL",
+    "356 Pc CuicaH",
+    "357 Pc Wdblck",
+    "358 Pc Cabasa",
+    "359 Pc Claves",
+    "360 Pc Castnt",
+    "361 Pc Maracs",
+    "362 Pc Shaker",
+    "363 Pc Tmborn",
+    "364 Pc TrangL",
+    "365 Pc VbSlp",
+    "366 Pc Whistl",
+    "367 Pc Clap",
+    "368 Pc JnglBl",
+    "369 Pc Bltree",
+    "370 Dr T8BdBm",
+    "371 Dr T8Bd",
+    "372 Dr T8SD1",
+    "373 Dr T8SD2",
+    "374 Dr T8SD3",
+    "375 Dr T8SD4",
+    "376 Dr T8Side",
+    "377 Dr T8Rmst",
+    "378 Dr T8Clap",
+    "379 Dr T8Tom",
+    "380 Dr T8HHCl",
+    "381 Dr T8HHOp",
+    "382 Dr T8Crsh",
+    "383 Dr T8CngL",
+    "384 Dr T8CngM",
+    "385 Dr T8CngH",
+    "386 Dr T8Cwbl",
+    "387 Dr T8Clve",
+    "388 Dr T8Mrcs",
+    "389 Dr T9BD1",
+    "390 Dr T9BD2",
+    "391 Dr T9BD3",
+    "392 Dr T9SD1",
+    "393 Dr T9SD2",
+    "394 Dr T9SD3",
+    "395 Dr T9SD4",
+    "396 Dr T9SD5",
+    "397 Dr T9SD6",
+    "398 Dr T9Clap",
+    "399 Dr T9Rim",
+    "400 Dr T9TomL",
+    "401 Dr T9TomM",
+    "402 Dr T9TomH",
+    "403 Dr T9HHC1",
+    "404 Dr T9HHC2",
+    "405 Dr T9HHO1",
+    "406 Dr T9HHO2",
+    "407 Dr T9Crsh",
+    "408 Dr T9Ride",
+    "409 Dr EuroBD",
+    "410 Dr DstKik",
+    "411 Pc AnvlHt",
+    "412 Pc AnvlPp",
+    "413 Pc Scrch1",
+    "414 Pc Scrch2",
+    "415 Pc VoxDrm",
+    "416 Pc Ripper",
+    "417 Pc CONG",
+    "418 Pc StlClp",
+    "419 Pc WdBlk"
+   ],
+   "list_source": "https://soundprogramming.net/manuals/Yamaha_EX5_DataList.pdf (EX5 Data List p.29 Wave List; drum/percussion subset of the AWM wave ROM)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "C0",
+    "midi_note": 24,
+    "sound": "1424:Claves"
+   },
+   {
+    "pad_or_key": "C#0",
+    "midi_note": 25,
+    "sound": "1387:SdBrsS + 1352:Noise"
+   },
+   {
+    "pad_or_key": "D0",
+    "midi_note": 26,
+    "sound": "1387:SdBrsS + 1352:Noise"
+   },
+   {
+    "pad_or_key": "D#0",
+    "midi_note": 27,
+    "sound": "1387:SdBrsS + 1352:Noise"
+   },
+   {
+    "pad_or_key": "E0",
+    "midi_note": 28,
+    "sound": "1387:SdBrsS + 1352:Noise + 0911:SxBrth"
+   },
+   {
+    "pad_or_key": "F0",
+    "midi_note": 29,
+    "sound": "1368:SdBldM + 1366:SdGM + 1366:SdGM + 1366:SdGM"
+   },
+   {
+    "pad_or_key": "F#0",
+    "midi_note": 30,
+    "sound": "1425:Castnt"
+   },
+   {
+    "pad_or_key": "G0",
+    "midi_note": 31,
+    "sound": "1367:SdBldS + 1383:SdPrmS"
+   },
+   {
+    "pad_or_key": "G#0",
+    "midi_note": 32,
+    "sound": "1391:Stick"
+   },
+   {
+    "pad_or_key": "A0",
+    "midi_note": 33,
+    "sound": "1361:BdHby"
+   },
+   {
+    "pad_or_key": "A#0",
+    "midi_note": 34,
+    "sound": "1382:SdPcBH + 1381:SdPcBS + 1380:SdPclH"
+   },
+   {
+    "pad_or_key": "B0",
+    "midi_note": 35,
+    "sound": "1361:BdHby + 1361:BdHby"
+   },
+   {
+    "pad_or_key": "C1",
+    "midi_note": 36,
+    "sound": "1360:BdPop + 1360:BdPop"
+   },
+   {
+    "pad_or_key": "C#1",
+    "midi_note": 37,
+    "sound": "1389:C.Rim1"
+   },
+   {
+    "pad_or_key": "D1",
+    "midi_note": 38,
+    "sound": "1366:SdGM + 1375:SdSonB"
+   },
+   {
+    "pad_or_key": "D#1",
+    "midi_note": 39,
+    "sound": "1443:T8Clap"
+   },
+   {
+    "pad_or_key": "E1",
+    "midi_note": 40,
+    "sound": "1382:SdPcBH + 1381:SdPcBS"
+   },
+   {
+    "pad_or_key": "F1",
+    "midi_note": 41,
+    "sound": "1392:TomF + 1397:TmJzL"
+   },
+   {
+    "pad_or_key": "F#1",
+    "midi_note": 42,
+    "sound": "1400:HHCl1 + 1400:HHCl1"
+   },
+   {
+    "pad_or_key": "G1",
+    "midi_note": 43,
+    "sound": "1392:TomF + 1397:TmJzL"
+   },
+   {
+    "pad_or_key": "G#1",
+    "midi_note": 44,
+    "sound": "1403:HHPdl"
+   },
+   {
+    "pad_or_key": "A1",
+    "midi_note": 45,
+    "sound": "1393:TomL + 1397:TmJzL"
+   },
+   {
+    "pad_or_key": "A#1",
+    "midi_note": 46,
+    "sound": "1404:HHOpn"
+   },
+   {
+    "pad_or_key": "B1",
+    "midi_note": 47,
+    "sound": "1394:TomM + 1399:TmJzH"
+   },
+   {
+    "pad_or_key": "C2",
+    "midi_note": 48,
+    "sound": "1395:TomHL + 1399:TmJzH"
+   },
+   {
+    "pad_or_key": "C#2",
+    "midi_note": 49,
+    "sound": "1407:Crash"
+   },
+   {
+    "pad_or_key": "D2",
+    "midi_note": 50,
+    "sound": "1395:TomHL + 1399:TmJzH"
+   },
+   {
+    "pad_or_key": "D#2",
+    "midi_note": 51,
+    "sound": "1405:Ride"
+   },
+   {
+    "pad_or_key": "E2",
+    "midi_note": 52,
+    "sound": "1408:China"
+   },
+   {
+    "pad_or_key": "F2",
+    "midi_note": 53,
+    "sound": "1406:Cup + 1405:Ride"
+   },
+   {
+    "pad_or_key": "F#2",
+    "midi_note": 54,
+    "sound": "1428:Tmborn"
+   },
+   {
+    "pad_or_key": "G2",
+    "midi_note": 55,
+    "sound": "1407:Crash"
+   },
+   {
+    "pad_or_key": "G#2",
+    "midi_note": 56,
+    "sound": "1414:Cowbel"
+   },
+   {
+    "pad_or_key": "A2",
+    "midi_note": 57,
+    "sound": "1407:Crash"
+   },
+   {
+    "pad_or_key": "A#2",
+    "midi_note": 58,
+    "sound": "1430:VbSlp"
+   },
+   {
+    "pad_or_key": "B2",
+    "midi_note": 59,
+    "sound": "1405:Ride"
+   },
+   {
+    "pad_or_key": "C3",
+    "midi_note": 60,
+    "sound": "1410:BongoH"
+   },
+   {
+    "pad_or_key": "C#3",
+    "midi_note": 61,
+    "sound": "1409:BongoL"
+   },
+   {
+    "pad_or_key": "D3",
+    "midi_note": 62,
+    "sound": "1413:CngSlp"
+   },
+   {
+    "pad_or_key": "D#3",
+    "midi_note": 63,
+    "sound": "1412:CongaH"
+   },
+   {
+    "pad_or_key": "E3",
+    "midi_note": 64,
+    "sound": "1411:CongaL"
+   },
+   {
+    "pad_or_key": "F3",
+    "midi_note": 65,
+    "sound": "1419:TmblsH + 1418:TmblsL"
+   },
+   {
+    "pad_or_key": "F#3",
+    "midi_note": 66,
+    "sound": "1418:TmblsL"
+   },
+   {
+    "pad_or_key": "G3",
+    "midi_note": 67,
+    "sound": "1415:AgogoL"
+   },
+   {
+    "pad_or_key": "G#3",
+    "midi_note": 68,
+    "sound": "1415:AgogoL"
+   },
+   {
+    "pad_or_key": "A3",
+    "midi_note": 69,
+    "sound": "1423:Cabasa"
+   },
+   {
+    "pad_or_key": "A#3",
+    "midi_note": 70,
+    "sound": "1426:Maracs + 1426:Maracs"
+   },
+   {
+    "pad_or_key": "B3",
+    "midi_note": 71,
+    "sound": "1431:Whistl"
+   },
+   {
+    "pad_or_key": "C4",
+    "midi_note": 72,
+    "sound": "1431:Whistl"
+   },
+   {
+    "pad_or_key": "C#4",
+    "midi_note": 73,
+    "sound": "1417:GiroCl"
+   },
+   {
+    "pad_or_key": "D4",
+    "midi_note": 74,
+    "sound": "1416:GuiroL"
+   },
+   {
+    "pad_or_key": "D#4",
+    "midi_note": 75,
+    "sound": "1424:Claves"
+   },
+   {
+    "pad_or_key": "E4",
+    "midi_note": 76,
+    "sound": "1422:Wdblck"
+   },
+   {
+    "pad_or_key": "F4",
+    "midi_note": 77,
+    "sound": "1422:Wdblck"
+   },
+   {
+    "pad_or_key": "F#4",
+    "midi_note": 78,
+    "sound": "1420:CuicaL"
+   },
+   {
+    "pad_or_key": "G4",
+    "midi_note": 79,
+    "sound": "1421:CuicaH"
+   },
+   {
+    "pad_or_key": "G#4",
+    "midi_note": 80,
+    "sound": "1429:TrangL"
+   },
+   {
+    "pad_or_key": "A4",
+    "midi_note": 81,
+    "sound": "1429:TrangL"
+   },
+   {
+    "pad_or_key": "A#4",
+    "midi_note": 82,
+    "sound": "1427:Shaker"
+   },
+   {
+    "pad_or_key": "B4",
+    "midi_note": 83,
+    "sound": "1433:JnglBl"
+   },
+   {
+    "pad_or_key": "C5",
+    "midi_note": 84,
+    "sound": "1434:Bltree"
+   }
+  ],
+  "pack_contents": "129 mono 44.1 kHz/16-bit WAVs, flat, numbered only: EX5A 001-044 (44), EX5B 001-030 (30), EX5C 001-031 (31), EX5D 001-024 (24), plus readme.txt saying the author has no sound names. EX5C 011, EX5C 012 and EX5D 002 are ~0.02 s (near-empty), leaving 126 real files = exactly the 126 Dr/Pc AWM waves 294-419, so the pack is probably one file per drum/percussion wave (inferred). Lengths are near-uniform (~0.7 s in A, ~1.1 s in C), suggesting fixed-length captures, so length cannot confirm order. Needs an ear check.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://soundprogramming.net/manuals/Yamaha_EX5_DataList.pdf",
+   "https://soundprogramming.net/manuals/Yamaha_EX5_EX7_Manual.pdf",
+   "https://soundprogramming.net/synthesizers/yamaha/yamaha-ex5/",
+   "https://www.soundonsound.com/reviews/yamaha-ex5",
+   "https://www.vintagesynth.com/yamaha/ex5",
+   "https://en.wikipedia.org/wiki/Yamaha_EX5"
+  ]
+ }
+]

@@ -1,0 +1,3739 @@
+[
+ {
+  "machine": "Roland D-110 Multi Timbral Sound Module (rhythm part)",
+  "pack_folders": [
+   "Roland D-110"
+  ],
+  "maker": "Roland",
+  "year": 1988,
+  "kind": "synth with drum kit",
+  "voices": [
+   {
+    "label": "B1 (35)",
+    "name": "Bass Drum-1",
+    "type": "Kick",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r15; 2 partial(s)"
+   },
+   {
+    "label": "C2 (36)",
+    "name": "Bass Drum-2",
+    "type": "Kick",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r16; 1 partial(s)"
+   },
+   {
+    "label": "C#2 (37)",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r25; 1 partial(s)"
+   },
+   {
+    "label": "D2 (38)",
+    "name": "Snare Drum-1",
+    "type": "Snare",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r19; 1 partial(s)"
+   },
+   {
+    "label": "D#2 (39)",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r39; 1 partial(s)"
+   },
+   {
+    "label": "E2 (40)",
+    "name": "Snare Drum-2",
+    "type": "Snare",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r20; 1 partial(s)"
+   },
+   {
+    "label": "F2 (41)",
+    "name": "Low Tom Tom-1",
+    "type": "Tom",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r30; 1 partial(s)"
+   },
+   {
+    "label": "F#2 (42)",
+    "name": "Closed High Hat-1",
+    "type": "Closed Hat",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r01; 1 partial(s)"
+   },
+   {
+    "label": "G2 (43)",
+    "name": "Low Tom Tom-2",
+    "type": "Tom",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r33; 1 partial(s)"
+   },
+   {
+    "label": "G#2 (44)",
+    "name": "Open High Hat-2",
+    "type": "Open Hat",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r04; 2 partial(s); second open hat in the GM pedal-hat slot (D-110 has no pedal hat)"
+   },
+   {
+    "label": "A2 (45)",
+    "name": "Middle Tom Tom-1",
+    "type": "Tom",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r29; 1 partial(s)"
+   },
+   {
+    "label": "A#2 (46)",
+    "name": "Open High Hat-1",
+    "type": "Open Hat",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r03; 2 partial(s)"
+   },
+   {
+    "label": "B2 (47)",
+    "name": "Middle Tom Tom-2",
+    "type": "Tom",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r32; 1 partial(s)"
+   },
+   {
+    "label": "C3 (48)",
+    "name": "High Tom Tom-1",
+    "type": "Tom",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r28; 1 partial(s)"
+   },
+   {
+    "label": "C#3 (49)",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r05; 2 partial(s)"
+   },
+   {
+    "label": "D3 (50)",
+    "name": "High Tom Tom-2",
+    "type": "Tom",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r31; 1 partial(s)"
+   },
+   {
+    "label": "D#3 (51)",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r08; 2 partial(s)"
+   },
+   {
+    "label": "E3 (52)",
+    "name": "China Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r13; 2 partial(s)"
+   },
+   {
+    "label": "F3 (53)",
+    "name": "Cup",
+    "type": "Ride",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r11; 2 partial(s)"
+   },
+   {
+    "label": "F#3 (54)",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r40; 1 partial(s)"
+   },
+   {
+    "label": "G3 (55)",
+    "name": "Splash Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r14; 1 partial(s)"
+   },
+   {
+    "label": "G#3 (56)",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r41; 1 partial(s)"
+   },
+   {
+    "label": "A3 (57)",
+    "name": "Crash Cymbal (Mute)",
+    "type": "Crash",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r07; 1 partial(s)"
+   },
+   {
+    "label": "A#3 (58)",
+    "name": "Snare Drum-3",
+    "type": "Snare",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r21; 1 partial(s)"
+   },
+   {
+    "label": "B3 (59)",
+    "name": "Ride Cymbal (Mute)",
+    "type": "Ride",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r10; 1 partial(s)"
+   },
+   {
+    "label": "C4 (60)",
+    "name": "High Bongo",
+    "type": "Bongo",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r42; 1 partial(s)"
+   },
+   {
+    "label": "C#4 (61)",
+    "name": "Low Bongo",
+    "type": "Bongo",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r43; 1 partial(s)"
+   },
+   {
+    "label": "D4 (62)",
+    "name": "High Conga (Mute)",
+    "type": "Conga",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r44; 1 partial(s)"
+   },
+   {
+    "label": "D#4 (63)",
+    "name": "High Conga",
+    "type": "Conga",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r45; 1 partial(s)"
+   },
+   {
+    "label": "E4 (64)",
+    "name": "Low Conga",
+    "type": "Conga",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r46; 1 partial(s)"
+   },
+   {
+    "label": "F4 (65)",
+    "name": "High Timbale",
+    "type": "Timbale",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r47; 1 partial(s)"
+   },
+   {
+    "label": "F#4 (66)",
+    "name": "Low Timbale",
+    "type": "Timbale",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r48; 1 partial(s)"
+   },
+   {
+    "label": "G4 (67)",
+    "name": "High Agogo",
+    "type": "Agogo",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r49; 1 partial(s)"
+   },
+   {
+    "label": "G#4 (68)",
+    "name": "Low Agogo",
+    "type": "Agogo",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r50; 1 partial(s)"
+   },
+   {
+    "label": "A4 (69)",
+    "name": "Cabasa",
+    "type": "Shaker",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r51; 1 partial(s)"
+   },
+   {
+    "label": "A#4 (70)",
+    "name": "Maracas",
+    "type": "Shaker",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r52; 1 partial(s)"
+   },
+   {
+    "label": "B4 (71)",
+    "name": "Short Whistle",
+    "type": "Perc",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r53; 2 partial(s)"
+   },
+   {
+    "label": "C5 (72)",
+    "name": "Long Whistle",
+    "type": "Perc",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r54; 2 partial(s)"
+   },
+   {
+    "label": "C#5 (73)",
+    "name": "Quijada",
+    "type": "Perc",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r55; 3 partial(s)"
+   },
+   {
+    "label": "D5 (74)",
+    "name": "Cup (Mute)",
+    "type": "Ride",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r12; 1 partial(s)"
+   },
+   {
+    "label": "D#5 (75)",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r56; 1 partial(s)"
+   },
+   {
+    "label": "E5 (76)",
+    "name": "Brush-1",
+    "type": "Snare",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r26; 2 partial(s)"
+   },
+   {
+    "label": "F5 (77)",
+    "name": "Brush-2",
+    "type": "Snare",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r27; 2 partial(s)"
+   },
+   {
+    "label": "F#5 (78)",
+    "name": "Castanets",
+    "type": "Perc",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r57; 2 partial(s)"
+   },
+   {
+    "label": "G5 (79)",
+    "name": "High Pitch Tom Tom-2",
+    "type": "Tom",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r38; 1 partial(s)"
+   },
+   {
+    "label": "G#5 (80)",
+    "name": "Triangle",
+    "type": "Triangle",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r58; 2 partial(s)"
+   },
+   {
+    "label": "A5 (81)",
+    "name": "High Pitch Tom Tom-1",
+    "type": "Tom",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r37; 1 partial(s)"
+   },
+   {
+    "label": "A#5 (82)",
+    "name": "Wood Block",
+    "type": "Wood Block",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r59; 1 partial(s)"
+   },
+   {
+    "label": "B5 (83)",
+    "name": "Bell",
+    "type": "Perc",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r60; 2 partial(s)"
+   },
+   {
+    "label": "C6 (84)",
+    "name": "Bass Drum-3",
+    "type": "Kick",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r17; 2 partial(s)"
+   },
+   {
+    "label": "C#6 (85)",
+    "name": "Bass Drum-4",
+    "type": "Kick",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r18; 1 partial(s)"
+   },
+   {
+    "label": "D6 (86)",
+    "name": "Snare Drum-4",
+    "type": "Snare",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r22; 2 partial(s)"
+   },
+   {
+    "label": "D#6 (87)",
+    "name": "Snare Drum-5",
+    "type": "Snare",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r23; 1 partial(s)"
+   },
+   {
+    "label": "E6 (88)",
+    "name": "Snare Drum-6",
+    "type": "Snare",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r24; 1 partial(s)"
+   },
+   {
+    "label": "F6 (89)",
+    "name": "Low Tom Tom-3",
+    "type": "Tom",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r36; 2 partial(s)"
+   },
+   {
+    "label": "F#6 (90)",
+    "name": "Closed High Hat-2",
+    "type": "Closed Hat",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r02; 1 partial(s)"
+   },
+   {
+    "label": "G6 (91)",
+    "name": "Middle Tom Tom-3",
+    "type": "Tom",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r35; 2 partial(s)"
+   },
+   {
+    "label": "G#6 (92)",
+    "name": "Crash Cymbal (Short)",
+    "type": "Crash",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r06; 1 partial(s)"
+   },
+   {
+    "label": "A6 (93)",
+    "name": "High Tom Tom-3",
+    "type": "Tom",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r34; 2 partial(s)"
+   },
+   {
+    "label": "A#6 (94)",
+    "name": "Ride Cymbal (Short)",
+    "type": "Ride",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r09; 1 partial(s)"
+   },
+   {
+    "label": "B6 (95)",
+    "name": "Native Drum-1",
+    "type": "Perc",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r61; 1 partial(s)"
+   },
+   {
+    "label": "C7 (96)",
+    "name": "Native Drum-2",
+    "type": "Perc",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r62; 1 partial(s)"
+   },
+   {
+    "label": "C#7 (97)",
+    "name": "Native Drum-3",
+    "type": "Perc",
+    "controls": [
+     "Tone select (r01-r63 preset rhythm tone or i01-i64 programmable tone)",
+     "Level",
+     "Pan (7> to <7)",
+     "Output Assign (MIX or Multi Out 1-6)"
+    ],
+    "switch_alternate": null,
+    "notes": "r63; 1 partial(s)"
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none (no accent; dynamics come from MIDI note velocity)",
+  "built_in_effects": [
+   {
+    "name": "Reverb",
+    "type": "reverb",
+    "notes": "Set per patch: Small Room, Medium Room, Medium Hall, Large Hall, Plate, Delay 1-3, or Off; time 1-8, level 0-7. Applies to keys assigned to MIX; keys sent to multi outs are dry (multi outs 5-6 unusable while reverb is on)."
+   }
+  ],
+  "global_features": [
+   "Rhythm part is a 9th part with its own MIDI channel (Parts 1-8 + Rhythm)",
+   "Rhythm setup covers keys 24-108; the factory map fills 35-97 with all 63 preset rhythm tones, each used once",
+   "Any key can instead play one of 64 programmable LA tones",
+   "32 shared partials; rhythm tones use 1-3 partials; partial reserve per part",
+   "Rhythm part output level 0-100; no part-wide pan or key range for the rhythm part",
+   "Outputs: stereo MIX plus 6 multi outs",
+   "The 63 tones are built from about 30 raw rhythm PCM samples (Bank 1 001-030)",
+   "No mute/exclusive (choke) parameter in the rhythm setup"
+  ],
+  "sound_bank": {
+   "total": 63,
+   "categories": [
+    {
+     "name": "Hi-hats",
+     "count": 4,
+     "range": "r01-r04"
+    },
+    {
+     "name": "Cymbals (crash, ride, cup, china, splash)",
+     "count": 10,
+     "range": "r05-r14"
+    },
+    {
+     "name": "Bass drums",
+     "count": 4,
+     "range": "r15-r18"
+    },
+    {
+     "name": "Snares, rim shot, brushes",
+     "count": 9,
+     "range": "r19-r27"
+    },
+    {
+     "name": "Toms",
+     "count": 11,
+     "range": "r28-r38"
+    },
+    {
+     "name": "Clap and Latin/orchestral percussion",
+     "count": 22,
+     "range": "r39-r60"
+    },
+    {
+     "name": "Native drums",
+     "count": 3,
+     "range": "r61-r63"
+    }
+   ],
+   "ordered_list": [
+    "Closed High Hat-1",
+    "Closed High Hat-2",
+    "Open High Hat-1",
+    "Open High Hat-2",
+    "Crash Cymbal",
+    "Crash Cymbal (Short)",
+    "Crash Cymbal (Mute)",
+    "Ride Cymbal",
+    "Ride Cymbal (Short)",
+    "Ride Cymbal (Mute)",
+    "Cup",
+    "Cup (Mute)",
+    "China Cymbal",
+    "Splash Cymbal",
+    "Bass Drum-1",
+    "Bass Drum-2",
+    "Bass Drum-3",
+    "Bass Drum-4",
+    "Snare Drum-1",
+    "Snare Drum-2",
+    "Snare Drum-3",
+    "Snare Drum-4",
+    "Snare Drum-5",
+    "Snare Drum-6",
+    "Rim Shot",
+    "Brush-1",
+    "Brush-2",
+    "High Tom Tom-1",
+    "Middle Tom Tom-1",
+    "Low Tom Tom-1",
+    "High Tom Tom-2",
+    "Middle Tom Tom-2",
+    "Low Tom Tom-2",
+    "High Tom Tom-3",
+    "Middle Tom Tom-3",
+    "Low Tom Tom-3",
+    "High Pitch Tom Tom-1",
+    "High Pitch Tom Tom-2",
+    "Hand Clap",
+    "Tambourine",
+    "Cowbell",
+    "High Bongo",
+    "Low Bongo",
+    "High Conga (Mute)",
+    "High Conga",
+    "Low Conga",
+    "High Timbale",
+    "Low Timbale",
+    "High Agogo",
+    "Low Agogo",
+    "Cabasa",
+    "Maracas",
+    "Short Whistle",
+    "Long Whistle",
+    "Quijada",
+    "Claves",
+    "Castanets",
+    "Triangle",
+    "Wood Block",
+    "Bell",
+    "Native Drum-1",
+    "Native Drum-2",
+    "Native Drum-3"
+   ],
+   "list_source": "https://static.roland.com/assets/media/pdf/D-110_OM.pdf (p.101, Preset Tones Table, Group r)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "B1",
+    "midi_note": 35,
+    "sound": "Bass Drum-1"
+   },
+   {
+    "pad_or_key": "C2",
+    "midi_note": 36,
+    "sound": "Bass Drum-2"
+   },
+   {
+    "pad_or_key": "C#2",
+    "midi_note": 37,
+    "sound": "Rim Shot"
+   },
+   {
+    "pad_or_key": "D2",
+    "midi_note": 38,
+    "sound": "Snare Drum-1"
+   },
+   {
+    "pad_or_key": "D#2",
+    "midi_note": 39,
+    "sound": "Hand Clap"
+   },
+   {
+    "pad_or_key": "E2",
+    "midi_note": 40,
+    "sound": "Snare Drum-2"
+   },
+   {
+    "pad_or_key": "F2",
+    "midi_note": 41,
+    "sound": "Low Tom Tom-1"
+   },
+   {
+    "pad_or_key": "F#2",
+    "midi_note": 42,
+    "sound": "Closed High Hat-1"
+   },
+   {
+    "pad_or_key": "G2",
+    "midi_note": 43,
+    "sound": "Low Tom Tom-2"
+   },
+   {
+    "pad_or_key": "G#2",
+    "midi_note": 44,
+    "sound": "Open High Hat-2"
+   },
+   {
+    "pad_or_key": "A2",
+    "midi_note": 45,
+    "sound": "Middle Tom Tom-1"
+   },
+   {
+    "pad_or_key": "A#2",
+    "midi_note": 46,
+    "sound": "Open High Hat-1"
+   },
+   {
+    "pad_or_key": "B2",
+    "midi_note": 47,
+    "sound": "Middle Tom Tom-2"
+   },
+   {
+    "pad_or_key": "C3",
+    "midi_note": 48,
+    "sound": "High Tom Tom-1"
+   },
+   {
+    "pad_or_key": "C#3",
+    "midi_note": 49,
+    "sound": "Crash Cymbal"
+   },
+   {
+    "pad_or_key": "D3",
+    "midi_note": 50,
+    "sound": "High Tom Tom-2"
+   },
+   {
+    "pad_or_key": "D#3",
+    "midi_note": 51,
+    "sound": "Ride Cymbal"
+   },
+   {
+    "pad_or_key": "E3",
+    "midi_note": 52,
+    "sound": "China Cymbal"
+   },
+   {
+    "pad_or_key": "F3",
+    "midi_note": 53,
+    "sound": "Cup"
+   },
+   {
+    "pad_or_key": "F#3",
+    "midi_note": 54,
+    "sound": "Tambourine"
+   },
+   {
+    "pad_or_key": "G3",
+    "midi_note": 55,
+    "sound": "Splash Cymbal"
+   },
+   {
+    "pad_or_key": "G#3",
+    "midi_note": 56,
+    "sound": "Cowbell"
+   },
+   {
+    "pad_or_key": "A3",
+    "midi_note": 57,
+    "sound": "Crash Cymbal (Mute)"
+   },
+   {
+    "pad_or_key": "A#3",
+    "midi_note": 58,
+    "sound": "Snare Drum-3"
+   },
+   {
+    "pad_or_key": "B3",
+    "midi_note": 59,
+    "sound": "Ride Cymbal (Mute)"
+   },
+   {
+    "pad_or_key": "C4",
+    "midi_note": 60,
+    "sound": "High Bongo"
+   },
+   {
+    "pad_or_key": "C#4",
+    "midi_note": 61,
+    "sound": "Low Bongo"
+   },
+   {
+    "pad_or_key": "D4",
+    "midi_note": 62,
+    "sound": "High Conga (Mute)"
+   },
+   {
+    "pad_or_key": "D#4",
+    "midi_note": 63,
+    "sound": "High Conga"
+   },
+   {
+    "pad_or_key": "E4",
+    "midi_note": 64,
+    "sound": "Low Conga"
+   },
+   {
+    "pad_or_key": "F4",
+    "midi_note": 65,
+    "sound": "High Timbale"
+   },
+   {
+    "pad_or_key": "F#4",
+    "midi_note": 66,
+    "sound": "Low Timbale"
+   },
+   {
+    "pad_or_key": "G4",
+    "midi_note": 67,
+    "sound": "High Agogo"
+   },
+   {
+    "pad_or_key": "G#4",
+    "midi_note": 68,
+    "sound": "Low Agogo"
+   },
+   {
+    "pad_or_key": "A4",
+    "midi_note": 69,
+    "sound": "Cabasa"
+   },
+   {
+    "pad_or_key": "A#4",
+    "midi_note": 70,
+    "sound": "Maracas"
+   },
+   {
+    "pad_or_key": "B4",
+    "midi_note": 71,
+    "sound": "Short Whistle"
+   },
+   {
+    "pad_or_key": "C5",
+    "midi_note": 72,
+    "sound": "Long Whistle"
+   },
+   {
+    "pad_or_key": "C#5",
+    "midi_note": 73,
+    "sound": "Quijada"
+   },
+   {
+    "pad_or_key": "D5",
+    "midi_note": 74,
+    "sound": "Cup (Mute)"
+   },
+   {
+    "pad_or_key": "D#5",
+    "midi_note": 75,
+    "sound": "Claves"
+   },
+   {
+    "pad_or_key": "E5",
+    "midi_note": 76,
+    "sound": "Brush-1"
+   },
+   {
+    "pad_or_key": "F5",
+    "midi_note": 77,
+    "sound": "Brush-2"
+   },
+   {
+    "pad_or_key": "F#5",
+    "midi_note": 78,
+    "sound": "Castanets"
+   },
+   {
+    "pad_or_key": "G5",
+    "midi_note": 79,
+    "sound": "High Pitch Tom Tom-2"
+   },
+   {
+    "pad_or_key": "G#5",
+    "midi_note": 80,
+    "sound": "Triangle"
+   },
+   {
+    "pad_or_key": "A5",
+    "midi_note": 81,
+    "sound": "High Pitch Tom Tom-1"
+   },
+   {
+    "pad_or_key": "A#5",
+    "midi_note": 82,
+    "sound": "Wood Block"
+   },
+   {
+    "pad_or_key": "B5",
+    "midi_note": 83,
+    "sound": "Bell"
+   },
+   {
+    "pad_or_key": "C6",
+    "midi_note": 84,
+    "sound": "Bass Drum-3"
+   },
+   {
+    "pad_or_key": "C#6",
+    "midi_note": 85,
+    "sound": "Bass Drum-4"
+   },
+   {
+    "pad_or_key": "D6",
+    "midi_note": 86,
+    "sound": "Snare Drum-4"
+   },
+   {
+    "pad_or_key": "D#6",
+    "midi_note": 87,
+    "sound": "Snare Drum-5"
+   },
+   {
+    "pad_or_key": "E6",
+    "midi_note": 88,
+    "sound": "Snare Drum-6"
+   },
+   {
+    "pad_or_key": "F6",
+    "midi_note": 89,
+    "sound": "Low Tom Tom-3"
+   },
+   {
+    "pad_or_key": "F#6",
+    "midi_note": 90,
+    "sound": "Closed High Hat-2"
+   },
+   {
+    "pad_or_key": "G6",
+    "midi_note": 91,
+    "sound": "Middle Tom Tom-3"
+   },
+   {
+    "pad_or_key": "G#6",
+    "midi_note": 92,
+    "sound": "Crash Cymbal (Short)"
+   },
+   {
+    "pad_or_key": "A6",
+    "midi_note": 93,
+    "sound": "High Tom Tom-3"
+   },
+   {
+    "pad_or_key": "A#6",
+    "midi_note": 94,
+    "sound": "Ride Cymbal (Short)"
+   },
+   {
+    "pad_or_key": "B6",
+    "midi_note": 95,
+    "sound": "Native Drum-1"
+   },
+   {
+    "pad_or_key": "C7",
+    "midi_note": 96,
+    "sound": "Native Drum-2"
+   },
+   {
+    "pad_or_key": "C#7",
+    "midi_note": 97,
+    "sound": "Native Drum-3"
+   }
+  ],
+  "pack_contents": "18 named WAVs: Bassdrum, Bongo, Cabasa, Conga, Cowbell H, Cowbell L, Crash, Hat Closed, Hat Open, Hat Pedal, Ride, Rimshot, Snaredrum-01..03, Tambourine, Tom, Woodblock - a subset of the 63 rhythm tones. Inferred: Hat Pedal = key 44 Open High Hat-2 (the D-110 has no pedal hat); Cowbell H/L probably High/Low Agogo (only one Cowbell tone exists). Bassdrum, Tom, Bongo, Conga and the 3 snares cannot be pinned to specific r-numbers. No readme or licence.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://static.roland.com/assets/media/pdf/D-110_OM.pdf",
+   "https://muzines.co.uk/articles/roland-d110/2282",
+   "https://support.roland.com/hc/en-us/articles/201965239-D-110-Technical-Specifications"
+  ]
+ },
+ {
+  "machine": "Roland D-70 Super LA Synthesizer (rhythm part)",
+  "pack_folders": [
+   "Roland D-70"
+  ],
+  "maker": "Roland",
+  "year": 1990,
+  "kind": "synth with drum kit",
+  "voices": [
+   {
+    "label": "I3-01",
+    "name": "SNAREDRUM1",
+    "type": "Snare",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-02",
+    "name": "SNAREDRUM2",
+    "type": "Snare",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-03",
+    "name": "SNAREDRUM3",
+    "type": "Snare",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-04",
+    "name": "SNAREDRUM4",
+    "type": "Snare",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-05",
+    "name": "SNAREDRUM5",
+    "type": "Snare",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-06",
+    "name": "KICK 1",
+    "type": "Kick",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-07",
+    "name": "KICK 2",
+    "type": "Kick",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-08",
+    "name": "KICK 3",
+    "type": "Kick",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-09",
+    "name": "KICK 4",
+    "type": "Kick",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-10",
+    "name": "TOM 1",
+    "type": "Tom",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-11",
+    "name": "TOM 2",
+    "type": "Tom",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-12",
+    "name": "HI-HAT",
+    "type": "Closed Hat",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown); the only acoustic hi-hat sample - open/closed presumably made by envelope (inferred)"
+   },
+   {
+    "label": "I3-13",
+    "name": "CHINA CYM",
+    "type": "Cymbal",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-14",
+    "name": "CRASH CYM",
+    "type": "Crash",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-15",
+    "name": "RIDE BELL",
+    "type": "Ride",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-16",
+    "name": "SIDE STICK",
+    "type": "Rim",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-17",
+    "name": "STICKS",
+    "type": "Perc",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-18",
+    "name": "CABASA",
+    "type": "Shaker",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-19",
+    "name": "CLAPS",
+    "type": "Clap",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-20",
+    "name": "COWBELL",
+    "type": "Cowbell",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-21",
+    "name": "808 SNARE",
+    "type": "Snare",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-22",
+    "name": "808 HI-HAT",
+    "type": "Closed Hat",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-23",
+    "name": "808 TOM",
+    "type": "Tom",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-24",
+    "name": "ELEC TOM",
+    "type": "Tom",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-25",
+    "name": "808 CLAVES",
+    "type": "Clave",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-26",
+    "name": "CLICK",
+    "type": "Perc",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-27",
+    "name": "AGOGO",
+    "type": "Agogo",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   },
+   {
+    "label": "I3-28",
+    "name": "ORCH HIT",
+    "type": "FX",
+    "controls": [
+     "Original Tone media/number",
+     "Source key",
+     "Mute (target key E1-G7 or Off)",
+     "Output Assign (Reverb/Chorus/Dry/Direct)",
+     "Pan 7> to <7",
+     "ENV mode Sus/No Sus",
+     "Pitch coarse -12..+12 semi, fine -64..+63",
+     "Pitch attack time/depth",
+     "TVF mode LPF/HPF/BPF/Bypass, cutoff, resonance, velocity curve, env depth, env depth velocity",
+     "TVF envelope (A, D1/break point, D2/sustain, R)",
+     "TVA level, velocity curve, velocity sensitivity, envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Media I3 percussion Original Tone; ROM order, NOT a key position (factory key map unknown)"
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none (per-key velocity curve and sensitivity on TVA and TVF)",
+  "built_in_effects": [
+   {
+    "name": "Reverb",
+    "type": "reverb",
+    "notes": "Default type Hall 2 (time, level, feedback). Rhythm keys reach it when Output Assign = Reverb."
+   },
+   {
+    "name": "Chorus",
+    "type": "other",
+    "notes": "Default Chorus 1, out mode Pre Reverb (chorus feeds the reverb - inferred). Rhythm keys reach it when Output Assign = Chorus. Dry and Direct bypass effects."
+   }
+  ],
+  "global_features": [
+   "Rhythm part is the 6th part of a Performance (5 synth parts + rhythm)",
+   "Rhythm setup keys E1-G7 (MIDI 28-103, inferred from Roland numbering)",
+   "Rhythm Shift -28 to +24 semitones for the whole kit",
+   "Each key can use any Original Tone (internal I1-I3, or card/user media)",
+   "Per-key filter: LPF / HPF / BPF / Bypass",
+   "Per-key Mute parameter names another key to cut (choke); factory assignments unknown",
+   "Stereo dry and effected outs plus Direct outs",
+   "28 internal percussion Original Tones (Media I3)"
+  ],
+  "sound_bank": {
+   "total": 28,
+   "categories": [
+    {
+     "name": "Snares",
+     "count": 5,
+     "range": "1-5"
+    },
+    {
+     "name": "Kicks",
+     "count": 4,
+     "range": "6-9"
+    },
+    {
+     "name": "Toms",
+     "count": 2,
+     "range": "10-11"
+    },
+    {
+     "name": "Hi-hat",
+     "count": 1,
+     "range": "12"
+    },
+    {
+     "name": "Cymbals",
+     "count": 3,
+     "range": "13-15"
+    },
+    {
+     "name": "Side stick and sticks",
+     "count": 2,
+     "range": "16-17"
+    },
+    {
+     "name": "Cabasa, claps, cowbell",
+     "count": 3,
+     "range": "18-20"
+    },
+    {
+     "name": "808 and electronic",
+     "count": 5,
+     "range": "21-25"
+    },
+    {
+     "name": "Click, agogo, orchestra hit",
+     "count": 3,
+     "range": "26-28"
+    }
+   ],
+   "ordered_list": [
+    "SNAREDRUM1",
+    "SNAREDRUM2",
+    "SNAREDRUM3",
+    "SNAREDRUM4",
+    "SNAREDRUM5",
+    "KICK 1",
+    "KICK 2",
+    "KICK 3",
+    "KICK 4",
+    "TOM 1",
+    "TOM 2",
+    "HI-HAT",
+    "CHINA CYM",
+    "CRASH CYM",
+    "RIDE BELL",
+    "SIDE STICK",
+    "STICKS",
+    "CABASA",
+    "CLAPS",
+    "COWBELL",
+    "808 SNARE",
+    "808 HI-HAT",
+    "808 TOM",
+    "ELEC TOM",
+    "808 CLAVES",
+    "CLICK",
+    "AGOGO",
+    "ORCH HIT"
+   ],
+   "list_source": "https://static.roland.com/assets/media/pdf/D-70_OM.pdf (p.186, Original Tone, Media I3 Percussion)"
+  },
+  "default_kit": [],
+  "pack_contents": "20 named WAVs: Bassdrum-01..04 (KICK 1-4), Snaredrum-01..05 (SNAREDRUM1-5), 'Tom.-01' (stray dot in name) and Tom-02 (TOM 1-2), Hat Closed + Hat Open (one HI-HAT sample, two envelopes - inferred), Crash, Ride (RIDE BELL), Rim Shot (SIDE STICK - inferred), Sticks, Cabasa, Clap, Cowbell. Missing: China, 808 snare/hi-hat/tom, elec tom, 808 claves, click, agogo, orch hit. No readme.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://static.roland.com/assets/media/pdf/D-70_OM.pdf",
+   "https://www.muzines.co.uk/articles/roland-d70/7249",
+   "https://www.muzines.co.uk/articles/roland-d70/383",
+   "https://www.synthmania.com/d-70.htm",
+   "https://support.roland.com/hc/en-us/articles/201922869-D-70-Technical-Specifications"
+  ]
+ },
+ {
+  "machine": "Roland JD-990 Super JD Synthesizer Module (rhythm set)",
+  "pack_folders": [
+   "Roland JD-990"
+  ],
+  "maker": "Roland",
+  "year": null,
+  "kind": "synth with drum kit",
+  "voices": [
+   {
+    "label": "W157",
+    "name": "Solid Kick",
+    "type": "Kick",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W158",
+    "name": "Room Kick",
+    "type": "Kick",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W159",
+    "name": "808 K Long",
+    "type": "Kick",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W160",
+    "name": "Hard SN",
+    "type": "Snare",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W161",
+    "name": "808 SN",
+    "type": "Snare",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W162",
+    "name": "90's SN",
+    "type": "Snare",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W163",
+    "name": "Bigshot SN",
+    "type": "Snare",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W164",
+    "name": "Power SN",
+    "type": "Snare",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W165",
+    "name": "Power Tom",
+    "type": "Tom",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W166",
+    "name": "Closed HH1",
+    "type": "Closed Hat",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W167",
+    "name": "Closed HH2",
+    "type": "Closed Hat",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W168",
+    "name": "Open HH",
+    "type": "Open Hat",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W169",
+    "name": "Crash Cym",
+    "type": "Crash",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W170",
+    "name": "Ride Cym",
+    "type": "Ride",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W171",
+    "name": "808 Claps",
+    "type": "Clap",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W172",
+    "name": "Maraca",
+    "type": "Shaker",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W173",
+    "name": "Cabasa Up",
+    "type": "Shaker",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W174",
+    "name": "CabasaDown",
+    "type": "Shaker",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W175",
+    "name": "Slap Cga",
+    "type": "Conga",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W176",
+    "name": "Mute Cga 1",
+    "type": "Conga",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W177",
+    "name": "Mute Cga 2",
+    "type": "Conga",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W178",
+    "name": "Hi Conga",
+    "type": "Conga",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W179",
+    "name": "Lo Conga",
+    "type": "Conga",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W180",
+    "name": "Snaps",
+    "type": "Snap",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W181",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   },
+   {
+    "label": "W182",
+    "name": "Cowbell 2",
+    "type": "Cowbell",
+    "controls": [
+     "Rhythm tone name (10 chars)",
+     "Velocity curve 1-7",
+     "Mute group OFF/A-Z",
+     "Envelope mode SUSTAIN/NO-SUS",
+     "Hold control on/off",
+     "Key WG / TVF / TVA (as patch tone)",
+     "LFO1/LFO2",
+     "Control 1&2",
+     "FX mode & output (EQ:MIX, EQ+R:MIX, EQ+C+R:MIX, EQ+D+R:MIX, DIR1, DIR2, DIR3)",
+     "FX send level 0-100"
+    ],
+    "switch_alternate": null,
+    "notes": "internal drum waveform (ROM order, not a key position; factory rhythm-set key map unknown)"
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none (per-key velocity curve 1-7 plus velocity sensitivity in WG/TVF/TVA)",
+  "built_in_effects": [
+   {
+    "name": "EQ",
+    "type": "eq",
+    "notes": "Rhythm Set common 3-band EQ; applies in all MIX modes."
+   },
+   {
+    "name": "Chorus",
+    "type": "other",
+    "notes": "Per key via FX mode EQ+C+R:MIX."
+   },
+   {
+    "name": "Delay",
+    "type": "delay",
+    "notes": "Per key via FX mode EQ+D+R:MIX."
+   },
+   {
+    "name": "Reverb",
+    "type": "reverb",
+    "notes": "Per key via EQ+R / EQ+C+R / EQ+D+R with FX send level 0-100; DIR1-3 outputs are dry."
+   }
+  ],
+  "global_features": [
+   "Rhythm Set: one tone per key, notes C2-C7 (MIDI 36-96, inferred)",
+   "One rhythm set each in Preset A, Preset B, Internal and Card memory",
+   "Common: level 0-100, pan L50-50R, Analog Feel 0-100, bend range down 0-48 / up 0-12, two tone control sources, EQ",
+   "Mute groups OFF or A-Z (26)",
+   "Outputs: MIX plus DIRECT OUT 1-3",
+   "195 internal waves (26 dedicated drum waves, 157-182); also plays SO-JD80 (JD-800) and SO-PCM1 (JV-80) waveform cards"
+  ],
+  "sound_bank": {
+   "total": 195,
+   "categories": [
+    {
+     "name": "Dedicated drum and percussion one-shots",
+     "count": 26,
+     "range": "157-182"
+    },
+    {
+     "name": "JD-800 wave set (incl. percussive 46-61, one-shots 75-91, noises 98-106)",
+     "count": 108,
+     "range": "1-108"
+    },
+    {
+     "name": "Other new waves (instruments, synth, loops)",
+     "count": 61,
+     "range": "109-156, 183-195"
+    }
+   ],
+   "ordered_list": [
+    "157 Solid Kick",
+    "158 Room Kick",
+    "159 808 K Long",
+    "160 Hard SN",
+    "161 808 SN",
+    "162 90's SN",
+    "163 Bigshot SN",
+    "164 Power SN",
+    "165 Power Tom",
+    "166 Closed HH1",
+    "167 Closed HH2",
+    "168 Open HH",
+    "169 Crash Cym",
+    "170 Ride Cym",
+    "171 808 Claps",
+    "172 Maraca",
+    "173 Cabasa Up",
+    "174 CabasaDown",
+    "175 Slap Cga",
+    "176 Mute Cga 1",
+    "177 Mute Cga 2",
+    "178 Hi Conga",
+    "179 Lo Conga",
+    "180 Snaps",
+    "181 Tambourine",
+    "182 Cowbell 2"
+   ],
+   "list_source": "https://www.polynominal.com/site/studio/gear/synth/roland_jd990/PCM-list.jpg (drum subset 157-182 only)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "C2",
+    "midi_note": 36,
+    "sound": "Kick 1 (from manual screen examples; factory status unconfirmed)"
+   }
+  ],
+  "pack_contents": "62 WAVs with 8-character truncated wave names (e.g. Bryt-kck = Bryt Kick). A mix of JD-990 internal waves (Solid Kick, Room Kick, Hard/Power/Bigshot SN, Power Tom, Open HH, Crash/Ride Cym, Vibes, Rattles, plus JD-800-era percussive waves Kalimba, Xylo, Marim Wave, AgogoBells, Bottle Hit, Gamelan, Crystal, Digi Bell, Digi Chime, FingerBell, Org Bell, Wood Crak, Cowbell, Sm Metal, Plink, Plunk) and SO-JD80-02 Dance-card waves (Smash/Bryt/Tekno/Industry/Mach/Butt/Gate/Mondo kicks; Attack/Splat/Dance 1-2/Hip Hop/Video/Rap/House/Swing/Combo/Disco SN; Boosh/Blast/E/Rim Tom 1-4). Ambiguous source: 90's-sd, Snaps, Tambourn, Chh_1, Chh_2. No matching wave name: Dance-cl, Lite-ch1, Lite-ch2, Lite-ohh (probably rhythm-set key names). All 808/909/606/CR78-named waves and all Latin percussion are absent. No readme.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.polynominal.com/site/studio/gear/synth/roland_jd990/roland-jd990-manual.pdf",
+   "https://www.polynominal.com/site/studio/gear/synth/roland_jd990/PCM-list.jpg",
+   "https://www.polynominal.com/site/studio/gear/synth/roland_jd800/SL-JD80-02.htm"
+  ]
+ },
+ {
+  "machine": "Roland JD-800 Programmable Synthesizer (Special Setup drum kit) + SL-JD80-02 Drums & Percussion DANCE card",
+  "pack_folders": [
+   "Roland JD800",
+   "Roland JD800 Dance Card"
+  ],
+  "maker": "Roland",
+  "year": 1991,
+  "kind": "synth with drum kit",
+  "voices": [
+   {
+    "label": "C2 (36)",
+    "name": "BassDrum 1",
+    "type": "Kick",
+    "controls": [
+     "Key name (10 chars)",
+     "Mute group OFF/A-H",
+     "Envelope mode SUSTAIN/NO SUSTAIN",
+     "Pan L30-00-30R",
+     "Effect mode DRY/REV/CHO+REV/DLY+REV",
+     "Effect level 0-100",
+     "Full tone edit (WG, pitch env, TVF, TVF env, TVA, TVA env, LFO1/2)"
+    ],
+    "switch_alternate": null,
+    "notes": "Only factory internal Special Setup key name confirmed (manual screen examples). Keys C#2-C7 unknown."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none (velocity handled inside each key's tone)",
+  "built_in_effects": [
+   {
+    "name": "Chorus",
+    "type": "other",
+    "notes": "Multi-mode effect; per key via Effect mode CHO+REV."
+   },
+   {
+    "name": "Delay",
+    "type": "delay",
+    "notes": "Per key via Effect mode DLY+REV."
+   },
+   {
+    "name": "Reverb",
+    "type": "reverb",
+    "notes": "Per key: REV, CHO+REV or DLY+REV with Effect level 0-100; DRY bypasses. Part Output Assign DIR bypasses all internal effects."
+   },
+   {
+    "name": "Special Setup EQ",
+    "type": "eq",
+    "notes": "EQ setup for the whole Special Setup."
+   }
+  ],
+  "global_features": [
+   "Special Setup = 61 keys C2-C7 (MIDI 36-96, inferred), one tone per key",
+   "One Special Setup internal + one on a DATA card",
+   "Each key is a full JD tone with its own envelopes, filter and LFOs",
+   "Mute groups OFF or A-H",
+   "Envelope mode NO SUSTAIN recommended for rhythm sounds",
+   "Special Setup common: bender range, aftertouch bend sensitivity, EQ",
+   "Special Part ignores MIDI pan; part output MIX or DIR",
+   "Internal 108-wave ROM has no dedicated drum samples; SL-JD80-01 (Standard), -02 (Dance) and -03 (Rock) cards add drum waves",
+   "JD-800 reads cards up to 1 MB only"
+  ],
+  "sound_bank": {
+   "total": 56,
+   "categories": [
+    {
+     "name": "Kicks",
+     "count": 11,
+     "range": "1-11"
+    },
+    {
+     "name": "Rim",
+     "count": 1,
+     "range": "12"
+    },
+    {
+     "name": "Snares",
+     "count": 15,
+     "range": "13-27"
+    },
+    {
+     "name": "Toms",
+     "count": 9,
+     "range": "28-36"
+    },
+    {
+     "name": "Closed hi-hats",
+     "count": 2,
+     "range": "37-38"
+    },
+    {
+     "name": "Percussion",
+     "count": 18,
+     "range": "39-56"
+    }
+   ],
+   "ordered_list": [
+    "808 K Shrt",
+    "808 K Long",
+    "909 Kick",
+    "Smash Kick",
+    "Bryt Kick",
+    "Tekno Kick",
+    "Industry K",
+    "Mach Kick",
+    "Butt Kick",
+    "Gate Kick",
+    "Mondo Kick",
+    "808 Rim",
+    "808 SN",
+    "909 SN",
+    "CR78 SN",
+    "Attack SN",
+    "Splat SN",
+    "90's SN",
+    "Dance Sn1",
+    "Dance SN 2",
+    "Hip Hop SN",
+    "Video SN",
+    "Rap SN",
+    "House SN",
+    "Swing SN",
+    "Combo SN",
+    "Disco SN",
+    "606 Tom 1",
+    "606 Tom 2",
+    "Boosh Tom",
+    "Blast Tom",
+    "E Tom",
+    "Rim Tom 1",
+    "Rim Tom 2",
+    "Rim Tom 3",
+    "Rim Tom 4",
+    "808 CHH 1",
+    "808 CHH 2",
+    "Whistle",
+    "Cowbell 2",
+    "Block 2",
+    "Maraca",
+    "Cabasa Up",
+    "CabasaDown",
+    "Tambourin",
+    "Slap Cga",
+    "Mute Cga 1",
+    "Mute Cga 2",
+    "Hi Conga",
+    "Lo Conga",
+    "Hi Bongo",
+    "Lo Bongo",
+    "Timabale (sic)",
+    "Chekere",
+    "snapes (as printed; probably Snaps)",
+    "tamburi (as printed)"
+   ],
+   "list_source": "https://www.polynominal.com/site/studio/gear/synth/roland_jd800/SL-JD80-02.htm (SO-JD80-02 Dance waveform card; internal JD-800 ROM has no drum samples)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "C2",
+    "midi_note": 36,
+    "sound": "BassDrum 1"
+   }
+  ],
+  "pack_contents": "'Roland JD800': 46 WAVs 'JD800 Internal Drums 001-046' + readme. 'Roland JD800 Dance Card': 61 WAVs 'JD800 Dance Card Drums 001-061' + readme. Both readmes say the uploader no longer owns the machine or manuals and has no list of sound names. Inferred: the 61 Dance-card files are the 61 Special Setup keys C2-C7 in order (card holds 56 waves, so some keys repeat or use internal waves); the 46 internal files are a subset of the internal Special Setup's 61 keys. Exact key mapping unknown; only factory C2 = BassDrum 1 is documented.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.polynominal.com/site/studio/gear/synth/roland_jd800/roland-jd800-manual.pdf",
+   "https://www.polynominal.com/site/studio/gear/synth/roland_jd800/SL-JD80-02.htm",
+   "https://www.polynominal.com/site/studio/gear/synth/roland_jd800/index.html",
+   "https://soundprogramming.net/synthesizers/roland/roland-sl-jd80-expansion-cards",
+   "https://support.roland.com/hc/en-us/articles/201938439-JD-800-Technical-Specifications"
+  ]
+ },
+ {
+  "machine": "Roland MT-32 Multi-Timbre Sound Module (rhythm part)",
+  "pack_folders": [
+   "Roland MT-32"
+  ],
+  "maker": "Roland",
+  "year": null,
+  "kind": "synth with drum kit",
+  "voices": [
+   {
+    "label": "B1 (35)",
+    "name": "Acou BD",
+    "type": "Kick",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. centre (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "C2 (36)",
+    "name": "Acou BD",
+    "type": "Kick",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "same sound as key 35; factory pan approx. centre (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "C#2 (37)",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. 1 step right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "D2 (38)",
+    "name": "Acou SD",
+    "type": "Snare",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. centre (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "D#2 (39)",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. 1 step left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "E2 (40)",
+    "name": "Elec SD",
+    "type": "Snare",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. 1 step right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "F2 (41)",
+    "name": "Acou Low Tom",
+    "type": "Tom",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 4-5 steps left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "F#2 (42)",
+    "name": "Clsd Hi Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. 1 step right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "G2 (43)",
+    "name": "Acou Low Tom",
+    "type": "Tom",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "same sound as key 41; factory pan approx. about 4-5 steps left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "G#2 (44)",
+    "name": "Open Hi Hat 2",
+    "type": "Open Hat",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "second open hi-hat, NOT a pedal hat; factory pan approx. 1 step right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "A2 (45)",
+    "name": "Acou Mid Tom",
+    "type": "Tom",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. 1 step left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "A#2 (46)",
+    "name": "Open Hi Hat 1",
+    "type": "Open Hat",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. 1 step right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "B2 (47)",
+    "name": "Acou Mid Tom",
+    "type": "Tom",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "same sound as key 45; factory pan approx. 1 step left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "C3 (48)",
+    "name": "Acou Hi Tom",
+    "type": "Tom",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 4 steps right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "C#3 (49)",
+    "name": "Crash Cym",
+    "type": "Crash",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. 1 step right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "D3 (50)",
+    "name": "Acou Hi Tom",
+    "type": "Tom",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "same sound as key 48; factory pan approx. about 4 steps right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "D#3 (51)",
+    "name": "Ride Cym",
+    "type": "Ride",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. 1 step left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "F#3 (54)",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 2 steps left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "G#3 (56)",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. centre (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "C4 (60)",
+    "name": "High Bongo",
+    "type": "Bongo",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 5 steps right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "C#4 (61)",
+    "name": "Low Bongo",
+    "type": "Bongo",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 3 steps right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "D4 (62)",
+    "name": "Mt High Conga",
+    "type": "Conga",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. 1 step left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "D#4 (63)",
+    "name": "High Conga",
+    "type": "Conga",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 2 steps left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "E4 (64)",
+    "name": "Low Conga",
+    "type": "Conga",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 3 steps left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "F4 (65)",
+    "name": "High Timbale",
+    "type": "Timbale",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. centre (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "F#4 (66)",
+    "name": "Low Timbale",
+    "type": "Timbale",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 2 steps right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "G4 (67)",
+    "name": "High Agogo",
+    "type": "Agogo",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 5 steps right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "G#4 (68)",
+    "name": "Low Agogo",
+    "type": "Agogo",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 5 steps right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "A4 (69)",
+    "name": "Cabasa",
+    "type": "Shaker",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 2 steps left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "A#4 (70)",
+    "name": "Maracas",
+    "type": "Shaker",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 3 steps right (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "B4 (71)",
+    "name": "Smba Whis S",
+    "type": "Perc",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 2 steps left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "C5 (72)",
+    "name": "Smba Whis L",
+    "type": "Perc",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 2 steps left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "C#5 (73)",
+    "name": "Quijada",
+    "type": "Perc",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "Quijada (GM later put Vibraslap here); factory pan approx. about 3 steps left (read from manual chart p.14, +/-1 step)"
+   },
+   {
+    "label": "D#5 (75)",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "Timbre (r01-r30 PCM rhythm or i01-i64 memory timbre)",
+     "Output level 0-100",
+     "Panpot 0-14 (printed R-L)",
+     "Reverb switch on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "factory pan approx. about 6 steps left (read from manual chart p.14, +/-1 step)"
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none (dynamics come from MIDI note velocity)",
+  "built_in_effects": [
+   {
+    "name": "Reverb",
+    "type": "reverb",
+    "notes": "Global: Room, Hall, Plate or Tap delay; time 1-8; level 0-7. Each rhythm key has its own reverb on/off switch."
+   }
+  ],
+  "global_features": [
+   "Rhythm part = 9th part (8 melodic parts + rhythm)",
+   "Rhythm setup address map covers keys 24-87; factory map uses 35-75",
+   "Each key plays a PCM rhythm sound (r01-r30) or any of 64 memory timbres (i01-i64)",
+   "Pan values 0-14 (printed R-L)",
+   "32 partials shared via partial reserve",
+   "No mute/exclusive (choke) parameter; key 44 is a second open hi-hat, not a pedal hat"
+  ],
+  "sound_bank": {
+   "total": 30,
+   "categories": [
+    {
+     "name": "Kick",
+     "count": 1,
+     "range": "r01-r30 (ROM order not captured)"
+    },
+    {
+     "name": "Snares",
+     "count": 2,
+     "range": ""
+    },
+    {
+     "name": "Rim shot",
+     "count": 1,
+     "range": ""
+    },
+    {
+     "name": "Hand clap",
+     "count": 1,
+     "range": ""
+    },
+    {
+     "name": "Toms",
+     "count": 3,
+     "range": ""
+    },
+    {
+     "name": "Hi-hats (closed, open 1, open 2)",
+     "count": 3,
+     "range": ""
+    },
+    {
+     "name": "Cymbals (crash, ride)",
+     "count": 2,
+     "range": ""
+    },
+    {
+     "name": "Latin and other percussion",
+     "count": 17,
+     "range": ""
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.polynominal.com/roland-mt-32/roland-mt32-manual.pdf (r01-r30 count from MIDI implementation; ROM order not printed in the pages read)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "B1",
+    "midi_note": 35,
+    "sound": "Acou BD"
+   },
+   {
+    "pad_or_key": "C2",
+    "midi_note": 36,
+    "sound": "Acou BD"
+   },
+   {
+    "pad_or_key": "C#2",
+    "midi_note": 37,
+    "sound": "Rim Shot"
+   },
+   {
+    "pad_or_key": "D2",
+    "midi_note": 38,
+    "sound": "Acou SD"
+   },
+   {
+    "pad_or_key": "D#2",
+    "midi_note": 39,
+    "sound": "Hand Clap"
+   },
+   {
+    "pad_or_key": "E2",
+    "midi_note": 40,
+    "sound": "Elec SD"
+   },
+   {
+    "pad_or_key": "F2",
+    "midi_note": 41,
+    "sound": "Acou Low Tom"
+   },
+   {
+    "pad_or_key": "F#2",
+    "midi_note": 42,
+    "sound": "Clsd Hi Hat"
+   },
+   {
+    "pad_or_key": "G2",
+    "midi_note": 43,
+    "sound": "Acou Low Tom"
+   },
+   {
+    "pad_or_key": "G#2",
+    "midi_note": 44,
+    "sound": "Open Hi Hat 2"
+   },
+   {
+    "pad_or_key": "A2",
+    "midi_note": 45,
+    "sound": "Acou Mid Tom"
+   },
+   {
+    "pad_or_key": "A#2",
+    "midi_note": 46,
+    "sound": "Open Hi Hat 1"
+   },
+   {
+    "pad_or_key": "B2",
+    "midi_note": 47,
+    "sound": "Acou Mid Tom"
+   },
+   {
+    "pad_or_key": "C3",
+    "midi_note": 48,
+    "sound": "Acou Hi Tom"
+   },
+   {
+    "pad_or_key": "C#3",
+    "midi_note": 49,
+    "sound": "Crash Cym"
+   },
+   {
+    "pad_or_key": "D3",
+    "midi_note": 50,
+    "sound": "Acou Hi Tom"
+   },
+   {
+    "pad_or_key": "D#3",
+    "midi_note": 51,
+    "sound": "Ride Cym"
+   },
+   {
+    "pad_or_key": "F#3",
+    "midi_note": 54,
+    "sound": "Tambourine"
+   },
+   {
+    "pad_or_key": "G#3",
+    "midi_note": 56,
+    "sound": "Cowbell"
+   },
+   {
+    "pad_or_key": "C4",
+    "midi_note": 60,
+    "sound": "High Bongo"
+   },
+   {
+    "pad_or_key": "C#4",
+    "midi_note": 61,
+    "sound": "Low Bongo"
+   },
+   {
+    "pad_or_key": "D4",
+    "midi_note": 62,
+    "sound": "Mt High Conga"
+   },
+   {
+    "pad_or_key": "D#4",
+    "midi_note": 63,
+    "sound": "High Conga"
+   },
+   {
+    "pad_or_key": "E4",
+    "midi_note": 64,
+    "sound": "Low Conga"
+   },
+   {
+    "pad_or_key": "F4",
+    "midi_note": 65,
+    "sound": "High Timbale"
+   },
+   {
+    "pad_or_key": "F#4",
+    "midi_note": 66,
+    "sound": "Low Timbale"
+   },
+   {
+    "pad_or_key": "G4",
+    "midi_note": 67,
+    "sound": "High Agogo"
+   },
+   {
+    "pad_or_key": "G#4",
+    "midi_note": 68,
+    "sound": "Low Agogo"
+   },
+   {
+    "pad_or_key": "A4",
+    "midi_note": 69,
+    "sound": "Cabasa"
+   },
+   {
+    "pad_or_key": "A#4",
+    "midi_note": 70,
+    "sound": "Maracas"
+   },
+   {
+    "pad_or_key": "B4",
+    "midi_note": 71,
+    "sound": "Smba Whis S"
+   },
+   {
+    "pad_or_key": "C5",
+    "midi_note": 72,
+    "sound": "Smba Whis L"
+   },
+   {
+    "pad_or_key": "C#5",
+    "midi_note": 73,
+    "sound": "Quijada"
+   },
+   {
+    "pad_or_key": "D#5",
+    "midi_note": 75,
+    "sound": "Claves"
+   }
+  ],
+  "pack_contents": "30 named WAVs = all 30 MT-32 PCM rhythm sounds: Agogo H/L, Bassdrum, Bongo H/L, Cabasa, Clap, Claves, Conga H/L, Conga Muted H, Cowbell, Crash, Hat Closed, Hat Open-01/-02, Maracas, Quijada, Ride, RimShot, Snaredrum-01/-02, Tambourine, Timbale H/L, Tom H/M/L, Whistle Short, Whistle. Inferred: Snaredrum-01 = Acou SD (38), -02 = Elec SD (40); Hat Open-01 = Open Hi Hat 1 (46), -02 = Open Hi Hat 2 (44); Whistle = Smba Whis L (72). No readme.",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "LucasArts (game soundtrack)",
+    "title": "The Secret of Monkey Island (MT-32 music)",
+    "year": null,
+    "evidence": "https://www.polynominal.com/roland-mt-32 - listed as an MT-32 game; its drums play on the MT-32 rhythm part (inferred); publisher from general knowledge, not from the source",
+    "grid_source": null
+   },
+   {
+    "artist": "Sierra On-Line (game soundtrack)",
+    "title": "Space Quest III (MT-32 music)",
+    "year": null,
+    "evidence": "https://www.polynominal.com/roland-mt-32 - listed as an MT-32 game; its drums play on the MT-32 rhythm part (inferred); publisher from general knowledge, not from the source",
+    "grid_source": null
+   },
+   {
+    "artist": "Origin Systems (game soundtrack)",
+    "title": "Ultima VI (MT-32 music)",
+    "year": null,
+    "evidence": "https://www.polynominal.com/roland-mt-32 - listed as an MT-32 game; its drums play on the MT-32 rhythm part (inferred); publisher from general knowledge, not from the source",
+    "grid_source": null
+   },
+   {
+    "artist": "LucasArts (game soundtrack)",
+    "title": "Day of the Tentacle (MT-32 music)",
+    "year": null,
+    "evidence": "https://www.polynominal.com/roland-mt-32 - listed as an MT-32 game; its drums play on the MT-32 rhythm part (inferred); publisher from general knowledge, not from the source",
+    "grid_source": null
+   },
+   {
+    "artist": "Cryo Interactive (game soundtrack)",
+    "title": "Dune (MT-32 music)",
+    "year": null,
+    "evidence": "https://www.polynominal.com/roland-mt-32 - listed as an MT-32 game; its drums play on the MT-32 rhythm part (inferred); publisher from general knowledge, not from the source; page compares original MT-32 Dune with the MUNT emulator",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.polynominal.com/roland-mt-32/roland-mt32-manual.pdf",
+   "https://www.polynominal.com/roland-mt-32",
+   "https://battleofthebits.com/lyceum/View/Specification+of+General+MIDI+and+Roland+MT-32+patches"
+  ]
+ },
+ {
+  "machine": "Roland S-50 Digital Sampling Keyboard",
+  "pack_folders": [
+   "Roland S50"
+  ],
+  "maker": "Roland",
+  "year": 1986,
+  "kind": "sampler/groovebox",
+  "voices": [],
+  "choke_groups": [],
+  "accent": "none (velocity crossfade / mix / switch between paired samples)",
+  "built_in_effects": [],
+  "global_features": [
+   "16-voice polyphony (8 with two sounds per note)",
+   "12-bit sampling at 30 kHz or 15 kHz",
+   "Samples can be placed anywhere in MIDI range 0-127 (drum machine / sequencer triggering)",
+   "Per-sample tuning, vibrato, 8-stage envelope; static LPF/HPF (no filter envelope)",
+   "Audio input can trigger up to 8 keys (drum replacement)",
+   "Five factory disks, including a drum disk (acoustic, electronic and gated drums); Roland library disks in L-, RSB- and USB-series",
+   "No fixed kit layout - the key map depends on the disk loaded; no documented exclusive groups"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "43 WAVs in 4 subfolders: Bassdrums (Bassdrum-01..04), Cymbals (China, Crash, Gong, Hihat, Ride), 'Percusson' [sic] (31: Agogo-01/02, Bongo, Cabasa-01/02, Clap, Claves-01/02, Conga-01..03, Cowbell, Cuica-01/02, Cuical-01/02, Maracas-01/02, 'Qijada' [sic], Tambourine-01/02, Timbale H/L, Tom-01..04, Tria-1/2, Wblk, Whstl), Snaredrums (Snaredrum-01..03). Source disks unknown; the Latin percussion content suggests Roland 'Latin Percussion' library disks (L-503 #11, L-509 #44/#45 - inferred, low confidence). No readme.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.muzines.co.uk/articles/roland-s50/203",
+   "https://www.muzines.co.uk/articles/roland-s-50-sampling-keyboard/1443",
+   "https://llamamusic.com/s50s550/Roland_L-CD1_List.html",
+   "https://www.sgroup.ca/archive/samples/Roland/ReadMes/soundbnk.txt"
+  ]
+ },
+ {
+  "machine": "Roland SH-09 Synthesizer",
+  "pack_folders": [
+   "Roland SH-09",
+   "SH09 Drum sounds"
+  ],
+  "maker": "Roland",
+  "year": null,
+  "kind": "synth (drums made by synthesis)",
+  "voices": [
+   {
+    "label": "Bass Drum",
+    "name": "Bass Drum (factory sound chart, manual p.30)",
+    "type": "Kick",
+    "controls": [
+     "VCF Resonance (near top = self-oscillating sine)",
+     "VCF Cutoff",
+     "VCF Envelope depth 0-10 (positive env mode)",
+     "ENV Attack/Decay/Sustain/Release",
+     "VCA mode ENV",
+     "Audio mixer levels (VCO / Sub osc)",
+     "Key played (pitch changes the drum)",
+     "Gate input (trigger from CR-78 / Boss DR-55 trigger out)"
+    ],
+    "switch_alternate": null,
+    "notes": "Manual: strike a key mid-keyboard; different keys change the sound. Slider values are printed as panel pictures, not transcribed."
+   },
+   {
+    "label": "Synth Drum",
+    "name": "Synth Drum (factory sound chart, manual p.29)",
+    "type": "Tom",
+    "controls": [
+     "VCO waveform and range",
+     "Pitch modulation (VCO MOD)",
+     "VCF Cutoff / Resonance / ENV depth",
+     "ENV mode Gate+Trigger (fast rolls)",
+     "ENV decay",
+     "VCA mode ENV"
+    ],
+    "switch_alternate": null,
+    "notes": "Different keys give different pitches; play rhythms and short rolls."
+   },
+   {
+    "label": "Inv Synth Drum",
+    "name": "Inverted Synth Drum (factory sound chart, manual p.29)",
+    "type": "Tom",
+    "controls": [
+     "VCF envelope mode inverted",
+     "VCF MOD (manual: raise to 7 for a delayed effect)",
+     "VCF Cutoff / Resonance",
+     "ENV mode Gate+Trigger",
+     "ENV decay",
+     "VCA mode ENV"
+    ],
+    "switch_alternate": null,
+    "notes": "Variant of Synth Drum using the inverted filter envelope."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none (no velocity)",
+  "built_in_effects": [],
+  "global_features": [
+   "Monophonic: one VCO + sub-oscillator, so every new note cuts the last",
+   "VCO waveforms Noise / Saw / Square / Pulse (PWM), range 32' to 2'",
+   "24 dB/oct low-pass VCF; resonance self-oscillates into a sine near the top of its travel",
+   "VCF envelope mode: positive / inverted / envelope follower; ENV depth 0-10; LFO MOD",
+   "ADSR triggered by Gate+Trigger, Gate only, or LFO",
+   "VCA mode HOLD / ENV / GATE",
+   "LFO 0.2-25 Hz: sine (with delay), square, sample & hold",
+   "CV/Gate in and out; manual suggests triggering the Bass Drum chart from a CR-series or Boss DR-55 trigger output"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "'Roland SH-09': 43 WAVs Bassdrum-01..43 (kicks only, no readme). 'SH09 Drum sounds': 36 WAVs (909bass1-12, lowbass1-13, lowbass_long + lowbass_long2-4, stompbass1-7) + readme: an SH-09 bass-drum pack, 16-bit 44.1 kHz mono, recorded straight from the synth with no effects, stated 'free of copyright', by Bjorn Fogelberg, 19 Dec 1997.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://static.roland.com/assets/media/pdf/SH-09_OM.pdf"
+  ]
+ },
+ {
+  "machine": "Roland System-100 (Model 101 synth, 102 expander, 103 mixer, 104 sequencer, 109 monitors)",
+  "pack_folders": [
+   "Roland System-100"
+  ],
+  "maker": "Roland",
+  "year": 1975,
+  "kind": "synth (drums made by synthesis)",
+  "voices": [
+   {
+    "label": "BD",
+    "name": "Bass drum (pink noise through resonant filter)",
+    "type": "Kick",
+    "controls": [
+     "Noise generator (pink)",
+     "VCF cutoff (pitch set per step by 104 row B)",
+     "VCF resonance (high)",
+     "Very short envelope to VCF (attack click)",
+     "104 row A gate",
+     "ADSR/VCA",
+     "103 spring reverb send"
+    ],
+    "switch_alternate": "SD",
+    "notes": "Bonedo 2023 recipe; kick and snare come from the same voice, so they cut each other off (inferred)."
+   },
+   {
+    "label": "SD",
+    "name": "Snare (same noise/filter voice, different filter pitch)",
+    "type": "Snare",
+    "controls": [
+     "Noise generator (pink)",
+     "VCF cutoff via 104 row B",
+     "VCF resonance",
+     "Short filter envelope",
+     "104 row A gate",
+     "103 spring reverb send"
+    ],
+    "switch_alternate": "BD",
+    "notes": "Same voice as BD (inferred from recipe)."
+   },
+   {
+    "label": "HH",
+    "name": "Hi-hat (ring-modulated VCOs plus noise)",
+    "type": "Closed Hat",
+    "controls": [
+     "VCO1 + VCO2 into 102 ring modulator",
+     "Noise mix",
+     "102 S&H random values to VCO2 (S&H clock sets kick/snare tempo)",
+     "VCF",
+     "Short envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "Bonedo 2023 recipe."
+   },
+   {
+    "label": "TOM",
+    "name": "Tom (triangle VCO with envelope pitch sweep)",
+    "type": "Tom",
+    "controls": [
+     "VCO triangle wave",
+     "Envelope to VCO pitch",
+     "ADSR/VCA"
+    ],
+    "switch_alternate": null,
+    "notes": "Played manually in the Bonedo demo."
+   },
+   {
+    "label": "PERC",
+    "name": "Whistling percussion (snare patch, changed envelope)",
+    "type": "Perc",
+    "controls": [
+     "Noise + resonant VCF",
+     "Envelope shape"
+    ],
+    "switch_alternate": null,
+    "notes": "Bonedo 2023 recipe; played manually."
+   }
+  ],
+  "choke_groups": [
+   [
+    "BD",
+    "SD"
+   ]
+  ],
+  "accent": "none (gates from the 104 sequencer or keyboard)",
+  "built_in_effects": [
+   {
+    "name": "Model 103 spring reverb",
+    "type": "reverb",
+    "notes": "Per-channel effect send on the 103 mixer (internal spring or external effect); mono return."
+   }
+  ],
+  "global_features": [
+   "Semi-modular, patched with cables; no presets (patch sheets)",
+   "VCO waves triangle / saw / square / variable pulse; 101 has a noise generator; 102 adds ring modulator and S&H",
+   "VCF 24 dB/oct low-pass plus fixed 6 dB/oct high-pass; ADSR; LFO",
+   "104 sequencer: two rows of 12 knobs, 1-24 steps, tempo and gate length, CV-controllable",
+   "103: 4-channel mixer with spring reverb send"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "62 WAVs: Bassdrum-01..15, Bell, Click-01..06, Hat Closed-01/02, Hat Open-01..03, Pling-01..03, Plopp-01..09, Snaredrum-01..22 with Snaredrum-13 missing (21 files), Tock, Triangle. Synthesized drums; no readme.",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "The Human League",
+    "title": "Being Boiled",
+    "year": null,
+    "evidence": "https://www.bonedo.de/artikel/vintage-synth-roland-system-100 - Martyn Ware set note lengths with the Model 104 speed control for the beat programming of 'Being Boiled'; https://www.bonedo.de/artikel/human-league-being-boiled-und-das-roland-system-100 - no drum machine was used; original c.1978 per photo captions",
+    "grid_source": null
+   },
+   {
+    "artist": "The Human League",
+    "title": "Reproduction (album)",
+    "year": null,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_System_100 - a large System 100 multitracked for 'nearly all the arrangements, including drums and percussion' (uncited claim)",
+    "grid_source": null
+   },
+   {
+    "artist": "The Human League",
+    "title": "Travelogue (album)",
+    "year": null,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_System_100 - same uncited claim as Reproduction",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.bonedo.de/artikel/vintage-synth-roland-system-100",
+   "https://www.bonedo.de/artikel/human-league-being-boiled-und-das-roland-system-100",
+   "https://en.wikipedia.org/wiki/Roland_System_100",
+   "https://attackmagazine.com/?p=89579"
+  ]
+ }
+]

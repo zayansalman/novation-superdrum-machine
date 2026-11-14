@@ -1,0 +1,876 @@
+[
+ {
+  "machine": "Ace Tone Rhythm Ace FR-1 (pack model unconfirmed)",
+  "pack_folders": [
+   "Ace Tone Rhythm Ace",
+   "Rhythm-Ace"
+  ],
+  "maker": "Ace Tone (Ace Electronic Industries, Osaka; Ikutaro Kakehashi). Also sold via Hammond organs, as Multivox (US, Sorkin) and as Bentley Rhythm Ace (UK)",
+  "year": 1967,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "Cymbal",
+    "name": "Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "instrument push button (described as manual-play by SMEM, as mute/cancel by djjondent and MatrixSynth)"
+    ],
+    "switch_alternate": null,
+    "notes": "One of the four panel instrument buttons. Left-to-right panel order of the four buttons is unknown; sources list them as cymbal, claves, cowbell, bass drum."
+   },
+   {
+    "label": "Claves",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "instrument push button (play or cancel)"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel instrument button."
+   },
+   {
+    "label": "Cowbell",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "instrument push button (play or cancel)"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel instrument button."
+   },
+   {
+    "label": "Bass Drum",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "instrument push button (play or cancel)"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel instrument button."
+   },
+   {
+    "label": "Snare",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "No panel control on the FR-1. Inferred present: the FR-2L, which has the same PCB and presets as the FR-1 per MatrixSynth 2023, has a snare cancel button."
+   },
+   {
+    "label": "Brush",
+    "name": "Brush",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Named in Tubbutec's FR-1 MIDI retrofit guide. The type is inferred: a brush is a snare-brush swish."
+   },
+   {
+    "label": "Maracas",
+    "name": "Maracas",
+    "type": "Shaker",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Named as a trigger point on the FR-2 voice board (Tubbutec). The FR-2 is the same PCB as the FR-1, so this is inferred for the FR-1."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none documented (no accent control in any source found)",
+  "built_in_effects": [],
+  "global_features": [
+   "16 preset rhythms, presets only (no programming)",
+   "rhythms combine by pressing two rhythm buttons together; demo shows Rock N Roll+Bossa Nova, Foxtrot+Swing, Samba+Cha Cha, Shuffle+March, Bossa Nova+Beguine",
+   "Tempo and Volume knobs",
+   "start/stop foot pedal",
+   "internal clock only, no external sync",
+   "mono 1/4-inch output",
+   "fully transistorized; patterns from a diode matrix driven by a pulse generator and frequency-dividing counter",
+   "10 drum voices in total per Tubbutec; only 7 identified in sources (3 unknown)"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "'Ace Tone Rhythm Ace' top level has 16 mono 16-bit/44.1k one-shots with generic names and no metadata: KICK1-3, SNARE1-3, HHCL, HHOP, CLAVE, PERC1-PERC7. Sub-folder 'Acetone Rhythm Ace' has 12 named mono one-shots with 'smpl' chunks: RA Cl Hat, Clave, Cowbell, Cymbal, Guiro, Hi Bongo, Kick, Lo Bongo, Lo Conga, Maracas, Rim (only 9 ms long), Snare. Sub-folder 'Rhythm_Ace_loops' has 12 mono loops, Rhythm Ace LP1-LP12 (1.83-7.31 s), with no rhythm names. 'Rhythm-Ace' has 16 stereo, peak-normalized copies of the top-level 16 with 10 ms of tail silence added (waveform correlation >=0.999): KICK1-3 -> Bassdrum-01..03, SNARE1-3 -> Snaredrum-01..03, HHCL -> Hat Closed, HHOP -> Hat Open, CLAVE -> Clave, PERC1 -> Tom H, PERC2 -> Tom L, PERC3-6 -> Percussion-01..04, PERC7 -> Click. The hi-hat/rim/conga/guiro/bongo names don't match any FR-1 source, so the sampled unit is probably a later Rhythm Ace model (inferred); the exact model is unknown.",
+  "preset_patterns": [
+   {
+    "name": "Waltz",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Dixieland",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Western",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Rock'n Roll",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Slow Rock",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Bossa Nova (spelled 'Bosa Nova' by SMEM)",
+    "source": "https://www.matrixsynth.com/2024/10/ace-tone-rhythm-ace-fr-1-demo.html"
+   },
+   {
+    "name": "Fox Trot",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Swing",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Tango",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Beguine",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Rhumba",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Samba",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Mambo",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Cha-Cha",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   },
+   {
+    "name": "Shuffle (SMEM prints 'Sniffle', a typo)",
+    "source": "https://www.matrixsynth.com/2024/10/ace-tone-rhythm-ace-fr-1-demo.html"
+   },
+   {
+    "name": "March",
+    "source": "https://www.smemmusic.ch/fr/node/1391"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "Kingdom Come (Arthur Brown's Kingdom Come)",
+    "title": "Journey (album; all percussion by drum machine)",
+    "year": 1973,
+    "evidence": "https://en.wikipedia.org/wiki/Journey_(Kingdom_Come_album) - names the Bentley Rhythm Ace, 'the British version of the FR-1', citing Castle Music 2003 liner notes",
+    "grid_source": null
+   },
+   {
+    "artist": "J.J. Cale",
+    "title": "Crazy Mama",
+    "year": 1971,
+    "evidence": "https://en.wikipedia.org/wiki/Naturally_(J._J._Cale_album) - Cale (Vintage Guitar, 2004) says the first album used an electric drum machine and that he cut 'Crazy Mama' and 'Call Me the Breeze' with Carl Radle on bass; FR-1 model per dealer https://soundgas.com/products/ace-tone-rhythm-ace-fr-1-drum-machine",
+    "grid_source": null
+   },
+   {
+    "artist": "J.J. Cale",
+    "title": "Call Me the Breeze",
+    "year": 1971,
+    "evidence": "https://en.wikipedia.org/wiki/Naturally_(J._J._Cale_album) - says the track was recorded with a primitive drum machine; conflict: the personnel list credits Karl Himmel on drums. FR-1 model per dealer (Soundgas)",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.smemmusic.ch/fr/node/1391",
+   "https://www.matrixsynth.com/2024/10/ace-tone-rhythm-ace-fr-1-demo.html",
+   "https://www.polynominal.com/ace-tone-fr1",
+   "https://djjondent.blogspot.com/2014/11/ace-tone-fr-1-rolands-first-drum-machine.html",
+   "https://www.matrixsynth.com/2023/11/the-ace-tone-rhythm-ace-family-fr-1.html",
+   "https://tubbutec.de/?p=4719",
+   "https://tubbutec.de/?p=4693",
+   "https://synthmania.com/rhythm_ace_fr-2l.htm",
+   "https://www.smemmusic.ch/de/node/335",
+   "https://en.wikipedia.org/wiki/Drum_machine",
+   "https://en.wikipedia.org/wiki/Ace_Tone",
+   "https://www.sequencer.de/syns/acetone/RhythmAceFR1.html",
+   "https://patents.google.com/patent/US3651241A/en",
+   "https://hollowsun.com/nostalgia/vintage/rhythmace/index.html",
+   "https://en.wikipedia.org/wiki/Journey_(Kingdom_Come_album)",
+   "https://en.wikipedia.org/wiki/Naturally_(J._J._Cale_album)",
+   "https://soundgas.com/products/ace-tone-rhythm-ace-fr-1-drum-machine"
+  ]
+ },
+ {
+  "machine": "Univox Micro Rhythmer 12 (MR-12)",
+  "pack_folders": [
+   "Univox Microrhythmer-12"
+  ],
+  "maker": "Univox (Unicord's brand). Actual maker unknown; Effects Database calls it functionally equivalent to the Sound Master SD-3 'Disco Beat' (unverified)",
+  "year": null,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "Kick",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Voice list is the SD-3's, from Effects Database (seen in search summary only; page 403); its labels and panel order are unknown."
+   },
+   {
+    "label": "Snare",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Unverified (Effects Database, SD-3)."
+   },
+   {
+    "label": "Hi-Hat",
+    "name": "Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Unverified (Effects Database, SD-3). The pack's 'Closed Hat' probably comes from this voice (inferred)."
+   },
+   {
+    "label": "Cymbal",
+    "name": "Cymbal",
+    "type": "Cymbal",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Unverified (Effects Database, SD-3). The pack's 0.94 s 'Open Hat' may be this voice or a long hat (unknown)."
+   },
+   {
+    "label": "Rimshot",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Unverified (Effects Database, SD-3). Not present in the pack."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "unknown (none documented)",
+  "built_in_effects": [],
+  "global_features": [
+   "12 preset rhythms (Effects Database, unverified)",
+   "SD-3 rhythm categories per Effects Database: disco, rock, pop, march variations (unverified)",
+   "sibling MR-8: Tempo knob, single output jack, internal trimmers for claves length, sound balance and tempo (context only, not confirmed for the MR-12)"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "4 stereo 16-bit/44.1k one-shots with descriptive names: Bassdrum (0.23 s), Closed Hat (0.10 s), Open Hat (0.94 s), Snaredrum (0.98 s). No loops, no metadata.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.effectsdatabase.com/model/univox/microrhythmer12",
+   "https://www.effectsdatabase.com/model/soundmaster/discobeat",
+   "https://www.matrixsynth.com/2005/10/univox-mr-12x-new-flickr-shot.html",
+   "https://www.pedal-of-the-day.com/?p=23559",
+   "https://en.wikipedia.org/wiki/Drum_machine"
+  ]
+ },
+ {
+  "machine": "Sound Master Memory Rhythm SR-88",
+  "pack_folders": [
+   "Sound Master",
+   "Sound Master, Memory Rhythm SR-88"
+  ],
+  "maker": "Sound Master (Japan)",
+  "year": 1981,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "Kick",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "step-programmed (select sound, then Start = hit, Stop = rest)"
+    ],
+    "switch_alternate": null,
+    "notes": "Exact panel labels and order are unknown; names follow VSE (Kick, Snare, Closed Hi-Hat, Cymbal). Pack: KICK / Bassdrum."
+   },
+   {
+    "label": "Snare",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "step-programmed"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: SHORTSN / Snare-1."
+   },
+   {
+    "label": "Snare (held)",
+    "name": "Snare, sustained by holding the step button",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Not a separate voice. Per Rhythmic Robot, holding a step-time button makes the snare sustain. Pack: LONGSN / Snare-2 (inferred match)."
+   },
+   {
+    "label": "Hi-Hat",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "step-programmed (hat pattern fully programmable, unlike the stock Boss DR-55)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: SHORTHI / Closed Hat."
+   },
+   {
+    "label": "Hi-Hat (held)",
+    "name": "Hi-hat held into an extended hiss",
+    "type": "Open Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Not a separate voice. Per Rhythmic Robot, the short hat becomes an extended hiss when the step button is held. Pack: LONGHI / 'Open Hat' (inferred match). The AudioThing plugin calls the two hats 'Hi Hat 1' and 'Hi Hat 2'."
+   },
+   {
+    "label": "Cymbal",
+    "name": "Cymbal (crash)",
+    "type": "Crash",
+    "controls": [
+     "step-programmed"
+    ],
+    "switch_alternate": null,
+    "notes": "The trigger output is derived from the cymbal; a plug in the 'SQ' jack removes the cymbal from the main output (MatrixSynth 2025 listing). Pack: CRASH / Crash."
+   }
+  ],
+  "choke_groups": [
+   [
+    "Snare",
+    "Snare (held)"
+   ],
+   [
+    "Hi-Hat",
+    "Hi-Hat (held)"
+   ]
+  ],
+  "accent": "none (VSE: no accent; putting hi-hat and cymbal on the same step gives some dynamic variation)",
+  "built_in_effects": [
+   {
+    "name": "Tone",
+    "type": "filter",
+    "notes": "Global tone control, essentially a low-pass across the outputs (Rhythmic Robot); applies to the whole kit"
+   }
+  ],
+  "global_features": [
+   "programmable step sequencer, no display",
+   "six 16-step patterns and two 12-step patterns, each with bars A and B; playback A, B, A+B or fill-in; programmable fill-ins",
+   "no song mode; patterns selectable on the fly",
+   "clock and trigger outputs on grey (later) models; clock believed to be 1 PPQN; trigger derived from the cymbal",
+   "'SQ' jack removes the cymbal from the main output",
+   "4 AA batteries retain memory (6 V adapter also used)",
+   "no MIDI; described as a near-clone of the Boss DR-55"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "'Sound Master' has 6 mono one-shots: KICK, SHORTSN, LONGSN, SHORTHI, LONGHI, CRASH. 'Sound Master, Memory Rhythm SR-88' has 6 stereo, normalized duplicates of the same samples with 10 ms of tail added: Bassdrum=KICK, Snare-1=SHORTSN, Snare-2=LONGSN, Closed Hat=SHORTHI, Open Hat=LONGHI, Crash=CRASH. No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.vintagesynth.com/soundmaster/memory-rhythm-sr-88",
+   "https://www.rhythmicrobot.com/?p=811",
+   "https://kitmonsters.com/kit/sound-master/sound-master-memory-rhythm-sr-88",
+   "https://www.matrixsynth.com/2025/02/sound-master-sr-88-analog-drum-machine.html",
+   "https://www.audiothing.net/instruments/sr-88/",
+   "https://www.sonicstate.com/synth/soundmaster_sr88/",
+   "https://musicradar.com/reviews/tech/audiothing-sr-88-641008",
+   "https://en.wikipedia.org/wiki/Garlands_(album)",
+   "https://cocteautwins.com/chapter-one.html"
+  ]
+ },
+ {
+  "machine": "MFB-512 (Fricke / Manfred Fricke Berlin)",
+  "pack_folders": [
+   "Fricke MFB512",
+   "MFB-512"
+  ],
+  "maker": "MFB (Manfred Fricke, Berlin); UK import by Syco Systems",
+  "year": null,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "Bass drum",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Order and wording follow the E&MM 1984 review's list; panel order and labels are unknown. Pack: mfb_kick / Bassdrum (70 ms, very short)."
+   },
+   {
+    "label": "Snare",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Pack: mfb_snare / Snaredrum."
+   },
+   {
+    "label": "Tom (high)",
+    "name": "High Tom",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "All three toms come from one sample, so only one tom sounds at a time (E&MM). Pack: mfb_hitom / Tom H (about 148 Hz by rough estimate)."
+   },
+   {
+    "label": "Tom (mid)",
+    "name": "Mid Tom",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Same sample as the other toms. Pack: mfb_mid_tom / Tom M (about 128 Hz)."
+   },
+   {
+    "label": "Tom (low)",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Same sample as the other toms. Pack: mfb_lo_tom / Tom L (about 107 Hz)."
+   },
+   {
+    "label": "Handclaps",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Pack: mfb_clap / Clap."
+   },
+   {
+    "label": "Cymbal",
+    "name": "Cymbal",
+    "type": "Cymbal",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "A hi-hat on the next beat cuts the cymbal's decay short (E&MM). Pack: mfb_cymbal / 'Crash'."
+   },
+   {
+    "label": "Open hi-hat",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Pack: mfb_op_hat / Hat Open (1.72 s)."
+   },
+   {
+    "label": "Closed hi-hat",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Pack: mfb_cl_hat / Hat Closed."
+   }
+  ],
+  "choke_groups": [
+   [
+    "Tom (high)",
+    "Tom (mid)",
+    "Tom (low)"
+   ],
+   [
+    "Cymbal",
+    "Open hi-hat",
+    "Closed hi-hat"
+   ]
+  ],
+  "accent": "Programmable: Accent is one of the five positions of the multifunction switch (Play, Chain Select, Instrument Select, Accent, Reset/Erase); accents are entered in record mode with the red/black buttons. Its effect on the sound isn't described.",
+  "built_in_effects": [],
+  "global_features": [
+   "9 sampled sounds stored on one EPROM (not user-replaceable)",
+   "master tune control (rear panel) affecting all voices at once; no per-voice controls",
+   "64 rhythm patterns plus 64 fill-in patterns, selected by binary-coded bank switches F-A",
+   "up to 8 chains; 2048 measures in total; up to 16 steps per measure, measures can be doubled for odd time signatures",
+   "measure switch: rhythm only / rhythm and fill alternating / three rhythms then one fill",
+   "trigger in and trigger out; footswitch jacks for start/stop and fill-in",
+   "mono or stereo main outs; DIN socket with individual voice outputs (Hollow Sun: eight)",
+   "NiCad battery memory backup; external 12 V supply",
+   "voices cannot be triggered from external pads; no MIDI mentioned",
+   "RRP GBP 299 (UK, 1984)"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "'Fricke MFB512' has 9 mono one-shots with 'smpl' chunks: mfb_kick, mfb_snare, mfb_clap, mfb_hitom, mfb_mid_tom, mfb_lo_tom, mfb_cl_hat, mfb_op_hat, mfb_cymbal. 'MFB-512' has 9 stereo, normalized duplicates with 10 ms of tail (Bassdrum, Snaredrum, Clap, Tom H, Tom M, Tom L, Hat Closed, Hat Open, Crash) plus '512 loop.wav' (stereo, 1.71 s; plausibly one bar at about 140 BPM, inferred).",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/mfb-digital-drum-machine/7888",
+   "https://hollowsun.com/nostalgia/vintage/fricke/index.html",
+   "https://www.sequencer.de/syns/mfb/MFB512.html",
+   "https://www.bonedo.de/artikel/vintage-drum-machine-mfb-501"
+  ]
+ },
+ {
+  "machine": "Doepfer MS-404",
+  "pack_folders": [
+   "Doepfer MS-404"
+  ],
+  "maker": "Doepfer Musikelektronik (Germany)",
+  "year": 1994,
+  "kind": "synth (drums made by synthesis)",
+  "voices": [
+   {
+    "label": "Bassdrum",
+    "name": "Bass Drum (synth patch)",
+    "type": "Kick",
+    "controls": [
+     "VCO (saw/rectangle) or self-oscillating VCF as the tone",
+     "VCF cutoff",
+     "resonance (up to self-oscillation)",
+     "ADSR (short decay)",
+     "accent knob plus velocity/CC7",
+     "LFO2 at audio rate into the VCF for FM-type punch (optional)"
+    ],
+    "switch_alternate": null,
+    "notes": "There are no drum voices on the hardware. This entry is a pack sound, and the listed controls are the MS-404 parameters that would shape it (inferred). It is monophonic, so on the hardware every sound cuts the previous one."
+   },
+   {
+    "label": "Bassdrum Reverse",
+    "name": "Reversed kick",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Pack extra; the name implies a reversed sample, not a hardware feature (inferred)."
+   },
+   {
+    "label": "Snaredrum",
+    "name": "Snare (synth patch)",
+    "type": "Snare",
+    "controls": [
+     "white noise (chosen instead of the VCO; not mixable with it)",
+     "VCF cutoff/resonance",
+     "ADSR decay",
+     "accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Noise replaces the VCO, so a tone-plus-noise snare isn't possible in one voice (inferred from Doepfer's description)."
+   },
+   {
+    "label": "Tom",
+    "name": "Tom (synth patch)",
+    "type": "Tom",
+    "controls": [
+     "VCO pitch or resonant VCF pitch",
+     "ADSR decay",
+     "glide/pitch movement",
+     "keyboard tracking (off/half/full)"
+    ],
+    "switch_alternate": null,
+    "notes": "Inferred controls."
+   },
+   {
+    "label": "Hat Closed",
+    "name": "Closed hat (synth patch)",
+    "type": "Closed Hat",
+    "controls": [
+     "white noise",
+     "VCF cutoff high",
+     "very short ADSR decay"
+    ],
+    "switch_alternate": null,
+    "notes": "Only a low-pass filter, so hats are low-passed noise (inferred)."
+   },
+   {
+    "label": "Hat Open",
+    "name": "Open hat (synth patch)",
+    "type": "Open Hat",
+    "controls": [
+     "white noise",
+     "VCF cutoff",
+     "longer decay/release"
+    ],
+    "switch_alternate": null,
+    "notes": "The pack file is only 0.15 s long."
+   }
+  ],
+  "choke_groups": [
+   [
+    "Bassdrum",
+    "Bassdrum Reverse",
+    "Snaredrum",
+    "Tom",
+    "Hat Closed",
+    "Hat Open"
+   ]
+  ],
+  "accent": "VCA envelope amount ('accent') is controlled by MIDI velocity and/or CC7; an accent knob sets the depth. VCF cutoff can also follow velocity or any MIDI controller.",
+  "built_in_effects": [],
+  "global_features": [
+   "1 analog VCO: waveform switch saw / off / rectangle; pulse width adjustable, LFO1 can modulate it",
+   "white noise selectable in place of the VCO",
+   "external audio input (replaces VCO/noise)",
+   "24 dB low-pass VCF, resonance up to self-oscillation; keyboard tracking off/half/full",
+   "full ADSR envelope",
+   "2 triangle LFOs up to 5 kHz: LFO1 to VCO pitch or pulse width, LFO2 to the VCF",
+   "glide (on/off via CC65); retrigger on/off",
+   "MIDI-to-CV with CV/Gate 1/4-inch jacks; MIDI channel learn",
+   "15 knobs, 6 switches, 19-inch 1U"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "6 stereo one-shots: Bassdrum (1.02 s), Bassdrum Reverse (0.21 s), Snaredrum (0.50 s), Tom (0.37 s), Hat Closed (0.14 s), Hat Open (0.15 s). No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.doepfer.de/ms404e.htm",
+   "https://www.vintagesynth.com/doepfer/ms-404",
+   "https://www.soundonsound.com/techniques/synthesizing-drums-bass-drum",
+   "https://www.soundonsound.com/techniques/synthesizing-drums-snare-drum"
+  ]
+ },
+ {
+  "machine": "Moog / Realistic Concertmate MG-1",
+  "pack_folders": [
+   "Moog Concertmate MG-1"
+  ],
+  "maker": "Moog Music for Radio Shack (Realistic brand), co-developed with Tandy (Paul Schreiber)",
+  "year": 1981,
+  "kind": "synth (drums made by synthesis)",
+  "voices": [
+   {
+    "label": "Bassdrum-01..03",
+    "name": "Bass drum (synth patches)",
+    "type": "Kick",
+    "controls": [
+     "filter cutoff",
+     "emphasis (resonance; filter can self-oscillate)",
+     "contour amount",
+     "Contour 'Rise Time' / 'Fall Time', sustain off",
+     "keyboard tracking (3-position)",
+     "Tone Source pitch and waveform"
+    ],
+    "switch_alternate": null,
+    "notes": "There are no drum voices on the hardware. The pack has three kick variants, and the listed controls are inferred. The mono section is monophonic."
+   },
+   {
+    "label": "Snaredrum-1..2",
+    "name": "Snare (synth patches)",
+    "type": "Snare",
+    "controls": [
+     "noise source",
+     "filter cutoff/emphasis",
+     "Contour 'Fall Time'",
+     "VCA mode switch ('Tone Sources': keyed/hold/envelope)",
+     "'Bell Tone' (ring/amplitude modulation) for metallic overtones"
+    ],
+    "switch_alternate": null,
+    "notes": "Inferred controls."
+   }
+  ],
+  "choke_groups": [
+   [
+    "Bassdrum-01..03",
+    "Snaredrum-1..2"
+   ]
+  ],
+  "accent": "none documented (no velocity sensing mentioned in sources)",
+  "built_in_effects": [],
+  "global_features": [
+   "two tone sources (TG1 saw/square, TG2 saw/pulse) with detune and sync",
+   "digital pseudo-random noise generator",
+   "'Bell Tone' amplitude/ring modulation of VCO1 and VCO2",
+   "24 dB/oct Moog low-pass filter with cutoff, emphasis and contour amount; 3-position keyboard tracking; can self-oscillate",
+   "'Contour' envelope: Rise Time, Fall Time, sustain on/off; triggered by keyboard or LFO",
+   "LFO: triangle, square, sample-and-hold",
+   "VCA modes keyed / hold / envelope (switch labeled 'Tone Sources')",
+   "Glide; CV/Gate inputs; RCA pass-through audio inputs; 32 keys; no pitch or mod wheels",
+   "paraphonic divide-down organ section through the same filter and VCA"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "5 stereo one-shots: Bassdrum-01 (0.30 s), Bassdrum-02 (0.58 s), Bassdrum-03 (1.10 s), Snaredrum-1 (0.80 s), Snaredrum-2 (0.49 s). No hats, no loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Moog_Concertmate_MG-1",
+   "https://www.vintagesynth.com/realistic/concertmate-mg-1",
+   "https://www.soundonsound.com/techniques/synthesizing-drums-bass-drum",
+   "https://www.soundonsound.com/techniques/synthesizing-drums-snare-drum"
+  ]
+ },
+ {
+  "machine": "Rhodes Polaris (Fender Chroma Polaris)",
+  "pack_folders": [
+   "Rhodes Polaris"
+  ],
+  "maker": "Rhodes (CBS/Fender era); software by Paul DeRocco",
+  "year": 1984,
+  "kind": "synth (drums made by synthesis)",
+  "voices": [
+   {
+    "label": "Bassdrum-01..04",
+    "name": "Bass drum (synth patches)",
+    "type": "Kick",
+    "controls": [
+     "oscillator waveform (sawtooth/pulse)",
+     "4-pole low-pass cutoff",
+     "resonance (8 steps; step 7 = self-oscillation)",
+     "digital envelopes (fast attack and decay)",
+     "velocity to volume/timbre"
+    ],
+    "switch_alternate": null,
+    "notes": "There are no drum voices on the hardware; these are pack sounds and the listed controls are inferred. The synth is 6-voice polyphonic, so there is no inherent choke."
+   },
+   {
+    "label": "Snaredrum-01..04",
+    "name": "Snare (synth patches)",
+    "type": "Snare",
+    "controls": [
+     "per-voice noise switch",
+     "oscillator tone",
+     "filter cutoff/resonance",
+     "digital envelope decay",
+     "ring modulation / hard sync for metallic tone"
+    ],
+    "switch_alternate": null,
+    "notes": "Inferred controls."
+   },
+   {
+    "label": "Noise-1..4",
+    "name": "Noise bursts (synth patches)",
+    "type": "Perc",
+    "controls": [
+     "digital pink-ish noise generator switched into the voice",
+     "4-pole low-pass cutoff",
+     "short digital envelope"
+    ],
+    "switch_alternate": null,
+    "notes": "0.13-0.16 s noise hits; could serve as closed-hat or shaker substitutes (inferred)."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "61-note velocity-sensitive keyboard; velocity can be assigned to volume and/or timbre",
+  "built_in_effects": [],
+  "global_features": [
+   "6 voices, 2 oscillators each (sawtooth and pulse with PWM; chip also gives triangle)",
+   "hard sync; digital ring modulation (XOR of the two pulse waves)",
+   "digital noise generator (about 100 kHz pseudo-random bits, filtered toward pink), switchable into each voice",
+   "4-pole low-pass filter; resonance in 8 steps, step 7 = self-oscillation",
+   "digital (software) envelopes with fast attacks for percussive sounds",
+   "132 voice programs; keyboard split at any point and two-program linking (unison layering)",
+   "polyphonic real-time sequencer, 12 sequences, about 650 notes",
+   "drum-machine sync interface (5 clock rates, 12 configurations); tempo tap footswitch",
+   "MIDI (Rev 1.0) and Chroma interface; selective pitch bend; main and alt outputs",
+   "list price $1995 (1984)"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "12 stereo one-shots: Bassdrum-01..04 (0.96-1.83 s), Noise-1..4 (0.13-0.16 s), Snaredrum-01..04 (0.82-1.08 s). No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "http://www.rhodeschroma.com/content/polaris/salesprimer.pdf",
+   "http://www.rhodeschroma.com/?id=polarisservicecircuitdescriptions",
+   "http://www.rhodeschroma.com/?id=polaris"
+  ]
+ },
+ {
+  "machine": "Serge Modular",
+  "pack_folders": [
+   "Serge Modular"
+  ],
+  "maker": "Serge Modular Music Systems (Serge Tcherepnin; CalArts / Los Angeles); later Sound Transform Systems and Random*Source",
+  "year": 1973,
+  "kind": "synth (drums made by synthesis)",
+  "voices": [
+   {
+    "label": "Bassdrum",
+    "name": "Bass drum (modular patch)",
+    "type": "Kick",
+    "controls": [
+     "Variable Q VCF at high Q / self-oscillation, struck via its trigger input (pinging)",
+     "slope generator (DUSG) as a decay/pitch envelope",
+     "VCA"
+    ],
+    "switch_alternate": null,
+    "notes": "There are no drum voices; every sound is a patch. The technique is inferred, not documented by a Serge source fetched."
+   },
+   {
+    "label": "Claves",
+    "name": "Claves (modular patch)",
+    "type": "Clave",
+    "controls": [
+     "high-Q VCFQ or Resonant EQ band struck by a short trigger",
+     "short decay"
+    ],
+    "switch_alternate": null,
+    "notes": "Inferred."
+   },
+   {
+    "label": "Click-01..04",
+    "name": "Clicks (modular patches)",
+    "type": "Perc",
+    "controls": [
+     "short pulses/triggers",
+     "filter or Resonant EQ coloring"
+    ],
+    "switch_alternate": null,
+    "notes": "Very short (13-91 ms). Inferred."
+   },
+   {
+    "label": "Clink",
+    "name": "Metallic clink (modular patch)",
+    "type": "Perc",
+    "controls": [
+     "Resonant EQ (10 bands spaced a major seventh apart) or ring modulator / Wave Multiplier for inharmonic tone"
+    ],
+    "switch_alternate": null,
+    "notes": "Inferred."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "patch-dependent (any CV); no fixed accent",
+  "built_in_effects": [],
+  "global_features": [
+   "modules include Dual Universal Slope Generator / Dual Transient Generator, Variable Q VCF (LP/HP/BP/notch, self-oscillating, trigger in, LOW mode), Resonant Equalizer, Wave Multiplier, NTO/PCO oscillators, noise (later with sample-and-hold), Smooth & Stepped Generator, Programmer and TKB sequencers, ring modulator, frequency shifter",
+   "early filters are 2-pole state-variable, 12 dB/oct",
+   "banana-plug patching"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "7 stereo one-shots: Bassdrum (0.42 s), Claves (0.10 s), Click-01..04 (0.01-0.09 s), Clink (0.15 s). No snare, no hats, no loops.",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "Plastikman (Richie Hawtin)",
+    "title": "Consumed",
+    "year": 1998,
+    "evidence": "https://www.soundonsound.com/techniques/classic-tracks-plastikman-consumed - a Kawai tom/conga sound was opened and closed through a Serge filter; a Serge riff distorts about 10 minutes in",
+    "grid_source": null
+   },
+   {
+    "artist": "Richie Hawtin",
+    "title": "Concept 1 (12-inch series)",
+    "year": 1996,
+    "evidence": "https://www.soundonsound.com/techniques/classic-tracks-plastikman-consumed - kicks and percussion went through Serge filters",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Serge_synthesizer",
+   "https://www.vintagesynth.com/serge/modular",
+   "https://serge-modular.com/serge_4x4?mod=RS_VCFQSM4X4",
+   "https://serge-modular.com/serge_4x4?mod=RS_RESEQ-VCM4X4",
+   "https://www.soundonsound.com/techniques/classic-tracks-plastikman-consumed",
+   "https://www.soundonsound.com/techniques/synthesizing-drums-bass-drum"
+  ]
+ }
+]

@@ -1,0 +1,1813 @@
+[
+ {
+  "machine": "Akai MPC60 MIDI Production Center (also MPC60 II)",
+  "pack_folders": [
+   "Akai MPC-60"
+  ],
+  "maker": "Akai (designed by Roger Linn)",
+  "year": 1988,
+  "kind": "sampler/groovebox",
+  "voices": [
+   {
+    "label": "A01 (v1/v2 pad name HIHT)",
+    "name": "Hi-hat pad",
+    "type": "Closed Hat",
+    "controls": [
+     "tune -12..+6 semitones in 0.1 steps",
+     "attack 0-5000 ms",
+     "decay 0-5000 ms, decay mode START/END",
+     "velocity -> volume/attack/soft start",
+     "poly mode POLY/MONO/NOTE OFF",
+     "2 cutoff (mute) targets",
+     "mix volume + pan 50L-50R",
+     "individual out 1-8 + echo send level",
+     "Note Variation slider (tune/attack/decay)",
+     "16 Levels"
+    ],
+    "switch_alternate": "loose (medium) and open hi-hat on the same pad, picked by the Hihat Decay slider (v1/v2) or DCY SW mode (v3)",
+    "notes": "Manual v3.1 p.115: old-software hi-hat pad plays closed, loose or open hi-hat depending on slider position; the slider also sets decay. Pack has Closed Hat.wav and Open Hat.wav only (no loose hat)."
+   },
+   {
+    "label": "A02 (v1/v2 pad name SNR1)",
+    "name": "Snare 1",
+    "type": "Snare",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad name SNR1 is documented (manual p.168); its pad number A02 is inferred from the listed order HIHT, SNR1, SNR2."
+   },
+   {
+    "label": "A03 (v1/v2 pad name SNR2)",
+    "name": "Snare 2",
+    "type": "Snare",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "Position inferred (see A02)."
+   },
+   {
+    "label": "A04 (v1/v2 pad name BASS, position inferred)",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad name BASS is documented (manual p.168). SOS says the panel legend put hi-hat, snares and bass drum on the bottom row, so A04 is inferred."
+   },
+   {
+    "label": "A05",
+    "name": "unknown (legend: toms/cymbals/percussion on upper rows)",
+    "type": "Other",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "v1/v2 had 32 fixed pad names running HIHT to DR16; names for A05-B16 not found."
+   },
+   {
+    "label": "A06",
+    "name": "unknown",
+    "type": "Other",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "see A05"
+   },
+   {
+    "label": "A07",
+    "name": "unknown",
+    "type": "Other",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "see A05"
+   },
+   {
+    "label": "A08",
+    "name": "unknown",
+    "type": "Other",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "see A05"
+   },
+   {
+    "label": "A09",
+    "name": "unknown",
+    "type": "Other",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "see A05"
+   },
+   {
+    "label": "A10",
+    "name": "unknown",
+    "type": "Other",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "see A05"
+   },
+   {
+    "label": "A11",
+    "name": "unknown",
+    "type": "Other",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "see A05"
+   },
+   {
+    "label": "A12",
+    "name": "unknown",
+    "type": "Other",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "see A05"
+   },
+   {
+    "label": "A13",
+    "name": "unknown",
+    "type": "Other",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "see A05"
+   },
+   {
+    "label": "A14",
+    "name": "unknown",
+    "type": "Other",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "see A05"
+   },
+   {
+    "label": "A15",
+    "name": "unknown",
+    "type": "Other",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "see A05"
+   },
+   {
+    "label": "A16",
+    "name": "unknown",
+    "type": "Other",
+    "controls": [
+     "same per-note set as A01"
+    ],
+    "switch_alternate": null,
+    "notes": "see A05; banks B-D (v3) repeat the 16 pads with other note numbers"
+   }
+  ],
+  "choke_groups": [],
+  "accent": "No accent key. 16 velocity- and pressure-sensitive pads; FULL LEVEL key forces maximum level; 16 LEVELS spreads one sound over all 16 pads at 16 steps of velocity, tune, attack or decay; per-note velocity modulation of volume (0-100%), attack and soft start.",
+  "built_in_effects": [],
+  "global_features": [
+   "No built-in effects and no filter; echo send output + echo return input for an external unit",
+   "Swing 50-75% on 1/8 or 1/16 notes (66% = triplet swing; manual suggests 54% and 62%)",
+   "Timing correct (quantize) and Note Repeat",
+   "16 voices; sounds stored 12-bit non-linear at 40 kHz; 13.1 s mono memory (26.2 s expanded)",
+   "128 sounds (34 before v3), 8 programs x 64 note assignments on MIDI notes 35-98",
+   "4 pad banks A-D in v3 (2 banks / 32 fixed pad names in v1-v2)",
+   "Up to 3 sounds per note: simultaneous, velocity switch (VEL SW) or decay switch (DCY SW)",
+   "Cutoff: any note can silence up to 2 other notes (manual example: closed hat stops open hat); Mono mode restarts a voice",
+   "Outputs: stereo mix, 8 individual outs (or pairs 1-2/3-4/5-6/7-8), echo send; headphones on MPC60 II",
+   "Sequencer: 99 sequences x 99 tracks, 20 songs, 60,000 notes, 96 ppq; MIDI out 4 ports",
+   "v3 sample edit can reverse any portion of a sound",
+   "Factory disks: Studio set, Rock set, Dry set, Synth set; add-on library SL601-SL630"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "A01 (HIHT)",
+    "midi_note": null,
+    "sound": "hi-hat: closed / loose / open via slider"
+   },
+   {
+    "pad_or_key": "A02 (SNR1, inferred position)",
+    "midi_note": null,
+    "sound": "snare 1"
+   },
+   {
+    "pad_or_key": "A03 (SNR2, inferred position)",
+    "midi_note": null,
+    "sound": "snare 2"
+   },
+   {
+    "pad_or_key": "BASS pad (A04 inferred)",
+    "midi_note": 36,
+    "sound": "bass drum; v3 converts the v2 pad BASS to note 36 by default"
+   }
+  ],
+  "pack_contents": "21 stereo 16-bit/44.1 kHz WAVs named by instrument, no numbers, no loops: Bassdrum, Bassdrum Gated, Snare 1, Snare 2, Snare 3, Rim Gated, Clap, Closed Hat, Open Hat, Crash, Ride, Tom H, Tom M, Tom L, Conga H, Conga L, Bongo, Timbale, Click, plus two tonal extras: Bass (1.0 s) and Electric Piano (0.6 s). No source ties this set to a specific factory disk.",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "DJ Shadow",
+    "title": "Endtroducing.....",
+    "year": 1996,
+    "evidence": "https://en.wikipedia.org/wiki/MPC60 - cites Keyboard, Oct 1997 ('DJ Shadow + Akai MPC = History'): made on an MPC60 MKII; RBMA and Sound On Sound say the same",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.polynominal.com/akai-mpc60/akai-mpc60-manual.pdf",
+   "https://www.soundonsound.com/music-business/akai-mpc60-revisited",
+   "https://daily.redbullmusicacademy.com/2017/11/mpc-instrumental-instruments",
+   "https://en.wikipedia.org/wiki/MPC60",
+   "https://zine.r-massive.com/?p=5980",
+   "https://www.polynominal.com/sample-packs/Akai-mpc60-sample-library",
+   "https://vintagesynth.com/akai/mpc60"
+  ]
+ },
+ {
+  "machine": "Akai XE8 MIDI Drum Expander",
+  "pack_folders": [
+   "Akai XE8"
+  ],
+  "maker": "Akai",
+  "year": 1988,
+  "kind": "drum sound module",
+  "voices": [
+   {
+    "label": "KICK-0",
+    "name": "Sound 1: Kick 0 (internal 1)",
+    "type": "Kick",
+    "controls": [
+     "source INT 1-16 or card EXT1/EXT2 sound",
+     "key range low/high",
+     "master tune -8..+7, fine tune -8..+7",
+     "pitch mod by key or velocity (depth 0-15)",
+     "pitch sweep range/time + polarity",
+     "output level 0-127",
+     "replay forward/back (reverse)",
+     "hold 0-127 (4 ms steps), decay 0-127",
+     "level/decay mod by key or velocity",
+     "output: free assign or fixed out 1-8"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: XE8 Kick 1 int_1.wav"
+   },
+   {
+    "label": "KICK-1",
+    "name": "Sound 2: Kick 1 (internal 2)",
+    "type": "Kick",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: XE8 Kick 2 int_2.wav"
+   },
+   {
+    "label": "KICK-2",
+    "name": "Sound 3: Kick 2 (internal 3)",
+    "type": "Kick",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: XE8 Kick 3 int_3.wav"
+   },
+   {
+    "label": "KICK-3",
+    "name": "Sound 4: Kick 3 (internal 4)",
+    "type": "Kick",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack names this file 'XE8 ElectroTom int_4.wav' but the official list says KICK-3; MT review says one of the four kicks has ambience."
+   },
+   {
+    "label": "HIHAT-0",
+    "name": "Sound 5: Hi-hat 0 (internal 5)",
+    "type": "Closed Hat",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: XE8 Hat Closed int_5.wav. Hollow Sun describes closed, medium and open hats."
+   },
+   {
+    "label": "HIHAT-1",
+    "name": "Sound 6: Hi-hat 1 (internal 6)",
+    "type": "Open Hat",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Medium / half-open hat. Pack: XE8 Hat Medium int_6.wav"
+   },
+   {
+    "label": "HIHAT-2",
+    "name": "Sound 7: Hi-hat 2 (internal 7)",
+    "type": "Open Hat",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: XE8 Hat Open int_7.wav"
+   },
+   {
+    "label": "SNARE-0",
+    "name": "Sound 8: Snare 0 (internal 8)",
+    "type": "Snare",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: XE8 Snare 1 int_8.wav"
+   },
+   {
+    "label": "SNARE-1",
+    "name": "Sound 9: Snare 1 (internal 9)",
+    "type": "Snare",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: XE8 Snare 2 int_9.wav"
+   },
+   {
+    "label": "SNARE-2",
+    "name": "Sound 10: Snare 2 (internal 10)",
+    "type": "Snare",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Printed 'SANRE 2' on the manual's Program 1 sheet. Pack: XE8 Snare 3 int_10.wav"
+   },
+   {
+    "label": "TOM-0",
+    "name": "Sound 11: Tom 0 (internal 11)",
+    "type": "Tom",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: XE8 Tom Low int_11.wav"
+   },
+   {
+    "label": "TOM-1",
+    "name": "Sound 12: Tom 1 (internal 12)",
+    "type": "Tom",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: XE8 Tom High int_12.wav"
+   },
+   {
+    "label": "CRASH",
+    "name": "Sound 13: Crash (internal 13)",
+    "type": "Crash",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: XE8 Crash int_13.wav"
+   },
+   {
+    "label": "JAZZ RID",
+    "name": "Sound 14: Jazz ride (internal 14)",
+    "type": "Ride",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Program 1 sheet prints 'JAZZ RIDE'. Pack: XE8 Ride int_14.wav"
+   },
+   {
+    "label": "CLAP",
+    "name": "Sound 15: Clap (internal 15)",
+    "type": "Clap",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: XE8 Clap int_15.wav"
+   },
+   {
+    "label": "PERC",
+    "name": "Sound 16: Percussion (internal 16)",
+    "type": "Perc",
+    "controls": [
+     "same as Sound 1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack calls it 'XE8 Crack int_16.wav'"
+   }
+  ],
+  "choke_groups": [],
+  "accent": "No accent control. Responds to MIDI velocity 1-127; velocity (or key position) can modulate pitch, level and decay per sound. Manual example: velocity on decay makes a hard hit an open hat and a soft hit a closed hat.",
+  "built_in_effects": [],
+  "global_features": [
+   "No built-in effects; 8 mono individual outs + mono mix out, no pan",
+   "8-voice polyphony; free-assign mode gives a new note the quietest channel; fixed-assign mode routes each sound to out 1-8, and two sounds on one out cut each other",
+   "32 programs x 16 sounds; each sound has a key range of up to 16 keys; up to 8 sounds can layer on one key",
+   "2 ROM card slots (EXT1 front, EXT2 rear); SL801R and SL802R supplied, SL803R and SL804R optional",
+   "16-bit samples, 1 MB internal ROM; 33/44 kHz per MT review (polynominal says 32 or 44 kHz)",
+   "Reverse playback per sound (REPLAY F/b); pitch sweep with up/down polarity",
+   "MT review: random pitch and duration fluctuation available",
+   "MIDI in/out/thru; Omni at shipment; program change 1-32; SysEx program dumps; MIDI monitor; memory protect on at shipment",
+   "No sequencer; SHOT key auditions the selected sound"
+  ],
+  "sound_bank": {
+   "total": 16,
+   "categories": [
+    {
+     "name": "Kick (internal)",
+     "count": 4,
+     "range": "1-4"
+    },
+    {
+     "name": "Hi-hat (internal)",
+     "count": 3,
+     "range": "5-7"
+    },
+    {
+     "name": "Snare (internal)",
+     "count": 3,
+     "range": "8-10"
+    },
+    {
+     "name": "Tom (internal)",
+     "count": 2,
+     "range": "11-12"
+    },
+    {
+     "name": "Cymbal: CRASH, JAZZ RID (internal)",
+     "count": 2,
+     "range": "13-14"
+    },
+    {
+     "name": "Clap (internal)",
+     "count": 1,
+     "range": "15"
+    },
+    {
+     "name": "Perc (internal)",
+     "count": 1,
+     "range": "16"
+    },
+    {
+     "name": "SL801R card (standard accessory; in pack as ext_1-16)",
+     "count": 16,
+     "range": "EXT 1-16"
+    },
+    {
+     "name": "SL802R card (standard accessory; not in pack)",
+     "count": 16,
+     "range": "EXT 1-16"
+    },
+    {
+     "name": "SL803R card (option; not in pack)",
+     "count": 14,
+     "range": "EXT 1-14"
+    },
+    {
+     "name": "SL804R card (option; not in pack)",
+     "count": 14,
+     "range": "EXT 1-14"
+    }
+   ],
+   "ordered_list": [
+    "INT 1 KICK-0",
+    "INT 2 KICK-1",
+    "INT 3 KICK-2",
+    "INT 4 KICK-3",
+    "INT 5 HIHAT-0",
+    "INT 6 HIHAT-1",
+    "INT 7 HIHAT-2",
+    "INT 8 SNARE-0",
+    "INT 9 SNARE-1",
+    "INT 10 SNARE-2",
+    "INT 11 TOM-0",
+    "INT 12 TOM-1",
+    "INT 13 CRASH",
+    "INT 14 JAZZ RID",
+    "INT 15 CLAP",
+    "INT 16 PERC",
+    "SL801R 1 KICK-4",
+    "SL801R 2 SNARE-3",
+    "SL801R 3 RIM SHOT-0",
+    "SL801R 4 HIHAT CLOSE-0",
+    "SL801R 5 HIHAT OPEN-0",
+    "SL801R 6 TOM-2",
+    "SL801R 7 TOM-3",
+    "SL801R 8 TOM-4",
+    "SL801R 9 TOM-5",
+    "SL801R 10 CYMBAL-0",
+    "SL801R 11 CYMBAL-1",
+    "SL801R 12 PERCUSSION-0",
+    "SL801R 13 PERCUSSION-1",
+    "SL801R 14 PERCUSSION-2",
+    "SL801R 15 PERCUSSION-3",
+    "SL801R 16 ORCHESTRA HIT-0",
+    "SL802R 1 KICK-5",
+    "SL802R 2 SNARE-4",
+    "SL802R 3 RIM SHOT-1",
+    "SL802R 4 HIHAT CLOSE-1",
+    "SL802R 5 HIHAT OPEN-1",
+    "SL802R 6 TOM-6",
+    "SL802R 7 TOM-7",
+    "SL802R 8 TOM-8",
+    "SL802R 9 TOM-9",
+    "SL802R 10 CYMBAL-2",
+    "SL802R 11 CYMBAL-3",
+    "SL802R 12 CYMBAL-4",
+    "SL802R 13 PERCUSSION-4",
+    "SL802R 14 PERCUSSION-5",
+    "SL802R 15 PERCUSSION-6",
+    "SL802R 16 PERCUSSION-7",
+    "SL803R 1 KICK-8",
+    "SL803R 2 SNARE-7",
+    "SL803R 3 RIM SHOT-3",
+    "SL803R 4 TOM-13",
+    "SL803R 5 TOM-14",
+    "SL803R 6 TOM-15",
+    "SL803R 7 CYMBAL-9",
+    "SL803R 8 CYMBAL-10",
+    "SL803R 9 CYMBAL-11",
+    "SL803R 10 HIHAT OPEN-3",
+    "SL803R 11 HIHAT CLOSE-3",
+    "SL803R 12 GATE SNARE",
+    "SL803R 13 GATE KICK",
+    "SL803R 14 CYMBAL-12",
+    "SL804R 1 KICK-6",
+    "SL804R 2 SNARE-5",
+    "SL804R 3 RIM SHOT-2",
+    "SL804R 4 TOM-10",
+    "SL804R 5 TOM-11",
+    "SL804R 6 TOM-12",
+    "SL804R 7 HIHAT CLOSE-2",
+    "SL804R 8 HIHAT OPEN-2",
+    "SL804R 9 CYMBAL-5",
+    "SL804R 10 CYMBAL-6",
+    "SL804R 11 CYMBAL-7",
+    "SL804R 12 CYMBAL-8",
+    "SL804R 13 KICK-7",
+    "SL804R 14 SNARE-6"
+   ],
+   "list_source": "https://polynominal.com/sample-packs/akai-xe8/Akai%20XE8%20user%20manual.pdf (manual p.26, Sampled Sound List)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "Program 1, Sound 1 (keys 36-38)",
+    "midi_note": 36,
+    "sound": "KICK-0"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 2 (keys 39-41)",
+    "midi_note": 39,
+    "sound": "KICK-1"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 3 (keys 42-44)",
+    "midi_note": 42,
+    "sound": "KICK-2"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 4 (keys 45-47)",
+    "midi_note": 45,
+    "sound": "KICK-3"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 8 (keys 48-49)",
+    "midi_note": 48,
+    "sound": "SNARE-0"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 9 (keys 50-51)",
+    "midi_note": 50,
+    "sound": "SNARE-1"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 10 (keys 52-53)",
+    "midi_note": 52,
+    "sound": "SNARE-2"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 5 (keys 54-55)",
+    "midi_note": 54,
+    "sound": "HIHAT-0"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 6 (keys 56-57)",
+    "midi_note": 56,
+    "sound": "HIHAT-1"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 7 (keys 58-59)",
+    "midi_note": 58,
+    "sound": "HIHAT-2"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 11 (keys 60-66)",
+    "midi_note": 60,
+    "sound": "TOM-0"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 12 (keys 67-76)",
+    "midi_note": 67,
+    "sound": "TOM-1"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 13 (keys 77-86)",
+    "midi_note": 77,
+    "sound": "CRASH"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 14 (keys 87-94)",
+    "midi_note": 87,
+    "sound": "JAZZ RID"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 15 (key 95)",
+    "midi_note": 95,
+    "sound": "CLAP"
+   },
+   {
+    "pad_or_key": "Program 1, Sound 16 (key 96)",
+    "midi_note": 96,
+    "sound": "PERC"
+   }
+  ],
+  "pack_contents": "32 mono 16-bit/44.1 kHz WAVs named 'XE8 <name> int_N' (N = 1-16, the full internal ROM in official order) and 'XE8 <name> ext_N' (N = 1-16, the SL801R card in official order). Pack names differ from Akai's: int_4 'ElectroTom' = KICK-3; int_5/6/7 Hat Closed/Medium/Open = HIHAT-0/1/2; int_14 'Ride' = JAZZ RID; int_16 'Crack' = PERC; ext_3 'Sidestick' = RIM SHOT-0; ext_10 'Ride' and ext_11 'Crash' = CYMBAL-0/1; ext_12-13 'Cowbell 1/2' and ext_14-15 'Block 1/2' = PERCUSSION-0..3; ext_16 'Orch' = ORCHESTRA HIT-0. No SL802R/803R/804R sounds, no loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://polynominal.com/sample-packs/akai-xe8/Akai%20XE8%20user%20manual.pdf",
+   "https://www.muzines.co.uk/articles/akai-xe8-midi-drum-expander/58",
+   "https://hollowsun.com/nostalgia/vintage/xe8/index.html",
+   "https://polynominal.com/sample-packs/akai-xe8"
+  ]
+ },
+ {
+  "machine": "Akai XR10 16-bit PCM Drum Machine",
+  "pack_folders": [
+   "Akai XR-10",
+   "Akai XR10"
+  ],
+  "maker": "Akai",
+  "year": 1990,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "Pad #1 (bank 1: KICK 7)",
+    "name": "Kick 7",
+    "type": "Kick",
+    "controls": [
+     "per sound: Sound Volume 0-31",
+     "Sound Tune -26..+25 semitones",
+     "Fine Tune -8..+7 (6.25 cents)",
+     "Pan L15-C-R15",
+     "Effect Send 0-31",
+     "DCA Decay 0-31",
+     "DCA Hold 0-31",
+     "Sweep Decay 0-63",
+     "Sweep Depth 0-31",
+     "Sweep Polarity DU/UD",
+     "Reverse FW/RV",
+     "Velocity Feel ON/OFF"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Akai XR-10/Bassdrums/Bassdrum-07.wav; Akai XR10/XR10Kick07.wav (numbering assumed to follow ROM order)"
+   },
+   {
+    "label": "Pad #2 (bank 1: SNARE 2)",
+    "name": "Snare 2",
+    "type": "Snare",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Snaredrum-02.wav; XR10Snare02.wav"
+   },
+   {
+    "label": "Pad #3 (bank 1: CRASH 1)",
+    "name": "Crash 1",
+    "type": "Crash",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "Factory pan about R10 (Chart C, low-res scan). Pack: Cymbals/Crash-01.wav; XR10Crash01.wav"
+   },
+   {
+    "label": "Pad #4 (bank 1: TOM1 L)",
+    "name": "Tom set 1 low",
+    "type": "Tom",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "Factory pan about L15. Pack mapping inferred: XR10LoTom01.wav; Percussion/Tom L-01.wav"
+   },
+   {
+    "label": "Pad #5 (bank 1: TOM1 M)",
+    "name": "Tom set 1 mid",
+    "type": "Tom",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "Factory pan centre. Pack mapping inferred: XR10MidTom01.wav; Tom M-01.wav"
+   },
+   {
+    "label": "Pad #6 (bank 1: TOM1 H)",
+    "name": "Tom set 1 high",
+    "type": "Tom",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "Factory pan about R15. Pack mapping inferred: XR10HiTom01.wav; Toma H-01.wav"
+   },
+   {
+    "label": "Pad #7 (bank 1: HAT CL)",
+    "name": "Closed hi-hat",
+    "type": "Closed Hat",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "Factory pan about R10. Pack: Cymbals/Hat Closed.wav; XR10Hat_C.wav"
+   },
+   {
+    "label": "Pad #8 (bank 1: HAT MD)",
+    "name": "Mid (half-open) hi-hat",
+    "type": "Open Hat",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Cymbals/Hat Middle.wav; XR10Hat_Mid.wav"
+   },
+   {
+    "label": "Pad #9 (bank 1: HAT OP)",
+    "name": "Open hi-hat",
+    "type": "Open Hat",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Cymbals/Hat Open.wav; XR10Hat_O.wav"
+   },
+   {
+    "label": "Pad #10 (bank 1: CRASH 2)",
+    "name": "Crash 2",
+    "type": "Crash",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "In preset-rhythm play pads #10-#15 select Variation/Fill-in instead of sounds. Pack: Crash-02.wav; XR10Crash02.wav"
+   },
+   {
+    "label": "Pad #11 (bank 1: CHOKE)",
+    "name": "Choke cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "A choked-cymbal sample, not a choke function. Pack: XR10Choke.wav; probably Akai XR-10/Cymbals/Crash-03.wav (0.45 s, inferred)"
+   },
+   {
+    "label": "Pad #12 (bank 1: RIDE)",
+    "name": "Ride",
+    "type": "Ride",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Cymbals/Ride.wav; XR10RideCymbal.wav"
+   },
+   {
+    "label": "Pad #13 (bank 1: RIM 1)",
+    "name": "Rimshot 1",
+    "type": "Rim",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Rim Shot-01.wav; XR10Rimshot01.wav"
+   },
+   {
+    "label": "Pad #14 (bank 1: CLAPS)",
+    "name": "Handclaps",
+    "type": "Clap",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Clap.wav; XR10Clap.wav"
+   },
+   {
+    "label": "Pad #15 (bank 1: FINGER)",
+    "name": "Finger snap / click",
+    "type": "Snap",
+    "controls": [
+     "same per-sound set as pad #1"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Fingersanp.wav; XRFinSnap.wav"
+   }
+  ],
+  "choke_groups": [],
+  "accent": "ACCENT key: hold it while hitting a pad for a louder hit; accents are recorded per note. Pads are not velocity-sensitive. Step write lets you edit velocity; MIDI note-on velocity 1-127 is recognized. MT review: in step time the 15 pads play the selected sound at 15 different velocities. Velocity Feel softens the attack at low velocity.",
+  "built_in_effects": [],
+  "global_features": [
+   "No built-in effects; per-sound Effect Send (0-31) + master send knob feed an EFFECT SEND output for an external unit",
+   "8-voice polyphony; MT review: a 9th note on one beat erases the earliest note on that beat",
+   "10 pad banks of 15 pads: banks 1-5 fixed, 6-10 user-assignable",
+   "65 preset sounds + 32 user sounds (66-97) = edited copies of presets",
+   "450 preset patterns: 50 styles x (3 variations of 2 bars, 3 fill-ins, intro, break, ending)",
+   "99 user patterns, 20 songs (up to 99 parts), 96 ppq (1/384 note), tempo 40-296 BPM",
+   "Timing correct, note repeat, sound replace, auto scan",
+   "Outputs: stereo L/R (mono from L), effect send, headphones; no individual outs",
+   "MIDI in/out (no thru) with separate receive and transmit note maps; metronome sends note 24",
+   "Footswitch jacks: start/stop and fill-in",
+   "No swing/shuffle parameter found in the manual contents or reviews"
+  ],
+  "sound_bank": {
+   "total": 65,
+   "categories": [
+    {
+     "name": "Kick",
+     "count": 10,
+     "range": "1-10"
+    },
+    {
+     "name": "Snare",
+     "count": 10,
+     "range": "11-20"
+    },
+    {
+     "name": "Rimshot",
+     "count": 2,
+     "range": "21-22"
+    },
+    {
+     "name": "Hi-hat (closed, mid, open)",
+     "count": 3,
+     "range": "23-25"
+    },
+    {
+     "name": "Tom (4 sets x low/mid/high)",
+     "count": 12,
+     "range": "26-37"
+    },
+    {
+     "name": "Cymbal (crash 1, crash 2, ride, choke)",
+     "count": 4,
+     "range": "38-41"
+    },
+    {
+     "name": "Claps and finger",
+     "count": 2,
+     "range": "42-43"
+    },
+    {
+     "name": "Hand percussion (congas, vibraslap, guiros, cabasa, tambourine)",
+     "count": 9,
+     "range": "44-52"
+    },
+    {
+     "name": "Orchestra hit (HITS)",
+     "count": 1,
+     "range": "53"
+    },
+    {
+     "name": "Percussion (triangles, cowbell, claves, whistle, squeaks, timbales, agogos)",
+     "count": 11,
+     "range": "54-64"
+    },
+    {
+     "name": "Slap bass (CHOP)",
+     "count": 1,
+     "range": "65"
+    },
+    {
+     "name": "User sounds (edited copies, not new samples)",
+     "count": 32,
+     "range": "66-97"
+    }
+   ],
+   "ordered_list": [
+    "KICK 1",
+    "KICK 2",
+    "KICK 3",
+    "KICK 4",
+    "KICK 5",
+    "KICK 6",
+    "KICK 7",
+    "KICK 8",
+    "KICK 9",
+    "KICK 10",
+    "SNARE 1",
+    "SNARE 2",
+    "SNARE 3",
+    "SNARE 4",
+    "SNARE 5",
+    "SNARE 6",
+    "SNARE 7",
+    "SNARE 8",
+    "SNARE 9",
+    "SNARE 10",
+    "RIMSHOT 1",
+    "RIMSHOT 2",
+    "HAT CL",
+    "HAT MD",
+    "HAT OP",
+    "TOM1 L",
+    "TOM1 M",
+    "TOM1 H",
+    "TOM2 L",
+    "TOM2 M",
+    "TOM2 H",
+    "TOM3 L",
+    "TOM3 M",
+    "TOM3 H",
+    "TOM4 L",
+    "TOM4 M",
+    "TOM4 H",
+    "CRASH 1",
+    "CRASH 2",
+    "RIDE",
+    "CHOKE",
+    "CLAPS",
+    "FINGER",
+    "CONGA 1",
+    "CONGA 2",
+    "CONGA 3",
+    "CONGA 4",
+    "VIBRASLAP",
+    "GUIRO 1",
+    "GUIRO 2",
+    "CABASA",
+    "TAMBOURINE",
+    "HITS",
+    "TRIANGLE L",
+    "TRIANGLE H",
+    "COWBELL",
+    "CLAVES",
+    "WHISTLE",
+    "SQUEAK L",
+    "SQUEAK H",
+    "TIMBALES L",
+    "TIMBALES H",
+    "AGOGO L",
+    "AGOGO H",
+    "CHOP"
+   ],
+   "list_source": "https://www.polynominal.com/akai-xr10/assets/files/akai-xr10-manual.pdf (Owner's Manual p.36-37, Charts B and C)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "Bank 1 pad #1",
+    "midi_note": 47,
+    "sound": "KICK 7"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #2",
+    "midi_note": 55,
+    "sound": "SNARE 2"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #3",
+    "midi_note": 49,
+    "sound": "CRASH 1"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #4",
+    "midi_note": 54,
+    "sound": "TOM1 L"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #5",
+    "midi_note": 56,
+    "sound": "TOM1 M"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #6",
+    "midi_note": 58,
+    "sound": "TOM1 H"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #7",
+    "midi_note": 42,
+    "sound": "HAT CL"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #8",
+    "midi_note": 44,
+    "sound": "HAT MD"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #9",
+    "midi_note": 46,
+    "sound": "HAT OP"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #10",
+    "midi_note": 51,
+    "sound": "CRASH 2"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #11",
+    "midi_note": 37,
+    "sound": "CHOKE"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #12",
+    "midi_note": 39,
+    "sound": "RIDE"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #13",
+    "midi_note": 71,
+    "sound": "RIMSHOT 1"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #14",
+    "midi_note": 74,
+    "sound": "CLAPS"
+   },
+   {
+    "pad_or_key": "Bank 1 pad #15",
+    "midi_note": 76,
+    "sound": "FINGER"
+   }
+  ],
+  "pack_contents": "Two folders. 'Akai XR-10': 57 stereo 16-bit/44.1 kHz WAVs in subfolders Bassdrums (Bassdrum-01..10), Snaredrums (Snaredrum-01..10), Cymbals (Crash-01..03, Hat Closed, Hat Middle, Hat Open, Ride), Percussion (Agogo, Cabasa, Clap, Claves, Conga-01..04, Cowbell, Fingersanp [sic], Guiro-01, Guirro-02 [sic], Rim Shot-01/02, Tambourine, Timbale H/L, Tom L-01/02, Tom M-01/02, Toma H-01 [sic], Tom H-02, Triangle, Vibrator [= vibraslap], Whistle), Misc (Hit, Slap Bass, Square Kick-01/02). Only 6 of 12 toms, 1 agogo, 1 triangle; Crash-03 (0.45 s) is probably CHOKE and 'Square Kick-01/02' probably SQUEAK L/H (both inferred). 'Akai XR10': 62 mono WAVs, flat: XR10Kick01-10, XR10Snare01-10, XR10Rimshot01-02, XR10Hat_C/_Mid/_O, XR10LoTom01-04, XR10MidTom01-04, XR10HiTom01-04 (toms grouped by pitch, not by set), XR10Crash01-02, XR10RideCymbal, XR10Choke, XR10Clap, XRFinSnap, XRConga01-04, XR10Vibra, XRGuira01-02, XRCabasa, XR10Tamborine, XRTambroll (not in the ROM list), XR10Triangle, XRCow, XRClave, XR10Whistle, XR10HiQ01-02 (probably SQUEAK L/H), XR10Timb_Hi/_Lo, XRAgogo. Missing there: HITS, CHOP, one triangle, one agogo. Names, not ROM numbers; no loops.",
+  "preset_patterns": [
+   {
+    "name": "01 ROCK1 (initial tempo 140)",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "02 ROCK2 (initial tempo 135)",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "03 ROCK3",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "04 ROCK4",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "05 ROCK5",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "06 DANCE1",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "07 DANCE2",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "08 DANCE3",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "09 DANCE4",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "10 DANCE5",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "11 FUNK1",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "12 FUNK2",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "13 FUNK3",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "14 FUNK4",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "15 FUNK5",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "16 ELECTRO1",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "17 ELECTRO2",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "18 ELECTRO3",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "19 ELECTRO4",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "20 ELECTRO5",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "21 DISCO1",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "22 DISCO2",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "23 DISCO3",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "24 DISCO4",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "25 DISCO5",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "26 BEATBOX1",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "27 BEATBOX2",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "28 SHUFFLE1",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "29 SHUFFLE2",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "30 SHUFFLE3",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "31 SAMBA1",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "32 SAMBA2",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "33 MAMBO",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "34 SALSA",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "35 CHACHA1",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "36 CHACHA2",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "37 RHUMBA",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "38 BEGUINE",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "39 BOSSA1",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "40 BOSSA2",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "41 WALTZ",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "42 COUNTRY",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "43 MARCH",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "44 TWIST",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "45 SWING",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "46 SLOWROCK",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "47 BALLAD",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "48 REGGAE",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "49 JAZZ",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   },
+   {
+    "name": "50 TRIBAL",
+    "source": "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.polynominal.com/akai-xr10/assets/files/akai-xr10-manual.pdf",
+   "https://www.muzines.co.uk/articles/akai-xr10/387",
+   "https://www.polynominal.com/akai-xr10/index.html",
+   "https://www.polynominal.com/akai-xr10/assets/images/preset.jpg",
+   "https://soundprogramming.net/drum-machines/akai/akai-xr10",
+   "https://hollowsun.com/nostalgia/vintage/xr10/index.html",
+   "https://vintagesynth.com/akai/XR10"
+  ]
+ },
+ {
+  "machine": "Sequential Circuits Drumtraks (Model 400)",
+  "pack_folders": [
+   "Sequential Circuits Drumtraks",
+   "Sequential Drumtacks",
+   "Sequential Drumtrax"
+  ],
+  "maker": "Sequential Circuits Inc.",
+  "year": 1984,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "BASS",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "PER INSTRUMENT VOLUME 00-15",
+     "PER INSTRUMENT TUNING 00-15",
+     "volume and pitch programmable per note",
+     "ACCENT"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 1 (alone). Pack: Bassdrum.wav / DT Kick.wav / DT_Kick.wav / DrumtraxKick.wav"
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "same as BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 2, shared with RIM. Pack: Snaredrum.wav / DT Snare.wav / DT_Snare.wav / DrumtraxSnare.wav"
+   },
+   {
+    "label": "RIM",
+    "name": "Rim shot",
+    "type": "Rim",
+    "controls": [
+     "same as BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 2. Pack: Rim Shot.wav / DT Rimshot.wav / DT_Rimshot.wav / DrumtraxRimshot.wav"
+   },
+   {
+    "label": "TOM 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "same as BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 3, shared with TOM 2. E&MM: tuning gives effectively 32 tom sounds. Pack: Tom.wav (only one tom in this folder) / DT Tom1.wav / DT_Tom01.wav / DrumtraxTom01.wav"
+   },
+   {
+    "label": "TOM 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "same as BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 3. Pack: DT Tom2.wav / DT_Tom02.wav / DrumtraxTom02.wav"
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash cymbal",
+    "type": "Crash",
+    "controls": [
+     "same as BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 4 (panel group legend CYMBAL), shared with RIDE. Pack: Crash.wav / DT Crash.wav / DT_Crash.wav / DrumtraxCrash.wav"
+   },
+   {
+    "label": "RIDE",
+    "name": "Ride cymbal",
+    "type": "Ride",
+    "controls": [
+     "same as BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 4. Pack: Ride.wav / DT Ride.wav / DT_Ride.wav / DrumtraxRide.wav"
+   },
+   {
+    "label": "CLOSED",
+    "name": "Closed hi-hat",
+    "type": "Closed Hat",
+    "controls": [
+     "same as BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 5 (panel group legend HI HAT), shared with OPEN. Pack: Hat Closed.wav / DT Hat Closed.wav / DT_Closedhat.wav / DrumtraxClosedhat.wav"
+   },
+   {
+    "label": "OPEN",
+    "name": "Open hi-hat",
+    "type": "Open Hat",
+    "controls": [
+     "same as BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 5. Pack: Hat Open.wav / DT Hat Open.wav / DT_Openhat.wav / DrumtraxOpenhat.wav"
+   },
+   {
+    "label": "CLAPS",
+    "name": "Handclaps",
+    "type": "Clap",
+    "controls": [
+     "same as BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 6, shared with TAMB, COWBELL, CABASA. Pack: Clap.wav / DT Claps.wav / DT_Clap.wav / DrumtraxClap.wav"
+   },
+   {
+    "label": "TAMB",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "same as BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 6. Pack: Tambourine.wav / DT Tambourine.wav / DT_Tamborine.wav / DrumtraxTamborine.wav"
+   },
+   {
+    "label": "COWBELL",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "same as BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 6. Pack: Cowbell.wav / DT Cowbell.wav / DT_Cowbell.wav / DrumtraxCowbell.wav"
+   },
+   {
+    "label": "CABASA",
+    "name": "Cabasa",
+    "type": "Shaker",
+    "controls": [
+     "same as BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Channel 6. Pack: Cabasa.wav / DT Cabasa.wav / DT_Cabasa.wav / DrumtraxCabasa.wav"
+   }
+  ],
+  "choke_groups": [
+   [
+    "SNARE",
+    "RIM"
+   ],
+   [
+    "TOM 1",
+    "TOM 2"
+   ],
+   [
+    "CRASH",
+    "RIDE"
+   ],
+   [
+    "CLOSED",
+    "OPEN"
+   ],
+   [
+    "CLAPS",
+    "TAMB",
+    "COWBELL",
+    "CABASA"
+   ]
+  ],
+  "accent": "ACCENT key: hold it while playing an instrument key to accent that note. Accent adds 80 of 255 final volume units on top of PER INSTRUMENT VOLUME (0-175, in 16 steps of 11). Accent on/off is stored per note. MIDI velocity is divided into 16 volume levels and can also accent MIDI notes.",
+  "built_in_effects": [],
+  "global_features": [
+   "No built-in effects; internal mono mixer with no pan",
+   "6 channel outputs (one per channel) + metronome out + mono AUDIO OUT; only one instrument per channel sounds at a time",
+   "Swing 50/54/58/62/66/70% on eighth notes, only when the beat value is a quarter note; default 50%; set per pattern while stopped",
+   "Error correct 1/2, 1/4, 1/6, 1/8, 1/12, 1/16, 1/24, 1/32, 1/48, 1/96",
+   "Any time signature: 1-99 beats per measure; beat values 1/2 to 1/32 incl. triplets",
+   "99 patterns up to 100 measures; 99 songs of up to 100 steps; 3,289 notes; tempo 40-250 BPM",
+   "Songs can program relative volume and tempo changes",
+   "MIDI in/out: note on per instrument with velocity; Omni at power-up; song select, clock, start/stop/continue, SysEx dump",
+   "Clock in 24/48/96 ppqn; clock out 24/48 ppqn; cassette save/load; RUN/STOP and NEXT/REPEAT footswitches",
+   "Sound ROMs swappable; accepts LinnDrum ROM chips (Wikipedia)",
+   "No flam, roll or reverse function documented"
+  ],
+  "sound_bank": {
+   "total": 13,
+   "categories": [
+    {
+     "name": "Channel 1: bass",
+     "count": 1,
+     "range": "drum no. 0"
+    },
+    {
+     "name": "Channel 2: snare, rim",
+     "count": 2,
+     "range": "drum no. 1-2"
+    },
+    {
+     "name": "Channel 3: tom 1, tom 2",
+     "count": 2,
+     "range": "drum no. 3-4"
+    },
+    {
+     "name": "Channel 4: crash, ride",
+     "count": 2,
+     "range": "drum no. 5-6"
+    },
+    {
+     "name": "Channel 5: closed, open hi-hat",
+     "count": 2,
+     "range": "drum no. 7-8"
+    },
+    {
+     "name": "Channel 6: claps, tamb, cowbell, cabasa",
+     "count": 4,
+     "range": "drum no. 9-12"
+    }
+   ],
+   "ordered_list": [
+    "BASS",
+    "SNARE",
+    "RIM",
+    "TOM 1",
+    "TOM 2",
+    "CRASH CYMBAL",
+    "RIDE CYMBAL",
+    "CLOSED HI-HAT",
+    "OPEN HI-HAT",
+    "CLAPS",
+    "TAMB",
+    "COWBELL",
+    "CABASA"
+   ],
+   "list_source": "https://vintagesynth.com/sites/default/files/2017-05/DrumtraksOperationsManual.pdf (400 MIDI implementation p.7, Table 7 Drum Number)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "BASS",
+    "midi_note": 36,
+    "sound": "Bass drum (also receives 35)"
+   },
+   {
+    "pad_or_key": "SNARE",
+    "midi_note": 40,
+    "sound": "Snare (also receives 38)"
+   },
+   {
+    "pad_or_key": "RIM",
+    "midi_note": 37,
+    "sound": "Rim shot"
+   },
+   {
+    "pad_or_key": "TOM 1",
+    "midi_note": 43,
+    "sound": "Tom 1 (also receives 41)"
+   },
+   {
+    "pad_or_key": "TOM 2",
+    "midi_note": 47,
+    "sound": "Tom 2 (also receives 45)"
+   },
+   {
+    "pad_or_key": "CRASH",
+    "midi_note": 49,
+    "sound": "Crash cymbal"
+   },
+   {
+    "pad_or_key": "RIDE",
+    "midi_note": 51,
+    "sound": "Ride cymbal"
+   },
+   {
+    "pad_or_key": "CLOSED",
+    "midi_note": 44,
+    "sound": "Closed hi-hat (also receives 42)"
+   },
+   {
+    "pad_or_key": "OPEN",
+    "midi_note": 46,
+    "sound": "Open hi-hat"
+   },
+   {
+    "pad_or_key": "CLAPS",
+    "midi_note": 39,
+    "sound": "Handclaps"
+   },
+   {
+    "pad_or_key": "TAMB",
+    "midi_note": 54,
+    "sound": "Tambourine"
+   },
+   {
+    "pad_or_key": "COWBELL",
+    "midi_note": 56,
+    "sound": "Cowbell"
+   },
+   {
+    "pad_or_key": "CABASA",
+    "midi_note": 58,
+    "sound": "Cabasa"
+   }
+  ],
+  "pack_contents": "Three folders, all named by instrument (no numbers), no loops. 'Sequential Circuits Drumtraks': 12 stereo WAVs (Bassdrum, Snaredrum, Rim Shot, Tom, Crash, Ride, Hat Closed, Hat Open, Clap, Tambourine, Cowbell, Cabasa) - only one tom, so 12 of 13. 'Sequential Drumtacks' [sic]/DrumTraks: 26 mono WAVs = two complete 13-sound sets ('DT <Name>' and 'DT_<Name>') plus drumtracks.jpg, a front-panel photo. 'Sequential Drumtrax': 13 mono WAVs ('Drumtrax<Name>'), complete. All 16-bit/44.1 kHz.",
+  "preset_patterns": [
+   {
+    "name": "Factory pre-programmed patterns and songs (count, names and contents not documented)",
+    "source": "https://vintagesynth.com/sites/default/files/2017-05/DrumtraksOperationsManual.pdf"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "Daft Punk",
+    "title": "Short Circuit",
+    "year": 2001,
+    "evidence": "https://en.wikipedia.org/wiki/Drumtraks - cites Remix magazine (2006, 'ROBOPOP') for Drumtraks on 'Short Circuit' (Discovery)",
+    "grid_source": null
+   },
+   {
+    "artist": "Tame Impala",
+    "title": "Currents (album; no track named)",
+    "year": 2015,
+    "evidence": "https://en.wikipedia.org/wiki/Drumtraks - cites a 2016 Hypebeast interview",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://vintagesynth.com/sites/default/files/2017-05/DrumtraksOperationsManual.pdf",
+   "https://www.muzines.co.uk/articles/sequential-circuits-drumtraks/1581",
+   "https://en.wikipedia.org/wiki/Drumtraks",
+   "https://vintagesynth.com/sequential-circuits/drumtraks",
+   "https://hollowsun.com/nostalgia/vintage/drumtraks/index.html"
+  ]
+ },
+ {
+  "machine": "Sequential Circuits TOM (Model 420)",
+  "pack_folders": [
+   "Sequential Circuits TOM",
+   "Sequential TOM1",
+   "Sequential Tom"
+  ],
+  "maker": "Sequential Circuits Inc.",
+  "year": 1985,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "Bass drum",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "tuning 32 steps (per note)",
+     "volume 8 levels 0-7 (per note)",
+     "pan / stereo position (per note)",
+     "reverse via global REVERSE button"
+    ],
+    "switch_alternate": null,
+    "notes": "Label = review wording; panel silkscreen not verified. Pack: Bassdrum.wav / TOMKick.wav / Tom Kick.wav / kick.wav"
+   },
+   {
+    "label": "Snare drum",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "same as Bass drum"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Snaredrum.wav / TOMSnare.wav / Tom Snare.wav / snare.wav"
+   },
+   {
+    "label": "Tom 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "same as Bass drum"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Tom-01.wav / Tom Tom1.wav / tom1.wav; TOM1 folder has TOMTom_Hi and TOMTom_Lo, mapping to Tom 1/2 unknown"
+   },
+   {
+    "label": "Tom 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "same as Bass drum"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Tom-02.wav / Tom Tom2.wav / tom2.wav"
+   },
+   {
+    "label": "Hi hat open",
+    "name": "Open hi-hat",
+    "type": "Open Hat",
+    "controls": [
+     "same as Bass drum"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Hat Open.wav / TOMHat_O.wav / Tom Openhat.wav / openhat.wav"
+   },
+   {
+    "label": "Hi hat closed",
+    "name": "Closed hi-hat",
+    "type": "Closed Hat",
+    "controls": [
+     "same as Bass drum"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Hat Closed.wav / TOMHat_C.wav / Tom Hat Closed.wav / closehat.wav"
+   },
+   {
+    "label": "Crash cymbal",
+    "name": "Crash cymbal",
+    "type": "Crash",
+    "controls": [
+     "same as Bass drum"
+    ],
+    "switch_alternate": null,
+    "notes": "No ride in the internal set. Pack: Crash.wav / TOMCymbal.wav / Tom Crash.wav / crash.wav"
+   },
+   {
+    "label": "Claps",
+    "name": "Handclaps",
+    "type": "Clap",
+    "controls": [
+     "same as Bass drum"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Clap.wav / TOMClap.wav / Tom Clap.wav / clap.wav"
+   }
+  ],
+  "choke_groups": [],
+  "accent": "No accent key documented. Dynamics come from 8 programmable volume levels per note and from MIDI velocity on a touch-sensitive keyboard; Human Factor randomly varies level and pitch; error-correct rolls can get louder or quieter.",
+  "built_in_effects": [],
+  "global_features": [
+   "No built-in effects; stereo L/R outs (L doubles as headphones), no individual outs",
+   "4 playback channels shared by all sounds; a retriggered sound restarts unless Stack mode lets it overlap (up to 4)",
+   "Reverse button plays sounds backwards (described as the first drum machine reverse)",
+   "32-step tuning, 8 volume levels and pan, all programmable per note",
+   "Improv: random fills at a set percentage; Human Factor: small random pitch/level changes",
+   "Auto repeat for rolls; error correct (quantize) from 2 up to 96",
+   "Tempo 40-240 BPM",
+   "About 100 patterns and up to 100 songs (reviews differ); 2,300 notes, expandable to about 10,400",
+   "Cartridge port for ROM packs of 7-8 extra sounds (Latin Percussion first; E&MM also lists Standard Drumkit, Electronic and Effects packs)",
+   "MIDI in/out: bottom keys pick the sound, upper keys play its 32 pitches; velocity sets level; sends clock and start/stop/continue",
+   "Clock out, tape sync, trigger out, programmable footswitch",
+   "No swing/shuffle or flam documented in the four reviews"
+  ],
+  "sound_bank": {
+   "total": 8,
+   "categories": [
+    {
+     "name": "Internal drums",
+     "count": 8,
+     "range": "1-8 (panel order)"
+    }
+   ],
+   "ordered_list": [
+    "Bass drum",
+    "Snare drum",
+    "Tom 1",
+    "Tom 2",
+    "Hi hat open",
+    "Hi hat closed",
+    "Crash cymbal",
+    "Claps"
+   ],
+   "list_source": "https://www.muzines.co.uk/articles/sequential-circuits-tom/12602 (review, left-to-right panel order; no official list found)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "Bass drum button",
+    "midi_note": null,
+    "sound": "Bass drum"
+   },
+   {
+    "pad_or_key": "Snare drum button",
+    "midi_note": null,
+    "sound": "Snare drum"
+   },
+   {
+    "pad_or_key": "Tom 1 button",
+    "midi_note": null,
+    "sound": "Tom 1"
+   },
+   {
+    "pad_or_key": "Tom 2 button",
+    "midi_note": null,
+    "sound": "Tom 2"
+   },
+   {
+    "pad_or_key": "Hi hat open button",
+    "midi_note": null,
+    "sound": "Open hi-hat"
+   },
+   {
+    "pad_or_key": "Hi hat closed button",
+    "midi_note": null,
+    "sound": "Closed hi-hat"
+   },
+   {
+    "pad_or_key": "Crash cymbal button",
+    "midi_note": null,
+    "sound": "Crash cymbal"
+   },
+   {
+    "pad_or_key": "Claps button",
+    "midi_note": null,
+    "sound": "Claps"
+   }
+  ],
+  "pack_contents": "Three folders of the 8 internal sounds, named by instrument, no loops, no cartridge sounds, no reversed versions. 'Sequential Circuits TOM': 8 stereo WAVs (Bassdrum, Snaredrum, Tom-01, Tom-02, Hat Open, Hat Closed, Crash, Clap). 'Sequential TOM1': 8 mono WAVs (TOMKick, TOMSnare, TOMTom_Hi, TOMTom_Lo, TOMHat_O, TOMHat_C, TOMCymbal, TOMClap). 'Sequential Tom': 16 mono WAVs = two 8-sound sets ('Tom <Name>' and lowercase kick/snare/tom1/tom2/openhat/closehat/crash/clap). All 16-bit/44.1 kHz.",
+  "preset_patterns": [
+   {
+    "name": "Demo patterns (number and names not documented)",
+    "source": "https://www.muzines.co.uk/articles/sequential-tom/9078"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/sequential-tom/9078",
+   "https://www.muzines.co.uk/articles/sequential-circuits-tom/12602",
+   "https://www.muzines.co.uk/articles/tasty-tom/3918",
+   "https://www.muzines.co.uk/articles/sequential-tom/11797",
+   "https://www.vintagesynth.com/sequential-circuits/tom",
+   "https://hollowsun.com/nostalgia/vintage/tom/index.html"
+  ]
+ }
+]

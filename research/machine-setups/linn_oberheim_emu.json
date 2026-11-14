@@ -1,0 +1,2221 @@
+[
+ {
+  "machine": "Linn LM-1 Drum Computer",
+  "pack_folders": [
+   "Linn LM1"
+  ],
+  "maker": "Linn Electronics",
+  "year": 1980,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "bass / BASS",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "level fader",
+     "pan switch left/centre/right",
+     "tuning",
+     "individual output",
+     "separate normal and accent (loud) buttons"
+    ],
+    "switch_alternate": null,
+    "notes": "Listed column by column. Column 1 of the early-version panel (Kenton). Two fixed levels. Later revisions low-pass filter this voice (vLinn emulation manual, secondary)."
+   },
+   {
+    "label": "snare / SNARE",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "level fader",
+     "pan switch left/centre/right",
+     "tuning",
+     "individual output",
+     "separate normal and accent buttons"
+    ],
+    "switch_alternate": null,
+    "notes": "Column 2 of the early panel. Two fixed levels."
+   },
+   {
+    "label": "hihat / HIHAT",
+    "name": "Hi-hat closed",
+    "type": "Closed Hat",
+    "controls": [
+     "level fader",
+     "pan switch left/centre/right",
+     "tuning",
+     "individual output",
+     "separate normal and accent buttons",
+     "closed hi-hat decay control (per vLinn emulation manual)"
+    ],
+    "switch_alternate": null,
+    "notes": "Column 3 of the early panel. Open and closed hat come from one looping hi-hat voice, with closed made by a fast VCA discharge (vLinn, secondary)."
+   },
+   {
+    "label": "HIHAT >",
+    "name": "Hi-hat open",
+    "type": "Open Hat",
+    "controls": [
+     "shares the hi-hat voice's level, pan, tuning and output"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom row position 4 on the early panel (Kenton). Single level."
+   },
+   {
+    "label": "cabasa / CABASA",
+    "name": "Cabasa",
+    "type": "Shaker",
+    "controls": [
+     "level fader",
+     "pan switch left/centre/right",
+     "tuning",
+     "individual output",
+     "separate normal and accent buttons"
+    ],
+    "switch_alternate": null,
+    "notes": "Column 5 of the early panel. Two fixed levels."
+   },
+   {
+    "label": "tamb / TAMB",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "level fader",
+     "pan switch left/centre/right",
+     "tuning",
+     "individual output",
+     "separate normal and accent buttons"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom row position 6 on the early panel. Two fixed levels."
+   },
+   {
+    "label": "TOM ▲",
+    "name": "Tom high",
+    "type": "Tom",
+    "controls": [
+     "level fader",
+     "pan switch left/centre/right",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Separate voice from the low tom. On the later panel the top row starts CONGA▲, TOM▲; on the early panel its top-row slot is inferred (above tom lo). Later revisions low-pass filter toms (vLinn)."
+   },
+   {
+    "label": "TOM ▼ (tom lo)",
+    "name": "Tom low",
+    "type": "Tom",
+    "controls": [
+     "level fader",
+     "pan switch left/centre/right",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom row position 7 on the early panel."
+   },
+   {
+    "label": "CONGA ▲",
+    "name": "Conga high",
+    "type": "Conga",
+    "controls": [
+     "level fader",
+     "pan switch left/centre/right",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Top-row slot on the early panel inferred (above cong lo). Later revisions low-pass filter congas (vLinn)."
+   },
+   {
+    "label": "CONGA ▼ (cong lo)",
+    "name": "Conga low",
+    "type": "Conga",
+    "controls": [
+     "level fader",
+     "pan switch left/centre/right",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom row position 8 on the early panel."
+   },
+   {
+    "label": "CLAVE",
+    "name": "Clave",
+    "type": "Clave",
+    "controls": [
+     "level fader",
+     "pan switch left/centre/right",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Top row position 9 on the early panel (Kenton). Conflict: the vLinn emulation lists a RimShot and no clave. The pack's clave file is only 16 ms long."
+   },
+   {
+    "label": "COWBELL",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "level fader",
+     "pan switch left/centre/right",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom row position 9 on the early panel."
+   },
+   {
+    "label": "CLAPS",
+    "name": "Handclaps",
+    "type": "Clap",
+    "controls": [
+     "level fader",
+     "pan switch left/centre/right",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position not confirmed: one of early top-row slots 4, 6, 7 or 8. Claps were performed by Tom Petty and the Heartbreakers (Wikipedia)."
+   }
+  ],
+  "choke_groups": [
+   [
+    "hihat / HIHAT",
+    "HIHAT >"
+   ]
+  ],
+  "accent": "Fixed two-level accent. Separate accent buttons duplicate bass, snare, hi-hat, cabasa and tambourine. There is no accent-amount control (E&MM 1981). The Kenton MIDI retrofit plays velocity 1-64 as normal and 65-127 as loud.",
+  "built_in_effects": [
+   {
+    "name": "Fixed per-voice low-pass filter (CEM3320 VCF)",
+    "type": "filter",
+    "notes": "On bass, toms and congas in later revisions only. Transients pass unfiltered. Not a panel control. Source: vLinn emulation manual (secondary)."
+   }
+  ],
+  "global_features": [
+   "Auto-correct: off, 1/8 triplet, 1/16, 1/16 triplet, 1/32, 1/32 triplet (E&MM 1981); the Drumulator manual also refers to an LM-1 Auto Correct 'HI' setting",
+   "Shuffle/swing made by delaying alternate 16th notes; no percentages found",
+   "100 beats (patterns); 8 chains of up to 99 links; optional memory expansion adds about 2.5x beat memory",
+   "Per voice: level fader, 3-position pan switch, tuning, individual output; 13th mixer channel is the programmable metronome",
+   "Tempo set by rotary dial and shown in BPM",
+   "Clock out selectable from 1/4 to 1/192 notes; Linn clock is 48 pulses per quarter note",
+   "Replaceable voice EPROMs for custom sounds",
+   "8-bit samples at about 28 kHz; stock voice clock rates roughly 12-30 kHz (vLinn)",
+   "Polyphony 10 voices (Rev 1) or 9 voices (Rev 2/3) for 12 sounds",
+   "No MIDI (pre-MIDI); Kenton MIDI retrofit kits exist"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 36,
+    "sound": "bass & BASS (normal and accent by velocity)"
+   },
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 37,
+    "sound": "snare & SNARE"
+   },
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 38,
+    "sound": "hi-hat & HI-HAT (closed)"
+   },
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 39,
+    "sound": "HI-HAT > (open)"
+   },
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 40,
+    "sound": "CLAPS"
+   },
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 41,
+    "sound": "cabasa & CABASA"
+   },
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 42,
+    "sound": "tamb & TAMB"
+   },
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 43,
+    "sound": "TOM-lo"
+   },
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 44,
+    "sound": "TOM-hi"
+   },
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 45,
+    "sound": "CONGA-lo"
+   },
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 46,
+    "sound": "CONGA-hi"
+   },
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 47,
+    "sound": "COWBELL"
+   },
+   {
+    "pad_or_key": "Kenton retrofit default note (not original hardware)",
+    "midi_note": 48,
+    "sound": "CLAVE"
+   }
+  ],
+  "pack_contents": "13 mono 44.1 kHz 16-bit one-shots named by sound: 'LM1 Kick', 'LM1 Snare', 'LM1 Hat Cl', 'LM1 Hat Open', 'LM1 Cabasa', 'LM1 Tamb', 'LM1 Tom Hi', 'LM1 Tom Lo', 'LM1 Conga Hi', 'LM1 Conga Lo', 'LM1 Cowbell', 'LM1 Clave' (16 ms), 'LM1 Clap'. That is one file per stock voice, with the hat split into closed and open. No accent-level or tuned variants, no gaps, no loops. Subfolder 'MT-32' is unrelated: 30 Roland MT-32 rhythm samples plus MT32Drums.txt (made on an Akai S3000XL, 44.1 kHz 16-bit mono, dated 6 Oct 1998, no FX/EQ, not normalised, names of 12 characters or fewer). MT-32 sounds: agogo hi/lo, bongo hi/lo, cabasa, claves, conga hi/lo/muted hi, cowbell, crash, hand clap, closed hat, open hat 1 (3.7 s) and 2, kick, maracas, quijada, ride, rimshot, samba whistle long/short, acoustic and electronic snare, tambourine, timbale hi/lo, tom hi/mid/low. Measured: the LM1 clap, cowbell, cabasa, tambourine and kick appear to be the same recordings as the LinnDrum pack's Percussion/ and Bassdrums/ files.",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "Leon Russell",
+    "title": "Life and Love (album)",
+    "year": 1979,
+    "evidence": "https://en.wikipedia.org/wiki/Linn_LM-1 - Russell used the LM-1 'on every track' (citing The Vinyl Factory, 2019). The same page names Prince, The Human League, Michael Jackson, Giorgio Moroder, ABC, Devo, Gary Numan and John Carpenter as users, but cites no specific tracks.",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/the-linn-lm-1-drum-computer/3566",
+   "https://en.wikipedia.org/wiki/Linn_LM-1",
+   "https://kentonuk.com/wp-content/uploads/2025/06/LIN06005-20250619.pdf",
+   "https://kentonuk.com/wp-content/uploads/2025/06/LIN16002-20250619.pdf",
+   "https://www.alyjameslab.com/exclusive/VLINN_Linn_LM-1Drums_USER_MANUAL_V2.pdf",
+   "https://www.polynominal.com/emu-drumulator/emu-drumulator-manual.pdf"
+  ]
+ },
+ {
+  "machine": "LinnDrum (LM-2)",
+  "pack_folders": [
+   "Linn LinnDrum",
+   "Akai Linndrum"
+  ],
+  "maker": "Linn Electronics",
+  "year": 1982,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "Hi-Hat 1 / Hi-Hat 2",
+    "name": "Hi-hat closed",
+    "type": "Closed Hat",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "two fixed levels (Hi-Hat 1, Hi-Hat 2)"
+    ],
+    "switch_alternate": null,
+    "notes": "Top row buttons 1-2 (Kenton). Order: top row with the drum layer, then the same buttons with the PERCUSSION layer, then the bottom row."
+   },
+   {
+    "label": "Hi-Hat Open",
+    "name": "Hi-hat open",
+    "type": "Open Hat",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "open hi-hat decay control"
+    ],
+    "switch_alternate": null,
+    "notes": "Top row button 3 (inferred). One level on the panel; a softer level only via the Kenton retrofit."
+   },
+   {
+    "label": "Hi Tom",
+    "name": "Tom high",
+    "type": "Tom",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "tuning"
+    ],
+    "switch_alternate": null,
+    "notes": "Top row position 4 or 6 (inferred). All three toms share one sample, each tuned separately (1994 README)."
+   },
+   {
+    "label": "Mid Tom",
+    "name": "Tom mid",
+    "type": "Tom",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "tuning"
+    ],
+    "switch_alternate": null,
+    "notes": "Top row button 5 (Kenton)."
+   },
+   {
+    "label": "Lo Tom",
+    "name": "Tom low",
+    "type": "Tom",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "tuning"
+    ],
+    "switch_alternate": null,
+    "notes": "Top row position 4 or 6 (inferred)."
+   },
+   {
+    "label": "Ride 1 / Ride 2",
+    "name": "Ride cymbal",
+    "type": "Ride",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "two fixed levels"
+    ],
+    "switch_alternate": null,
+    "notes": "Top row buttons 7-8; Ride 2 is button 8 (Kenton)."
+   },
+   {
+    "label": "Cabasa 1 / Cabasa 2",
+    "name": "Cabasa",
+    "type": "Shaker",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "two fixed levels"
+    ],
+    "switch_alternate": null,
+    "notes": "Top-row buttons with the PERCUSSION switch on (inferred layout)."
+   },
+   {
+    "label": "Tamb 1 / Tamb 2",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "two fixed levels"
+    ],
+    "switch_alternate": null,
+    "notes": "Percussion layer (inferred layout)."
+   },
+   {
+    "label": "Conga Hi",
+    "name": "Conga high",
+    "type": "Conga",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "tuning"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares one sample with Conga Lo; tuned separately (README)."
+   },
+   {
+    "label": "Conga Lo",
+    "name": "Conga low",
+    "type": "Conga",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "tuning"
+    ],
+    "switch_alternate": null,
+    "notes": "Percussion layer (inferred layout)."
+   },
+   {
+    "label": "Cowbell",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "level",
+     "pan",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Percussion layer (inferred layout)."
+   },
+   {
+    "label": "Clap",
+    "name": "Handclaps",
+    "type": "Clap",
+    "controls": [
+     "level",
+     "pan",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Percussion layer (inferred layout)."
+   },
+   {
+    "label": "Sidestick",
+    "name": "Sidestick",
+    "type": "Rim",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "follows snare tuning"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom row, first named button (Kenton). One level on the panel (level 3); levels 1-2 only via MIDI retrofit."
+   },
+   {
+    "label": "Snare 1 / Snare 2 / Snare 3",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "tuning",
+     "three fixed levels"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom row buttons 2-4 (Kenton)."
+   },
+   {
+    "label": "Bass 1 / Bass 2",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "level",
+     "pan",
+     "individual output",
+     "two fixed levels"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom row buttons 5-6 (Kenton). Not tunable (Wikipedia: tuning on snare, toms and congas only)."
+   },
+   {
+    "label": "Crash",
+    "name": "Crash cymbal",
+    "type": "Crash",
+    "controls": [
+     "level",
+     "pan",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom row button 7 (Kenton); the PERCUSSION switch is bottom right. One level on the panel."
+   }
+  ],
+  "choke_groups": [
+   [
+    "Hi-Hat 1 / Hi-Hat 2",
+    "Hi-Hat Open"
+   ]
+  ],
+  "accent": "Fixed levels on separate buttons: Bass 2, Snare 3, closed Hi-Hat 2, Ride 2, Cabasa 2, Tamb 2. Sidestick, open hat, crash, toms, congas, cowbell and clap have one level on the panel. The Kenton retrofit maps velocity 1-80 / 81-127 for two-level sounds and 1-30 / 31-80 / 81-127 for snare and sidestick.",
+  "built_in_effects": [],
+  "global_features": [
+   "15 pads: 8 top-row buttons switch between drum and percussion sounds via the PERCUSSION button (layer order inferred from Kenton docs); 7 bottom-row buttons",
+   "Level and pan for every sound; individual outputs plus stereo out",
+   "Tuning on snare (sidestick follows), each of the 3 toms and each of the 2 congas only",
+   "Open hi-hat decay control",
+   "56 user patterns, 42 preset patterns, 49 songs (Wikipedia)",
+   "DIN sync (pre-MIDI); 48 pulses per quarter note clock; 5 trigger inputs",
+   "8-bit samples at 28-35 kHz; 12-voice polyphony for 15 sounds",
+   "No MIDI originally; Kenton retrofit kits for Mk 1 and Mk 2/3",
+   "Swing range and timing-correction values not found"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 36,
+    "sound": "Bass 1 & 2"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 37,
+    "sound": "Snare 1, 2 & 3"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 38,
+    "sound": "Sidestick 1*, 2* & 3"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 39,
+    "sound": "Hi-Hat 1 & 2 (closed)"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 40,
+    "sound": "Hi-Hat Open 1* & 2"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 41,
+    "sound": "Conga Lo"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 42,
+    "sound": "Conga Hi"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 43,
+    "sound": "Tom Lo"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 44,
+    "sound": "Tom Med"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 45,
+    "sound": "Tom Hi"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 46,
+    "sound": "Ride 1 & 2"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 47,
+    "sound": "Crash 1* & 2"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 48,
+    "sound": "Cabasa 1 & 2"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 49,
+    "sound": "Tamb 1 & 2"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 50,
+    "sound": "Cowbell"
+   },
+   {
+    "pad_or_key": "Kenton Mk2/3 retrofit default note (not original hardware)",
+    "midi_note": 51,
+    "sound": "Clap"
+   }
+  ],
+  "pack_contents": "'Linn LinnDrum' has 52 one-shots in two sets. The first set is 24 mono files at the root named 'Linn<Sound><nn>': Kick01-02, Snare01-09, Hat_C/_O/_P, Tom01-02, Ride, Crash, Clap, Cowbell, Rimshot, Shaker, Tamborine, Ratchet. The second set is 28 stereo files in subfolders: Bassdrums/Bassdrum; Cymbals/Crash, Hat Closed-01..03, Hat Open, Ride; Percussion/Cabasa, Clap, Conga H/M/L -01/-02, Cowbell, Tambourine, Tom H-01/02, Tom L-01/02, Tom M-01; Snaredrums/Sidestick-01..03, 'Snarderum'-01..03 (sic). Numbered variants are probably tunings or alternates; 'Conga M', 'Ratchet', 'Shaker' and the '_P' hat are not stock LinnDrum voices. Measured duplicates: Bassdrum = LinnKick02 = LinnKick01, LinnSnare09 = Snarderum-02, LinnCowbell = Percussion/Cowbell, LinnTom01 = Tom L-01. 'Akai Linndrum' has 13 stereo files: Bassdrum, SD, Closed Hat, Open Hat, Ride, Crash (2.2 s), Clap, Cowbell, Tambourin, Shuffle, Tom H/M/L. Its kick, cowbell, clap, tambourine and 'Shuffle' (a cabasa) match the LinnDrum/LM-1 files at correlation 0.83-0.996, but play at a constant 0.90-0.96 of their speed. That points to Linn sounds transferred through a sampler at a different sample rate (inferred; the name suggests an Akai). Its crash, ride, open hat and toms match nothing in these packs. No loops anywhere.",
+  "preset_patterns": [
+   {
+    "name": "42 preset drum patterns (names not located)",
+    "source": "https://en.wikipedia.org/wiki/LinnDrum"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "Frankie Goes to Hollywood",
+    "title": "Relax",
+    "year": 1983,
+    "evidence": "https://en.wikipedia.org/wiki/LinnDrum - Trevor Horn listed as a LinnDrum user, citing Sound on Sound 'Classic Tracks: Frankie Goes To Hollywood Relax'.",
+    "grid_source": null
+   },
+   {
+    "artist": "Katy Perry (producer Sandy Vee)",
+    "title": "Firework",
+    "year": 2010,
+    "evidence": "https://en.wikipedia.org/wiki/LinnDrum - Sandy Vee listed as a user, citing Sound on Sound April 2011 'Sandy Vee: Recording Katy Perry's Firework'. Medium-low confidence: the article itself was not read.",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/LinnDrum",
+   "https://nic.funet.fi/pub/sci/audio/instruments/yamaha/DRUMS/linndrum/00README.TXT",
+   "https://kentonuk.com/wp-content/uploads/2025/06/LIN26000-20250619.pdf",
+   "https://www.polynominal.com/emu-drumulator/emu-drumulator-manual.pdf"
+  ]
+ },
+ {
+  "machine": "Linn 9000",
+  "pack_folders": [
+   "Linn 9000"
+  ],
+  "maker": "Linn Electronics",
+  "year": 1984,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "BASS",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning (static per sequence)",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad order not found; list follows the spec-sheet order."
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SIDESTICK",
+    "name": "Sidestick / rimshot",
+    "type": "Rim",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Called 'rimshot (sidestick)' by ES&CM."
+   },
+   {
+    "label": "HIHAT",
+    "name": "Hi-hat (closed plus 7 open-decay positions)",
+    "type": "Closed Hat",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output",
+     "8-position decay programmable per hit via slider or footpedal (2 decay controls left of pads)"
+    ],
+    "switch_alternate": null,
+    "notes": "One hi-hat voice; open is a decay setting."
+   },
+   {
+    "label": "CRASH 1",
+    "name": "Crash cymbal 1",
+    "type": "Crash",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "E&MM: only one crash sample; second pad is a different tuning."
+   },
+   {
+    "label": "CRASH 2",
+    "name": "Crash cymbal 2",
+    "type": "Crash",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "Same voice rule as the toms (ES&CM)."
+   },
+   {
+    "label": "RIDE 1",
+    "name": "Ride cymbal 1",
+    "type": "Ride",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "E&MM: only one ride sample."
+   },
+   {
+    "label": "RIDE 2",
+    "name": "Ride cymbal 2",
+    "type": "Ride",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "TOM 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "The four tom pads sit in a circle. They are tunings of two samples, so only two toms can sound at once; which pads pair up is unknown."
+   },
+   {
+    "label": "TOM 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "TOM 3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "TOM 4",
+    "name": "Tom 4",
+    "type": "Tom",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CABASA",
+    "name": "Cabasa",
+    "type": "Shaker",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "TAMBOURINE",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CONGA HI",
+    "name": "Conga high",
+    "type": "Conga",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CONGA LO",
+    "name": "Conga low",
+    "type": "Conga",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "COWBELL",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CLAP",
+    "name": "Handclaps",
+    "type": "Clap",
+    "controls": [
+     "velocity and pressure pad",
+     "volume slider",
+     "pan slider",
+     "tuning",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   }
+  ],
+  "choke_groups": [
+   [
+    "CRASH 1",
+    "CRASH 2"
+   ],
+   [
+    "RIDE 1",
+    "RIDE 2"
+   ]
+  ],
+  "accent": "Velocity- and pressure-sensitive pads. With Repeat held, pressure sets the level of repeated hits (snare rolls). Per-drum dynamics are stored per sequence.",
+  "built_in_effects": [],
+  "global_features": [
+   "18 velocity- and pressure-sensitive 1.25-inch rubber pads in three rows",
+   "Volume and pan slider per drum; static tuning per drum (set with the sliders in Tune mode, one tuning per pattern)",
+   "Hi-hat decay: 8 positions (closed + 7 open), set per hit by slider or footpedal",
+   "Swing 0-5 = 50-70% on 8ths or 16ths; auto-correct 1/8, 1/16, 1/32 plus triplets",
+   "Tempo 48-250 BPM (ES&CM), 0.1 BPM resolution or tap tempo",
+   "Note Repeat with pressure-controlled level",
+   "32-track MIDI sequencer; MIDI In/Out/Thru; 48 pulses per quarter note sync. At the April 1985 review MIDI did not trigger the drum sounds",
+   "18 individual outputs plus stereo; 2 aux audio inputs into the mixer; 6 trigger inputs (12 optional); 2 trigger outputs; click out",
+   "Optional sampling card: up to 4 custom sounds",
+   "8-bit samples at 11-37 kHz; 13-voice polyphony",
+   "Known for OS bugs and lock-ups; Forat later released the fixed F9000"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "34 one-shots in two sets. 14 mono files named 'Linn 9000 <sound>': bell, cabasa, clap, conga, cowbell, crash, hat cl, hat open, kick, ride, snare, stick, tamb, tom. 20 stereo files with generic names: BAssdrum, Conga H/M/L, Cowbell-01/02, Crash-01..03, Hat Closed, Hat Open, Ping, Rim Shot, Snaredrum, Tambourine, Tom-01..05. Only one measured duplicate across the sets: 'Conga L' = 'Linn 9000 conga'. 'bell' and 'Ping' are not stock 9000 voices (possibly ride-bell or ride-ping variants; unknown). Extra toms, crashes and congas are probably tunings. No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "Eric Carmen",
+    "title": "Hungry Eyes",
+    "year": 1987,
+    "evidence": "https://en.wikipedia.org/wiki/Linn_9000 - listed as a Linn 9000 recording, citing a Vintage Digital blog post (weak source). Year from general knowledge.",
+    "grid_source": null
+   },
+   {
+    "artist": "Stacey Q",
+    "title": "Two of Hearts",
+    "year": 1986,
+    "evidence": "https://en.wikipedia.org/wiki/Linn_9000 - listed without a citation. Year from general knowledge.",
+    "grid_source": null
+   },
+   {
+    "artist": "Cameo",
+    "title": "Word Up!",
+    "year": 1986,
+    "evidence": "https://en.wikipedia.org/wiki/Linn_9000 - 'featured in Word Up!', no citation. Year from general knowledge.",
+    "grid_source": null
+   },
+   {
+    "artist": "Rick Astley",
+    "title": "Together Forever",
+    "year": 1988,
+    "evidence": "https://en.wikipedia.org/wiki/Linn_9000 - listed without a citation. Year from general knowledge.",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Linn_9000",
+   "https://www.muzines.co.uk/articles/linn-9000/1874",
+   "https://www.muzines.co.uk/articles/the-beating-heart/3428"
+  ]
+ },
+ {
+  "machine": "Oberheim DMX",
+  "pack_folders": [
+   "Oberheim DMX"
+  ],
+  "maker": "Oberheim Electronics",
+  "year": 1981,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "BASS (Bass 1/2/3)",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "mix fader",
+     "pitch trim on voice card (+/- half octave)",
+     "CV pitch input",
+     "trigger input",
+     "individual output",
+     "three buttons = three volume levels"
+    ],
+    "switch_alternate": null,
+    "notes": "Voice card 1. Bottom-row button is 'Bass 3' (Kenton)."
+   },
+   {
+    "label": "SNARE (Snare 1/2/3)",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "mix fader",
+     "pitch trim on voice card (+/- half octave)",
+     "CV pitch input",
+     "trigger input",
+     "individual output",
+     "three buttons = three volume levels"
+    ],
+    "switch_alternate": null,
+    "notes": "Voice card 2. Bottom-row button is 'Snare 3'."
+   },
+   {
+    "label": "HI-HAT closed",
+    "name": "Hi-hat closed",
+    "type": "Closed Hat",
+    "controls": [
+     "HI-HAT mix fader",
+     "pitch trim (+/- half octave)",
+     "CV pitch input",
+     "trigger input",
+     "individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "HIHAT voice card: closed, accented and open share one voice."
+   },
+   {
+    "label": "HI-HAT accent",
+    "name": "Hi-hat accented",
+    "type": "Closed Hat",
+    "controls": [
+     "shares HI-HAT voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": "A separate accented sample (1994 README)."
+   },
+   {
+    "label": "Open Hihat",
+    "name": "Hi-hat open",
+    "type": "Open Hat",
+    "controls": [
+     "shares HI-HAT voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom-row button (Kenton)."
+   },
+   {
+    "label": "Tom 1",
+    "name": "Tom 1 (highest)",
+    "type": "Tom",
+    "controls": [
+     "TOMS fader (TOM 1)",
+     "TOM 1 card pitch trim (+/- half octave)",
+     "CV pitch input",
+     "trigger input",
+     "TOM 1 individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "TOM 1 voice = three pitches of one tom."
+   },
+   {
+    "label": "Tom 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "shares TOM 1 voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Tom 3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [
+     "shares TOM 1 voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom-row button (Kenton)."
+   },
+   {
+    "label": "Tom 4",
+    "name": "Tom 4",
+    "type": "Tom",
+    "controls": [
+     "TOMS fader (TOM 2)",
+     "TOM 2 card pitch trim (+/- half octave)",
+     "CV pitch input",
+     "trigger input",
+     "TOM 2 individual output"
+    ],
+    "switch_alternate": null,
+    "notes": "TOM 2 voice is lower than TOM 1, three pitches. A 1994 README says both tom channels use the same sample, panned one left and one right."
+   },
+   {
+    "label": "Tom 5",
+    "name": "Tom 5",
+    "type": "Tom",
+    "controls": [
+     "shares TOM 2 voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Tom 6",
+    "name": "Tom 6 (lowest)",
+    "type": "Tom",
+    "controls": [
+     "shares TOM 2 voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom-row button (Kenton)."
+   },
+   {
+    "label": "CYMBAL ride",
+    "name": "Ride cymbal (unaccented / accented)",
+    "type": "Ride",
+    "controls": [
+     "CYMBAL mix fader",
+     "pitch trim (+/- half octave)",
+     "CV pitch input",
+     "trigger input",
+     "CYMB individual output",
+     "two buttons = unaccented and accented"
+    ],
+    "switch_alternate": null,
+    "notes": "CYMBAL voice holds two sounds: ride and crash."
+   },
+   {
+    "label": "Crash",
+    "name": "Crash cymbal",
+    "type": "Crash",
+    "controls": [
+     "shares CYMBAL voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom-row button (Kenton)."
+   },
+   {
+    "label": "PERC 1 tambourine",
+    "name": "Tambourine (normal / accent)",
+    "type": "Tambourine",
+    "controls": [
+     "PERC 1 mix fader",
+     "pitch trim (+/- half octave)",
+     "CV pitch input",
+     "trigger input",
+     "PERC 1 individual output",
+     "two buttons = normal and accent"
+    ],
+    "switch_alternate": null,
+    "notes": "PERC 1 voice holds tambourine and rimshot; one tuning control covers both."
+   },
+   {
+    "label": "Rimshot",
+    "name": "Rimshot",
+    "type": "Rim",
+    "controls": [
+     "shares PERC 1 voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom-row button (Kenton)."
+   },
+   {
+    "label": "PERC 2 shaker",
+    "name": "Shaker (normal / accent)",
+    "type": "Shaker",
+    "controls": [
+     "PERC 2 mix fader",
+     "pitch trim (+/- half octave)",
+     "CV pitch input",
+     "trigger input",
+     "PERC 2 individual output",
+     "two buttons = normal and accent"
+    ],
+    "switch_alternate": null,
+    "notes": "PERC 2 voice holds shaker and claps; tuning the shaker also tunes the claps (README)."
+   },
+   {
+    "label": "Claps",
+    "name": "Hand claps",
+    "type": "Clap",
+    "controls": [
+     "shares PERC 2 voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom-row button (Kenton)."
+   }
+  ],
+  "choke_groups": [
+   [
+    "HI-HAT closed",
+    "HI-HAT accent",
+    "Open Hihat"
+   ],
+   [
+    "Tom 1",
+    "Tom 2",
+    "Tom 3"
+   ],
+   [
+    "Tom 4",
+    "Tom 5",
+    "Tom 6"
+   ],
+   [
+    "CYMBAL ride",
+    "Crash"
+   ],
+   [
+    "PERC 1 tambourine",
+    "Rimshot"
+   ],
+   [
+    "PERC 2 shaker",
+    "Claps"
+   ]
+  ],
+  "accent": "No velocity. Dynamics come from fixed variations on separate buttons: Bass and Snare three volume levels each; hi-hat closed/accented/open; ride accented or unaccented; tambourine with accent; shaker with accent.",
+  "built_in_effects": [],
+  "global_features": [
+   "8 voice cards, 24 sounds, 8-voice polyphony (one sound per card at a time)",
+   "Mix faders: BASS, SNARE, HI-HAT, TOMS (x2), CYMBAL, PERC 1, PERC 2, METRONOME, VOLUME; faders do not affect the individual outputs",
+   "Per voice: pitch trim +/- half octave inside on each card; CV pitch input 0 to +6 V (higher voltage lowers pitch, not recorded); trigger input (+1 V) that acts like the bottom-row button",
+   "Quantize: 1/4, 1/4T, 1/8, 1/8T, 1/16 (default), 1/16T, 1/32, 1/32T, OFF (1/192)",
+   "Swing 50-71% in six steps (manual example: 50, 54, 58, 62, 66) on 8ths or 16ths",
+   "Step recording; sequences of 1-99 bars; time signature 1-99 beats with a beat value from 1/4 to 1/32",
+   "100 sequences, 50 songs, 2000 events; tempo 25-250 BPM",
+   "Stereo mix outputs LEFT/MONO/RIGHT plus 8 individual outputs and a click out",
+   "Clock in/out 96 pulses per quarter note; sync to tape; START and NEXT footswitches",
+   "No MIDI originally; later OS 4.01 MIDI and third-party retrofits",
+   "Removable EPROM voice chips; 8-bit mu-law samples",
+   "Factory tape also holds 19 example songs: Directory, Hard Rock 1, Hard Rock 2, Rock Ballad, Old-time Rock, Slow Rock, Shuffle, Honky-Tonk Rock, Boogie, Swing, Country, Disco, Funk, Polka, Samba, Bossa Nova, Mambo, Waltz, Reggae, 7/4 Rock"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "38 one-shots in two copies of the same set. 18 mono files 'DMX<Sound>': Kick01-02, Snare01-03, Hat_C, Hat_O, TomHi/Mid/Lo, TimbaleHi/Lo, Ride, Crash, Clap, Rim, Tamborine, Cabasa. 20 stereo files with generic names: Bassdrum-01..03, Snaredrum-01..03, Hat Closed, Hat Open, Tom H/M/L, Timbale H/M/L, Ride, Crash, Clap, Rim Shot, Tamborine, Cabasa. Every mono file has an identical stereo twin (correlation 1.000); the stereo set adds Bassdrum-03 and Timbale M. Snare 02/03 and Kick02/Bassdrum-03 are the same sample (probably level variants). No accented hi-hat file. Timbales and 'Cabasa' are not stock DMX sounds (stock has a shaker); probably optional chips. Tom H/M/L are three pitches of one tom. No loops.",
+  "preset_patterns": [
+   {
+    "name": "Seq 00 Demonstration",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 01-04 Rock 1A / Rock 1A Fill / Rock 1B / Rock 1B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 05-08 Rock 2A / Rock 2A Fill / Rock 2B / Rock 2B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 09-12 Rock 3A / Rock 3A Fill / Rock 3B / Rock 3B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 13-16 Rock 4A / Rock 4A Fill / Rock 4B / Rock 4B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 17-20 Rock 5A / Rock 5A Fill / Rock 5B / Rock 5B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 21-24 Shuffle A / Shuffle A Fill / Shuffle B / Shuffle B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 25-28 Honky-Tonk A / Honky-Tonk A Fill / Honky-Tonk B / Honky-Tonk B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 29-32 Boogie A / Boogie A Fill / Boogie B / Boogie B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 33-36 Swing A / Swing A Fill / Swing B / Swing B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 37-40 Country A / Country A Fill / Country B / Country B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 41-44 Disco A / Disco A Fill / Disco B / Disco B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 45-48 Funk A / Funk A Fill / Funk B / Funk B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 49-52 Polka A / Polka A Fill / Polka B / Polka B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 53-56 Samba A / Samba A Fill / Samba B / Samba B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 57-60 Bossa A / Bossa A Fill / Bossa B / Bossa B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 61-64 Mambo A / Mambo A Fill / Mambo B / Mambo B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 65-68 Waltz A / Waltz A Fill / Waltz B / Waltz B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 69-72 Reggae A / Reggae A Fill / Reggae B / Reggae B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 73-76 7/4 Rock A / 7/4 Rock A Fill / 7/4 Rock B / 7/4 Rock B Fill",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   },
+   {
+    "name": "Seq 77 End",
+    "source": "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "New Order",
+    "title": "Blue Monday",
+    "year": 1983,
+    "evidence": "https://en.wikipedia.org/wiki/Blue_Monday_(New_Order_song) - 'An Oberheim DMX drum machine was used for rhythm' (citing Flint, Sound on Sound, April 2004).",
+    "grid_source": null
+   },
+   {
+    "artist": "The Police",
+    "title": "Every Breath You Take",
+    "year": 1983,
+    "evidence": "https://en.wikipedia.org/wiki/Oberheim_DMX - DMX used for the kick drum only (citing Buskin, Sound on Sound Classic Tracks, March 2004). Year from general knowledge.",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.polynominal.com/oberheim-dmx/oberheim-dmx-manual.pdf",
+   "https://www.polynominal.com/oberheim-dmx/index.html",
+   "https://www.manualsdir.com/manuals/697116/kenton-dmx-oberheim.html?page=2",
+   "https://www-test.nic.funet.fi/pub/sci/audio/instruments/yamaha/DRUMS/dmx/00README.TXT",
+   "https://en.wikipedia.org/wiki/Oberheim_DMX",
+   "https://en.wikipedia.org/wiki/Blue_Monday_(New_Order_song)",
+   "https://www.polynominal.com/emu-drumulator/emu-drumulator-manual.pdf"
+  ]
+ },
+ {
+  "machine": "Oberheim DX",
+  "pack_folders": [
+   "Oberheim DX"
+  ],
+  "maker": "Oberheim Electronics",
+  "year": null,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "BASS (SOFT / MEDIUM / LOUD)",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "BASS mix fader",
+     "rear DRUM TUNING pot (+/- half octave)",
+     "direct output",
+     "three buttons = three volume levels"
+    ],
+    "switch_alternate": null,
+    "notes": "Column 1. Panel top to bottom: SOFT, MEDIUM, LOUD."
+   },
+   {
+    "label": "SNARE (SOFT / MEDIUM / LOUD)",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "SNARE mix fader",
+     "rear DRUM TUNING pot (+/- half octave)",
+     "direct output",
+     "three buttons = three volume levels"
+    ],
+    "switch_alternate": null,
+    "notes": "Column 2."
+   },
+   {
+    "label": "HI-HAT CLOSED",
+    "name": "Hi-hat closed",
+    "type": "Closed Hat",
+    "controls": [
+     "HI-HAT mix fader",
+     "rear DRUM TUNING pot (+/- half octave)",
+     "direct output"
+    ],
+    "switch_alternate": null,
+    "notes": "Column 3 top."
+   },
+   {
+    "label": "HI-HAT ACCENT",
+    "name": "Hi-hat accented",
+    "type": "Closed Hat",
+    "controls": [
+     "shares HI-HAT voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": "Column 3 middle."
+   },
+   {
+    "label": "HI-HAT OPEN",
+    "name": "Hi-hat open",
+    "type": "Open Hat",
+    "controls": [
+     "shares HI-HAT voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": "Column 3 bottom."
+   },
+   {
+    "label": "TOMS HI",
+    "name": "Tom high",
+    "type": "Tom",
+    "controls": [
+     "TOMS mix fader",
+     "rear DRUM TUNING pot (+/- half octave)",
+     "direct output"
+    ],
+    "switch_alternate": null,
+    "notes": "TOMS voice = one tom at three pitches."
+   },
+   {
+    "label": "TOMS MID",
+    "name": "Tom mid",
+    "type": "Tom",
+    "controls": [
+     "shares TOMS voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "TOMS LOW",
+    "name": "Tom low",
+    "type": "Tom",
+    "controls": [
+     "shares TOMS voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CYMBALS RIDE / RIDE 2",
+    "name": "Ride cymbal (two volumes)",
+    "type": "Ride",
+    "controls": [
+     "CYMBALS mix fader",
+     "rear DRUM TUNING pot (+/- half octave)",
+     "direct output",
+     "two buttons = two volumes"
+    ],
+    "switch_alternate": null,
+    "notes": "Column 5 top and middle."
+   },
+   {
+    "label": "CYMBALS CRASH",
+    "name": "Crash cymbal",
+    "type": "Crash",
+    "controls": [
+     "shares CYMBALS voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": "Column 5 bottom."
+   },
+   {
+    "label": "PERC SHAKER 1 / SHAKER 2",
+    "name": "Shaker (with accent)",
+    "type": "Shaker",
+    "controls": [
+     "PERC mix fader",
+     "rear DRUM TUNING pot (+/- half octave)",
+     "direct output",
+     "two buttons = normal and accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Column 6 top and middle."
+   },
+   {
+    "label": "PERC CLAPS",
+    "name": "Hand claps",
+    "type": "Clap",
+    "controls": [
+     "shares PERC voice controls"
+    ],
+    "switch_alternate": null,
+    "notes": "Column 6 bottom."
+   }
+  ],
+  "choke_groups": [
+   [
+    "HI-HAT CLOSED",
+    "HI-HAT ACCENT",
+    "HI-HAT OPEN"
+   ],
+   [
+    "TOMS HI",
+    "TOMS MID",
+    "TOMS LOW"
+   ],
+   [
+    "CYMBALS RIDE / RIDE 2",
+    "CYMBALS CRASH"
+   ],
+   [
+    "PERC SHAKER 1 / SHAKER 2",
+    "PERC CLAPS"
+   ]
+  ],
+  "accent": "Fixed variations on separate buttons, with only one variation per voice playable at a time: bass soft/medium/loud, snare soft/medium/loud, hi-hat closed/accent/open, ride two volumes, shaker with accent. MIDI velocity response is not documented in the pages read.",
+  "built_in_effects": [],
+  "global_features": [
+   "6 voices, 18 sounds; 'Only one voice variation can be played at a time'",
+   "Rear-panel tuning, one pot per voice, +/- half octave; direct output per voice plus stereo and mono mixed outputs (faders affect the mix only)",
+   "Quantize (manual notation): 1-2, 1-3, 1-4, 1-6, 1-8, 1-12, 1-16 (default), 1-24, 1-32, 1-48, 1-64, 1-96, OFF (1/192). 1-3/1-6/1-12/1-24/1-48/1-96 are triplets",
+   "Swing default 50% and adjustable (the manual example uses 70%); works when quantize is 1-2 to 1-48",
+   "Flams: hold RECORD and press the drum button; a second note is recorded right after (quantize 1-64, 1-96 or OFF only)",
+   "Step recording; time signatures 1-99 beats per bar",
+   "Tempo 25-250 BPM; 100 sequences, 50 songs, 2200 events",
+   "MIDI in/out: receive and transmit channel, omni, echo, song changes, editable note map (params 13 and 14), MIDI clock",
+   "External trigger input; clock in/out at 24, 48 or 96 pulses per quarter note; tape sync; START and NEXT footswitches; programmable click out",
+   "Replaceable sound chips; the manual dates its 2nd edition Jan 1985 and a review appeared Jan 1984, so the release year is not confirmed"
+  ],
+  "sound_bank": {
+   "total": 21,
+   "categories": [
+    {
+     "name": "Bass drums (optional chips)",
+     "count": 2,
+     "range": "Electronic Bass, Beat Kick"
+    },
+    {
+     "name": "Snare drums (optional chips)",
+     "count": 4,
+     "range": "Electronic Snare, Fat Snare, Beat Snare, Reggae Snare"
+    },
+    {
+     "name": "Tom-toms (optional chips)",
+     "count": 2,
+     "range": "Electronic Tom, Roto Tom"
+    },
+    {
+     "name": "Hi-hats (optional chips)",
+     "count": 2,
+     "range": "Electronic Hihat, Long HiHat"
+    },
+    {
+     "name": "Percussion (optional chips)",
+     "count": 6,
+     "range": "Cowbell, Tambourine/Rimshot, Conga, Timbale, Bones, Finger Snaps"
+    },
+    {
+     "name": "Effects (optional chips)",
+     "count": 5,
+     "range": "Scratch, Backwards Snare-Clap, Click/Clap, Punch/Zap, Noise"
+    }
+   ],
+   "ordered_list": [
+    "Electronic Bass",
+    "Beat Kick",
+    "Electronic Snare",
+    "Fat Snare",
+    "Beat Snare",
+    "Reggae Snare",
+    "Electronic Tom",
+    "Roto Tom",
+    "Electronic Hihat",
+    "Long HiHat",
+    "Cowbell",
+    "Tambourine/Rimshot",
+    "Conga",
+    "Timbale",
+    "Bones",
+    "Finger Snaps",
+    "Scratch",
+    "Backwards Snare-Clap",
+    "Click/Clap",
+    "Punch/Zap",
+    "Noise"
+   ],
+   "list_source": "https://www.polynominal.com/site/studio/gear/drum/Oberheim_Dx/oberheim-dx-manual.pdf"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "BASS 3",
+    "midi_note": 36,
+    "sound": "Bass 3 (probably LOUD)"
+   },
+   {
+    "pad_or_key": "PERC CLAPS (second chart label)",
+    "midi_note": 37,
+    "sound": "Claps"
+   },
+   {
+    "pad_or_key": "SNARE 3",
+    "midi_note": 38,
+    "sound": "Snare 3 (probably LOUD)"
+   },
+   {
+    "pad_or_key": "PERC CLAPS",
+    "midi_note": 39,
+    "sound": "Claps"
+   },
+   {
+    "pad_or_key": "HI-HAT CLOSED",
+    "midi_note": 42,
+    "sound": "Hi-Hat Closed"
+   },
+   {
+    "pad_or_key": "TOMS LOW",
+    "midi_note": 43,
+    "sound": "Low Tom"
+   },
+   {
+    "pad_or_key": "HI-HAT ACCENT",
+    "midi_note": 44,
+    "sound": "Hi-Hat Accent"
+   },
+   {
+    "pad_or_key": "HI-HAT OPEN",
+    "midi_note": 46,
+    "sound": "Hi-Hat Open"
+   },
+   {
+    "pad_or_key": "TOMS MID",
+    "midi_note": 47,
+    "sound": "Mid Tom"
+   },
+   {
+    "pad_or_key": "CYMBALS CRASH",
+    "midi_note": 49,
+    "sound": "Crash"
+   },
+   {
+    "pad_or_key": "TOMS HI",
+    "midi_note": 50,
+    "sound": "High Tom"
+   },
+   {
+    "pad_or_key": "CYMBALS RIDE 2",
+    "midi_note": 51,
+    "sound": "Ride 2"
+   },
+   {
+    "pad_or_key": "CYMBALS RIDE",
+    "midi_note": 52,
+    "sound": "Ride 1"
+   },
+   {
+    "pad_or_key": "BASS 2",
+    "midi_note": 53,
+    "sound": "Bass 2"
+   },
+   {
+    "pad_or_key": "BASS 1",
+    "midi_note": 55,
+    "sound": "Bass 1"
+   },
+   {
+    "pad_or_key": "PERC SHAKER 2",
+    "midi_note": 56,
+    "sound": "Shaker 2"
+   },
+   {
+    "pad_or_key": "SNARE 2",
+    "midi_note": 57,
+    "sound": "Snare 2"
+   },
+   {
+    "pad_or_key": "PERC SHAKER 1",
+    "midi_note": 58,
+    "sound": "Shaker 1"
+   },
+   {
+    "pad_or_key": "SNARE 1",
+    "midi_note": 59,
+    "sound": "Snare 1"
+   }
+  ],
+  "pack_contents": "13 mono 44.1 kHz 16-bit one-shots named 'DX<Sound>': DXKick, DXSnare, DXHat_C, DXHat_O, DXHat_P, DXTomHi, DXTomLo, DXTom_E, DXRide, DXCrash, DXShaker, DXClap, DXRimshot. One file per sound; no level variants. The mid tom is missing (it is a tuning of the same tom). DXHat_P measures close to DXHat_C (0.85) and may be the accented hat. DXTom_E probably matches the 'Electronic Tom' library chip, and DXRimshot the 'Tambourine/Rimshot' chip; neither is in the stock set (inferred). No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.polynominal.com/site/studio/gear/drum/Oberheim_Dx/oberheim-dx-manual.pdf",
+   "https://www.muzines.co.uk/articles/oberheim-vs-drumulator/3222"
+  ]
+ },
+ {
+  "machine": "E-mu Drumulator",
+  "pack_folders": [
+   "Emu Drumulator"
+  ],
+  "maker": "E-mu Systems",
+  "year": 1983,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "BASS",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "level 0-15",
+     "accent 0-15 (level + accent max 15)",
+     "own output jack BASS"
+    ],
+    "switch_alternate": null,
+    "notes": "Sound-select button 1, DRUMS layer. Default on Drum Play button A."
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "level 0-15",
+     "accent 0-15",
+     "output jack SNARE/RIM (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 2, DRUMS layer. Default on Drum Play button B."
+   },
+   {
+    "label": "RIM",
+    "name": "Rimshot",
+    "type": "Rim",
+    "controls": [
+     "level 0-15",
+     "accent 0-15",
+     "output jack SNARE/RIM (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 3, DRUMS layer."
+   },
+   {
+    "label": "HI TOM",
+    "name": "Tom high",
+    "type": "Tom",
+    "controls": [
+     "level 0-15",
+     "accent 0-15",
+     "output jack H/M TOMS (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 4, DRUMS layer."
+   },
+   {
+    "label": "MID TOM",
+    "name": "Tom mid",
+    "type": "Tom",
+    "controls": [
+     "level 0-15",
+     "accent 0-15",
+     "output jack H/M TOMS (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 5, DRUMS layer."
+   },
+   {
+    "label": "LO TOM",
+    "name": "Tom low",
+    "type": "Tom",
+    "controls": [
+     "level 0-15",
+     "accent 0-15",
+     "own output jack LO TOM"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 6, DRUMS layer."
+   },
+   {
+    "label": "CLAVE",
+    "name": "Clave",
+    "type": "Clave",
+    "controls": [
+     "level 0-15",
+     "accent 0-15",
+     "output jack CLAVE/CWB (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 1, PERC layer."
+   },
+   {
+    "label": "COWBELL",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "level 0-15",
+     "accent 0-15",
+     "output jack CLAVE/CWB (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 2, PERC layer. Default on Drum Play button C."
+   },
+   {
+    "label": "CLAPS",
+    "name": "Handclaps",
+    "type": "Clap",
+    "controls": [
+     "level 0-15",
+     "accent 0-15",
+     "own output jack CLAP"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 3, PERC layer."
+   },
+   {
+    "label": "HI HAT OPEN",
+    "name": "Hi-hat open",
+    "type": "Open Hat",
+    "controls": [
+     "level 0-15",
+     "accent 0-15",
+     "output jack HATS (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 4, PERC layer."
+   },
+   {
+    "label": "HI HAT CLOSED",
+    "name": "Hi-hat closed",
+    "type": "Closed Hat",
+    "controls": [
+     "level 0-15",
+     "accent 0-15",
+     "output jack HATS (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 5, PERC layer."
+   },
+   {
+    "label": "RIDE",
+    "name": "Ride cymbal",
+    "type": "Ride",
+    "controls": [
+     "level 0-15",
+     "accent 0-15",
+     "own output jack RIDE"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 6, PERC layer. Default on Drum Play button D."
+   }
+  ],
+  "choke_groups": [
+   [
+    "SNARE",
+    "RIM"
+   ],
+   [
+    "HI HAT OPEN",
+    "HI HAT CLOSED"
+   ],
+   [
+    "CLAVE",
+    "COWBELL"
+   ],
+   [
+    "HI TOM",
+    "MID TOM"
+   ]
+  ],
+  "accent": "Programmable per sound: level 0-15 plus accent 0-15, added to the level with the sum capped at 15. The accented version is assigned to its own Drum Play button (A-D). Levels and accents are stored per segment and per song, so a song can carry its own mix, and they also apply at the individual outputs.",
+  "built_in_effects": [],
+  "global_features": [
+   "12 sounds; 6 sound-select buttons with a PERC/DRUMS layer switch; 4 Drum Play buttons (A-D) each assignable to any sound or its accented version",
+   "Power-on Drum Play defaults: A = Bass, B = Snare, C = Cowbell, D = Ride",
+   "Auto Correct: 8, 8/3, 16, 16/3, 32, 32/3, or Hr (high resolution); default 8",
+   "Swing factor: 50, 54, 58, 63, 67 or 71%",
+   "36 segments (6 banks x 6) up to 99 measures; 8 songs up to 99 steps; repeats and tempo changes within songs",
+   "Tempo 40-240 BPM",
+   "Output jacks: BASS, SNARE/RIM, HATS, RIDE, CLAP, CLAVE/CWB, H/M TOMS, LO TOM, MIX OUT",
+   "No tuning or decay controls documented; no MIDI",
+   "Gate inputs A-D trigger the sounds on Drum Play buttons A-D; MET/TRIG output; clock in at 24 pulses per quarter note with a 1-99 divider (02 for LinnDrum 48 ppqn, 04 for DMX 96 ppqn); tape sync",
+   "RS-232 'External Computer Control' at 9600 baud. The low 4 bits pick the sound (0 Clave, 1 Cowbell, 2 Claps, 3 Open Hi Hat, 4 Closed Hi Hat, 5 Ride, 6 Bass, 7 Snare, 8 Rimshot, 9 HiTom, A MidTom, B LowTom, C Metronome) and the high 4 bits the level",
+   "Samples recorded at Ayre Studios, San Jose; drums played by Bill Gibson and Chris Pedersen; design by Dave Rossum"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "Drum Play A",
+    "midi_note": null,
+    "sound": "Bass drum"
+   },
+   {
+    "pad_or_key": "Drum Play B",
+    "midi_note": null,
+    "sound": "Snare drum"
+   },
+   {
+    "pad_or_key": "Drum Play C",
+    "midi_note": null,
+    "sound": "Cowbell"
+   },
+   {
+    "pad_or_key": "Drum Play D",
+    "midi_note": null,
+    "sound": "Ride cymbal"
+   }
+  ],
+  "pack_contents": "39 one-shots in two sets. 12 stereo files with generic names cover all 12 stock sounds: Bassdrum, Snaredrum, Rim Shot, Tom H/M/L, Claves, Cowbell, Clap, Hat Closed, Hat Open, Cymbal (the ride). 27 mono files named 'Drumulator<Sound>': Kick01-02, Snare01-04, Hat_C/_O/_P, Tom02, Tom03, ETomHi/Mid/Lo, Ride, Crash, Clap, Clave, Cabasa, Conga01-02, AgogoHi/Lo, Block, Tamborine, TimbHi/Lo. The mono set includes many non-stock sounds (agogo, block, cabasa, congas, crash, electronic toms, timbales, tambourine); these are probably alternate sound chips (inferred). Measured duplicates: DrumulatorSnare03 = Snaredrum, DrumulatorTom02 = Tom M, DrumulatorClap ~ Clap, DrumulatorKick01 ~ Bassdrum. No loops.",
+  "preset_patterns": [
+   {
+    "name": "Factory-loaded segments (names not given; the manual's song example uses segments 61-65 'already programmed into the Drumulator')",
+    "source": "https://www.polynominal.com/emu-drumulator/emu-drumulator-manual.pdf"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "Cocteau Twins",
+    "title": "Treasure (album)",
+    "year": 1984,
+    "evidence": "https://en.wikipedia.org/wiki/E-mu_Drumulator - cited to Robin Guthrie's 'Equipment Notes' on his official site.",
+    "grid_source": null
+   },
+   {
+    "artist": "Depeche Mode",
+    "title": "Everything Counts",
+    "year": 1983,
+    "evidence": "https://en.wikipedia.org/wiki/E-mu_Drumulator - listed in the notable-users table, no citation.",
+    "grid_source": null
+   },
+   {
+    "artist": "Tears for Fears",
+    "title": "Shout",
+    "year": 1985,
+    "evidence": "https://en.wikipedia.org/wiki/E-mu_Drumulator - listed (with 'Everybody Wants to Rule the World'), no citation.",
+    "grid_source": null
+   },
+   {
+    "artist": "Kenny Loggins",
+    "title": "Footloose",
+    "year": 1984,
+    "evidence": "https://en.wikipedia.org/wiki/E-mu_Drumulator - listed, no citation.",
+    "grid_source": null
+   },
+   {
+    "artist": "Rockwell",
+    "title": "Somebody's Watching Me",
+    "year": 1984,
+    "evidence": "https://en.wikipedia.org/wiki/E-mu_Drumulator - listed, no citation.",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.polynominal.com/emu-drumulator/emu-drumulator-manual.pdf",
+   "https://www.muzines.co.uk/articles/oberheim-vs-drumulator/3222",
+   "https://en.wikipedia.org/wiki/E-mu_Drumulator"
+  ]
+ },
+ {
+  "machine": "E-mu SP-12",
+  "pack_folders": [
+   "Emu SP12"
+  ],
+  "maker": "E-mu Systems",
+  "year": 1985,
+  "kind": "sampler/groovebox",
+  "voices": [
+   {
+    "label": "PAD 1",
+    "name": "Pad 1 (sound assignable)",
+    "type": "Other",
+    "controls": [
+     "velocity-sensitive pad (piezo)",
+     "slider (pitch/volume parameters)",
+     "per-sound tune, decay and truncate editing",
+     "output channel assignment"
+    ],
+    "switch_alternate": null,
+    "notes": "8 pads x 4 banks = 32 sound slots. The factory default assignment was not found. Output 1 has a dynamic SSM2044 low-pass filter."
+   },
+   {
+    "label": "PAD 2",
+    "name": "Pad 2 (sound assignable)",
+    "type": "Other",
+    "controls": [
+     "velocity-sensitive pad",
+     "slider",
+     "tune/decay/truncate",
+     "output channel assignment"
+    ],
+    "switch_alternate": null,
+    "notes": "Output 2 has a dynamic SSM2044 low-pass filter."
+   },
+   {
+    "label": "PAD 3",
+    "name": "Pad 3 (sound assignable)",
+    "type": "Other",
+    "controls": [
+     "velocity-sensitive pad",
+     "slider",
+     "tune/decay/truncate",
+     "output channel assignment"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "PAD 4",
+    "name": "Pad 4 (sound assignable)",
+    "type": "Other",
+    "controls": [
+     "velocity-sensitive pad",
+     "slider",
+     "tune/decay/truncate",
+     "output channel assignment"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "PAD 5",
+    "name": "Pad 5 (sound assignable)",
+    "type": "Other",
+    "controls": [
+     "velocity-sensitive pad",
+     "slider",
+     "tune/decay/truncate",
+     "output channel assignment"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "PAD 6",
+    "name": "Pad 6 (sound assignable)",
+    "type": "Other",
+    "controls": [
+     "velocity-sensitive pad",
+     "slider",
+     "tune/decay/truncate",
+     "output channel assignment"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "PAD 7",
+    "name": "Pad 7 (sound assignable)",
+    "type": "Other",
+    "controls": [
+     "velocity-sensitive pad",
+     "slider",
+     "tune/decay/truncate",
+     "output channel assignment"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "PAD 8",
+    "name": "Pad 8 (sound assignable)",
+    "type": "Other",
+    "controls": [
+     "velocity-sensitive pad",
+     "slider",
+     "tune/decay/truncate",
+     "output channel assignment"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   }
+  ],
+  "choke_groups": [],
+  "accent": "Velocity-sensitive pads (piezo sensor) and MIDI note triggers. Accent levels for programming were not documented in the sources found.",
+  "built_in_effects": [
+   {
+    "name": "Dynamic analog low-pass filter, outputs 1 and 2",
+    "type": "filter",
+    "notes": "SSM2044, 4-pole, time-varying (CCRMA). Hard-wired to those channels. Channels 3-6 probably have fixed low-pass filters and 7-8 none, as on the SP-1200 (inferred, unverified for the SP-12)."
+   }
+  ],
+  "global_features": [
+   "8 velocity pads, 8 sliders, 8-voice polyphony, 8 individual outputs plus mix",
+   "4 banks give 32 sound slots (SP-1200 description; the SP-12 article says up to 32 user samples)",
+   "24 ROM sounds plus user sampling; the standard unit is about 1.2 s (CCRMA spec list; other figures of 2.2-2.5 s exist) and the Turbo 5 s",
+   "12-bit; sample rate 27.5 kHz (r-massive, CCRMA) vs 26.04 kHz (Wikipedia), a conflict",
+   "No reconstruction filter (Wikipedia)",
+   "Sample editing: truncate, decay, detune",
+   "Swing and quantize present; values not found",
+   "100 patterns and 100 songs (400 each with the Turbo upgrade)",
+   "MIDI note triggers in/out; sync to MIDI, SMPTE and analog click; cassette and Commodore 1541 storage",
+   "Shown as 'Drumulator II' in Feb 1985; replaced by the SP-1200 in Aug 1987"
+  ],
+  "sound_bank": {
+   "total": 24,
+   "categories": [
+    {
+     "name": "Bass drum",
+     "count": 2,
+     "range": "unknown"
+    },
+    {
+     "name": "Snare",
+     "count": 2,
+     "range": "unknown"
+    },
+    {
+     "name": "Electronic snare",
+     "count": 2,
+     "range": "unknown"
+    },
+    {
+     "name": "Rimshot",
+     "count": 1,
+     "range": "unknown"
+    },
+    {
+     "name": "Cowbell",
+     "count": 1,
+     "range": "unknown"
+    },
+    {
+     "name": "Tom",
+     "count": 4,
+     "range": "unknown"
+    },
+    {
+     "name": "Electronic tom",
+     "count": 4,
+     "range": "unknown"
+    },
+    {
+     "name": "Hi-hat",
+     "count": 3,
+     "range": "unknown"
+    },
+    {
+     "name": "Clap",
+     "count": 2,
+     "range": "unknown"
+    },
+    {
+     "name": "Ride cymbal",
+     "count": 2,
+     "range": "unknown"
+    },
+    {
+     "name": "Crash cymbal",
+     "count": 1,
+     "range": "unknown"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://en.wikipedia.org/wiki/E-mu_SP-12 (categories). ROM chips per https://zine.r-massive.com/?p=5771: MS1 Electric Snare, Rimshot, Cowbell, Tom; MS2 Bass/Kick, Electric Tom, Hi-Hat, Clap; MS3 Ride, Snare; MS4 Crash. Toms are one sound transposed."
+  },
+  "default_kit": [],
+  "pack_contents": "68 stereo 44.1 kHz 16-bit one-shots in folders, numbered rather than named. BASSDRUM: Bassdrum-01..14. SNARES: Snaredrum-01..21 and Rim Shot-01..02. Toms: Tom H-01..06, Tom L-01..06, Tom M-01, -02, -03, -05 (M-04 missing). Cymbals: Crash, Hat Closed-01/02, Hhopen1, Ride. Percussion: Blow1, Clap, Cowbell. Misc: Metal-01..03, Scratch, Shot-01..03. Measured duplicates: Snaredrum-01 = Snaredrum-19, Bassdrum-07 = Bassdrum-12; near-duplicates 11~21 and 10~20 (snares). Far more than the 24 ROM sounds, so most are user samples. No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "Beastie Boys (prod. Rick Rubin)",
+    "title": "Rhymin & Stealin",
+    "year": 1986,
+    "evidence": "https://en.wikipedia.org/wiki/E-mu_SP-12 - 'Rick Rubin in Rhymin & Stealin on the Beastie Boys album Licensed to Ill' (cited [20]). Ced Gee (Ultramagnetic MCs), Paul C, Prince Paul and Def IV are also named as users.",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/E-mu_SP-12",
+   "https://en.wikipedia.org/wiki/E-mu_SP-1200",
+   "https://ccrma.stanford.edu/~nolting/220c",
+   "https://zine.r-massive.com/?p=5771"
+  ]
+ },
+ {
+  "machine": "E-mu Modular System",
+  "pack_folders": [
+   "Emu Modular"
+  ],
+  "maker": "E-mu Systems",
+  "year": 1972,
+  "kind": "synth (drums made by synthesis)",
+  "voices": [],
+  "choke_groups": [],
+  "accent": "none (depends entirely on the patch)",
+  "built_in_effects": [
+   {
+    "name": "Dual Reverb module",
+    "type": "reverb",
+    "notes": "One of the optional modules named by Wikipedia; not standard on every system."
+   }
+  ],
+  "global_features": [
+   "Hand-built modular synthesizer; customers chose modules from a list (e.g. Quad Inverter, Sample-and-Hold, Dual Reverb)",
+   "Designed by Dave Rossum and Scott Wedge; production from 1972 per the History section ('built in 1974' per the lead)",
+   "Microprocessor-controlled polyphonic keyboard and sequencer, claimed by E-mu as a first and patented",
+   "No fixed drum voices. Drums would be patched (inferred, no source): kick from a sine or triangle oscillator or self-oscillating filter with a fast pitch envelope into a short VCA envelope; snare and hats from noise through band- or high-pass filters with short envelopes; toms from an oscillator with a pitch drop; triggered by sequencer gates"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "5 stereo 44.1 kHz 16-bit synthesized one-shots: Bassdrum-01 (0.90 s), Bassdrum-02 (0.74 s), EmuPong (0.15 s), Flick01 (0.12 s), Flick-02 (0.055 s). Names are inconsistent (Flick01 vs Flick-02). No patch documentation, no loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/E-mu_Modular_System"
+  ]
+ }
+]

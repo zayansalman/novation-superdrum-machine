@@ -1,0 +1,3707 @@
+[
+ {
+  "machine": "Boss DR-55 Dr. Rhythm",
+  "pack_folders": [
+   "Boss DR-55",
+   "DR55"
+  ],
+  "maker": "Boss (Roland Corporation)",
+  "year": 1979,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "BD",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "no per-voice controls (global VOLUME, TEMPO, TONE and ACCENT level knobs only)"
+    ],
+    "switch_alternate": null,
+    "notes": "Programmable per step in step write (START = hit, STOP = rest). Abbreviation as given by polynominal; printed panel legend not verified."
+   },
+   {
+    "label": "SD",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "no per-voice controls (global VOLUME, TEMPO, TONE and ACCENT level knobs only)"
+    ],
+    "switch_alternate": null,
+    "notes": "Programmable per step."
+   },
+   {
+    "label": "RS",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "no per-voice controls (global VOLUME, TEMPO, TONE and ACCENT level knobs only)"
+    ],
+    "switch_alternate": null,
+    "notes": "Programmable per step; whether it shares circuitry with SD is unknown."
+   },
+   {
+    "label": "HH",
+    "name": "Hi-Hat (closed only)",
+    "type": "Closed Hat",
+    "controls": [
+     "HI-HAT switch: off / 8th notes / 16th notes (polynominal also lists 12ths); not programmable per step"
+    ],
+    "switch_alternate": null,
+    "notes": "Free-running straight hat pattern set by a switch; no open hat; no shuffle."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "Accent is written per step in step-write mode and emphasises every sound on that step; one global ACCENT level knob sets the amount; the CSQ jack outputs a pulse on each accented step.",
+  "built_in_effects": [],
+  "global_features": [
+   "8 user pattern memories: patterns 1-6 have 16 steps, 7-8 have 12 steps (3/4, 6/8); VARIATION A / B (A+B gives up to 32 steps / 2 bars)",
+   "no factory preset patterns documented; no song chaining; tempo not stored with patterns",
+   "TONE knob: global dark-to-bright filter (Bonedo, polynominal); MusicTech says it mainly tames the hi-hat",
+   "no balance control, no per-voice level, tuning or decay, no flam, no shuffle",
+   "jacks: mono output, footswitch start/stop, DBS sync out (one pulse per step), CSQ out (one pulse per accented step); no sync input",
+   "battery powered; release year conflicts: 1979 (Bonedo), 1980 (Vintage Synth Explorer), 1981 (polynominal)"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "'Boss DR-55': 17 stereo 16-bit/44.1 kHz WAV one-shots (longest 0.94 s), named not numbered: Bassdrum-01/02, Snaredrum-01,02,03,05,06,07,08,09 (no -04), Hihat1/2, Rimshot, plus a second set DR-55Kick, DR-55Snare, DR-55Hat, DR-55Pop ('Pop' unidentified). 'DR55': 4 mono WAV one-shots, all <=0.084 s (possibly truncated): dr55_bd, dr55_sn, dr55_rim, dr55_ch. No loops, MIDI or docs. The multiple kick/snare takes probably reflect different TONE/ACCENT settings (inferred).",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "New Order",
+    "title": "Truth",
+    "year": 1981,
+    "evidence": "https://microchop.substack.com/p/the-boss-dr-55-dr-rhythm-drum-machine - says New Order 'featured the percussion sounds prominently' on 'Truth' (Movement), citing a 2016 Electricity Club interview with Stephen Morris (original not retrieved).",
+    "grid_source": null
+   },
+   {
+    "artist": "The Cure",
+    "title": "One Hundred Years",
+    "year": 1982,
+    "evidence": "https://www.bonedo.de/artikel/vintage-drum-machine-boss-dr-rhythm-dr-55/ - Bonedo: The Cure used it for their classic '100 Years' (secondary claim, no primary quote).",
+    "grid_source": null
+   },
+   {
+    "artist": "Joy Division",
+    "title": "Isolation",
+    "year": 1980,
+    "evidence": "https://www.bonedo.de/artikel/vintage-drum-machine-boss-dr-rhythm-dr-55/ - Bonedo says it was used on 'Isolation'; conflicts with a reported Stephen Morris account of getting the DR-55 just after Closer (https://equipboard.com/pros/stephen-morris, search excerpt only).",
+    "grid_source": null
+   },
+   {
+    "artist": "Cybotron",
+    "title": "Clear",
+    "year": 1983,
+    "evidence": "https://microchop.substack.com/p/the-boss-dr-55-dr-rhythm-drum-machine - Juan Atkins used the DR-55 in production per his 2012 MusicRadar interview (cited by Microchop; interview not retrieved).",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.bonedo.de/artikel/vintage-drum-machine-boss-dr-rhythm-dr-55/",
+   "https://www.polynominal.com/site/studio/gear/drum/boss-dr55/boss-dr-55.html",
+   "https://www.musictech.com/features/opinion-analysis/boss-dr-rhythm-dr-55/",
+   "https://microchop.substack.com/p/the-boss-dr-55-dr-rhythm-drum-machine",
+   "https://www.vintagesynth.com/boss/dr-55-dr-rhythm"
+  ]
+ },
+ {
+  "machine": "Boss DR-110 Dr. Rhythm Graphic",
+  "pack_folders": [
+   "Boss DR-110",
+   "dR110"
+  ],
+  "maker": "Boss (Roland Corporation)",
+  "year": 1983,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "BASS DRUM",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "no per-voice level, tuning or decay",
+     "BALANCE knob (5-0-5) shifts bass+snare against hi-hats+cymbal (side of HAND CLAP unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": "Second instrument key from the left (the leftmost key, ACCENT, is not a sound). BALANCE 'drums' side."
+   },
+   {
+    "label": "SNARE DRUM",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "no per-voice level, tuning or decay",
+     "BALANCE knob (5-0-5) shifts bass+snare against hi-hats+cymbal (side of HAND CLAP unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": "BALANCE 'drums' side."
+   },
+   {
+    "label": "O.HIHAT",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "no per-voice level, tuning or decay",
+     "BALANCE knob (5-0-5) shifts bass+snare against hi-hats+cymbal (side of HAND CLAP unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": "Made from the cymbal generator's 'High Metal' signal; its decay is cut off by C.HIHAT (Electric Druid). Manual notation also uses 'Closed & Open Hihat' on one step."
+   },
+   {
+    "label": "C.HIHAT",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "no per-voice level, tuning or decay",
+     "BALANCE knob (5-0-5) shifts bass+snare against hi-hats+cymbal (side of HAND CLAP unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": "Shuts off the open hat's decay (Electric Druid)."
+   },
+   {
+    "label": "CYMBAL",
+    "name": "Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "no per-voice level, tuning or decay",
+     "BALANCE knob (5-0-5) shifts bass+snare against hi-hats+cymbal (side of HAND CLAP unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": "Attack from 'High Metal', tail from 'Low Metal' (Electric Druid); shares the AC/CY/HCP display row."
+   },
+   {
+    "label": "HAND CLAP",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "no per-voice level, tuning or decay",
+     "BALANCE knob (5-0-5) shifts bass+snare against hi-hats+cymbal (side of HAND CLAP unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares the AC/CY/HCP display row."
+   }
+  ],
+  "choke_groups": [
+   [
+    "C.HIHAT",
+    "O.HIHAT"
+   ]
+  ],
+  "accent": "The ACCENT instrument key (leftmost) writes a per-step accent; the ACCENT knob (0-10) sets its depth; the accent trigger drives a short envelope on the overall output VCA, so every sound on that step gets louder (Electric Druid). An ACC TRIG OUT jack is provided 'for controlling a synthesizer' (presumably fires on accented steps - inferred).",
+  "built_in_effects": [],
+  "global_features": [
+   "16 preset patterns in banks C and D (C-1..C-8, D-1..D-8) + 16 user patterns in banks A and B",
+   "12/16 key: 16 or 12 steps per pattern for triplets / triple time",
+   "STEP WRITE and TAP (real-time) WRITE; LCD step-grid display",
+   "2 songs of up to 128 measures each",
+   "TEMPO knob 45-300 BPM (Wikipedia)",
+   "OUTPUT (P-BUS) and headphone jacks; mono mix, no individual outputs, no panning",
+   "no flam, no shuffle control, no per-voice tuning or decay",
+   "AC adaptor (BOSS PSA) or battery; memory backup"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "'Boss DR-110': 13 stereo 16-bit/44.1 kHz WAV one-shots (longest 1.6 s), named: Bassdrum, Snaredrum, Hat Closed, Hat Open, Crash, Ride, Clap plus DR-110Kick, DR-110Snare, DR-110Hat_C, DR-110Hat_O, DR-110Cymbal, DR-110Clap. 'Crash' and 'Ride' are probably two treatments of the single CYMBAL voice (inferred). 'dR110': 6 mono WAV one-shots (longest 1.34 s): DR110KIK, DR110SNR, DR110CHT, DR110OHT, DR110CYM, DR110CLP = exactly the six voices. No loops or MIDI.",
+  "preset_patterns": [
+   {
+    "name": "Preset C-1 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset C-2 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset C-3 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset C-4 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset C-5 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset C-6 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset C-7 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset C-8 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset D-1 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset D-2 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset D-3 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset D-4 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset D-5 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset D-6 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset D-7 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Preset D-8 (unnamed in the manual; shown only in staff notation)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf pp.36-39"
+   },
+   {
+    "name": "Manual Sample Rhythm (not a ROM preset): ROCK I (8 Beat)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf p.40"
+   },
+   {
+    "name": "Manual Sample Rhythm (not a ROM preset): ROCK II (Boogie-woogie), 12-step triplet bar; optional O.HIHAT on steps 4 and 10",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf p.40"
+   },
+   {
+    "name": "Manual Sample Rhythm (not a ROM preset): ROCK III (16 Beat); optional CYMBAL on 1,3,4,5,7,8,9,11,12,13,15,16; fill-in adds accented SNARE on 15-16",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf p.41"
+   },
+   {
+    "name": "Manual Sample Rhythm (not a ROM preset): FILL IN I",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf p.41"
+   },
+   {
+    "name": "Manual Sample Rhythm (not a ROM preset): ELECTRONIC POP I; optional HAND CLAP on 5 and 13; CYMBAL on step 1 only at song start; fill-in adds accented SNARE on 15-16",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf p.42"
+   },
+   {
+    "name": "Manual Sample Rhythm (not a ROM preset): ELECTRONIC POP II; CYMBAL on step 1 only at song start",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf p.42"
+   },
+   {
+    "name": "Manual Sample Rhythm (not a ROM preset): DISCO; optional HAND CLAP on 5 and 13; CYMBAL on step 1 only at song start; fill-in adds accented SNARE on 15-16",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf p.43"
+   },
+   {
+    "name": "Manual Sample Rhythm (not a ROM preset): LATIN I (Bossanova)",
+    "source": "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf p.44"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "They Might Be Giants",
+    "title": "Next Plane To London",
+    "year": null,
+    "evidence": "https://tmbw.net/wiki/Drum_Machine - fan wiki: the DR-110 was the band's first drum machine (bought late 1983 or 1984) and is heard on this recording (1984 demo era); cites a Flickr photo and John Flansburgh's 2009 Magnet piece.",
+    "grid_source": null
+   },
+   {
+    "artist": "They Might Be Giants",
+    "title": "Don't Let's Start (first demo)",
+    "year": null,
+    "evidence": "https://tmbw.net/wiki/Drum_Machine - fan wiki: the DR-110 was the band's first drum machine (bought late 1983 or 1984) and is heard on this recording (1984 demo era); cites a Flickr photo and John Flansburgh's 2009 Magnet piece.",
+    "grid_source": null
+   },
+   {
+    "artist": "They Might Be Giants",
+    "title": "I Need Some Lovin'",
+    "year": null,
+    "evidence": "https://tmbw.net/wiki/Drum_Machine - fan wiki: the DR-110 was the band's first drum machine (bought late 1983 or 1984) and is heard on this recording (1984 demo era); cites a Flickr photo and John Flansburgh's 2009 Magnet piece.",
+    "grid_source": null
+   },
+   {
+    "artist": "They Might Be Giants",
+    "title": "Confusing The Mind",
+    "year": null,
+    "evidence": "https://tmbw.net/wiki/Drum_Machine - fan wiki: the DR-110 was the band's first drum machine (bought late 1983 or 1984) and is heard on this recording (1984 demo era); cites a Flickr photo and John Flansburgh's 2009 Magnet piece.",
+    "grid_source": null
+   },
+   {
+    "artist": "They Might Be Giants",
+    "title": "1999",
+    "year": null,
+    "evidence": "https://tmbw.net/wiki/Drum_Machine - fan wiki: the DR-110 was the band's first drum machine (bought late 1983 or 1984) and is heard on this recording (1984 demo era); cites a Flickr photo and John Flansburgh's 2009 Magnet piece.",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.theninhotline.com/dr110/Boss-dr110-manual.pdf",
+   "https://www.theninhotline.com/dr110/",
+   "https://en.wikipedia.org/wiki/Boss_DR-110_Dr._Rhythm",
+   "https://electricdruid.net/?p=71361",
+   "https://www.bonedo.de/artikel/vintage-drum-machine-boss-dr-rhythm-dr-110",
+   "https://tmbw.net/wiki/Drum_Machine"
+  ]
+ },
+ {
+  "machine": "Boss DR-202 Dr. Groove",
+  "pack_folders": [
+   "Boss DR-202"
+  ],
+  "maker": "Boss (Roland Corporation)",
+  "year": 1998,
+  "kind": "sampler/groovebox",
+  "voices": [
+   {
+    "label": "BASS",
+    "name": "Bass part",
+    "type": "Bass",
+    "controls": [
+     "bass instrument 00-48",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "PORTAMENTO on/off + time 0-127",
+     "octave shift"
+    ],
+    "switch_alternate": null,
+    "notes": "Leftmost button, not a drum pad: when lit, the 13 pads play the bass part chromatically (C to C). No bass tones in the pack."
+   },
+   {
+    "label": "KICK1",
+    "name": "Kick 1",
+    "type": "Kick",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Lower row, key C; MIDI note 36; roll note 100."
+   },
+   {
+    "label": "KICK2",
+    "name": "Kick 2",
+    "type": "Kick",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Upper row, key C#/Db; MIDI note 35; roll note 101."
+   },
+   {
+    "label": "SNARE1",
+    "name": "Snare 1",
+    "type": "Snare",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Lower row, key D; MIDI note 38; roll note 102."
+   },
+   {
+    "label": "SNARE2",
+    "name": "Snare 2",
+    "type": "Snare",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Upper row, key D#/Eb; MIDI note 40; roll note 103."
+   },
+   {
+    "label": "CLOSED HH",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Lower row, key E; MIDI note 42; roll note 104. Choke against OPEN HH not documented in the pages read (unknown)."
+   },
+   {
+    "label": "OPEN HH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Lower row, key F; MIDI note 46; roll note 105."
+   },
+   {
+    "label": "HIT1",
+    "name": "Hit 1",
+    "type": "Perc",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Upper row, key F#/Gb; MIDI note 50; roll note 106. Note 50 = GM high tom; content is kit-dependent (toms, hits or FX)."
+   },
+   {
+    "label": "RIDE",
+    "name": "Ride",
+    "type": "Ride",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Lower row, key G; MIDI note 51; roll note 107."
+   },
+   {
+    "label": "HIT2",
+    "name": "Hit 2",
+    "type": "Perc",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Upper row, key G#/Ab; MIDI note 47; roll note 108. Note 47 = GM low-mid tom; kit-dependent."
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash",
+    "type": "Crash",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Lower row, key A; MIDI note 49; roll note 109."
+   },
+   {
+    "label": "HIT3",
+    "name": "Hit 3",
+    "type": "Perc",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Upper row, key A#/Bb; MIDI note 43; roll note 110. Note 43 = GM high floor tom; kit-dependent."
+   },
+   {
+    "label": "PERC1",
+    "name": "Percussion 1",
+    "type": "Perc",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Lower row, key B; MIDI note 60; roll note 111."
+   },
+   {
+    "label": "PERC2",
+    "name": "Percussion 2",
+    "type": "Perc",
+    "controls": [
+     "INST assign (drum instruments 49-255)",
+     "LEVEL 0-15",
+     "PITCH -100..+100",
+     "PAN L7-C-R7",
+     "REV/DLY SEND 0-100",
+     "FLANGER SEND 0-100",
+     "CUTOFF -50..+50",
+     "RESONANCE -50..+50",
+     "DECAY -50..+50",
+     "MUTE / SOLO",
+     "ROLL (68 roll types, speed 0-127)"
+    ],
+    "switch_alternate": null,
+    "notes": "Lower row, key C (upper); MIDI note 61; roll note 112."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "Pads are not velocity-sensitive (SOS). Each kit has an ACC (accent) value of 1-8 that sets the level of pad hits ('Changing the Accent (Volume)', manual p.33); every recorded note stores ACC 1-8 (manual pp.68-69).",
+  "built_in_effects": [
+   {
+    "name": "Reverb/Delay",
+    "type": "reverb",
+    "notes": "REV/DLY TYPE: Small Room, Studio, Club, Lounge, Large Hall, Dark Hall, Plate 1, Plate 2 (reverbs), Stereo Delay, Pan Delay (delays); reverb time 0-100, reverb level 0-127; delay time 5-450 ms or tempo note values (not synced to external MIDI clock), delay level 0-100, feedback 0-127. Fed by each instrument's REV/DLY SEND (0-100), drums and bass; front-panel REV/DLY knob."
+   },
+   {
+    "name": "Flanger",
+    "type": "other",
+    "notes": "Jet, Soft, Hard or Cold flanger; rate 0-100; level 0-127; fed by each instrument's FLANGER SEND (0-100); front-panel FLANGER knob."
+   },
+   {
+    "name": "Per-instrument filter and decay (Realtime Modify)",
+    "type": "filter",
+    "notes": "14 filters (13 drum + 1 bass, per SOS): CUTOFF, RESONANCE and DECAY -50..+50 per instrument, or for ALL DRUMS / ALL INST via the INSTRUMENT SELECT knob."
+   },
+   {
+    "name": "LOW knob",
+    "type": "eq",
+    "notes": "Front-panel LOW knob marked cut/boost (manual item 2, p.16; detailed behaviour not read)."
+   }
+  ],
+  "global_features": [
+   "24-voice polyphony (some instruments use 2 voices)",
+   "kit = 13 drum instruments + 1 bass part (+ external MIDI part); 128 preset kits P000-P127 + 64 user kits",
+   "400 preset patterns in 11 styles + 100 user patterns; patterns 1-8 measures, beat 1/4-4/4",
+   "Realtime Modify knobs CUTOFF / RESONANCE / DECAY with INSTRUMENT SELECT (one instrument, ALL DRUMS, ALL INST)",
+   "ROLL: 68 roll types (incl. Flam 1-3, Fill 1-8, Phrase 1-12), speed 0-127; rolls on MIDI notes 100-112",
+   "Groove Quantize: 20 templates (8Beat/16Beat Hi-Accent, Lo-Swing, Hi-Swing; Rhumba, Fusion, Reggae 1-3; Samba; Salsa; Triplets; Lagging Triplets; Sextuplets); grid quantize down to 32nd-note triplets; Timing Shift",
+   "tempo 40.0-250.0 BPM, tap tempo; recommended tempo stored per pattern",
+   "MUTE and SOLO per instrument; footswitch assignable to start/stop or any pad",
+   "MIDI IN/OUT; drum part on channel 10 by default; Bank Select MSB 81 = preset kits, 85 = user kits"
+  ],
+  "sound_bank": {
+   "total": 256,
+   "categories": [
+    {
+     "name": "Bass (manual group BASS)",
+     "count": 49,
+     "range": "00-48"
+    },
+    {
+     "name": "Drum (manual group DRUM: drums, percussion, SFX)",
+     "count": 207,
+     "range": "49-255"
+    },
+    {
+     "name": "Kicks (sub-grouping inferred from names)",
+     "count": 31,
+     "range": "49-79"
+    },
+    {
+     "name": "Snares (inferred)",
+     "count": 49,
+     "range": "80-128"
+    },
+    {
+     "name": "Rims / side sticks (inferred)",
+     "count": 6,
+     "range": "129-134"
+    },
+    {
+     "name": "Claps / snaps (inferred)",
+     "count": 13,
+     "range": "135-147"
+    },
+    {
+     "name": "Toms (inferred)",
+     "count": 14,
+     "range": "148-161"
+    },
+    {
+     "name": "Hi-hats: closed 162-172, open 173-181, pedal 182 (inferred)",
+     "count": 21,
+     "range": "162-182"
+    },
+    {
+     "name": "Cymbals (inferred)",
+     "count": 10,
+     "range": "183-192"
+    },
+    {
+     "name": "Percussion, hits, scratches, SFX, reverse (inferred)",
+     "count": 63,
+     "range": "193-255"
+    }
+   ],
+   "ordered_list": [
+    "00 FingB1",
+    "01 FingB2",
+    "02 FingB3",
+    "03 PickB1",
+    "04 PickB2",
+    "05 SlapB1",
+    "06 SlapB2",
+    "07 SlapB3",
+    "08 AcosB1",
+    "09 AcosB2",
+    "10 WoodB1",
+    "11 WoodB2",
+    "12 FrtlsB",
+    "13 Acid B",
+    "14 DistTB",
+    "15 SqswTB",
+    "16 DsinTB",
+    "17 DublTB",
+    "18 SqurTB",
+    "19 ResoTB",
+    "20 DsawTB",
+    "21 Saw TB",
+    "22 AcosTB",
+    "23 TBPadB",
+    "24 SolidB",
+    "25 HouseB",
+    "26 TechnB",
+    "27 SineB1",
+    "28 SineB2",
+    "29 BreakB",
+    "30 Soul B",
+    "31 OrganB",
+    "32 5thOgB",
+    "33 ResOgB",
+    "34 101 B1",
+    "35 101 B2",
+    "36 101 B3",
+    "37 MG B1",
+    "38 MG B2",
+    "39 SquarB",
+    "40 Saw B1",
+    "41 Saw B2",
+    "42 Saw B3",
+    "43 Hi-PFB",
+    "44 ElecB1",
+    "45 ElecB2",
+    "46 SwPnkB",
+    "47 NoizB1",
+    "48 NoizB2",
+    "49 808 K1",
+    "50 808 K2",
+    "51 808 K3",
+    "52 909 K1",
+    "53 909 K2",
+    "54 606DSK",
+    "55 707 K",
+    "56 AbstrK",
+    "57 Jazz K",
+    "58 Cave K",
+    "59 BriteK",
+    "60 BreakK",
+    "61 PillwK",
+    "62 HiHpK1",
+    "63 HiHpK2",
+    "64 HiHpK3",
+    "65 Dist K",
+    "66 ElectK",
+    "67 MG bdK",
+    "68 PB300K",
+    "69 TightK",
+    "70 JnglK1",
+    "71 JnglK2",
+    "72 ScrbdK",
+    "73 Gate K",
+    "74 Roll K",
+    "75 SmashK",
+    "76 Dark K",
+    "77 99TecK",
+    "78 Lofi K",
+    "79 KnockK",
+    "80 808 S1",
+    "81 808 S2",
+    "82 909 S1",
+    "83 909 S2",
+    "84 606DSS",
+    "85 707 S",
+    "86 CR78 S",
+    "87 HpdisS",
+    "88 East S",
+    "89 Pop S",
+    "90 AbstrS",
+    "91 JazzS1",
+    "92 HipHpS",
+    "93 UrbanS",
+    "94 Drmn S",
+    "95 JnglS1",
+    "96 JnglS2",
+    "97 HeadzS",
+    "98 ScrchS",
+    "99 Rock S",
+    "100 BigBtS",
+    "101 ElecS1",
+    "102 StandS",
+    "103 Fat1 S",
+    "104 HpRm S",
+    "105 RegaeS",
+    "106 R8tapS",
+    "107 Brasrl",
+    "108 OldElS",
+    "109 JazzS2",
+    "110 LightS",
+    "111 78scrS",
+    "112 FatdsS",
+    "113 ElecS2",
+    "114 RitRmS",
+    "115 WoodyS",
+    "116 Tamb S",
+    "117 HpFatS",
+    "118 Slap S",
+    "119 DrmRmS",
+    "120 LooseS",
+    "121 Cool S",
+    "122 77mt S",
+    "123 TecRmS",
+    "124 Clap S",
+    "125 Perc S",
+    "126 Slit S",
+    "127 JBeatS",
+    "128 BreakS",
+    "129 808RIM",
+    "130 909RIM",
+    "131 PB30Rm",
+    "132 RagaRm",
+    "133 Click",
+    "134 Drystk",
+    "135 6DSCLP",
+    "136 88DSCP",
+    "137 909CLP",
+    "138 RealCP",
+    "139 ClapCP",
+    "140 FnkyCP",
+    "141 FunkCP",
+    "142 DwnCLP",
+    "143 SnarCP",
+    "144 ShtCLP",
+    "145 AtcCLP",
+    "146 Snap",
+    "147 FngSNP",
+    "148 808Tm1",
+    "149 808Tm2",
+    "150 808Tm3",
+    "151 909Tm1",
+    "152 909Tm2",
+    "153 909Tm3",
+    "154 DRTom1",
+    "155 DRTom2",
+    "156 DRTom3",
+    "157 ElecT1",
+    "158 ElecT2",
+    "159 ElecT3",
+    "160 OLDTm1",
+    "161 OLDTm2",
+    "162 808 CH",
+    "163 909 CH",
+    "164 707CHH",
+    "165 78 CHH",
+    "166 ElecCH",
+    "167 HpHpCH",
+    "168 NOIZCH",
+    "169 JnglHH",
+    "170 RelCH1",
+    "171 RelCH2",
+    "172 Pop CH",
+    "173 808 OH",
+    "174 909 OH",
+    "175 707OHH",
+    "176 HpHpOH",
+    "177 NOIZOH",
+    "178 RelOH1",
+    "179 RelOH2",
+    "180 Pop OH",
+    "181 BrekOH",
+    "182 PdlCHH",
+    "183 808Cym",
+    "184 909Cym",
+    "185 CrashC",
+    "186 DrumnC",
+    "187 SplshC",
+    "188 707RdC",
+    "189 909RdC",
+    "190 RideC1",
+    "191 RideC2",
+    "192 RidBlC",
+    "193 808Cow",
+    "194 Cowbel",
+    "195 808Cng",
+    "196 BongoH",
+    "197 BongoL",
+    "198 CongaH",
+    "199 CongaL",
+    "200 CongMt",
+    "201 Marcas",
+    "202 Shaker",
+    "203 SurdMt",
+    "204 SurdOP",
+    "205 SrdOPL",
+    "206 Tamb1",
+    "207 Tamb2",
+    "208 TimblH",
+    "209 TimblL",
+    "210 TriaOp",
+    "211 TriaMt",
+    "212 GuiroS",
+    "213 GuiroL",
+    "214 Claves",
+    "215 AgogoH",
+    "216 AgogoL",
+    "217 MtCuia",
+    "218 OpCuia",
+    "219 Bell",
+    "220 WhislL",
+    "221 WhislS",
+    "222 Bounce",
+    "223 IrnDor",
+    "224 ComeOn",
+    "225 TBShot",
+    "226 HpHpHT",
+    "227 PinkHT",
+    "228 WhitHT",
+    "229 BackHT",
+    "230 Philly",
+    "231 RecrdN",
+    "232 Scrt 1",
+    "233 Scrt 2",
+    "234 Scrt 3",
+    "235 Scrt 4",
+    "236 Scrt 5",
+    "237 Scrt 6",
+    "238 Scrt 7",
+    "239 Scrt 8",
+    "240 WindNZ",
+    "241 CowHit",
+    "242 TeckBP",
+    "243 Beep",
+    "244 Bombb",
+    "245 MGBLIR",
+    "246 MGBLP1",
+    "247 MGBLP2",
+    "248 REZNIZ",
+    "249 RevClp",
+    "250 RevSnr",
+    "251 Rev HH",
+    "252 RevCym",
+    "253 RevTmb",
+    "254 RevFx1",
+    "255 RevFx2"
+   ],
+   "list_source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf p.70 (Instrument List)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "KICK1 (key C)",
+    "midi_note": 36,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "KICK2 (key C#/Db)",
+    "midi_note": 35,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "SNARE1 (key D)",
+    "midi_note": 38,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "SNARE2 (key D#/Eb)",
+    "midi_note": 40,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "CLOSED HH (key E)",
+    "midi_note": 42,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "OPEN HH (key F)",
+    "midi_note": 46,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "HIT1 (key F#/Gb)",
+    "midi_note": 50,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "RIDE (key G)",
+    "midi_note": 51,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "HIT2 (key G#/Ab)",
+    "midi_note": 47,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "CRASH (key A)",
+    "midi_note": 49,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "HIT3 (key A#/Bb)",
+    "midi_note": 43,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "PERC1 (key B)",
+    "midi_note": 60,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "PERC2 (key C (upper))",
+    "midi_note": 61,
+    "sound": "kit-dependent (each preset pattern calls its own kit, e.g. HIP-HOP 1 01 uses P002); per-pad instruments of the preset kits are not printed in the manual pages read"
+   },
+   {
+    "pad_or_key": "ROLL KICK1",
+    "midi_note": 100,
+    "sound": "roll of the KICK1 instrument (roll type/speed from the pattern setup)"
+   },
+   {
+    "pad_or_key": "ROLL KICK2",
+    "midi_note": 101,
+    "sound": "roll of the KICK2 instrument (roll type/speed from the pattern setup)"
+   },
+   {
+    "pad_or_key": "ROLL SNARE1",
+    "midi_note": 102,
+    "sound": "roll of the SNARE1 instrument (roll type/speed from the pattern setup)"
+   },
+   {
+    "pad_or_key": "ROLL SNARE2",
+    "midi_note": 103,
+    "sound": "roll of the SNARE2 instrument (roll type/speed from the pattern setup)"
+   },
+   {
+    "pad_or_key": "ROLL CLOSED HH",
+    "midi_note": 104,
+    "sound": "roll of the CLOSED HH instrument (roll type/speed from the pattern setup)"
+   },
+   {
+    "pad_or_key": "ROLL OPEN HH",
+    "midi_note": 105,
+    "sound": "roll of the OPEN HH instrument (roll type/speed from the pattern setup)"
+   },
+   {
+    "pad_or_key": "ROLL HIT1",
+    "midi_note": 106,
+    "sound": "roll of the HIT1 instrument (roll type/speed from the pattern setup)"
+   },
+   {
+    "pad_or_key": "ROLL RIDE",
+    "midi_note": 107,
+    "sound": "roll of the RIDE instrument (roll type/speed from the pattern setup)"
+   },
+   {
+    "pad_or_key": "ROLL HIT2",
+    "midi_note": 108,
+    "sound": "roll of the HIT2 instrument (roll type/speed from the pattern setup)"
+   },
+   {
+    "pad_or_key": "ROLL CRASH",
+    "midi_note": 109,
+    "sound": "roll of the CRASH instrument (roll type/speed from the pattern setup)"
+   },
+   {
+    "pad_or_key": "ROLL HIT3",
+    "midi_note": 110,
+    "sound": "roll of the HIT3 instrument (roll type/speed from the pattern setup)"
+   },
+   {
+    "pad_or_key": "ROLL PERC1",
+    "midi_note": 111,
+    "sound": "roll of the PERC1 instrument (roll type/speed from the pattern setup)"
+   },
+   {
+    "pad_or_key": "ROLL PERC2",
+    "midi_note": 112,
+    "sound": "roll of the PERC2 instrument (roll type/speed from the pattern setup)"
+   }
+  ],
+  "pack_contents": "'Boss DR-202': 208 mono 16-bit/44.1 kHz WAV one-shots (longest 4.36 s), numbered by category prefix with no names: 202kik01-31, 202snr01-48, 202rim01-06, 202cla01-13, 202tom01-15, 202hat01-22, 202cym01-10, 202per01-63. No bass tones (ROM 00-48 absent), no loops or MIDI. Prefix counts match the inferred ROM drum ranges (kik 31, rim 6, cla 13, cym 10, per 63) except snr 48 vs 49, tom 15 vs 14 and hat 22 vs 21 (208 files vs 207 ROM drums), so file N is probably ROM range start + N - 1 (inferred, unverified).",
+  "preset_patterns": [
+   {
+    "name": "HIP-HOP 1 01-12: Hip Hop East (90-100 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 1 13-17: Hip Hop West (98-105 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 1 18-25: Hip Hop Old School (100-110 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 1 26-31: G.Funk (91-96 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 1 32-34: Hip Hop Rock (98-110 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 1 35-41: Hip Hop (92-113 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 1 42: Hip Hop Jazz (105 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 1 43-49: Hip Hop (102.5-115 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 2 01-04: Hip Hop (115-122 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 2 05-07: New Jack Swing (100-105 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 2 08-19: Hip Hop Old School (100-130 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 2 20-24: BASS (140-148 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 2 25-27: Hip Hop Rock (119-120 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 2 28-29: Hip Hop (110 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 2 30-32: Hip Hop Jazz (101-125 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 2 33-34: RaggaHipHop (177 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 3 01-07: Hip Hop East (77-93 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 3 08-09: Hip Hop West (75 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 3 10: Hip Hop (90 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 3 11-18: Abstract (55-82 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 3 19-28: Trip Hop (60-91 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 3 29-30: Hip Hop (83 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 3 31-34: Hip Hop Soul (64-80 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HIP-HOP 3 35-36: Hip Hop Jazz (78 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "JUNGLE 01-16: Jungle (158-174 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "DRUM'N'BASS 01-51: Drum'n'Bass (147-180 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "TECHNO 01-14: Minimal (129-145 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "TECHNO 15-19: Detroite Techno [sic] (120-140 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "TECHNO 20-23: Electro (119-130 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "TECHNO 24-29: Trance (136-145 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "TECHNO 30-31: NU-NRG (150-152 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "TECHNO 32-35: Hardcore (175-205 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "TECHNO 36-39: Industrial (140-150 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "TECHNO 40-45: Rave (120-130 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "TECHNO 46-51: Ambient (104-110 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HOUSE 01-14: House (123-130 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HOUSE 15-22: Acid House (135-140 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HOUSE 23-32: Latin House (110-122 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "HOUSE 33-36: Eurobeat (155 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "ACIDJAZZ 01-39: Acid Jazz (80-132 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "LATIN 01-07: Salsa (85-112 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "LATIN 08-11: Merengue (130-145 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "LATIN 12-15: Rhumba (69-145 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "LATIN 16-19: Samba (120-138 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "LATIN 20-21: Mambo (220 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "LATIN 22-23: Bossa Nova (139 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "LATIN 24: Cha Cha (84 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "ROCK 01-14: BigBeat (105-137 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "ROCK 15-16: 8beat Rock (105-113 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "ROCK 17-18: 16beat Rock (110-125 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "ROCK 19-20: Grunge Rock (174 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "ROCK 21-22: Hard Rock (161 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "ROCK 23-24: Metal Rock (180 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "ROCK 25-26: Fusion (98-140 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "ROCK 27-28: Progresive Rock [sic] (135 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "ROCK 29-30: Shuffle (140 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "ROCK 31-32: Halftime Shuffle (87 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "ROCK 33-34: Latin Rock (125 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "OTHER 01-02: Funk (122-129 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "OTHER 03-04: R&B (108-119 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "OTHER 05-10: Reggae (88-180 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "OTHER 11-12: Ballade (88 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "OTHER 13-14: 12/8 Ballade (70-80 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "OTHER 15-20: Jazz (90-220 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "OTHER 21-22: Waltz (158 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "OTHER 23-24: Blues (55-125 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "OTHER 25-26: Rockabilly (245 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "OTHER 27-28: Country (143 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   },
+   {
+    "name": "OTHER 29-30: Metronome (120 BPM)",
+    "source": "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf pp.72-77"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://static.roland.com/assets/media/pdf/DR-202_OM.pdf",
+   "https://www.soundonsound.com/node/4924999"
+  ]
+ },
+ {
+  "machine": "Boss DR-220A Dr. Rhythm (acoustic sound set)",
+  "pack_folders": [
+   "Boss DR-220",
+   "Boss DR-220a"
+  ],
+  "maker": "Boss (Roland Corporation)",
+  "year": 1987,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "LT",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares one channel with MT and HT: only one tom per step (Wikipedia). Order as listed by Wikipedia (citing the 1988 owner's manual); physical position on the 4x3 pad grid not verified."
+   },
+   {
+    "label": "MT",
+    "name": "Mid Tom",
+    "type": "Tom",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "Tom channel (see LT)."
+   },
+   {
+    "label": "HT",
+    "name": "High Tom",
+    "type": "Tom",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "Tom channel (see LT)."
+   },
+   {
+    "label": "CCY",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "polynominal lists 'crash/ride cymbal' as one sound slot; channel shared with RCY (inferred)."
+   },
+   {
+    "label": "RIM",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "Cannot sound together with HCP (polynominal)."
+   },
+   {
+    "label": "HCP",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares a channel with RIM (polynominal)."
+   },
+   {
+    "label": "CH",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "Hi-hat channel shared with OH (inferred from polynominal's single 'hihat' slot)."
+   },
+   {
+    "label": "OH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "See CH."
+   },
+   {
+    "label": "BD",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SD",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "RCY",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "See CCY."
+   }
+  ],
+  "choke_groups": [
+   [
+    "LT",
+    "MT",
+    "HT"
+   ],
+   [
+    "RIM",
+    "HCP"
+   ],
+   [
+    "CH",
+    "OH"
+   ],
+   [
+    "CCY",
+    "RCY"
+   ]
+  ],
+  "accent": "Each voice has its own accent level 0-5 (and volume 0-5); how accents are entered per step is not documented in the sources read (unknown).",
+  "built_in_effects": [],
+  "global_features": [
+   "12-bit PCM, 11 waves in ROM; 6-voice polyphony (uPD7514); several sounds share channels",
+   "12 non-velocity pads (4x3); real-time (TAP) or step write",
+   "32 preset patterns (styles incl. rock, bossa nova, samba, disco, electropop) + 32 user patterns",
+   "16 steps per pattern (12 in 3/4 mode)",
+   "songs: up to 128 bars (256 with Song Chain), 8 songs (Wikipedia); polynominal says songs up to 256 bars",
+   "tempo 40-250 BPM; external analog clock/trigger sync via 3.5 mm jacks; trigger input; no MIDI",
+   "mono main output + headphones; no per-voice tuning; no flam or shuffle documented",
+   "DR-220A and DR-220E are sister models with the same hardware and different ROM sound sets"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "'Boss DR-220': 11 stereo 16-bit/44.1 kHz WAV one-shots (longest 1.12 s): Bassdrum, Snaredrum, Clap, Clave, Hat Closed, Hat Open, Crash, Ride, Tom H, Tom M, Tom L - matches the DR-220A set if 'Clave' is the RIM voice (inferred). 'Boss DR-220a': 11 mono WAV one-shots (longest 1.17 s): DR220Kick, DR220Snare, DR220Rimshot, DR220Clap, DR220Hat_C, DR220Hat_O, DR220Crash, DR220Ride, DR220Tom_Hi, DR220Tom_Mid, DR220Tom_Lo = one file per DR-220A voice. No loops or MIDI.",
+  "preset_patterns": [
+   {
+    "name": "32 ROM presets (styles incl. rock, bossa nova, samba, disco, electropop); individual names and grids not found",
+    "source": "http://www.polynominal.com/Boss-Dr-220-A/index.html"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Boss_DR-220",
+   "http://www.polynominal.com/Boss-Dr-220-A/index.html",
+   "http://www.polynominal.com/Boss-Dr-220-E/index.html"
+  ]
+ },
+ {
+  "machine": "Boss DR-220E Dr. Rhythm (electronic sound set)",
+  "pack_folders": [
+   "Boss DR-220e"
+  ],
+  "maker": "Boss (Roland Corporation)",
+  "year": 1987,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "LT",
+    "name": "Low Tom (electronic)",
+    "type": "Tom",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares one channel with MT and HT: only one tom per step (Wikipedia). Order as listed by Wikipedia (citing the 1988 owner's manual); physical position on the 4x3 pad grid not verified."
+   },
+   {
+    "label": "MT",
+    "name": "Mid Tom (electronic)",
+    "type": "Tom",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "Tom channel (see LT)."
+   },
+   {
+    "label": "HT",
+    "name": "High Tom (electronic)",
+    "type": "Tom",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "Tom channel (see LT)."
+   },
+   {
+    "label": "CHY",
+    "name": "China Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "polynominal lists 'china cymbal/cup' as one sound slot; channel shared with CUP (inferred). Pack file probably 'DR220eCrash' (inferred)."
+   },
+   {
+    "label": "CB",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "polynominal lists 'cowbell/slap' as one sound slot; channel shared with SLP (inferred)."
+   },
+   {
+    "label": "SLP",
+    "name": "Vibraslap",
+    "type": "Perc",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "See CB. Pack file 'DR220eSlap'."
+   },
+   {
+    "label": "CH",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "Hi-hat channel shared with OH (inferred)."
+   },
+   {
+    "label": "OH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "See CH."
+   },
+   {
+    "label": "BD",
+    "name": "Bass Drum (electronic)",
+    "type": "Kick",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SD",
+    "name": "Snare Drum (electronic)",
+    "type": "Snare",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CUP",
+    "name": "Cup Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "ACCENT level 0-5 (per voice)",
+     "VOLUME 0-5 (per voice)"
+    ],
+    "switch_alternate": null,
+    "notes": "See CHY. Pack file probably 'DR220eCymbal' (inferred)."
+   }
+  ],
+  "choke_groups": [
+   [
+    "LT",
+    "MT",
+    "HT"
+   ],
+   [
+    "CB",
+    "SLP"
+   ],
+   [
+    "CH",
+    "OH"
+   ],
+   [
+    "CHY",
+    "CUP"
+   ]
+  ],
+  "accent": "Each voice has its own accent level 0-5 (and volume 0-5); how accents are entered per step is not documented in the sources read (unknown).",
+  "built_in_effects": [],
+  "global_features": [
+   "12-bit PCM, 11 waves in ROM; 6-voice polyphony (uPD7514); several sounds share channels",
+   "12 non-velocity pads (4x3); real-time (TAP) or step write",
+   "32 preset patterns (styles incl. rock, bossa nova, samba, disco, electropop) + 32 user patterns",
+   "16 steps per pattern (12 in 3/4 mode)",
+   "songs: up to 128 bars (256 with Song Chain), 8 songs (Wikipedia); polynominal says songs up to 256 bars",
+   "tempo 40-250 BPM; external analog clock/trigger sync via 3.5 mm jacks; trigger input; no MIDI",
+   "mono main output + headphones; no per-voice tuning; no flam or shuffle documented",
+   "DR-220A and DR-220E are sister models with the same hardware and different ROM sound sets"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "'Boss DR-220e': 11 mono 16-bit/44.1 kHz WAV one-shots (longest 1.84 s): DR220eKick, DR220eSnare, DR220eHat_C, DR220eHat_O, DR220eTomHi, DR220eTomMid, DR220eTomLo, DR220eCowbell, DR220eSlap (= SLP vibraslap), DR220eCrash and DR220eCymbal (probably CHY China and CUP cup cymbal; pairing inferred). No loops or MIDI.",
+  "preset_patterns": [
+   {
+    "name": "32 ROM presets (same pattern feature set as the DR-220A; individual names and grids not found)",
+    "source": "http://www.polynominal.com/Boss-Dr-220-E/index.html"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Boss_DR-220",
+   "http://www.polynominal.com/Boss-Dr-220-E/index.html",
+   "http://www.polynominal.com/Boss-Dr-220-A/index.html"
+  ]
+ },
+ {
+  "machine": "Boss DR-550 Dr. Rhythm",
+  "pack_folders": [
+   "Boss DR-550"
+  ],
+  "maker": "Boss (Roland Corporation)",
+  "year": 1989,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "CLAP",
+    "name": "Clap",
+    "type": "Clap",
+    "controls": [
+     "ASSIGN (any of the 48 sounds; one sound may sit on several pads)",
+     "LEVEL 0-15",
+     "TONE COLOR 0-7",
+     "DECAY -32..+32",
+     "ASSIGN TYPE MONO / POLY / EXC1 / EXC2",
+     "ACCENT FOLLOW -7..+7 (factory 7)",
+     "PAN L3-L1, C, R1-R3 (7 positions)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 1 (rows of four, top to bottom). Factory Pad Bank A: CLAP (808 hand clap), MONO, pan R1, MIDI note 39. Banks B/C/D on this pad: KCK2/CABA/HIQ."
+   },
+   {
+    "label": "COWBELL",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "ASSIGN (any of the 48 sounds; one sound may sit on several pads)",
+     "LEVEL 0-15",
+     "TONE COLOR 0-7",
+     "DECAY -32..+32",
+     "ASSIGN TYPE MONO / POLY / EXC1 / EXC2",
+     "ACCENT FOLLOW -7..+7 (factory 7)",
+     "PAN L3-L1, C, R1-R3 (7 positions)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 2 (rows of four, top to bottom). Factory Pad Bank A: COW1 (Cowbell), MONO, pan L2, MIDI note 56. Banks B/C/D on this pad: SNR2/SHKr/COW2."
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "ASSIGN (any of the 48 sounds; one sound may sit on several pads)",
+     "LEVEL 0-15",
+     "TONE COLOR 0-7",
+     "DECAY -32..+32",
+     "ASSIGN TYPE MONO / POLY / EXC1 / EXC2",
+     "ACCENT FOLLOW -7..+7 (factory 7)",
+     "PAN L3-L1, C, R1-R3 (7 positions)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 3 (rows of four, top to bottom). Factory Pad Bank A: CRSH (Crash cymbal), POLY, pan L1, MIDI note 49. Banks B/C/D on this pad: CRSH/AG_L/CRSH."
+   },
+   {
+    "label": "RIDE",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "ASSIGN (any of the 48 sounds; one sound may sit on several pads)",
+     "LEVEL 0-15",
+     "TONE COLOR 0-7",
+     "DECAY -32..+32",
+     "ASSIGN TYPE MONO / POLY / EXC1 / EXC2",
+     "ACCENT FOLLOW -7..+7 (factory 7)",
+     "PAN L3-L1, C, R1-R3 (7 positions)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 4 (rows of four, top to bottom). Factory Pad Bank A: BELL (Ride cymbal bell), POLY, pan R1, MIDI note 53. Banks B/C/D on this pad: RIDE/AG_H/BELL. Printed RIDE, but factory bank A assigns BELL (ride cymbal bell); bank B pad 4 is RIDE."
+   },
+   {
+    "label": "S STICK",
+    "name": "Side Stick",
+    "type": "Rim",
+    "controls": [
+     "ASSIGN (any of the 48 sounds; one sound may sit on several pads)",
+     "LEVEL 0-15",
+     "TONE COLOR 0-7",
+     "DECAY -32..+32",
+     "ASSIGN TYPE MONO / POLY / EXC1 / EXC2",
+     "ACCENT FOLLOW -7..+7 (factory 7)",
+     "PAN L3-L1, C, R1-R3 (7 positions)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 5 (rows of four, top to bottom). Factory Pad Bank A: SIDE (Side stick), MONO, pan C, MIDI note 37. Banks B/C/D on this pad: CLVS/WHSL/SC_L."
+   },
+   {
+    "label": "L TOM",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [
+     "ASSIGN (any of the 48 sounds; one sound may sit on several pads)",
+     "LEVEL 0-15",
+     "TONE COLOR 0-7",
+     "DECAY -32..+32",
+     "ASSIGN TYPE MONO / POLY / EXC1 / EXC2",
+     "ACCENT FOLLOW -7..+7 (factory 7)",
+     "PAN L3-L1, C, R1-R3 (7 positions)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 6 (rows of four, top to bottom). Factory Pad Bank A: LTM1 (Low room tom), POLY, pan R2, MIDI note 43. Banks B/C/D on this pad: LTM2/CG_L/SC_H."
+   },
+   {
+    "label": "M TOM",
+    "name": "Mid Tom",
+    "type": "Tom",
+    "controls": [
+     "ASSIGN (any of the 48 sounds; one sound may sit on several pads)",
+     "LEVEL 0-15",
+     "TONE COLOR 0-7",
+     "DECAY -32..+32",
+     "ASSIGN TYPE MONO / POLY / EXC1 / EXC2",
+     "ACCENT FOLLOW -7..+7 (factory 7)",
+     "PAN L3-L1, C, R1-R3 (7 positions)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 7 (rows of four, top to bottom). Factory Pad Bank A: MTM1 (Mid room tom), POLY, pan C, MIDI note 47. Banks B/C/D on this pad: MTM2/CG_S/LTM3."
+   },
+   {
+    "label": "H TOM",
+    "name": "High Tom",
+    "type": "Tom",
+    "controls": [
+     "ASSIGN (any of the 48 sounds; one sound may sit on several pads)",
+     "LEVEL 0-15",
+     "TONE COLOR 0-7",
+     "DECAY -32..+32",
+     "ASSIGN TYPE MONO / POLY / EXC1 / EXC2",
+     "ACCENT FOLLOW -7..+7 (factory 7)",
+     "PAN L3-L1, C, R1-R3 (7 positions)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 8 (rows of four, top to bottom). Factory Pad Bank A: HTM1 (High room tom), POLY, pan L2, MIDI note 50. Banks B/C/D on this pad: HTM2/CG_H/HTM3."
+   },
+   {
+    "label": "KICK",
+    "name": "Kick",
+    "type": "Kick",
+    "controls": [
+     "ASSIGN (any of the 48 sounds; one sound may sit on several pads)",
+     "LEVEL 0-15",
+     "TONE COLOR 0-7",
+     "DECAY -32..+32",
+     "ASSIGN TYPE MONO / POLY / EXC1 / EXC2",
+     "ACCENT FOLLOW -7..+7 (factory 7)",
+     "PAN L3-L1, C, R1-R3 (7 positions)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 9 (rows of four, top to bottom). Factory Pad Bank A: KCK1 (Room kick), POLY, pan C, MIDI note 36. Banks B/C/D on this pad: KCK4/BG_L/KCK5."
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare",
+    "type": "Snare",
+    "controls": [
+     "ASSIGN (any of the 48 sounds; one sound may sit on several pads)",
+     "LEVEL 0-15",
+     "TONE COLOR 0-7",
+     "DECAY -32..+32",
+     "ASSIGN TYPE MONO / POLY / EXC1 / EXC2",
+     "ACCENT FOLLOW -7..+7 (factory 7)",
+     "PAN L3-L1, C, R1-R3 (7 positions)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 10 (rows of four, top to bottom). Factory Pad Bank A: SNR1 (Reverb snare), POLY, pan C, MIDI note 40. Banks B/C/D on this pad: SNR4/BG_H/SNR5."
+   },
+   {
+    "label": "C HH",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "ASSIGN (any of the 48 sounds; one sound may sit on several pads)",
+     "LEVEL 0-15",
+     "TONE COLOR 0-7",
+     "DECAY -32..+32",
+     "ASSIGN TYPE MONO / POLY / EXC1 / EXC2",
+     "ACCENT FOLLOW -7..+7 (factory 7)",
+     "PAN L3-L1, C, R1-R3 (7 positions)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 11 (rows of four, top to bottom). Factory Pad Bank A: CHH1 (Closed hi-hat), EXC1, pan L2, MIDI note 42. Banks B/C/D on this pad: CHH1/TB_L/CHH2."
+   },
+   {
+    "label": "O HH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "ASSIGN (any of the 48 sounds; one sound may sit on several pads)",
+     "LEVEL 0-15",
+     "TONE COLOR 0-7",
+     "DECAY -32..+32",
+     "ASSIGN TYPE MONO / POLY / EXC1 / EXC2",
+     "ACCENT FOLLOW -7..+7 (factory 7)",
+     "PAN L3-L1, C, R1-R3 (7 positions)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 12 (rows of four, top to bottom). Factory Pad Bank A: OHH1 (Open hi-hat), EXC1, pan L2, MIDI note 46. Banks B/C/D on this pad: OHH1/TB_H/OHH2."
+   }
+  ],
+  "choke_groups": [
+   [
+    "C HH",
+    "O HH"
+   ]
+  ],
+  "accent": "Hold ACC while writing (or while tapping a pad) to accent that step; each pad's ACCENT FOLLOW (-7..+7, factory +7) is added to its LEVEL (0-15) for accented hits; putting one sound on several pads with different Level/Accent Follow gives up to 22 accent levels. Accent cannot be recorded as velocity.",
+  "built_in_effects": [],
+  "global_features": [
+   "48 16-bit PCM sounds; 12-voice polyphony; MIDI chart dated Nov 1, 1989",
+   "4 pad banks (A-D) x 12 pads; factory Tone Color and Decay 0, Accent Follow 7",
+   "64 preset patterns (pattern bank B, numbers 11-88) + 64 programmable patterns (bank A)",
+   "Scale (shortest note per step): 32nd note, 16th-note triplet, 16th note, 8th-note triplet; Last Step 1-16 sets the pattern length (odd meters)",
+   "step write and real-time write; 8 songs x 160 measures; song chain up to 1,280 measures; 6 demo songs",
+   "tempo 40-250 BPM; minimum resolution a 32nd note",
+   "MIDI IN only (notes, Song Select 0-7, clock); cassette tape save/load; stereo out R / L(MONO) + headphones; 6 x AA batteries or BOSS PSA adaptor",
+   "no flam, shuffle or per-pad tuning; no effects",
+   "DR-550MKII (1992): same panel and pad parameters, 91 sounds (11 kicks, 18 snares...), different factory banks - full list in boss.md"
+  ],
+  "sound_bank": {
+   "total": 48,
+   "categories": [
+    {
+     "name": "Kick",
+     "count": 5,
+     "range": "1-5 (KCK1-KCK5)"
+    },
+    {
+     "name": "Snare",
+     "count": 6,
+     "range": "6-11 (SNR1-SNR6)"
+    },
+    {
+     "name": "Side stick",
+     "count": 1,
+     "range": "12 (SIDE)"
+    },
+    {
+     "name": "Tom",
+     "count": 8,
+     "range": "13-20"
+    },
+    {
+     "name": "Hi-hat",
+     "count": 5,
+     "range": "21-25"
+    },
+    {
+     "name": "Cymbal",
+     "count": 3,
+     "range": "26-28"
+    },
+    {
+     "name": "Percussion",
+     "count": 17,
+     "range": "29-45"
+    },
+    {
+     "name": "Effect",
+     "count": 3,
+     "range": "46-48"
+    }
+   ],
+   "ordered_list": [
+    "KCK1 Room kick",
+    "KCK2 Dry kick",
+    "KCK3 Solid kick",
+    "KCK4 Face kick",
+    "KCK5 Techno kick",
+    "SNR1 Reverb snare",
+    "SNR2 Real snare",
+    "SNR3 Rim shot snare",
+    "SNR4 Birch snare",
+    "SNR5 808 snare",
+    "SNR6 Bright snare",
+    "SIDE Side stick",
+    "LTM1 Low room tom",
+    "MTM1 Mid room tom",
+    "HTM1 High room tom",
+    "LTM2 Low attack tom",
+    "MTM2 Mid attack tom",
+    "HTM2 High attack tom",
+    "LTM3 Low electronic tom",
+    "HTM3 High electronic tom",
+    "CHH1 Closed hi-hat",
+    "OHH1 Open hi-hat",
+    "PHH1 Pedal closed hi-hat",
+    "CHH2 808 closed hi-hat",
+    "OHH2 808 open hi-hat",
+    "CRSH Crash cymbal",
+    "RIDE Ride cymbal",
+    "BELL Ride cymbal bell",
+    "CLAP 808 hand clap",
+    "COW1 Cowbell",
+    "COW2 808 cowbell",
+    "CLVS Claves",
+    "CG_L Open low conga",
+    "CG_S Slap high conga",
+    "CG_H Mute high conga",
+    "BG_L Low bongo",
+    "BG_H High bongo",
+    "TB_L Low timbale",
+    "TB_H High timbale",
+    "AG_L Low agogo",
+    "AG_H High agogo",
+    "SHKr Shaker",
+    "CABA Cabasa",
+    "TMBr Tambourine",
+    "WHSL Whistle",
+    "HIQ High Q",
+    "SC_L Scratch low",
+    "SC_H Scratch high"
+   ],
+   "list_source": "http://cdn.roland.com/assets/media/pdf/DR-550_OM.pdf p.55 (positions are list order; the unit identifies sounds by display code)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "Bank A pad 1",
+    "midi_note": 39,
+    "sound": "CLAP 808 hand clap (MONO, pan R1)"
+   },
+   {
+    "pad_or_key": "Bank A pad 2",
+    "midi_note": 56,
+    "sound": "COW1 Cowbell (MONO, pan L2)"
+   },
+   {
+    "pad_or_key": "Bank A pad 3",
+    "midi_note": 49,
+    "sound": "CRSH Crash cymbal (POLY, pan L1)"
+   },
+   {
+    "pad_or_key": "Bank A pad 4",
+    "midi_note": 53,
+    "sound": "BELL Ride cymbal bell (POLY, pan R1)"
+   },
+   {
+    "pad_or_key": "Bank A pad 5",
+    "midi_note": 37,
+    "sound": "SIDE Side stick (MONO, pan C)"
+   },
+   {
+    "pad_or_key": "Bank A pad 6",
+    "midi_note": 43,
+    "sound": "LTM1 Low room tom (POLY, pan R2)"
+   },
+   {
+    "pad_or_key": "Bank A pad 7",
+    "midi_note": 47,
+    "sound": "MTM1 Mid room tom (POLY, pan C)"
+   },
+   {
+    "pad_or_key": "Bank A pad 8",
+    "midi_note": 50,
+    "sound": "HTM1 High room tom (POLY, pan L2)"
+   },
+   {
+    "pad_or_key": "Bank A pad 9",
+    "midi_note": 36,
+    "sound": "KCK1 Room kick (POLY, pan C)"
+   },
+   {
+    "pad_or_key": "Bank A pad 10",
+    "midi_note": 40,
+    "sound": "SNR1 Reverb snare (POLY, pan C)"
+   },
+   {
+    "pad_or_key": "Bank A pad 11",
+    "midi_note": 42,
+    "sound": "CHH1 Closed hi-hat (EXC1, pan L2)"
+   },
+   {
+    "pad_or_key": "Bank A pad 12",
+    "midi_note": 46,
+    "sound": "OHH1 Open hi-hat (EXC1, pan L2)"
+   },
+   {
+    "pad_or_key": "Bank B pad 1",
+    "midi_note": 35,
+    "sound": "KCK2 Dry kick (POLY, pan C)"
+   },
+   {
+    "pad_or_key": "Bank B pad 2",
+    "midi_note": 38,
+    "sound": "SNR2 Real snare (POLY, pan C)"
+   },
+   {
+    "pad_or_key": "Bank B pad 3 (factory note 0 = shared placeholder; with duplicate notes only the lowest bank/pad sounds)",
+    "midi_note": 0,
+    "sound": "CRSH Crash cymbal (POLY, pan L1)"
+   },
+   {
+    "pad_or_key": "Bank B pad 4",
+    "midi_note": 51,
+    "sound": "RIDE Ride cymbal (POLY, pan R1)"
+   },
+   {
+    "pad_or_key": "Bank B pad 5",
+    "midi_note": 75,
+    "sound": "CLVS Claves (MONO, pan R1)"
+   },
+   {
+    "pad_or_key": "Bank B pad 6",
+    "midi_note": 41,
+    "sound": "LTM2 Low attack tom (POLY, pan R2)"
+   },
+   {
+    "pad_or_key": "Bank B pad 7",
+    "midi_note": 45,
+    "sound": "MTM2 Mid attack tom (POLY, pan C)"
+   },
+   {
+    "pad_or_key": "Bank B pad 8",
+    "midi_note": 48,
+    "sound": "HTM2 High attack tom (POLY, pan L2)"
+   },
+   {
+    "pad_or_key": "Bank B pad 9",
+    "midi_note": 85,
+    "sound": "KCK4 Face kick (POLY, pan C)"
+   },
+   {
+    "pad_or_key": "Bank B pad 10",
+    "midi_note": 86,
+    "sound": "SNR4 Birch snare (POLY, pan C)"
+   },
+   {
+    "pad_or_key": "Bank B pad 11 (factory note 0 = shared placeholder; with duplicate notes only the lowest bank/pad sounds)",
+    "midi_note": 0,
+    "sound": "CHH1 Closed hi-hat (EXC1, pan L2)"
+   },
+   {
+    "pad_or_key": "Bank B pad 12 (factory note 0 = shared placeholder; with duplicate notes only the lowest bank/pad sounds)",
+    "midi_note": 0,
+    "sound": "OHH1 Open hi-hat (EXC1, pan L2)"
+   },
+   {
+    "pad_or_key": "Bank C pad 1",
+    "midi_note": 69,
+    "sound": "CABA Cabasa (MONO, pan R2)"
+   },
+   {
+    "pad_or_key": "Bank C pad 2 (factory note 0 = shared placeholder; with duplicate notes only the lowest bank/pad sounds)",
+    "midi_note": 0,
+    "sound": "SHKr Shaker (MONO, pan C)"
+   },
+   {
+    "pad_or_key": "Bank C pad 3",
+    "midi_note": 68,
+    "sound": "AG_L Low agogo (MONO, pan L1)"
+   },
+   {
+    "pad_or_key": "Bank C pad 4",
+    "midi_note": 67,
+    "sound": "AG_H High agogo (MONO, pan L1)"
+   },
+   {
+    "pad_or_key": "Bank C pad 5",
+    "midi_note": 71,
+    "sound": "WHSL Whistle (MONO, pan R3)"
+   },
+   {
+    "pad_or_key": "Bank C pad 6",
+    "midi_note": 64,
+    "sound": "CG_L Open low conga (POLY, pan C)"
+   },
+   {
+    "pad_or_key": "Bank C pad 7",
+    "midi_note": 63,
+    "sound": "CG_S Slap high conga (POLY, pan C)"
+   },
+   {
+    "pad_or_key": "Bank C pad 8",
+    "midi_note": 62,
+    "sound": "CG_H Mute high conga (MONO, pan C)"
+   },
+   {
+    "pad_or_key": "Bank C pad 9",
+    "midi_note": 61,
+    "sound": "BG_L Low bongo (MONO, pan L1)"
+   },
+   {
+    "pad_or_key": "Bank C pad 10",
+    "midi_note": 60,
+    "sound": "BG_H High bongo (MONO, pan L1)"
+   },
+   {
+    "pad_or_key": "Bank C pad 11",
+    "midi_note": 66,
+    "sound": "TB_L Low timbale (POLY, pan R1)"
+   },
+   {
+    "pad_or_key": "Bank C pad 12",
+    "midi_note": 65,
+    "sound": "TB_H High timbale (POLY, pan R1)"
+   },
+   {
+    "pad_or_key": "Bank D pad 1 (factory note 0 = shared placeholder; with duplicate notes only the lowest bank/pad sounds)",
+    "midi_note": 0,
+    "sound": "HIQ High Q (MONO, pan L2)"
+   },
+   {
+    "pad_or_key": "Bank D pad 2 (factory note 0 = shared placeholder; with duplicate notes only the lowest bank/pad sounds)",
+    "midi_note": 0,
+    "sound": "COW2 808 cowbell (MONO, pan R1)"
+   },
+   {
+    "pad_or_key": "Bank D pad 3 (factory note 0 = shared placeholder; with duplicate notes only the lowest bank/pad sounds)",
+    "midi_note": 0,
+    "sound": "CRSH Crash cymbal (POLY, pan L1)"
+   },
+   {
+    "pad_or_key": "Bank D pad 4 (factory note 0 = shared placeholder; with duplicate notes only the lowest bank/pad sounds)",
+    "midi_note": 0,
+    "sound": "BELL Ride cymbal bell (POLY, pan R1)"
+   },
+   {
+    "pad_or_key": "Bank D pad 5 (factory note 0 = shared placeholder; with duplicate notes only the lowest bank/pad sounds)",
+    "midi_note": 0,
+    "sound": "SC_L Scratch low (MONO, pan C)"
+   },
+   {
+    "pad_or_key": "Bank D pad 6 (factory note 0 = shared placeholder; with duplicate notes only the lowest bank/pad sounds)",
+    "midi_note": 0,
+    "sound": "SC_H Scratch high (MONO, pan C)"
+   },
+   {
+    "pad_or_key": "Bank D pad 7",
+    "midi_note": 89,
+    "sound": "LTM3 Low electronic tom (POLY, pan R1)"
+   },
+   {
+    "pad_or_key": "Bank D pad 8",
+    "midi_note": 91,
+    "sound": "HTM3 High electronic tom (POLY, pan L1)"
+   },
+   {
+    "pad_or_key": "Bank D pad 9",
+    "midi_note": 84,
+    "sound": "KCK5 Techno kick (POLY, pan C)"
+   },
+   {
+    "pad_or_key": "Bank D pad 10",
+    "midi_note": 58,
+    "sound": "SNR5 808 snare (POLY, pan C)"
+   },
+   {
+    "pad_or_key": "Bank D pad 11 (factory note 0 = shared placeholder; with duplicate notes only the lowest bank/pad sounds)",
+    "midi_note": 0,
+    "sound": "CHH2 808 closed hi-hat (EXC2, pan R2)"
+   },
+   {
+    "pad_or_key": "Bank D pad 12 (factory note 0 = shared placeholder; with duplicate notes only the lowest bank/pad sounds)",
+    "midi_note": 0,
+    "sound": "OHH2 808 open hi-hat (EXC2, pan R2)"
+   }
+  ],
+  "pack_contents": "'Boss DR-550': 92 mono 16-bit/44.1 kHz WAV one-shots (longest 3.6 s). Top level: 45 'DR550...' files - Kick01-05, Snare01-05, Rim, Clap01-02, Hat01_C/O, Hat02_C/O, Hat03_C/O, Tom01_Hi/M/Lo, Tom02_Hi/M/Lo, TomE, Crash01, Ride01-02, SplashCym, Cowbell, Clave, Conga_Hi/M/Lo, Bongo_Hi/Lo, AgogoHi/Lo, Timbale, Tamborine, Maracas, HiQ, Scratch01-02. Subfolders (47 files): Bassdrums/ Bassdrum-01..05; Snaredrums/ Snaredrum-01..06 + Rim Shot; Toms/ Tom H-01..03, Tom M-01..02, Tom L-01..03; Cymbals/ Crash, Ride-01..02, Hat Closed-01..02, Hat Open-01..02; Percussion/ Agogo H/L, Bongo H/L, Cabasa-01..02, Clap, Claves, Conga H/L/S, Cowbell-01..02, Hi Q, 'Srcatch'-01..02 [sic], Tambourine, Timbale H/L, Whistle. The subfolders closely match the Mk I 48-sound list (PHH1 pedal hat missing; SHKr unclear). The top-level set includes Maracas, Clap02 and a third hat pair (MKII-only sounds) plus a splash cymbal (in neither list), so its origin is unclear (inferred). No loops or MIDI.",
+  "preset_patterns": [
+   {
+    "name": "64 presets in pattern bank B, numbers 11-88 (names and scores in a separate 'Preset Pattern Scores' booklet, not found)",
+    "source": "http://cdn.roland.com/assets/media/pdf/DR-550_OM.pdf p.19"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "http://cdn.roland.com/assets/media/pdf/DR-550_OM.pdf",
+   "http://cdn.roland.com/assets/media/pdf/DR-550MKII_OM.pdf",
+   "https://www.muzines.co.uk/articles/boss-dr550-mkii-and-dr660-drum-machines/1176",
+   "https://support.roland.com/hc/en-us/articles/201940039-DR-550MKII-Technical-Specifications",
+   "https://www.boss.info/us/support/manual_archive/"
+  ]
+ },
+ {
+  "machine": "Boss DR-660 Dr. Rhythm",
+  "pack_folders": [
+   "Boss DR-660"
+  ],
+  "maker": "Boss (Roland Corporation)",
+  "year": 1992,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "CRASH 1",
+    "name": "Crash Cymbal 1",
+    "type": "Crash",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 1 (A01). Standard kit (No. 0): 178 CrshC1 (crash cymbal 1), MIDI note 49."
+   },
+   {
+    "label": "CRASH 2",
+    "name": "Crash Cymbal 2",
+    "type": "Crash",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 2 (A02). Standard kit (No. 0): 179 CrshC2 (crash cymbal 2), MIDI note 57."
+   },
+   {
+    "label": "BELL",
+    "name": "Ride Bell",
+    "type": "Ride",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 3 (A03). Standard kit (No. 0): 183 RidBlC (ride bell cymbal), MIDI note 53."
+   },
+   {
+    "label": "RIDE",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 4 (A04). Standard kit (No. 0): 182 Ride C (ride cymbal), MIDI note 51."
+   },
+   {
+    "label": "TOM 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 5 (A05). Standard kit (No. 0): 150 RealT1 (real tom 1), MIDI note 50."
+   },
+   {
+    "label": "TOM 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 6 (A06). Standard kit (No. 0): 151 RealT2 (real tom 2), MIDI note 48."
+   },
+   {
+    "label": "TOM 3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 7 (A07). Standard kit (No. 0): 152 RealT3 (real tom 3), MIDI note 45."
+   },
+   {
+    "label": "TOM 4",
+    "name": "Tom 4",
+    "type": "Tom",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 8 (A08). Standard kit (No. 0): 153 RealT4 (real tom 4), MIDI note 41."
+   },
+   {
+    "label": "SIDE STICK",
+    "name": "Side Stick",
+    "type": "Rim",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 9 (A09). Standard kit (No. 0): 123 AmbStk (ambient side stick), MIDI note 37."
+   },
+   {
+    "label": "CLAP",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 10 (A10). Standard kit (No. 0): 219 808Clp (TR-808 hand clap), MIDI note 39."
+   },
+   {
+    "label": "CLOSED HH",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 11 (A11). Standard kit (No. 0): 167 PopCHH (pop closed hi-hat), MIDI note 42. Factory A.TYPE/EXC setting not printed; the manual recommends one EXC number for open and closed hats."
+   },
+   {
+    "label": "OPEN HH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 12 (A12). Standard kit (No. 0): 168 PopOHH (pop open hi-hat), MIDI note 46. Factory A.TYPE/EXC setting not printed; the manual recommends one EXC number for open and closed hats."
+   },
+   {
+    "label": "KICK",
+    "name": "Kick",
+    "type": "Kick",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 13 (A13). Standard kit (No. 0): 12 Dry K2 (dry kick 2), MIDI note 36."
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare",
+    "type": "Snare",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 14 (A14). Standard kit (No. 0): 84 LAFatS (L.A. fat snare), MIDI note 38."
+   },
+   {
+    "label": "PEDAL HH",
+    "name": "Pedal Hi-Hat",
+    "type": "Pedal Hat",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 15 (A15). Standard kit (No. 0): 171 RealPH (real pedal closed hi-hat), MIDI note 44. Factory A.TYPE/EXC setting not printed; the manual recommends one EXC number for open and closed hats."
+   },
+   {
+    "label": "COWBELL",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "ASSIGN (instrument 0-254 or 255 OFF)",
+     "LEVEL 0-15",
+     "PITCH -2400..+2400 cents in 10-cent steps (range varies by sound)",
+     "DECAY -31..+31",
+     "NUANCE -7..+7 (only sounds marked * or **)",
+     "PAN L7-C-R7 or INDIV (individual output)",
+     "A.TYPE POLY / POLY EXC1-7 / MONO / MONO EXC1-7",
+     "REVERB depth",
+     "CHORUS depth",
+     "velocity-sensitive pad with aftertouch (aftertouch sets roll level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 16 (A16). Standard kit (No. 0): 185 Cowbel (cowbell), MIDI note 56."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "No accent button documented; dynamics come from the 16 velocity- and aftertouch-sensitive pads (aftertouch varies roll volume). The velocity curve CRV (EXP1, LIN1, EXP2, LIN2, XFDO, XFDI, FIX1, FIX2) is set per pad bank; XFDI/XFDO crossfade Pad Bank A and B layers by velocity. The 23 MIDI-only sounds cannot be recorded into patterns (MT 1992).",
+  "built_in_effects": [
+   {
+    "name": "Reverb",
+    "type": "reverb",
+    "notes": "R.TYPE HALL / ROOM / PLATE / DELAY / PAN-DLY; R.TIME 0-31; R.LPF (pre low-pass) 0-7; D.FDBK 0-15 for DELAY/PAN-DLY; per-instrument reverb depth plus overall depth, stored per kit; never on the INDIVIDUAL outputs (dry); MT 1992: reverb cannot run together with Out 1."
+   },
+   {
+    "name": "Chorus",
+    "type": "other",
+    "notes": "C.TYPE CHORUS or FLANGER; C.DPTH 0-15; C.RATE 0-15; per-instrument chorus depth plus overall depth, stored per kit; MT 1992: chorus cannot run together with Out 2."
+   }
+  ],
+  "global_features": [
+   "255 16-bit PCM sounds (0-254, 255 = OFF); 12-voice polyphony",
+   "Drum Kit = 55 sounds: Pad Bank A (16) + Pad Bank B (16) + 23 MIDI-only notes; MIDI notes 27-81 on a General-MIDI-style map",
+   "7 preset kits (0-6) + 32 user kits (7-38); factory user kits include TR808, TR909, Jazz, Brush, Dance, Perc, FX, SlapBs, Syn Bs and layer kits",
+   "Pad Bank Layer (A+B) with velocity crossfade curves",
+   "FLAM button (interval and balance editable) and ROLL button (speed editable)",
+   "100 preset patterns (25 styles x Original / Fill in to Variation / Variation / Fill in to Original) + 150 user patterns; 100 songs (250 parts each, 900 total); Realtime Pattern Change",
+   "96 ppqn; quantize; swing; timing shift; tempo 20-260",
+   "outputs: stereo L(MONO)/R, INDIVIDUAL 1 and 2 (dry), headphones; MIDI IN/OUT; SysEx bulk dump"
+  ],
+  "sound_bank": {
+   "total": 255,
+   "categories": [
+    {
+     "name": "Kicks (grouping inferred from names)",
+     "count": 51,
+     "range": "0-50"
+    },
+    {
+     "name": "Snares",
+     "count": 72,
+     "range": "51-122"
+    },
+    {
+     "name": "Side sticks",
+     "count": 5,
+     "range": "123-127"
+    },
+    {
+     "name": "Toms",
+     "count": 39,
+     "range": "128-166"
+    },
+    {
+     "name": "Hi-hats",
+     "count": 11,
+     "range": "167-177"
+    },
+    {
+     "name": "Cymbals",
+     "count": 7,
+     "range": "178-184"
+    },
+    {
+     "name": "Percussion (incl. DR-55, CR-78 and TR-808 percussion)",
+     "count": 36,
+     "range": "185-220"
+    },
+    {
+     "name": "Effects (scratches, hi-Q, snaps, voices, shots, dance/reverb claps)",
+     "count": 16,
+     "range": "221-236"
+    },
+    {
+     "name": "Reversed sounds",
+     "count": 11,
+     "range": "237-247"
+    },
+    {
+     "name": "Ambience / reverb sounds",
+     "count": 5,
+     "range": "248-252"
+    },
+    {
+     "name": "Bass",
+     "count": 2,
+     "range": "253-254"
+    }
+   ],
+   "ordered_list": [
+    "0 Ambo K (ambient kick)",
+    "1 AttakK (attack kick)",
+    "2 BBallK (basket ball kick)",
+    "3 BoSldK (boing solid kick)",
+    "4 BreatK (breater kick)",
+    "5 BriteK (bright kick)",
+    "6 DanceK (dance kick)",
+    "7 Deep K (deep kick)",
+    "8 DelayK (delay kick)",
+    "9 Door K (door kick)",
+    "10 DpVrbK (deep reverb kick)",
+    "11 Dry K1 (dry kick 1)",
+    "12 Dry K2 (dry kick 2)",
+    "13 Dull K (dull kick)",
+    "14 ElecK1 (electronic kick 1)",
+    "15 ElecK2 (electronic kick 2)",
+    "16 GateK1 (gate kick 1)",
+    "17 GateK2 (gate kick 2)",
+    "18 Hard K (hard acoustic kick)",
+    "19 HouseK (house kick)",
+    "20 HybrdK (hybrid kick)",
+    "21 MdVrbK (mondo reverb kick)",
+    "22 MondoK (mondo kick)",
+    "23 MonDpK (mondo deep kick)",
+    "24 PillwK (pillow kick)",
+    "25 PunchK (punch kick)",
+    "26 Rap K (rap kick)",
+    "27 Real K (real kick)",
+    "28 RevrbK (reverb kick)",
+    "29 RoomK1 (room kick 1)",
+    "30 RoomK2 (room kick 2)",
+    "31 SharpK (sharp kick)",
+    "32 ShellK (shell kick)",
+    "33 SmashK (smash kick)",
+    "34 Soft K (soft acoustic kick)",
+    "35 SolidK (solid kick)",
+    "36 StrenK (strength kick)",
+    "37 Syn K (synthesizer kick)",
+    "38 TeknoK (techno kick)",
+    "39 Thud K (thud kick)",
+    "40 TightK (tight kick)",
+    "41 Tom K (tomtom kick)",
+    "42 TR808K (TR-808 kick)",
+    "43 TR909K (TR-909 kick)",
+    "44 VbSldK (reverb solid kick)",
+    "45 VerbyK (verby kick)",
+    "46 Wood K (wood kick)",
+    "47 808AcK (TR-808 acoustic kick)",
+    "48 808ElK (TR-808 electronic kick)",
+    "49 808GtK (TR-808 gate kick)",
+    "50 909HdK (TR-909 hard kick)",
+    "51 AttakS (attack snare)",
+    "52 BgShtS (big shot snare)",
+    "53 BrethS (breath snare)",
+    "54 BriteS (bright snare)",
+    "55 BrRlS1 (brush roll snare 1)",
+    "56 BrRlS2 (brush roll snare 2)",
+    "57 BrSlS1 (brush slap snare 1)",
+    "58 BrSlS2 (brush slap snare 2)",
+    "59 BrSlS3 (brush slap snare 3)",
+    "60 BrSwiS (brush swish snare)",
+    "61 ChopS1 (chop snare 1)",
+    "62 ChopS2 (chop snare 2)",
+    "63 CrkerS (cracker snare)",
+    "64 CrudyS (cruddy snare)",
+    "65 DanceS (dance snare)",
+    "66 DelayS (delay snare)",
+    "67 Digi S (digital snare)",
+    "68 DiscoS (disco snare)",
+    "69 DopinS (dopin' snare)",
+    "70 ElecS1 (electronic snare 1)",
+    "71 ElecS2 (electronic snare 2)",
+    "72 Fat S (fat snare)",
+    "73 FX S (FX snare)",
+    "74 GlassS (glass snare)",
+    "75 Grab S (grab snare)",
+    "76 Hard S (hard snare)",
+    "77 HousS1 (house snare 1)",
+    "78 HousS2 (house snare 2)",
+    "79 HousS3 (house snare 3)",
+    "80 HsDpnS (house dopin' snare)",
+    "81 Huge S (huge snare)",
+    "82 HyperS (hyper snare)",
+    "83 LA S (L.A. snare)",
+    "84 LAFatS (L.A. fat snare)",
+    "85 LiteS1 (light snare 1)",
+    "86 LiteS2 (light snare 2)",
+    "87 LooseS (loose snare)",
+    "88 NastyS (nasty snare)",
+    "89 NoiseS (noise snare)",
+    "90 PiccS1 (piccolo snare 1)",
+    "91 PiccS2 (piccolo snare 2)",
+    "92 PiccS3 (piccolo snare 3)",
+    "93 PowerS (power snare)",
+    "94 RadioS (radio snare)",
+    "95 RaspyS (raspy snare)",
+    "96 RckerS (rocker snare)",
+    "97 RckinS (rockin' snare)",
+    "98 RckLtS (rock light snare)",
+    "99 RckPwS (rock power snare)",
+    "100 RckRmS (rock rim shot snare)",
+    "101 RckSpS (rock splatter snare)",
+    "102 RealS1 (real snare 1)",
+    "103 RealS2 (real snare 2)",
+    "104 ReggS1 (reggae snare 1)",
+    "105 ReggS2 (reggae snare 2)",
+    "106 Ring S (ring snare)",
+    "107 RockS1 (rock snare 1)",
+    "108 RockS2 (rock snare 2)",
+    "109 SplatS (splatter snare)",
+    "110 SprLtS (super light snare)",
+    "111 SprWkS (super whack snare)",
+    "112 SwingS (swing snare)",
+    "113 Thin S (thin snare)",
+    "114 TightS (tight snare)",
+    "115 Tiny S (tiny snare)",
+    "116 TrashS (trash snare)",
+    "117 TR808S (TR-808 snare)",
+    "118 TR909S (TR-909 snare)",
+    "119 Yep S (yep snare)",
+    "120 90's S (90's snare)",
+    "121 909LtS (TR-909 light snare)",
+    "122 909RnS (TR-909 ring snare)",
+    "123 AmbStk (ambient side stick)",
+    "124 HalStk (hall side stick)",
+    "125 MtlStk (metal side stick)",
+    "126 Sticks (sticks)",
+    "127 808Stk (TR-808 side stick)",
+    "128 AmboT1 (ambient tom 1)",
+    "129 AmboT2 (ambient tom 2)",
+    "130 AmboT3 (ambient tom 3)",
+    "131 AmboT4 (ambient tom 4)",
+    "132 BoosTH (boosh tom high)",
+    "133 BoosTL (boosh tom low)",
+    "134 BrshT1 (brush slap tom 1)",
+    "135 BrshT2 (brush slap tom 2)",
+    "136 BrshT3 (brush slap tom 3)",
+    "137 BrshT4 (brush slap tom 4)",
+    "138 Dry T1 (dry tom 1)",
+    "139 Dry T2 (dry tom 2)",
+    "140 Dry T3 (dry tom 3)",
+    "141 Dry T4 (dry tom 4)",
+    "142 ElecT1 (electronic tom 1)",
+    "143 ElecT2 (electronic tom 2)",
+    "144 ElecT3 (electronic tom 3)",
+    "145 ElecT4 (electronic tom 4)",
+    "146 LiteT1 (light tom 1)",
+    "147 LiteT2 (light tom 2)",
+    "148 LiteT3 (light tom 3)",
+    "149 LiteT4 (light tom 4)",
+    "150 RealT1 (real tom 1)",
+    "151 RealT2 (real tom 2)",
+    "152 RealT3 (real tom 3)",
+    "153 RealT4 (real tom 4)",
+    "154 Rim T1 (rim tom 1)",
+    "155 Rim T2 (rim tom 2)",
+    "156 Rim T3 (rim tom 3)",
+    "157 Rim T4 (rim tom 4)",
+    "158 RockT1 (rock tom 1)",
+    "159 RockT2 (rock tom 2)",
+    "160 RockT3 (rock tom 3)",
+    "161 RockT4 (rock tom 4)",
+    "162 RoomT1 (room tom 1)",
+    "163 RoomT2 (room tom 2)",
+    "164 RoomT3 (room tom 3)",
+    "165 RoomT4 (room tom 4)",
+    "166 808Tom (TR-808 tom)",
+    "167 PopCHH (pop closed hi-hat)",
+    "168 PopOHH (pop open hi-hat)",
+    "169 RealCH (real closed hi-hat)",
+    "170 RealOH (real open hi-hat)",
+    "171 RealPH (real pedal closed hi-hat)",
+    "172 BrsCHH (brush closed hi-hat)",
+    "173 BrsOHH (brush open hi-hat)",
+    "174 808CHH (TR-808 closed hi-hat)",
+    "175 808OHH (TR-808 open hi-hat)",
+    "176 78 CHH (CR-78 closed hi-hat)",
+    "177 78 OHH (CR-78 open hi-hat)",
+    "178 CrshC1 (crash cymbal 1)",
+    "179 CrshC2 (crash cymbal 2)",
+    "180 SplshC (splash cymbal)",
+    "181 ChinaC (chinese cymbal)",
+    "182 Ride C (ride cymbal)",
+    "183 RidBlC (ride bell cymbal)",
+    "184 BrRidC (brush ride cymbal)",
+    "185 Cowbel (cowbell)",
+    "186 Tambrn (tambourine)",
+    "187 SlBell (sleigh bell)",
+    "188 Casta (hall castanets)",
+    "189 Triang (triangle)",
+    "190 Wodblk (wood block)",
+    "191 BongoH (bongo high)",
+    "192 BongoL (bongo low)",
+    "193 CngHMt (conga high mute)",
+    "194 CngSlp (conga high slap)",
+    "195 CngHOp (conga high open)",
+    "196 CngLOp (conga low open)",
+    "197 Timbal (timbale)",
+    "198 Claves (claves)",
+    "199 Vibslp (vibra-slap)",
+    "200 GuiroS (guiro short)",
+    "201 GuiroL (guiro long)",
+    "202 Marcas (maracas)",
+    "203 Shaker (shaker)",
+    "204 CabaUp (cabasa up)",
+    "205 CabaDn (cabasa down)",
+    "206 WhislS (whistle short)",
+    "207 WhislL (whistle long)",
+    "208 Agogo (agogo)",
+    "209 Cuica (cuica)",
+    "210 55Clav (DR-55 claves)",
+    "211 78Cow (CR-78 cowbell)",
+    "212 78Beat (CR-78 metallic beat)",
+    "213 78Guir (CR-78 guiro)",
+    "214 78Tamb (CR-78 tambourine)",
+    "215 78Marc (CR-78 maracas)",
+    "216 808Cng (TR-808 conga)",
+    "217 808Clv (TR-808 claves)",
+    "218 808Mrc (TR-808 maracas)",
+    "219 808Clp (TR-808 hand clap)",
+    "220 808Cow (TR-808 cowbell)",
+    "221 Scrch1 (scratch 1)",
+    "222 Scrch2 (scratch 2)",
+    "223 Scrch3 (scratch 3)",
+    "224 Scrch4 (scratch 4)",
+    "225 HiQ (hi-Q)",
+    "226 Snaps (snaps)",
+    "227 Hoo! (hoo!)",
+    "228 Uut? (uut?)",
+    "229 FXnoiz (FX noise)",
+    "230 Chink (chink)",
+    "231 DncClp (dance clap)",
+    "232 VrbClp (reverb clap)",
+    "233 VrbSht (reverb shot)",
+    "234 LtShot (light shot)",
+    "235 FXShot (FX shot)",
+    "236 GlsSht (glass shot)",
+    "237 RevKik (reverse kick)",
+    "238 RevSnr (reverse snare)",
+    "239 RevTom (reverse tom)",
+    "240 RevCym (reverse cymbal)",
+    "241 RevCas (reverse castanets)",
+    "242 RevBt (reverse metallic beat)",
+    "243 RevHiQ (reverse hi-Q)",
+    "244 RevClp (reverse clap)",
+    "245 RevSht (reverse shot)",
+    "246 RevAmb (reverse ambience)",
+    "247 RevVrb (reverse reverb)",
+    "248 KikAmb (kick ambience)",
+    "249 SnrAmb (snare ambience)",
+    "250 TomAmb (tom ambience)",
+    "251 LngVrb (long reverb)",
+    "252 GatVrb (gate reverb)",
+    "253 SlapBs (slap bass)",
+    "254 Syn Bs (synthesizer bass)"
+   ],
+   "list_source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf pp.64-66"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "Pad 1 (A01)",
+    "midi_note": 49,
+    "sound": "178 CrshC1 (crash cymbal 1)"
+   },
+   {
+    "pad_or_key": "Pad 2 (A02)",
+    "midi_note": 57,
+    "sound": "179 CrshC2 (crash cymbal 2)"
+   },
+   {
+    "pad_or_key": "Pad 3 (A03)",
+    "midi_note": 53,
+    "sound": "183 RidBlC (ride bell cymbal)"
+   },
+   {
+    "pad_or_key": "Pad 4 (A04)",
+    "midi_note": 51,
+    "sound": "182 Ride C (ride cymbal)"
+   },
+   {
+    "pad_or_key": "Pad 5 (A05)",
+    "midi_note": 50,
+    "sound": "150 RealT1 (real tom 1)"
+   },
+   {
+    "pad_or_key": "Pad 6 (A06)",
+    "midi_note": 48,
+    "sound": "151 RealT2 (real tom 2)"
+   },
+   {
+    "pad_or_key": "Pad 7 (A07)",
+    "midi_note": 45,
+    "sound": "152 RealT3 (real tom 3)"
+   },
+   {
+    "pad_or_key": "Pad 8 (A08)",
+    "midi_note": 41,
+    "sound": "153 RealT4 (real tom 4)"
+   },
+   {
+    "pad_or_key": "Pad 9 (A09)",
+    "midi_note": 37,
+    "sound": "123 AmbStk (ambient side stick)"
+   },
+   {
+    "pad_or_key": "Pad 10 (A10)",
+    "midi_note": 39,
+    "sound": "219 808Clp (TR-808 hand clap)"
+   },
+   {
+    "pad_or_key": "Pad 11 (A11)",
+    "midi_note": 42,
+    "sound": "167 PopCHH (pop closed hi-hat)"
+   },
+   {
+    "pad_or_key": "Pad 12 (A12)",
+    "midi_note": 46,
+    "sound": "168 PopOHH (pop open hi-hat)"
+   },
+   {
+    "pad_or_key": "Pad 13 (A13)",
+    "midi_note": 36,
+    "sound": "12 Dry K2 (dry kick 2)"
+   },
+   {
+    "pad_or_key": "Pad 14 (A14)",
+    "midi_note": 38,
+    "sound": "84 LAFatS (L.A. fat snare)"
+   },
+   {
+    "pad_or_key": "Pad 15 (A15)",
+    "midi_note": 44,
+    "sound": "171 RealPH (real pedal closed hi-hat)"
+   },
+   {
+    "pad_or_key": "Pad 16 (A16)",
+    "midi_note": 56,
+    "sound": "185 Cowbel (cowbell)"
+   },
+   {
+    "pad_or_key": "Pad 17 (B01)",
+    "midi_note": 69,
+    "sound": "204 CabaUp (cabasa up)"
+   },
+   {
+    "pad_or_key": "Pad 18 (B02)",
+    "midi_note": 75,
+    "sound": "198 Claves (claves)"
+   },
+   {
+    "pad_or_key": "Pad 19 (B03)",
+    "midi_note": 70,
+    "sound": "202 Marcas (maracas)"
+   },
+   {
+    "pad_or_key": "Pad 20 (B04)",
+    "midi_note": 58,
+    "sound": "199 Vibslp (vibra-slap)"
+   },
+   {
+    "pad_or_key": "Pad 21 (B05)",
+    "midi_note": 67,
+    "sound": "208 Agogo (agogo)"
+   },
+   {
+    "pad_or_key": "Pad 22 (B06)",
+    "midi_note": 68,
+    "sound": "208 Agogo (agogo)"
+   },
+   {
+    "pad_or_key": "Pad 23 (B07)",
+    "midi_note": 73,
+    "sound": "200 GuiroS (guiro short)"
+   },
+   {
+    "pad_or_key": "Pad 24 (B08)",
+    "midi_note": 74,
+    "sound": "201 GuiroL (guiro long)"
+   },
+   {
+    "pad_or_key": "Pad 25 (B09)",
+    "midi_note": 60,
+    "sound": "191 BongoH (bongo high)"
+   },
+   {
+    "pad_or_key": "Pad 26 (B10)",
+    "midi_note": 61,
+    "sound": "192 BongoL (bongo low)"
+   },
+   {
+    "pad_or_key": "Pad 27 (B11)",
+    "midi_note": 66,
+    "sound": "197 Timbal (timbale)"
+   },
+   {
+    "pad_or_key": "Pad 28 (B12)",
+    "midi_note": 65,
+    "sound": "197 Timbal (timbale)"
+   },
+   {
+    "pad_or_key": "Pad 29 (B13)",
+    "midi_note": 54,
+    "sound": "186 Tambrn (tambourine)"
+   },
+   {
+    "pad_or_key": "Pad 30 (B14)",
+    "midi_note": 62,
+    "sound": "193 CngHMt (conga high mute)"
+   },
+   {
+    "pad_or_key": "Pad 31 (B15)",
+    "midi_note": 63,
+    "sound": "195 CngHOp (conga high open)"
+   },
+   {
+    "pad_or_key": "Pad 32 (B16)",
+    "midi_note": 64,
+    "sound": "196 CngLOp (conga low open)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -01",
+    "midi_note": 27,
+    "sound": "225 HiQ (hi-Q)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -02",
+    "midi_note": 28,
+    "sound": "231 DncClp (dance clap)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -03",
+    "midi_note": 29,
+    "sound": "221 Scrch1 (scratch 1)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -04",
+    "midi_note": 30,
+    "sound": "222 Scrch2 (scratch 2)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -05",
+    "midi_note": 31,
+    "sound": "126 Sticks (sticks)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -06",
+    "midi_note": 32,
+    "sound": "210 55Clav (DR-55 claves)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -07",
+    "midi_note": 33,
+    "sound": "212 78Beat (CR-78 metallic beat)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -08",
+    "midi_note": 34,
+    "sound": "212 78Beat (CR-78 metallic beat)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -09",
+    "midi_note": 35,
+    "sound": "11 Dry K1 (dry kick 1)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -10",
+    "midi_note": 40,
+    "sound": "102 RealS1 (real snare 1)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -11",
+    "midi_note": 43,
+    "sound": "152 RealT3 (real tom 3)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -12",
+    "midi_note": 47,
+    "sound": "151 RealT2 (real tom 2)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -13",
+    "midi_note": 52,
+    "sound": "181 ChinaC (chinese cymbal)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -14",
+    "midi_note": 55,
+    "sound": "180 SplshC (splash cymbal)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -15",
+    "midi_note": 59,
+    "sound": "182 Ride C (ride cymbal)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -16",
+    "midi_note": 71,
+    "sound": "206 WhislS (whistle short)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -17",
+    "midi_note": 72,
+    "sound": "207 WhislL (whistle long)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -18",
+    "midi_note": 76,
+    "sound": "190 Wodblk (wood block)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -19",
+    "midi_note": 77,
+    "sound": "190 Wodblk (wood block)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -20",
+    "midi_note": 78,
+    "sound": "209 Cuica (cuica)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -21",
+    "midi_note": 79,
+    "sound": "209 Cuica (cuica)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -22",
+    "midi_note": 80,
+    "sound": "189 Triang (triangle)"
+   },
+   {
+    "pad_or_key": "MIDI-only sound -23",
+    "midi_note": 81,
+    "sound": "189 Triang (triangle)"
+   }
+  ],
+  "pack_contents": "'Boss DR-660': 217 mono 16-bit/44.1 kHz WAV one-shots (longest 4.17 s), numbered by category with no names: DR-660Kick01-50, DR-660Snare01-77, DR-660Hat_C01-06, DR-660Hat_O01/02/04/05/06 (03 missing), DR-660Crash01-03, DR-660Ride01-03, DR-660SplashCym, DR-660Perc01-72. No toms (ROM 128-166 absent), no loops or MIDI. Inferred mapping: Snare01-77 = ROM 51-127 (72 snares + 5 side sticks); Hat_C = the 6 closed/pedal hats; Hat_O = the 5 open hats; Crash/Ride/Splash = the 7 cymbals; Kick01-50 vs 51 ROM kicks; Perc01-72 vs 70 ROM entries 185-254 (unverified).",
+  "preset_patterns": [
+   {
+    "name": "0 8beat Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "1 8beat Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "2 8beat Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "3 8beat Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "4 PopRock Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "5 PopRock Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "6 PopRock Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "7 PopRock Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "8 HardRock1 Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "9 HardRock1 Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "10 HardRock1 Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "11 HardRock1 Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "12 HardRock2 Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "13 HardRock2 Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "14 HardRock2 Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "15 HardRock2 Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "16 Rock N Roll Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "17 Rock N Roll Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "18 Rock N Roll Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "19 Rock N Roll Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "20 SlowRock Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "21 SlowRock Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "22 SlowRock Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "23 SlowRock Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "24 16beat Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "25 16beat Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "26 16beat Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "27 16beat Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "28 R & B Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "29 R & B Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "30 R & B Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "31 R & B Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "32 Oldies Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "33 Oldies Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "34 Oldies Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "35 Oldies Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "36 Disco Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "37 Disco Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "38 Disco Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "39 Disco Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "40 Funk Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "41 Funk Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "42 Funk Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "43 Funk Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "44 Swing1 Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "45 Swing1 Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "46 Swing1 Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "47 Swing1 Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "48 Swing2 Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "49 Swing2 Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "50 Swing2 Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "51 Swing2 Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "52 BrushSwing Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "53 BrushSwing Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "54 BrushSwing Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "55 BrushSwing Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "56 Country Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "57 Country Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "58 Country Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "59 Country Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "60 Dance Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "61 Dance Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "62 Dance Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "63 Dance Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "64 House Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "65 House Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "66 House Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "67 House Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "68 Rap1 Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "69 Rap1 Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "70 Rap1 Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "71 Rap1 Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "72 Rap2 Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "73 Rap2 Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "74 Rap2 Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "75 Rap2 Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "76 Samba Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "77 Samba Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "78 Samba Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "79 Samba Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "80 Salsa Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "81 Salsa Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "82 Salsa Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "83 Salsa Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "84 Bossanova Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "85 Bossanova Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "86 Bossanova Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "87 Bossanova Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "88 Reggae Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "89 Reggae Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "90 Reggae Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "91 Reggae Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "92 Mambo Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "93 Mambo Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "94 Mambo Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "95 Mambo Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "96 Beguine Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "97 Beguine Fill in to Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "98 Beguine Variation",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   },
+   {
+    "name": "99 Beguine Fill in to Original",
+    "source": "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf p.110"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "Squarepusher",
+    "title": "Feed Me Weird Things (album)",
+    "year": 1996,
+    "evidence": "https://equipboard.com/albums/squarepusher-feed-me-weird-things-remastered - Equipboard lists the DR-660 for this album and quotes Tom Jenkinson saying he 'made my first records using the Boss DR660' (seen in a search excerpt; page returned 403).",
+    "grid_source": null
+   },
+   {
+    "artist": "Shawty Pimp",
+    "title": "Volume 1 (album)",
+    "year": 1994,
+    "evidence": "https://equipboard.com/albums/shawty-pimp-volume-1 - Equipboard lists the DR-660; excerpt says the 1993 'Solo Tape' used it for every beat (search excerpt only).",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://static.roland.com/assets/media/pdf/DR-660_OM.pdf",
+   "https://www.muzines.co.uk/articles/boss-dr550-mkii-and-dr660-drum-machines/1176"
+  ]
+ }
+]

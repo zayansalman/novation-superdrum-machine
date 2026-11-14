@@ -1,0 +1,17 @@
+# build output and caches
+work/
+__pycache__/
+*.pyc
+
+# never commit audio, Ableton output files, or third-party pattern transcriptions
+*.wav
+*.aif
+*.aiff
+*.asd
+*.adg
+*.alc
+*.als
+*.mid
+research/beats/*.json
+
+.DS_Store

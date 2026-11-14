@@ -1,0 +1,3210 @@
+[
+ {
+  "machine": "Yamaha RX5 Digital Rhythm Programmer",
+  "pack_folders": [
+   "Yamaha RX-5",
+   "Yamaha RX5"
+  ],
+  "maker": "Yamaha",
+  "year": 1986,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "BD2",
+    "name": "Bass Drum 2",
+    "type": "Kick",
+    "controls": [
+     "pitch +24/-36 semitones (10-cent steps)",
+     "EG: attack rate, decay 1 rate, decay 1 level, decay 2 rate, release rate, gate time 0.1-6.5 s",
+     "pitch bend rate 0-60 / range +/-60 semitones",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse (REVERSE key)",
+     "damp (DAMP key / MIDI note-off)",
+     "accent 1 / accent 2 level offset (+/-31)",
+     "per-key offsets: pitch, level, attack, decay",
+     "pair INSTRUMENT VOLUME fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key A (top row). Output channel 1 (shared with key M), fixed stereo position 8 = centre (scale 15 = L, 1 = R). Cartridge voices assignable to this pair: BD3, Timpani."
+   },
+   {
+    "label": "SD2",
+    "name": "Snare Drum 2",
+    "type": "Snare",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key B. Output channel 2 (with key N), stereo position 9. Cartridge alternates on this pair: SD3, FM perc 1."
+   },
+   {
+    "label": "RIM2",
+    "name": "Rimshot 2",
+    "type": "Rim",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key C. Output channel 3 (with key O), stereo position 9. Cartridge alternates: Conga HI mute, DX marimba."
+   },
+   {
+    "label": "E.TOM1",
+    "name": "Electric Tom 1",
+    "type": "Tom",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key D. Output channel 4 (with key P), stereo position 12 (left). Cartridge alternates: Conga HI open, Timbale H."
+   },
+   {
+    "label": "E.TOM2",
+    "name": "Electric Tom 2",
+    "type": "Tom",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key E. Output channel 5 (with key Q), stereo position 10. Cartridge alternates: Conga Lo, Timbale L."
+   },
+   {
+    "label": "E.TOM3",
+    "name": "Electric Tom 3",
+    "type": "Tom",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key F. Output channel 6 (with key R), stereo position 6. Cartridge alternates: Bongo HI, FM perc 2."
+   },
+   {
+    "label": "E.TOM4",
+    "name": "Electric Tom 4",
+    "type": "Tom",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key G. Output channel 7 (with key S), stereo position 4 (right). Cartridge alternates: Bongo LO, FM perc 3."
+   },
+   {
+    "label": "HH OPEN",
+    "name": "Hi-Hat (Open)",
+    "type": "Open Hat",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key H. Output channel 8 (with key T = HH CLOSED, so open/closed choke), stereo position 13 (left). Cartridge alternates: Agogo HI, Castanet."
+   },
+   {
+    "label": "RIDE (EDGE)",
+    "name": "Ride cymbal, edge",
+    "type": "Ride",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key I. Output channel 9 (with key U), stereo position 3 (right). LCD name 'Edge'. Cartridge alternates: Agogo LO, Whistle."
+   },
+   {
+    "label": "CHINESE",
+    "name": "Chinese cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key J. Output channel 10 (with key V), stereo position 11. LCD name 'China'. Cartridge alternates: Glass crash, Gun."
+   },
+   {
+    "label": "TAMBOURINE",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key K. Output channel 11 (with key W), stereo position 5. Cartridge alternates: Hey, Wao."
+   },
+   {
+    "label": "SHAKER",
+    "name": "Shaker",
+    "type": "Shaker",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key L. Output channel 12 (with key X), stereo position 8. Cartridge alternates: Cuica, E.bass H."
+   },
+   {
+    "label": "BD1",
+    "name": "Bass Drum 1",
+    "type": "Kick",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key M (bottom row). Output channel 1 (with key A), stereo position 8."
+   },
+   {
+    "label": "SD1",
+    "name": "Snare Drum 1",
+    "type": "Snare",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key N. Output channel 2 (with key B), stereo position 9."
+   },
+   {
+    "label": "RIM1",
+    "name": "Rimshot 1",
+    "type": "Rim",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key O. Output channel 3 (with key C), stereo position 9."
+   },
+   {
+    "label": "TOM1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key P. Output channel 4 (with key D), stereo position 12."
+   },
+   {
+    "label": "TOM2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key Q. Output channel 5 (with key E), stereo position 10."
+   },
+   {
+    "label": "TOM3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key R. Output channel 6 (with key F), stereo position 6."
+   },
+   {
+    "label": "TOM4",
+    "name": "Tom 4",
+    "type": "Tom",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key S. Output channel 7 (with key G), stereo position 4."
+   },
+   {
+    "label": "HH CLOSED",
+    "name": "Hi-Hat (Closed)",
+    "type": "Closed Hat",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key T. Output channel 8 (with key H = HH OPEN), stereo position 13."
+   },
+   {
+    "label": "RIDE (CUP)",
+    "name": "Ride cymbal, cup/bell",
+    "type": "Ride",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key U. Output channel 9 (with key I), stereo position 3. LCD name 'Cup'."
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash cymbal",
+    "type": "Crash",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key V. Output channel 10 (with key J), stereo position 11."
+   },
+   {
+    "label": "CLAPS",
+    "name": "Hand claps",
+    "type": "Clap",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key W. Output channel 11 (with key K), stereo position 5."
+   },
+   {
+    "label": "COWBELL",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "pitch",
+     "EG (AR, D1R, D1L, D2R, RR, gate time)",
+     "bend rate/range",
+     "voice level 0-31",
+     "loop on/off",
+     "reverse",
+     "damp",
+     "accent 1/2 level",
+     "per-key offsets",
+     "pair volume fader + individual out"
+    ],
+    "switch_alternate": null,
+    "notes": "Key X. Output channel 12 (with key L), stereo position 8."
+   }
+  ],
+  "choke_groups": [
+   [
+    "BD2",
+    "BD1"
+   ],
+   [
+    "SD2",
+    "SD1"
+   ],
+   [
+    "RIM2",
+    "RIM1"
+   ],
+   [
+    "E.TOM1",
+    "TOM1"
+   ],
+   [
+    "E.TOM2",
+    "TOM2"
+   ],
+   [
+    "E.TOM3",
+    "TOM3"
+   ],
+   [
+    "E.TOM4",
+    "TOM4"
+   ],
+   [
+    "HH OPEN",
+    "HH CLOSED"
+   ],
+   [
+    "RIDE (EDGE)",
+    "RIDE (CUP)"
+   ],
+   [
+    "CHINESE",
+    "CRASH"
+   ],
+   [
+    "TAMBOURINE",
+    "CLAPS"
+   ],
+   [
+    "SHAKER",
+    "COWBELL"
+   ]
+  ],
+  "accent": "Two accent levels per instrument key. Hold green ACCENT 1 or ACCENT 2 while striking a key (live, real-time or step write). Each key's accent level is an offset of up to +/-31 on the 0-31 voice level, clipped to 0..31 (Key Assign Job 05). The panel keys are not velocity-sensitive. External MIDI velocity can scale envelope parameters (MIDI Job 06 'E.G. Velocity').",
+  "built_in_effects": [],
+  "global_features": [
+   "12 simultaneous sounds: each vertical key pair (A/M ... L/X) is one output channel that plays one sound at a time (manual); some secondary sources say 16-voice",
+   "24 internal 12-bit voices + 28 voices on the supplied RX5 ROM waveform cartridge + 12 RAM 'copied' voices = 64 addressable",
+   "Key Assign mode: assign voices per key; per-key pitch/level/attack/decay offsets; Multi Voice (one voice across the 12 top-row keys with graded parameters); Multi Step; 3 stored key-data sets ('drum sets')",
+   "Swing 54/58/63/67/71% (off = 50%), only with quantize 1/8 or 1/16; quantize to 1/48 or off (MT review)",
+   "Pattern edit: 5 parameters per individual note (pitch, level, envelope, reverse, etc.)",
+   "100 patterns (up to 99 bars), 20 songs (up to 999 parts), 3 chains; tempo 40-250; song tempo and volume changes; time signatures with denominators 1/2-1/32",
+   "Outputs: stereo L/MONO + R with fixed per-channel pan (ch1-12: 8,9,9,12,10,6,4,13,3,11,5,8 on a 15=L ... 1=R scale), 12 individual outs, click out, phones; 12 INSTRUMENT VOLUME faders",
+   "MIDI In/Out/Thru: Note Number mode (default map) and Tunable Note mode (a voice played chromatically C1-C6 per MIDI channel); per-voice MIDI transmit channel",
+   "Sync: internal, MIDI, tape, external clock in/out; footswitch start/stop; RAM4 data cartridge and cassette storage",
+   "Damp: in real-time write, a second key press (or MIDI note-off) cuts a ringing note"
+  ],
+  "sound_bank": {
+   "total": 24,
+   "categories": [
+    {
+     "name": "Bass drum",
+     "count": 2,
+     "range": "keys A, M"
+    },
+    {
+     "name": "Snare drum",
+     "count": 2,
+     "range": "keys B, N"
+    },
+    {
+     "name": "Rimshot",
+     "count": 2,
+     "range": "keys C, O"
+    },
+    {
+     "name": "Electric tom",
+     "count": 4,
+     "range": "keys D-G"
+    },
+    {
+     "name": "Tom",
+     "count": 4,
+     "range": "keys P-S"
+    },
+    {
+     "name": "Hi-hat (open/closed)",
+     "count": 2,
+     "range": "keys H, T"
+    },
+    {
+     "name": "Cymbals (ride edge, ride cup, Chinese, crash)",
+     "count": 4,
+     "range": "keys I, U, J, V"
+    },
+    {
+     "name": "Percussion (tambourine, claps, shaker, cowbell)",
+     "count": 4,
+     "range": "keys K, W, L, X"
+    }
+   ],
+   "ordered_list": [
+    "BD 2",
+    "SD 2",
+    "RIM 2",
+    "E.Tom 1",
+    "E.Tom 2",
+    "E.Tom 3",
+    "E.Tom 4",
+    "HH open",
+    "Ride (edge)",
+    "Chinese cymbal",
+    "Tambourine",
+    "Shaker",
+    "BD 1",
+    "SD 1",
+    "RIM 1",
+    "Tom 1",
+    "Tom 2",
+    "Tom 3",
+    "Tom 4",
+    "HH closed",
+    "Ride (cup)",
+    "Crash",
+    "Claps",
+    "Cowbell"
+   ],
+   "list_source": "https://soundprogramming.net/manuals/drum/Yamaha_RX5_Manual.pdf (PDF p.9 'Instrument keys and internal voices'; listed in key order A-X because ROM order is not published)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "A",
+    "midi_note": 44,
+    "sound": "BD2"
+   },
+   {
+    "pad_or_key": "B",
+    "midi_note": 49,
+    "sound": "SD2"
+   },
+   {
+    "pad_or_key": "C",
+    "midi_note": 46,
+    "sound": "RIM2"
+   },
+   {
+    "pad_or_key": "D",
+    "midi_note": 43,
+    "sound": "E.TOM1"
+   },
+   {
+    "pad_or_key": "E",
+    "midi_note": 42,
+    "sound": "E.TOM2"
+   },
+   {
+    "pad_or_key": "F",
+    "midi_note": 41,
+    "sound": "E.TOM3"
+   },
+   {
+    "pad_or_key": "G",
+    "midi_note": 40,
+    "sound": "E.TOM4"
+   },
+   {
+    "pad_or_key": "H",
+    "midi_note": 59,
+    "sound": "HH OPEN"
+   },
+   {
+    "pad_or_key": "I",
+    "midi_note": 63,
+    "sound": "RIDE (EDGE)"
+   },
+   {
+    "pad_or_key": "J",
+    "midi_note": 61,
+    "sound": "CHINESE"
+   },
+   {
+    "pad_or_key": "K",
+    "midi_note": 58,
+    "sound": "TAMBOURINE"
+   },
+   {
+    "pad_or_key": "L",
+    "midi_note": 56,
+    "sound": "SHAKER"
+   },
+   {
+    "pad_or_key": "M",
+    "midi_note": 45,
+    "sound": "BD1"
+   },
+   {
+    "pad_or_key": "N",
+    "midi_note": 52,
+    "sound": "SD1"
+   },
+   {
+    "pad_or_key": "O",
+    "midi_note": 51,
+    "sound": "RIM1"
+   },
+   {
+    "pad_or_key": "P",
+    "midi_note": 53,
+    "sound": "TOM1"
+   },
+   {
+    "pad_or_key": "Q",
+    "midi_note": 50,
+    "sound": "TOM2"
+   },
+   {
+    "pad_or_key": "R",
+    "midi_note": 48,
+    "sound": "TOM3"
+   },
+   {
+    "pad_or_key": "S",
+    "midi_note": 47,
+    "sound": "TOM4"
+   },
+   {
+    "pad_or_key": "T",
+    "midi_note": 57,
+    "sound": "HH CLOSED"
+   },
+   {
+    "pad_or_key": "U",
+    "midi_note": 62,
+    "sound": "RIDE (CUP)"
+   },
+   {
+    "pad_or_key": "V",
+    "midi_note": 60,
+    "sound": "CRASH"
+   },
+   {
+    "pad_or_key": "W",
+    "midi_note": 54,
+    "sound": "CLAPS"
+   },
+   {
+    "pad_or_key": "X",
+    "midi_note": 55,
+    "sound": "COWBELL"
+   }
+  ],
+  "pack_contents": "Two folders, one-shots only, no loops. 'Yamaha RX-5': 13 stereo 44.1 kHz/16-bit WAVs with plain names: Bassdrum, Bassdrum-02, Snaredrum, Snaredrum-02, Snaredrum-03, Rimshot, Tom (only one tom), Hat Closed, Hat Open, Cowbell, Shaker, Tambourine, SFX (0.09-1.0 s); no claps, ride, crash or china. 'Yamaha RX5': 28 mono 44.1 kHz/16-bit WAVs with an 'RX5' prefix: Kick01-06, Snare01-07, Rimshot, Clap, Hat_C, Hat_O, Crash, China, Cup, Edge, Tamborine (sic), Bongo_Hi/Lo and Timbale_Hi/Lo (RX5 ROM cartridge voices), plus Smack and Thud (not official names); no toms, E-toms, cowbell or shaker. 6 kicks and 7 snares exceed the hardware's 3 BD/3 SD (internal + cartridge), so they are probably edited variants (inferred).",
+  "preset_patterns": [
+   {
+    "name": "Factory patterns 00-54 (numbered, unnamed; 'basic rock rhythms, complex fills, syn-drum type sequences, and interesting melodic Patterns'; reload by holding ACCENT 1 at power-on)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RX5_Manual.pdf"
+   },
+   {
+    "name": "Demo song 'Funky Up' (one of three pre-programmed songs)",
+    "source": "https://www.muzines.co.uk/articles/yamaha-rx5/1956"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "The Sisters of Mercy",
+    "title": "Floodland (album; no individual track named)",
+    "year": 1987,
+    "evidence": "http://www.the-sisters-of-mercy.com/tech/doktors.htm (official band site): Eldritch 'got a Yamaha RX5 for the snare sound... and wrote the album with that'; 'Resampled RX5 kick, snare and hats' were loaded into the Akai S900 Doktor",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://soundprogramming.net/manuals/drum/Yamaha_RX5_Manual.pdf",
+   "https://soundprogramming.net/drum-machines/yamaha/yamaha-rx5/",
+   "https://www.muzines.co.uk/articles/yamaha-rx5/1956",
+   "https://www.muzines.co.uk/articles/yamaha-rx5/1993",
+   "https://yamahablackboxes.com/collection/yamaha-rx5-drum-machine/",
+   "https://www.polynominal.com/m/yamaha-rx-5.htm",
+   "https://vintagesynth.com/yamaha/rx5",
+   "https://en.wikipedia.org/wiki/Yamaha_RX-5",
+   "http://www.the-sisters-of-mercy.com/tech/doktors.htm",
+   "https://en.wikipedia.org/wiki/Doktor_Avalanche"
+  ]
+ },
+ {
+  "machine": "Yamaha RX11 Digital Rhythm Programmer",
+  "pack_folders": [
+   "Yamaha RX11"
+  ],
+  "maker": "Yamaha",
+  "year": 1984,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "SD1",
+    "name": "Snare drum 1",
+    "type": "Snare",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "voice select (FUNCTION+INST-CHANGE)",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": "8 voices: Heavy snare / Medium snare / Light snare / Hi-tune snare 1-5",
+    "notes": "Top row, button 1. Shares the 'SD/RM' individual output. Cannot sound on the same beat as SD2 or RIMSHOT."
+   },
+   {
+    "label": "TOM1",
+    "name": "10-inch deep-body tom-tom",
+    "type": "Tom",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "Top row, button 2. Own individual output (TOM1)."
+   },
+   {
+    "label": "TOM2",
+    "name": "12-inch deep-body tom-tom",
+    "type": "Tom",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "Top row, button 3. Own individual output (TOM2)."
+   },
+   {
+    "label": "BD1",
+    "name": "Bass drum 1",
+    "type": "Kick",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "voice select (FUNCTION+INST-CHANGE)",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": "Heavy bass drum / Medium bass drum 1 / Medium bass drum 2",
+    "notes": "Top row, button 4. Shares the 'BD' individual output with BD2."
+   },
+   {
+    "label": "HH OPEN",
+    "name": "Open hi-hat",
+    "type": "Open Hat",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "voice select (FUNCTION+INST-CHANGE)",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": "Open Hi-Hat 1 / Open Hi-Hat 2",
+    "notes": "Top row, button 5. Shares the 'HH' individual output. Cannot sound on the same beat as HH CLOSED."
+   },
+   {
+    "label": "RIDE",
+    "name": "Ride cymbal",
+    "type": "Ride",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "Top row, button 6. Own individual output."
+   },
+   {
+    "label": "COWBELL",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "voice select (FUNCTION+INST-CHANGE)",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": "Cowbell 1 / Cowbell 2",
+    "notes": "Top row, button 7. Own individual output."
+   },
+   {
+    "label": "SHAKER",
+    "name": "Shaker",
+    "type": "Shaker",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "Top row, button 8. Own individual output."
+   },
+   {
+    "label": "SD2",
+    "name": "Snare drum 2",
+    "type": "Snare",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "voice select (FUNCTION+INST-CHANGE)",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": "8 voices: Heavy snare / Medium snare / Light snare / Hi-tune snare 1-5",
+    "notes": "Bottom row, button 1. Shares the 'SD/RM' output. Cannot sound on the same beat as SD1 or RIMSHOT."
+   },
+   {
+    "label": "TOM3",
+    "name": "14-inch floor tom-tom",
+    "type": "Tom",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom row, button 2. In INDIVIDUAL OUT mode the R output carries TOM3. Cannot sound on the same beat as TOM4."
+   },
+   {
+    "label": "TOM4",
+    "name": "Floor tom-tom (size illegible in the manual scan)",
+    "type": "Tom",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom row, button 3. In INDIVIDUAL OUT mode the L output carries TOM4. Cannot sound on the same beat as TOM3."
+   },
+   {
+    "label": "BD2",
+    "name": "Bass drum 2",
+    "type": "Kick",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "voice select (FUNCTION+INST-CHANGE)",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": "Heavy bass drum / Medium bass drum 1 / Medium bass drum 2",
+    "notes": "Bottom row, button 4. Shares the 'BD' output with BD1."
+   },
+   {
+    "label": "HH CLOSED",
+    "name": "Closed hi-hat",
+    "type": "Closed Hat",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "voice select (FUNCTION+INST-CHANGE)",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": "Closed Hi-Hat 1 / Closed Hi-Hat 2 / Pedalled Hi-Hat",
+    "notes": "Bottom row, button 5. Shares the 'HH' output. The pedal hat is a voice choice on this button."
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash cymbal",
+    "type": "Crash",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "Bottom row, button 6. Own individual output."
+   },
+   {
+    "label": "RIMSHOT",
+    "name": "Rimshot",
+    "type": "Rim",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "voice select (FUNCTION+INST-CHANGE)",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": "Rimshot 1 / Rimshot 2",
+    "notes": "Bottom row, button 7. Shares the 'SD/RM' output. Cannot sound on the same beat as SD1 or SD2."
+   },
+   {
+    "label": "CLAPS",
+    "name": "Hand claps",
+    "type": "Clap",
+    "controls": [
+     "instrument level 00-31",
+     "pan (15 positions)",
+     "accent level 00-31",
+     "voice select (FUNCTION+INST-CHANGE)",
+     "MIDI note 36-99 + transmit channel",
+     "stereo on/off"
+    ],
+    "switch_alternate": "Hand claps 1 / Hand claps 2",
+    "notes": "Bottom row, button 8. Own individual output."
+   }
+  ],
+  "choke_groups": [
+   [
+    "RIMSHOT",
+    "SD1",
+    "SD2"
+   ],
+   [
+    "TOM3",
+    "TOM4"
+   ],
+   [
+    "BD1",
+    "BD2"
+   ],
+   [
+    "HH OPEN",
+    "HH CLOSED"
+   ]
+  ],
+  "accent": "Per note: hold the green ACCENT button while striking an instrument (live, real-time write or step write). Each instrument has an ACCENT LEVEL 00-31 that is added to its INST LEVEL (e.g. 15 + 05 = 20). Accent is stored per pattern; levels, pan and accent levels are stored per song.",
+  "built_in_effects": [],
+  "global_features": [
+   "16 instrument buttons, 29 voices (8 snares, 4 toms, 3 bass drums, 2 open + 2 closed + 1 pedal hi-hat, ride, crash, 2 cowbells, 2 rimshots, 2 claps, shaker)",
+   "No per-voice tuning (E&MM: 'lack of user-tunability')",
+   "Per-instrument pan (15 discrete positions, active in STEREO OUT mode), level 00-31 and accent level 00-31",
+   "Swing 50 (off)/54/58/63/67/71%, real-time write only, quantize 1/8 or 1/16",
+   "Quantize 1/4-1/192; flams possible in real time at 1/192 (E&MM)",
+   "100 patterns (up to 99 bars), 10 songs, 255 parts, chain play, tempo changes",
+   "10 individual outs (COWBELL, CLAPS, SHAKER, TOM1, TOM2, BD, SD/RM, HH, CRASH, RIDE); in INDIVIDUAL OUT mode the L/R jacks become TOM4/TOM3; per-instrument stereo on/off",
+   "MIDI In/Out: note numbers assignable 36-99, per-instrument MIDI transmit channel, 24 ppqn clock (external sync 24/48/96 ppqn per E&MM)",
+   "RAM-1 data cartridge slot, cassette, footswitch; 2-digit LED plus 16-character LCD",
+   "Sample resolution is disputed: 8-bit per E&MM Mar 1984 and soundprogramming, 12-bit per SampleScience"
+  ],
+  "sound_bank": {
+   "total": 29,
+   "categories": [
+    {
+     "name": "Snare",
+     "count": 8,
+     "range": "1-8"
+    },
+    {
+     "name": "Tom",
+     "count": 4,
+     "range": "9-12"
+    },
+    {
+     "name": "Bass drum",
+     "count": 3,
+     "range": "13-15"
+    },
+    {
+     "name": "Open hi-hat",
+     "count": 2,
+     "range": "16-17"
+    },
+    {
+     "name": "Closed/pedal hi-hat",
+     "count": 3,
+     "range": "18-20"
+    },
+    {
+     "name": "Ride",
+     "count": 1,
+     "range": "21"
+    },
+    {
+     "name": "Crash",
+     "count": 1,
+     "range": "22"
+    },
+    {
+     "name": "Cowbell",
+     "count": 2,
+     "range": "23-24"
+    },
+    {
+     "name": "Rimshot",
+     "count": 2,
+     "range": "25-26"
+    },
+    {
+     "name": "Hand claps",
+     "count": 2,
+     "range": "27-28"
+    },
+    {
+     "name": "Shaker",
+     "count": 1,
+     "range": "29"
+    }
+   ],
+   "ordered_list": [
+    "Heavy snare",
+    "Medium snare",
+    "Light snare",
+    "Hi-tune snare 1",
+    "Hi-tune snare 2",
+    "Hi-tune snare 3",
+    "Hi-tune snare 4",
+    "Hi-tune snare 5",
+    "10-inch deep-body tom-tom",
+    "12-inch deep-body tom-tom",
+    "14-inch floor tom-tom",
+    "Floor tom-tom (TOM4)",
+    "Heavy bass drum",
+    "Medium bass drum 1",
+    "Medium bass drum 2",
+    "Open Hi-Hat 1",
+    "Open Hi-Hat 2",
+    "Closed Hi-Hat 1",
+    "Closed Hi-Hat 2",
+    "Pedalled Hi-Hat",
+    "Ride cymbal",
+    "Crash cymbal",
+    "Cowbell 1",
+    "Cowbell 2",
+    "Rimshot 1",
+    "Rimshot 2",
+    "Hand claps 1",
+    "Hand claps 2",
+    "Shaker"
+   ],
+   "list_source": "https://soundprogramming.net/manuals/drum/Yamaha_RX11_Manual.pdf (PDF p.7 instrument chart order, not ROM order; Shaker placed last per the button diagram, key table and spec count of 29)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "SD1 (top 1)",
+    "midi_note": 52,
+    "sound": "SD1"
+   },
+   {
+    "pad_or_key": "TOM1 (top 2)",
+    "midi_note": 53,
+    "sound": "TOM1"
+   },
+   {
+    "pad_or_key": "TOM2 (top 3)",
+    "midi_note": 50,
+    "sound": "TOM2"
+   },
+   {
+    "pad_or_key": "BD1 (top 4)",
+    "midi_note": 45,
+    "sound": "BD1"
+   },
+   {
+    "pad_or_key": "HH OPEN (top 5)",
+    "midi_note": 59,
+    "sound": "HH OPEN"
+   },
+   {
+    "pad_or_key": "RIDE (top 6)",
+    "midi_note": 62,
+    "sound": "RIDE"
+   },
+   {
+    "pad_or_key": "COWBELL (top 7)",
+    "midi_note": 55,
+    "sound": "COWBELL"
+   },
+   {
+    "pad_or_key": "SHAKER (top 8)",
+    "midi_note": 56,
+    "sound": "SHAKER"
+   },
+   {
+    "pad_or_key": "SD2 (bottom 1)",
+    "midi_note": 49,
+    "sound": "SD2"
+   },
+   {
+    "pad_or_key": "TOM3 (bottom 2)",
+    "midi_note": 48,
+    "sound": "TOM3"
+   },
+   {
+    "pad_or_key": "TOM4 (bottom 3)",
+    "midi_note": 47,
+    "sound": "TOM4"
+   },
+   {
+    "pad_or_key": "BD2 (bottom 4)",
+    "midi_note": 44,
+    "sound": "BD2"
+   },
+   {
+    "pad_or_key": "HH CLOSED (bottom 5)",
+    "midi_note": 57,
+    "sound": "HH CLOSED"
+   },
+   {
+    "pad_or_key": "CRASH (bottom 6)",
+    "midi_note": 60,
+    "sound": "CRASH"
+   },
+   {
+    "pad_or_key": "RIMSHOT (bottom 7)",
+    "midi_note": 51,
+    "sound": "RIMSHOT"
+   },
+   {
+    "pad_or_key": "CLAPS (bottom 8)",
+    "midi_note": 54,
+    "sound": "CLAPS"
+   }
+  ],
+  "pack_contents": "'Yamaha RX11': 10 mono 44.1 kHz/16-bit one-shots: RX11Kick, RX11Snare01, RX11Snare02, RX11Rimshot, RX11Clap, RX11Hat_C, RX11Hat_O, RX11Hat_P (pedalled hat), RX11Ride, RX11Crash (2.76 s). No toms, cowbell or shaker. Only 1 of 3 kicks, 2 of 8 snares, 1 of 2 claps and 1 of 2 rimshots; which variant each file is, is unknown.",
+  "preset_patterns": [
+   {
+    "name": "37 simple factory-programmed patterns in memories 00-36 (unnamed in the manual)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RX11_Manual.pdf"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "New Order",
+    "title": "Brotherhood (album; no individual track named)",
+    "year": 1986,
+    "evidence": "https://www.muzines.co.uk/articles/state-of-the-art/1516 (Sound On Sound, Feb 1987): equipment list for Brotherhood includes 'Yamaha RX11 drum machine', alongside a TR808 and DMX",
+    "grid_source": null
+   },
+   {
+    "artist": "Erasure",
+    "title": "unspecified (general use, 1985 onward)",
+    "year": null,
+    "evidence": "https://www.gearnews.com/how-to-sound-like-vince-clarke-of-depeche-mode-yazoo-and-erasure/: 'Erasure's drum sound often came from the Yamaha RX-11' (secondary source, no track named)",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://soundprogramming.net/manuals/drum/Yamaha_RX11_Manual.pdf",
+   "https://soundprogramming.net/drum-machines/yamaha/yamaha-rx11",
+   "https://www.muzines.co.uk/articles/yamaha-rx11-and-rx15/1465",
+   "https://www.muzines.co.uk/articles/yamaha-rx-digital-rhythm-machines/1584",
+   "https://en.wikipedia.org/wiki/Yamaha_RX-11",
+   "https://www.muzines.co.uk/articles/state-of-the-art/1516",
+   "https://www.gearnews.com/how-to-sound-like-vince-clarke-of-depeche-mode-yazoo-and-erasure/",
+   "https://www.samplescience.info/2020/09/rx-11-hd.html"
+  ]
+ },
+ {
+  "machine": "Yamaha RX21 Digital Rhythm Programmer",
+  "pack_folders": [
+   "Yamaha RX-21",
+   "Yamaha RX21"
+  ],
+  "maker": "Yamaha",
+  "year": 1985,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "SD",
+    "name": "Medium-tuned snare",
+    "type": "Snare",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31 (added to level, max 31)",
+     "fixed stereo position"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 1. Fixed pan: centre."
+   },
+   {
+    "label": "TOM1",
+    "name": "10-inch deep-body tom-tom",
+    "type": "Tom",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed stereo position"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 2. Fixed pan: left of centre."
+   },
+   {
+    "label": "TOM2",
+    "name": "12-inch deep-body tom-tom",
+    "type": "Tom",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed stereo position"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 3. Fixed pan: centre."
+   },
+   {
+    "label": "TOM3",
+    "name": "14-inch floor tom-tom",
+    "type": "Tom",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed stereo position"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 4. Fixed pan: right of centre."
+   },
+   {
+    "label": "BD",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed stereo position"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 5. Fixed pan: centre."
+   },
+   {
+    "label": "HH OPEN",
+    "name": "Open hi-hat",
+    "type": "Open Hat",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed stereo position"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 6. Fixed pan: left of centre. Cannot share a beat with HH CLOSED (programming one replaces the other)."
+   },
+   {
+    "label": "HH CLOSED",
+    "name": "Closed hi-hat",
+    "type": "Closed Hat",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed stereo position"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 7. Fixed pan: left of centre."
+   },
+   {
+    "label": "CYM",
+    "name": "Crash cymbal",
+    "type": "Crash",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed stereo position"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 8. Fixed pan: right of centre."
+   },
+   {
+    "label": "CLAPS",
+    "name": "Hand claps",
+    "type": "Clap",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed stereo position"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 9. Fixed pan: right of centre."
+   }
+  ],
+  "choke_groups": [
+   [
+    "HH OPEN",
+    "HH CLOSED"
+   ]
+  ],
+  "accent": "Per beat, not per voice: while recording, pressing ACCENT on a beat (no instrument key needed) accents ALL instruments sounding on that beat, each by its own accent level (00-31, added to the instrument level, capped at 31; set an accent level of 0 to exclude an instrument). Live: hold ACCENT and tap keys.",
+  "built_in_effects": [],
+  "global_features": [
+   "9 voices, no tuning, no swing or flam documented",
+   "Total level 00-63; instrument and accent levels 00-31",
+   "Fixed stereo placement: left of centre HH OPEN, HH CLOSED, TOM1; centre SD, BD, TOM2; right of centre CLAPS, CYM, TOM3; L jack alone = mono; no individual outs",
+   "Patterns are one bar of 1-16 sixteenths; quantize 1/12, 1/16, 1/24, 1/32",
+   "100 patterns (00-55 user, 56-99 = 44 ROM presets), 4 songs, 512 parts; tempo 40-250",
+   "MIDI In/Out: receives key numbers 45-60, clock, SysEx memory dump; cassette storage"
+  ],
+  "sound_bank": {
+   "total": 9,
+   "categories": [
+    {
+     "name": "Drums",
+     "count": 5,
+     "range": "1-5"
+    },
+    {
+     "name": "Hi-hat",
+     "count": 2,
+     "range": "6-7"
+    },
+    {
+     "name": "Cymbal",
+     "count": 1,
+     "range": "8"
+    },
+    {
+     "name": "Claps",
+     "count": 1,
+     "range": "9"
+    }
+   ],
+   "ordered_list": [
+    "SD (medium-tuned snare)",
+    "TOM 1 (10-inch deep-body tom)",
+    "TOM 2 (12-inch deep-body tom)",
+    "TOM 3 (14-inch floor tom)",
+    "BD (bass drum)",
+    "HH OPEN",
+    "HH CLOSED",
+    "CYM (crash cymbal)",
+    "CLAPS (hand claps)"
+   ],
+   "list_source": "https://soundprogramming.net/manuals/drum/Yamaha_RX21_Manual.pdf (PDF p.8 instrument chart; also https://www.manualsdir.com/manuals/228683/yamaha-rx21.html?page=9)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "BD",
+    "midi_note": 45,
+    "sound": "BD"
+   },
+   {
+    "pad_or_key": "TOM3",
+    "midi_note": 48,
+    "sound": "TOM3"
+   },
+   {
+    "pad_or_key": "TOM2",
+    "midi_note": 50,
+    "sound": "TOM2"
+   },
+   {
+    "pad_or_key": "SD",
+    "midi_note": 52,
+    "sound": "SD"
+   },
+   {
+    "pad_or_key": "TOM1",
+    "midi_note": 53,
+    "sound": "TOM1"
+   },
+   {
+    "pad_or_key": "CLAPS",
+    "midi_note": 55,
+    "sound": "CLAPS"
+   },
+   {
+    "pad_or_key": "HH CLOSED",
+    "midi_note": 57,
+    "sound": "HH CLOSED"
+   },
+   {
+    "pad_or_key": "HH OPEN",
+    "midi_note": 59,
+    "sound": "HH OPEN"
+   },
+   {
+    "pad_or_key": "CYM",
+    "midi_note": 60,
+    "sound": "CYM"
+   }
+  ],
+  "pack_contents": "Two complete 9-voice folders of one-shots, no loops. 'Yamaha RX-21': 9 stereo 44.1 kHz/16-bit WAVs: Bassdrum, Snaredrum, Tom H, Tom M, Tom L, Closed Hat, Open hat, Crash, Clap. 'Yamaha RX21': 9 mono WAVs: RX21Kick, RX21Snare, RX21Tom_Hi, RX21Tom_Mid, RX21Tom_Lo, RX21Hat_C, RX21Hat_O, RX21Crash, RX21Clap. Durations differ between the two (e.g. closed hat 0.26 s vs 0.10 s), so they were sampled separately. Inferred tom mapping: Hi = TOM1, Mid = TOM2, Lo = TOM3. NOTE: the MIDI notes in default_kit were read from the manual's keyboard diagram by image analysis (stated range 45-60); medium confidence.",
+  "preset_patterns": [
+   {
+    "name": "44 ROM presets in 56-99, named in the separate 'RX21 Pattern Book' (not found online); 56-59 are blank patterns of different lengths for rests/breaks",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RX21_Manual.pdf"
+   },
+   {
+    "name": "Styles named by reviewers: rock, disco, samba, fill-ins, bossa nova, basic reggae, and an 'end' bar with accented cymbal and bass drum (individual numbers unknown)",
+    "source": "https://www.muzines.co.uk/articles/yamaha-rx21/11881"
+   },
+   {
+    "name": "Rock Shuffle (called 'Pattern No. 52' in the IM review, which conflicts with the 56-99 preset range)",
+    "source": "https://www.muzines.co.uk/articles/yamaha-rx21/5105"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://soundprogramming.net/manuals/drum/Yamaha_RX21_Manual.pdf",
+   "https://www.manualsdir.com/manuals/228683/yamaha-rx21.html",
+   "https://soundprogramming.net/drum-machines/yamaha/yamaha-rx21",
+   "https://www.muzines.co.uk/articles/yamaha-rx21/11881",
+   "https://www.muzines.co.uk/articles/yamaha-rx21/5105",
+   "https://www.muzines.co.uk/articles/compromising-position/11498"
+  ]
+ },
+ {
+  "machine": "Yamaha RX21L Digital Rhythm Programmer (Latin)",
+  "pack_folders": [
+   "Yamaha RX21L"
+  ],
+  "maker": "Yamaha",
+  "year": 1985,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "BONGO H",
+    "name": "High bongo",
+    "type": "Bongo",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 6 (0 = R, 15 = L)",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "TIMBALE H",
+    "notes": "Button 1, upper. BONGO H/L switch to TIMBALE H/L together."
+   },
+   {
+    "label": "TIMBALE H",
+    "name": "High timbale",
+    "type": "Timbale",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 10",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "BONGO H",
+    "notes": "Button 1, lower."
+   },
+   {
+    "label": "BONGO L",
+    "name": "Low bongo",
+    "type": "Bongo",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 4",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "TIMBALE L",
+    "notes": "Button 2, upper."
+   },
+   {
+    "label": "TIMBALE L",
+    "name": "Low timbale",
+    "type": "Timbale",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 6",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "BONGO L",
+    "notes": "Button 2, lower."
+   },
+   {
+    "label": "AGOGO H",
+    "name": "High agogo",
+    "type": "Agogo",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 5",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "COWBELL",
+    "notes": "Button 3, upper."
+   },
+   {
+    "label": "COWBELL",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 8",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "AGOGO H",
+    "notes": "Button 3, lower."
+   },
+   {
+    "label": "AGOGO L",
+    "name": "Low agogo",
+    "type": "Agogo",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 3",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "CLAVES",
+    "notes": "Button 4, upper."
+   },
+   {
+    "label": "CLAVES",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 11",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "AGOGO L",
+    "notes": "Button 4, lower."
+   },
+   {
+    "label": "CONGA H MUTE",
+    "name": "Muted high conga",
+    "type": "Conga",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 12",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "TAMBOURINE",
+    "notes": "Button 5, upper. Cannot sound together with CONGA H OPEN."
+   },
+   {
+    "label": "TAMBOURINE",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 13",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "CONGA H MUTE",
+    "notes": "Button 5, lower."
+   },
+   {
+    "label": "CONGA H OPEN",
+    "name": "Open high conga",
+    "type": "Conga",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 12"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 6 (single instrument)."
+   },
+   {
+    "label": "CONGA L",
+    "name": "Low conga",
+    "type": "Conga",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 10"
+    ],
+    "switch_alternate": null,
+    "notes": "Button 7 (single instrument)."
+   },
+   {
+    "label": "CUICA H",
+    "name": "High cuica",
+    "type": "Perc",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 9",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "WHISTLE 1",
+    "notes": "Button 8, upper. Cannot sound together with CUICA L."
+   },
+   {
+    "label": "WHISTLE 1",
+    "name": "Short whistle",
+    "type": "Perc",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 3",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "CUICA H",
+    "notes": "Button 8, lower. Cannot sound together with WHISTLE 2."
+   },
+   {
+    "label": "CUICA L",
+    "name": "Low cuica",
+    "type": "Perc",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 7",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "WHISTLE 2",
+    "notes": "Button 9, upper."
+   },
+   {
+    "label": "WHISTLE 2",
+    "name": "Long whistle",
+    "type": "Perc",
+    "controls": [
+     "instrument level 00-31",
+     "accent level 00-31",
+     "fixed pan 13",
+     "Instrument Select upper/lower"
+    ],
+    "switch_alternate": "CUICA L",
+    "notes": "Button 9, lower."
+   }
+  ],
+  "choke_groups": [
+   [
+    "CUICA H",
+    "CUICA L"
+   ],
+   [
+    "WHISTLE 1",
+    "WHISTLE 2"
+   ],
+   [
+    "CONGA H MUTE",
+    "CONGA H OPEN"
+   ]
+  ],
+  "accent": "Accent level 00-31 per instrument, added to the instrument level (max 31), set with LEVEL x2 then INST while holding ACCENT. Per-beat accent behaviour (ACCENT on a beat accents all instruments on that beat) is inferred to match the RX21; not confirmed in the RX21L pages read.",
+  "built_in_effects": [],
+  "global_features": [
+   "16 Latin voices on 9 buttons; 7 buttons hold an upper/lower pair switched by Instrument Select (TEMPO+LEVEL, then the button, then +1/YES = upper, -1/NO = lower); paired buttons switch together",
+   "Fixed pan per instrument (0 = far right, 15 = far left); stereo or mono (L only); no individual outs",
+   "Total level 00-63; instrument and accent levels 00-31",
+   "50 programmable patterns (00-49), 4 songs, 256 parts; one-bar patterns of 1-16 sixteenths; quantize 1/12, 1/16, 1/24, 1/32",
+   "MIDI In/Out: key numbers 64 (E3) to 79 (G4); cassette storage"
+  ],
+  "sound_bank": {
+   "total": 16,
+   "categories": [
+    {
+     "name": "Bongo",
+     "count": 2,
+     "range": "1-2"
+    },
+    {
+     "name": "Timbale",
+     "count": 2,
+     "range": "3-4"
+    },
+    {
+     "name": "Agogo",
+     "count": 2,
+     "range": "5-6"
+    },
+    {
+     "name": "Cowbell",
+     "count": 1,
+     "range": "7"
+    },
+    {
+     "name": "Claves",
+     "count": 1,
+     "range": "8"
+    },
+    {
+     "name": "Conga",
+     "count": 3,
+     "range": "9-11"
+    },
+    {
+     "name": "Tambourine",
+     "count": 1,
+     "range": "12"
+    },
+    {
+     "name": "Cuica",
+     "count": 2,
+     "range": "13-14"
+    },
+    {
+     "name": "Whistle",
+     "count": 2,
+     "range": "15-16"
+    }
+   ],
+   "ordered_list": [
+    "BONGO H",
+    "BONGO L",
+    "TIMBALE H",
+    "TIMBALE L",
+    "AGOGO H",
+    "AGOGO L",
+    "COWBELL",
+    "CLAVES",
+    "CONGA H MUTE",
+    "CONGA H OPEN",
+    "CONGA L",
+    "TAMBOURINE",
+    "CUICA H",
+    "CUICA L",
+    "WHISTLE 1 (short)",
+    "WHISTLE 2 (long)"
+   ],
+   "list_source": "https://soundprogramming.net/manuals/drum/Yamaha_RX21L_Manual.pdf (PDF p.8 instrument chart order)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "E3 (button 7)",
+    "midi_note": 64,
+    "sound": "CONGA L"
+   },
+   {
+    "pad_or_key": "F3 (button 6)",
+    "midi_note": 65,
+    "sound": "CONGA H OPEN"
+   },
+   {
+    "pad_or_key": "F#3 (button 5 upper)",
+    "midi_note": 66,
+    "sound": "CONGA H MUTE"
+   },
+   {
+    "pad_or_key": "G3 (button 2 upper)",
+    "midi_note": 67,
+    "sound": "BONGO L"
+   },
+   {
+    "pad_or_key": "G#3 (button 1 upper)",
+    "midi_note": 68,
+    "sound": "BONGO H"
+   },
+   {
+    "pad_or_key": "A3 (button 2 lower)",
+    "midi_note": 69,
+    "sound": "TIMBALE L"
+   },
+   {
+    "pad_or_key": "A#3 (button 1 lower)",
+    "midi_note": 70,
+    "sound": "TIMBALE H"
+   },
+   {
+    "pad_or_key": "B3 (button 5 lower)",
+    "midi_note": 71,
+    "sound": "TAMBOURINE"
+   },
+   {
+    "pad_or_key": "C4 (button 3 lower)",
+    "midi_note": 72,
+    "sound": "COWBELL"
+   },
+   {
+    "pad_or_key": "C#4 (button 4 lower)",
+    "midi_note": 73,
+    "sound": "CLAVES"
+   },
+   {
+    "pad_or_key": "D4 (button 4 upper)",
+    "midi_note": 74,
+    "sound": "AGOGO L"
+   },
+   {
+    "pad_or_key": "D#4 (button 3 upper)",
+    "midi_note": 75,
+    "sound": "AGOGO H"
+   },
+   {
+    "pad_or_key": "E4 (button 9 upper)",
+    "midi_note": 76,
+    "sound": "CUICA L"
+   },
+   {
+    "pad_or_key": "F4 (button 8 upper)",
+    "midi_note": 77,
+    "sound": "CUICA H"
+   },
+   {
+    "pad_or_key": "F#4 (button 8 lower)",
+    "midi_note": 78,
+    "sound": "WHISTLE 1"
+   },
+   {
+    "pad_or_key": "G4 (button 9 lower)",
+    "midi_note": 79,
+    "sound": "WHISTLE 2"
+   }
+  ],
+  "pack_contents": "'Yamaha RX21L': complete set of 16 mono 44.1 kHz/16-bit one-shots, no loops: RX21LAgogoHi, AgogoLo, BongoHi, BongoLo, Claves, CongaHi, CongaLo, CongaM, Cowbell, CuicaHi, CuicaLo, Tambourine, TimbaleHi, TimbaleLo, WhistleL, WhistleS. Inferred name mapping: CongaM = CONGA H MUTE, CongaHi = CONGA H OPEN, WhistleS = WHISTLE 1 (short), WhistleL = WHISTLE 2 (long). NOTE: the per-key MIDI notes in default_kit were read from the manual's keyboard diagram by image analysis (stated range 64-79, all 16 consecutive keys used); medium-high confidence.",
+  "preset_patterns": [
+   {
+    "name": "29 factory patterns + 2 songs shipped in user RAM 00-49 (unnamed; the manual says to save them to tape before editing)",
+    "source": "https://soundprogramming.net/manuals/drum/Yamaha_RX21L_Manual.pdf"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://soundprogramming.net/manuals/drum/Yamaha_RX21L_Manual.pdf",
+   "https://soundprogramming.net/drum-machines/yamaha/yamaha-rx21l",
+   "https://www.muzines.co.uk/articles/yamaha-rx21l-drum-machine/1900",
+   "https://yamahablackboxes.com/collection/yamaha-rx21l-drum-machine/",
+   "https://www.rhythmicrobot.com/?p=15360"
+  ]
+ },
+ {
+  "machine": "Yamaha MR-10 (MR10) analog rhythm machine",
+  "pack_folders": [
+   "Yamaha MR10"
+  ],
+  "maker": "Yamaha",
+  "year": 1982,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "BASS DRUM",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "finger pad",
+     "BD VOLUME knob",
+     "bass drum pedal input (mini-jack; pad and pedal usable together)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad names as given by the teardown and Samples From Mars; exact silkscreen spelling unconfirmed. Not tunable (SFM)."
+   },
+   {
+    "label": "SNARE DRUM",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "finger pad",
+     "TUNE (master; Yamaha Black Boxes says it affects snare and toms, the teardown says toms only)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HIGH TOM",
+    "name": "High tom",
+    "type": "Tom",
+    "controls": [
+     "finger pad",
+     "TUNE (master)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LOW TOM",
+    "name": "Low tom",
+    "type": "Tom",
+    "controls": [
+     "finger pad",
+     "TUNE (master)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CYMBAL",
+    "name": "Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "finger pad",
+     "CY VOLUME knob",
+     "TUNE (per one sale listing only)"
+    ],
+    "switch_alternate": null,
+    "notes": "SFM sampled the cymbal at 6 pitches."
+   },
+   {
+    "label": "(HI-HAT, preset only)",
+    "name": "Hi-hat (closed/open) heard only in preset rhythms",
+    "type": "Closed Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "No pad. SFM found closed and open hats within the preset loops (sampled at 6 pitches). The manual's notation reportedly names Hi-hat, Snare Drum, Bass Drum, Cymbal, Conga, Cow Bells and Guiro; how these map to circuits is unclear."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none documented (unknown)",
+  "built_in_effects": [],
+  "global_features": [
+   "12 preset rhythms only; patterns cannot be recorded",
+   "Variation switch: Normal / 4-bar / 8-bar (sale listing); its exact function (fill or break insertion) is unconfirmed",
+   "Presets can be combined into more complex rhythms (user review)",
+   "TEMPO knob; TUNE knob (scope disputed between sources); BD VOLUME, CY VOLUME, master volume, power",
+   "Single mixed line output; bass drum pedal mini-jack input; 6 x AA batteries or AC adaptor; no MIDI or sync",
+   "Sound generation inside custom chip IC7 (YM1023) with discrete filters (teardown)",
+   "Part of Yamaha's Producer Series alongside the CS01 and MM10; launched Dec 1982 at 19,800 yen"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "BASS DRUM pad",
+    "midi_note": null,
+    "sound": "Bass drum"
+   },
+   {
+    "pad_or_key": "SNARE DRUM pad",
+    "midi_note": null,
+    "sound": "Snare drum"
+   },
+   {
+    "pad_or_key": "HIGH TOM pad",
+    "midi_note": null,
+    "sound": "High tom"
+   },
+   {
+    "pad_or_key": "LOW TOM pad",
+    "midi_note": null,
+    "sound": "Low tom"
+   },
+   {
+    "pad_or_key": "CYMBAL pad",
+    "midi_note": null,
+    "sound": "Cymbal"
+   }
+  ],
+  "pack_contents": "'Yamaha MR10': 11 mono 44.1 kHz/16-bit one-shots, no loops: MR10Kick01, MR10Kick02, MR10Snare, MR10Tom_Hi, MR10Tom_Mid, MR10Tom_Lo, MR10Cymbal, MR10Hat_C, MR10Hat_O, MR10Brush, MR10Shaker. Inferred: Tom_Mid is a TUNE-knob variant (there is no mid-tom pad); Hat_C, Hat_O, Brush and Shaker were taken from preset rhythms (no pads); Kick01/02 are probably level or source variants.",
+  "preset_patterns": [
+   {
+    "name": "Disco",
+    "source": "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html"
+   },
+   {
+    "name": "16 Beat",
+    "source": "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html"
+   },
+   {
+    "name": "Jazz Rock",
+    "source": "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html"
+   },
+   {
+    "name": "Samba",
+    "source": "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html"
+   },
+   {
+    "name": "Slow Rock",
+    "source": "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html"
+   },
+   {
+    "name": "Mambo",
+    "source": "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html"
+   },
+   {
+    "name": "Swing",
+    "source": "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html"
+   },
+   {
+    "name": "Rhumba",
+    "source": "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html"
+   },
+   {
+    "name": "Waltz",
+    "source": "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html"
+   },
+   {
+    "name": "Bossa Nova",
+    "source": "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html"
+   },
+   {
+    "name": "March",
+    "source": "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html"
+   },
+   {
+    "name": "Tango",
+    "source": "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://yamahablackboxes.com/collection/yamaha-mr10-drum-machine/",
+   "https://nicole.express/2026/yamaha-is-mr-ten.html",
+   "https://www.matrixsynth.com/2024/10/yamaha-mr-10-vintage-analog-drum.html",
+   "https://samplesfrommars.com/products/mr10-from-mars",
+   "https://www.sequencer.de/syns/yamaha/MR10.html",
+   "https://en.audiofanzine.com/drum-machine/yamaha/MR10/",
+   "https://www.sonicstate.com/synth/yamaha_mr-10/",
+   "https://engineered.at/articles/the-last-preset-machine-yamaha-s-mr10",
+   "https://www.manualslib.com/manual/341316/Yamaha-Mr10.html"
+  ]
+ },
+ {
+  "machine": "Yamaha TG33 vector tone generator (DR:Kit drum voice)",
+  "pack_folders": [
+   "Yamaha TG-33"
+  ],
+  "maker": "Yamaha",
+  "year": 1990,
+  "kind": "synth with drum kit",
+  "voices": [
+   {
+    "label": "BD1",
+    "name": "Bass drum 1",
+    "type": "Kick",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "DR:Kit key C1 (MIDI 36, inferred). There is no front panel or pads, so voices are listed in key order. No per-key editing; all controls are voice-wide."
+   },
+   {
+    "label": "Triangle closed",
+    "name": "Triangle, closed",
+    "type": "Triangle",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "C#1 / 37"
+   },
+   {
+    "label": "SD 1",
+    "name": "Snare drum 1",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "D1 / 38"
+   },
+   {
+    "label": "Triangle open",
+    "name": "Triangle, open",
+    "type": "Triangle",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "D#1 / 39"
+   },
+   {
+    "label": "E.Tom 1",
+    "name": "Electronic tom 1",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "E1 / 40"
+   },
+   {
+    "label": "E.Tom 2",
+    "name": "Electronic tom 2",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "F1 / 41"
+   },
+   {
+    "label": "E.Tom 3",
+    "name": "Electronic tom 3",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "F#1 / 42"
+   },
+   {
+    "label": "E.Tom 4",
+    "name": "Electronic tom 4",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "G1 / 43"
+   },
+   {
+    "label": "BD2",
+    "name": "Bass drum 2",
+    "type": "Kick",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "G#1 / 44"
+   },
+   {
+    "label": "BD3",
+    "name": "Bass drum 3",
+    "type": "Kick",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "A1 / 45"
+   },
+   {
+    "label": "Cross Sticks",
+    "name": "Cross stick",
+    "type": "Rim",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "A#1 / 46"
+   },
+   {
+    "label": "Tom 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "B1 / 47"
+   },
+   {
+    "label": "Tom 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "C2 / 48"
+   },
+   {
+    "label": "SD 2",
+    "name": "Snare drum 2",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "C#2 / 49"
+   },
+   {
+    "label": "Tom 3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "D2 / 50"
+   },
+   {
+    "label": "Rim",
+    "name": "Rimshot",
+    "type": "Rim",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "D#2 / 51"
+   },
+   {
+    "label": "SD 3",
+    "name": "Snare drum 3",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "E2 / 52"
+   },
+   {
+    "label": "Tom 4",
+    "name": "Tom 4",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "F2 / 53"
+   },
+   {
+    "label": "Claps",
+    "name": "Hand claps",
+    "type": "Clap",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "F#2 / 54"
+   },
+   {
+    "label": "Cowbell",
+    "name": "Cowbell (1)",
+    "type": "Cowbell",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "G2 / 55. OCR read 'Cowbell' / 'Cowbell?'; possibly 'Cowbell 1' since A#4 is 'Cowbell 2'."
+   },
+   {
+    "label": "Shaker",
+    "name": "Shaker",
+    "type": "Shaker",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "G#2 / 56"
+   },
+   {
+    "label": "HH closed",
+    "name": "Hi-hat, closed",
+    "type": "Closed Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "A2 / 57 (OCR partly garbled; reconstructed, consistent with the RX5/RX11 map where 57 = HH closed)"
+   },
+   {
+    "label": "Crash 1",
+    "name": "Crash cymbal 1",
+    "type": "Crash",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "A#2 / 58"
+   },
+   {
+    "label": "HH open",
+    "name": "Hi-hat, open",
+    "type": "Open Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "B2 / 59"
+   },
+   {
+    "label": "Crash 2",
+    "name": "Crash cymbal 2",
+    "type": "Crash",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "C3 / 60"
+   },
+   {
+    "label": "Splash",
+    "name": "Splash cymbal",
+    "type": "Cymbal",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "C#3 / 61"
+   },
+   {
+    "label": "Cup",
+    "name": "Ride cup",
+    "type": "Ride",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "D3 / 62"
+   },
+   {
+    "label": "Ride",
+    "name": "Ride cymbal",
+    "type": "Ride",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "D#3 / 63"
+   },
+   {
+    "label": "Low Conga",
+    "name": "Low conga",
+    "type": "Conga",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "E3 / 64"
+   },
+   {
+    "label": "High Conga",
+    "name": "High conga",
+    "type": "Conga",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "F3 / 65"
+   },
+   {
+    "label": "Mute Conga",
+    "name": "Muted conga",
+    "type": "Conga",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "F#3 / 66"
+   },
+   {
+    "label": "DigiAtack",
+    "name": "Digital attack transient",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "G3 / 67"
+   },
+   {
+    "label": "Ooo!",
+    "name": "Vocal 'Ooo!'",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "G#3 / 68"
+   },
+   {
+    "label": "Low Timbales",
+    "name": "Low timbale",
+    "type": "Timbale",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "A3 / 69"
+   },
+   {
+    "label": "High Timbales",
+    "name": "High timbale",
+    "type": "Timbale",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "A#3 / 70"
+   },
+   {
+    "label": "Tambourine",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "B3 / 71"
+   },
+   {
+    "label": "Finger snaps",
+    "name": "Finger snaps",
+    "type": "Snap",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "C4 / 72"
+   },
+   {
+    "label": "Claves",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "C#4 / 73"
+   },
+   {
+    "label": "Low Agogo",
+    "name": "Low agogo",
+    "type": "Agogo",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "D4 / 74"
+   },
+   {
+    "label": "High Agogo",
+    "name": "High agogo",
+    "type": "Agogo",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "D#4 / 75"
+   },
+   {
+    "label": "Low Cuica",
+    "name": "Low cuica",
+    "type": "Perc",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "E4 / 76"
+   },
+   {
+    "label": "High Cuica",
+    "name": "High cuica",
+    "type": "Perc",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "F4 / 77"
+   },
+   {
+    "label": "Low Whistle",
+    "name": "Low whistle",
+    "type": "Perc",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "F#4 / 78"
+   },
+   {
+    "label": "High Whistle",
+    "name": "High whistle",
+    "type": "Perc",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "G4 / 79"
+   },
+   {
+    "label": "Bamboo",
+    "name": "Bamboo hit",
+    "type": "Perc",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "G#4 / 80"
+   },
+   {
+    "label": "Bottle",
+    "name": "Bottle (SFX)",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "A4 / 81"
+   },
+   {
+    "label": "Cowbell 2",
+    "name": "Cowbell 2",
+    "type": "Cowbell",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "A#4 / 82"
+   },
+   {
+    "label": "Crash",
+    "name": "Crash (probably the SFX-category 'Crash' wave, not a cymbal; inferred)",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "B4 / 83"
+   },
+   {
+    "label": "SD 4",
+    "name": "Snare drum 4",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "C5 / 84"
+   },
+   {
+    "label": "Low Scratch",
+    "name": "Low scratch",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "C#5 / 85"
+   },
+   {
+    "label": "SD5",
+    "name": "Snare drum 5",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "D5 / 86"
+   },
+   {
+    "label": "High Scratch",
+    "name": "High scratch",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "D#5 / 87"
+   },
+   {
+    "label": "Reverse Cymbal",
+    "name": "Reverse cymbal",
+    "type": "Cymbal",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "E5 / 88"
+   },
+   {
+    "label": "Slam 1",
+    "name": "Slam 1",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "F5 / 89"
+   },
+   {
+    "label": "Coin",
+    "name": "Coin",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "F#5 / 90"
+   },
+   {
+    "label": "Slam 2",
+    "name": "Slam 2",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "G5 / 91"
+   },
+   {
+    "label": "Water Drop",
+    "name": "Water drop",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "G#5 / 92"
+   },
+   {
+    "label": "Low Timpani",
+    "name": "Low timpani",
+    "type": "Perc",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "A5 / 93"
+   },
+   {
+    "label": "Cracker",
+    "name": "Cracker (firecracker SFX)",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "A#5 / 94"
+   },
+   {
+    "label": "High Timpani",
+    "name": "High timpani",
+    "type": "Perc",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "B5 / 95"
+   },
+   {
+    "label": "Metal Hit",
+    "name": "Metal hit",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "C6 / 96"
+   }
+  ],
+  "choke_groups": [],
+  "accent": "No accent control. The DR:Kit is a normal velocity-sensitive synth voice (per-element VELOCITY sensitivity) with assignable aftertouch.",
+  "built_in_effects": [
+   {
+    "name": "Rev Hall",
+    "type": "reverb",
+    "notes": "One effect per voice (DR:Kit is stored with Rev Plate); balance 0-127, send 0-127; effects apply to OUTPUT 1 only"
+   },
+   {
+    "name": "Rev Room",
+    "type": "reverb",
+    "notes": "as above"
+   },
+   {
+    "name": "Rev Plate",
+    "type": "reverb",
+    "notes": "Stored effect of the DR:Kit voice"
+   },
+   {
+    "name": "Rev Club",
+    "type": "reverb",
+    "notes": "as above"
+   },
+   {
+    "name": "Rev Metal",
+    "type": "reverb",
+    "notes": "as above"
+   },
+   {
+    "name": "Delay 1 (short single delay)",
+    "type": "delay",
+    "notes": "as above"
+   },
+   {
+    "name": "Delay 2 (long delay)",
+    "type": "delay",
+    "notes": "as above"
+   },
+   {
+    "name": "Delay 3 (long delay)",
+    "type": "delay",
+    "notes": "as above"
+   },
+   {
+    "name": "Doubler",
+    "type": "other",
+    "notes": "as above"
+   },
+   {
+    "name": "Ping-Pong (ping pong delay)",
+    "type": "delay",
+    "notes": "as above"
+   },
+   {
+    "name": "Pan Ref (panned reflections)",
+    "type": "reverb",
+    "notes": "as above"
+   },
+   {
+    "name": "Early Ref (early reflections)",
+    "type": "reverb",
+    "notes": "as above"
+   },
+   {
+    "name": "Gate Rev (gated reverb)",
+    "type": "reverb",
+    "notes": "Stored effect of the SQ*TG809 analog-style drum voice"
+   },
+   {
+    "name": "Dly&Rev 1 (delay & reverb 1)",
+    "type": "delay",
+    "notes": "as above"
+   },
+   {
+    "name": "Dly&Rev 2 (delay & reverb 2)",
+    "type": "delay",
+    "notes": "Stored effect of the DR*EFX voice"
+   },
+   {
+    "name": "Dist&Rev (distortion & reverb)",
+    "type": "other",
+    "notes": "The manual warns some waves drop in level with distortion"
+   }
+  ],
+  "global_features": [
+   "Drum voices are presets: DR:Kit (PRESET 1, 8.7: 2 elements, AWM wave 127 'Drum set', Rev Plate, 'A fairly orthodox drum and percussion kit'); DR*EFX (8.8: 4 elements, vector, Dly&Rev 2, '90's phased drums'); SQ*TG809 (8.5: 'Analog drum machine. Lower octaves for kicks and toms. Upper octaves for snares and hand claps', Gate Rev); SQ*Devol (8.6: 'Rap drums'); SQ*Wrapa (8.4: 'Rap percussion')",
+   "AWM 128 waves (12-bit per one source, 16-bit per the specs) + 256 FM waves; vector control of element level and detune via joystick",
+   "32-note polyphony (a 2-element voice such as DR:Kit gives about 16 notes, inferred); 16-part multitimbral Multi mode with per-channel note shift, detune, pan and output group",
+   "Two stereo output pairs (OUTPUT 1 and OUTPUT 2); effects apply only to OUTPUT 1",
+   "Voice-wide edits only: element wave, volume, pan, velocity sensitivity, LFO; voice envelope AR/RR offsets; pitch-bend range 0-12; wheel and aftertouch routing; no per-key drum editing documented",
+   "No sequencer; MIDI In/Out/Thru; MCD32/MCD64 cards (SY22 cards compatible per synthmania)",
+   "Hi-hat choke/exclusive group: none documented (unknown)",
+   "MIDI note numbers assume Yamaha naming (C3 = 60, so C1 = 36, C6 = 96). Inferred: the DR:Kit's middle keys match the RX5/RX11 defaults note-for-note (HH closed A2 = 57, HH open B2 = 59, Crash C3 = 60, Cup D3 = 62, Ride D#3 = 63)"
+  ],
+  "sound_bank": {
+   "total": 128,
+   "categories": [
+    {
+     "name": "Piano",
+     "count": 5,
+     "range": "0-4"
+    },
+    {
+     "name": "Organ",
+     "count": 4,
+     "range": "5-8"
+    },
+    {
+     "name": "Brass",
+     "count": 7,
+     "range": "9-15"
+    },
+    {
+     "name": "Wood",
+     "count": 4,
+     "range": "16-19"
+    },
+    {
+     "name": "Gtr",
+     "count": 8,
+     "range": "20-27"
+    },
+    {
+     "name": "Bass",
+     "count": 10,
+     "range": "28-37"
+    },
+    {
+     "name": "Str.",
+     "count": 5,
+     "range": "38-42"
+    },
+    {
+     "name": "Vocal",
+     "count": 3,
+     "range": "43-45"
+    },
+    {
+     "name": "Perc.",
+     "count": 9,
+     "range": "46-54"
+    },
+    {
+     "name": "Synth",
+     "count": 10,
+     "range": "55-64"
+    },
+    {
+     "name": "SFX",
+     "count": 9,
+     "range": "65-73"
+    },
+    {
+     "name": "Hits",
+     "count": 7,
+     "range": "74-80"
+    },
+    {
+     "name": "Tran.",
+     "count": 9,
+     "range": "81-89"
+    },
+    {
+     "name": "OSC",
+     "count": 29,
+     "range": "90-118"
+    },
+    {
+     "name": "SEQ",
+     "count": 8,
+     "range": "119-126"
+    },
+    {
+     "name": "Drum",
+     "count": 1,
+     "range": "127"
+    }
+   ],
+   "ordered_list": [
+    "Piano",
+    "E.piano",
+    "Clavi",
+    "Cembalo",
+    "Celesta",
+    "P.organ",
+    "E.organ1",
+    "E.organ2",
+    "Reed",
+    "Trumpet",
+    "Mute Trp",
+    "Trombone",
+    "Flugel",
+    "FrHorn",
+    "BrasAtak",
+    "SynBrass",
+    "Flute",
+    "Clarinet",
+    "Oboe",
+    "Sax",
+    "Gut",
+    "Steel",
+    "E.Gtr1",
+    "E.Gtr2",
+    "Mute Gtr",
+    "Sitar",
+    "Pluck1",
+    "Pluck2",
+    "Wood B1",
+    "Wood B2",
+    "E.Bass1",
+    "E.Bass2",
+    "E.Bass3",
+    "E.Bass4",
+    "Slap",
+    "Fretless",
+    "SynBass1",
+    "SynBass2",
+    "Strings",
+    "Vn.Ens.",
+    "Cello",
+    "Pizz.",
+    "Syn Str",
+    "Choir",
+    "Itopia",
+    "Ooo!",
+    "Vibes",
+    "Marimba",
+    "Bells",
+    "Timpani",
+    "Tom",
+    "E.Tom",
+    "Cuica",
+    "Whistle",
+    "Claps",
+    "Hit",
+    "Harmonic",
+    "Mix",
+    "Sync",
+    "Bell Mix",
+    "Styroll",
+    "DigiAtak",
+    "Noise1",
+    "Noise2",
+    "OhHit",
+    "Water1",
+    "Water2",
+    "Stream",
+    "Coin",
+    "Crash",
+    "Bottle",
+    "Tear",
+    "Cracker",
+    "Scratch",
+    "Metal1",
+    "Metal2",
+    "Metal3",
+    "Metal4",
+    "Wood",
+    "Bamboo",
+    "Slam",
+    "Tp.Body",
+    "Tb.Body",
+    "HornBody",
+    "Fl.Body",
+    "Str.Body",
+    "AirBlown",
+    "Reverse1",
+    "Reverse2",
+    "Reverse3",
+    "EP wv",
+    "Organ wv",
+    "M.Tp wv",
+    "Gtr wv",
+    "Str wv1",
+    "Str wv2",
+    "Pad wv",
+    "Digital1",
+    "Digital2",
+    "Digital3",
+    "Digital4",
+    "Digital5",
+    "Saw",
+    "Saw2",
+    "Saw3",
+    "Saw4",
+    "Square1",
+    "Square2",
+    "Square3",
+    "Square4",
+    "Pulse1",
+    "Pulse2",
+    "Pulse3",
+    "Pulse4",
+    "Pulse5",
+    "Pulse6",
+    "Tri",
+    "Sin8'",
+    "Sin8'+4'",
+    "SEQ1",
+    "SEQ2",
+    "SEQ3",
+    "SEQ4",
+    "SEQ5",
+    "SEQ6",
+    "SEQ7",
+    "SEQ8",
+    "Drum set"
+   ],
+   "list_source": "https://soundprogramming.net/manuals/Yamaha_TG33_Manual2.PDF (AWM waveform list, PDF p.20 / printed p.60; the 'Bass' label for 28-37 is inferred from layout; the drum kit key map is in default_kit, from Manual1 PDF p.33)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "C1",
+    "midi_note": 36,
+    "sound": "BD1"
+   },
+   {
+    "pad_or_key": "C#1",
+    "midi_note": 37,
+    "sound": "Triangle closed"
+   },
+   {
+    "pad_or_key": "D1",
+    "midi_note": 38,
+    "sound": "SD 1"
+   },
+   {
+    "pad_or_key": "D#1",
+    "midi_note": 39,
+    "sound": "Triangle open"
+   },
+   {
+    "pad_or_key": "E1",
+    "midi_note": 40,
+    "sound": "E.Tom 1"
+   },
+   {
+    "pad_or_key": "F1",
+    "midi_note": 41,
+    "sound": "E.Tom 2"
+   },
+   {
+    "pad_or_key": "F#1",
+    "midi_note": 42,
+    "sound": "E.Tom 3"
+   },
+   {
+    "pad_or_key": "G1",
+    "midi_note": 43,
+    "sound": "E.Tom 4"
+   },
+   {
+    "pad_or_key": "G#1",
+    "midi_note": 44,
+    "sound": "BD2"
+   },
+   {
+    "pad_or_key": "A1",
+    "midi_note": 45,
+    "sound": "BD3"
+   },
+   {
+    "pad_or_key": "A#1",
+    "midi_note": 46,
+    "sound": "Cross Sticks"
+   },
+   {
+    "pad_or_key": "B1",
+    "midi_note": 47,
+    "sound": "Tom 1"
+   },
+   {
+    "pad_or_key": "C2",
+    "midi_note": 48,
+    "sound": "Tom 2"
+   },
+   {
+    "pad_or_key": "C#2",
+    "midi_note": 49,
+    "sound": "SD 2"
+   },
+   {
+    "pad_or_key": "D2",
+    "midi_note": 50,
+    "sound": "Tom 3"
+   },
+   {
+    "pad_or_key": "D#2",
+    "midi_note": 51,
+    "sound": "Rim"
+   },
+   {
+    "pad_or_key": "E2",
+    "midi_note": 52,
+    "sound": "SD 3"
+   },
+   {
+    "pad_or_key": "F2",
+    "midi_note": 53,
+    "sound": "Tom 4"
+   },
+   {
+    "pad_or_key": "F#2",
+    "midi_note": 54,
+    "sound": "Claps"
+   },
+   {
+    "pad_or_key": "G2",
+    "midi_note": 55,
+    "sound": "Cowbell"
+   },
+   {
+    "pad_or_key": "G#2",
+    "midi_note": 56,
+    "sound": "Shaker"
+   },
+   {
+    "pad_or_key": "A2",
+    "midi_note": 57,
+    "sound": "HH closed"
+   },
+   {
+    "pad_or_key": "A#2",
+    "midi_note": 58,
+    "sound": "Crash 1"
+   },
+   {
+    "pad_or_key": "B2",
+    "midi_note": 59,
+    "sound": "HH open"
+   },
+   {
+    "pad_or_key": "C3",
+    "midi_note": 60,
+    "sound": "Crash 2"
+   },
+   {
+    "pad_or_key": "C#3",
+    "midi_note": 61,
+    "sound": "Splash"
+   },
+   {
+    "pad_or_key": "D3",
+    "midi_note": 62,
+    "sound": "Cup"
+   },
+   {
+    "pad_or_key": "D#3",
+    "midi_note": 63,
+    "sound": "Ride"
+   },
+   {
+    "pad_or_key": "E3",
+    "midi_note": 64,
+    "sound": "Low Conga"
+   },
+   {
+    "pad_or_key": "F3",
+    "midi_note": 65,
+    "sound": "High Conga"
+   },
+   {
+    "pad_or_key": "F#3",
+    "midi_note": 66,
+    "sound": "Mute Conga"
+   },
+   {
+    "pad_or_key": "G3",
+    "midi_note": 67,
+    "sound": "DigiAtack"
+   },
+   {
+    "pad_or_key": "G#3",
+    "midi_note": 68,
+    "sound": "Ooo!"
+   },
+   {
+    "pad_or_key": "A3",
+    "midi_note": 69,
+    "sound": "Low Timbales"
+   },
+   {
+    "pad_or_key": "A#3",
+    "midi_note": 70,
+    "sound": "High Timbales"
+   },
+   {
+    "pad_or_key": "B3",
+    "midi_note": 71,
+    "sound": "Tambourine"
+   },
+   {
+    "pad_or_key": "C4",
+    "midi_note": 72,
+    "sound": "Finger snaps"
+   },
+   {
+    "pad_or_key": "C#4",
+    "midi_note": 73,
+    "sound": "Claves"
+   },
+   {
+    "pad_or_key": "D4",
+    "midi_note": 74,
+    "sound": "Low Agogo"
+   },
+   {
+    "pad_or_key": "D#4",
+    "midi_note": 75,
+    "sound": "High Agogo"
+   },
+   {
+    "pad_or_key": "E4",
+    "midi_note": 76,
+    "sound": "Low Cuica"
+   },
+   {
+    "pad_or_key": "F4",
+    "midi_note": 77,
+    "sound": "High Cuica"
+   },
+   {
+    "pad_or_key": "F#4",
+    "midi_note": 78,
+    "sound": "Low Whistle"
+   },
+   {
+    "pad_or_key": "G4",
+    "midi_note": 79,
+    "sound": "High Whistle"
+   },
+   {
+    "pad_or_key": "G#4",
+    "midi_note": 80,
+    "sound": "Bamboo"
+   },
+   {
+    "pad_or_key": "A4",
+    "midi_note": 81,
+    "sound": "Bottle"
+   },
+   {
+    "pad_or_key": "A#4",
+    "midi_note": 82,
+    "sound": "Cowbell 2"
+   },
+   {
+    "pad_or_key": "B4",
+    "midi_note": 83,
+    "sound": "Crash"
+   },
+   {
+    "pad_or_key": "C5",
+    "midi_note": 84,
+    "sound": "SD 4"
+   },
+   {
+    "pad_or_key": "C#5",
+    "midi_note": 85,
+    "sound": "Low Scratch"
+   },
+   {
+    "pad_or_key": "D5",
+    "midi_note": 86,
+    "sound": "SD5"
+   },
+   {
+    "pad_or_key": "D#5",
+    "midi_note": 87,
+    "sound": "High Scratch"
+   },
+   {
+    "pad_or_key": "E5",
+    "midi_note": 88,
+    "sound": "Reverse Cymbal"
+   },
+   {
+    "pad_or_key": "F5",
+    "midi_note": 89,
+    "sound": "Slam 1"
+   },
+   {
+    "pad_or_key": "F#5",
+    "midi_note": 90,
+    "sound": "Coin"
+   },
+   {
+    "pad_or_key": "G5",
+    "midi_note": 91,
+    "sound": "Slam 2"
+   },
+   {
+    "pad_or_key": "G#5",
+    "midi_note": 92,
+    "sound": "Water Drop"
+   },
+   {
+    "pad_or_key": "A5",
+    "midi_note": 93,
+    "sound": "Low Timpani"
+   },
+   {
+    "pad_or_key": "A#5",
+    "midi_note": 94,
+    "sound": "Cracker"
+   },
+   {
+    "pad_or_key": "B5",
+    "midi_note": 95,
+    "sound": "High Timpani"
+   },
+   {
+    "pad_or_key": "C6",
+    "midi_note": 96,
+    "sound": "Metal Hit"
+   }
+  ],
+  "pack_contents": "'Yamaha TG-33': 51 stereo 44.1 kHz/16-bit one-shots with generic numbered names, no loops: Bassdrum-01..04, Snaredrum-01..05, Tom-01..04 and Tom-06..07 (no Tom-05), Bongo-01/02, Clap, Clave, Conga, Cowbell, Cowbell H, Cowbell L, Crash-01/02, Crash Reverse, Ride-01/02, Hat Open (no closed-hat file), Rimshot, Shaker, Snap, Tambourine, Timbale, Triangle-01/02, Whistle-01/02, Woodblock (0.01 s), Glass-01/02, Flute, SFX-01..08, Unknown. Many files are exactly 0.52 s long (apparent truncation). The pack goes beyond the DR:Kit (the DR:Kit has no bongos, woodblock or glass; Flute is AWM wave 16), so mapping to official DR:Kit names is inferred only (e.g. Snaredrum-01..05 ~ SD 1-5, Triangle-01/02 ~ closed/open, Snap ~ Finger snaps, Crash Reverse ~ Reverse Cymbal).",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://soundprogramming.net/manuals/Yamaha_TG33_Manual1.pdf",
+   "https://soundprogramming.net/manuals/Yamaha_TG33_Manual2.PDF",
+   "https://soundprogramming.net/synthesizers/yamaha/yamaha-tg33",
+   "https://synthmania.com/tg33.htm"
+  ]
+ }
+]

@@ -1,0 +1,2540 @@
+[
+ {
+  "machine": "Roland TR-808 Rhythm Composer",
+  "pack_folders": [
+   "Roland TR-808"
+  ],
+  "maker": "Roland",
+  "year": 1980,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "BD",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "LEVEL",
+     "TONE",
+     "DECAY"
+    ],
+    "switch_alternate": null,
+    "notes": "Analog. Leftmost voice after the ACCENT section."
+   },
+   {
+    "label": "SD",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "LEVEL",
+     "TONE",
+     "SNAPPY"
+    ],
+    "switch_alternate": null,
+    "notes": "SNAPPY confirmed by Music Technology 1986; TONE listed on Roland's TR-08 page."
+   },
+   {
+    "label": "LC",
+    "name": "Low Conga",
+    "type": "Conga",
+    "controls": [
+     "LEVEL",
+     "TUNING",
+     "tom/conga selector switch"
+    ],
+    "switch_alternate": "LT",
+    "notes": "Same circuit as Low Tom; a panel switch picks one. Roland's TR-08 page lists the conga label before the tom label."
+   },
+   {
+    "label": "LT",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [
+     "LEVEL",
+     "TUNING",
+     "tom/conga selector switch"
+    ],
+    "switch_alternate": "LC",
+    "notes": ""
+   },
+   {
+    "label": "MC",
+    "name": "Mid Conga",
+    "type": "Conga",
+    "controls": [
+     "LEVEL",
+     "TUNING",
+     "tom/conga selector switch"
+    ],
+    "switch_alternate": "MT",
+    "notes": ""
+   },
+   {
+    "label": "MT",
+    "name": "Mid Tom",
+    "type": "Tom",
+    "controls": [
+     "LEVEL",
+     "TUNING",
+     "tom/conga selector switch"
+    ],
+    "switch_alternate": "MC",
+    "notes": ""
+   },
+   {
+    "label": "HC",
+    "name": "Hi Conga",
+    "type": "Conga",
+    "controls": [
+     "LEVEL",
+     "TUNING",
+     "tom/conga selector switch"
+    ],
+    "switch_alternate": "HT",
+    "notes": ""
+   },
+   {
+    "label": "HT",
+    "name": "Hi Tom",
+    "type": "Tom",
+    "controls": [
+     "LEVEL",
+     "TUNING",
+     "tom/conga selector switch"
+    ],
+    "switch_alternate": "HC",
+    "notes": ""
+   },
+   {
+    "label": "CL",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "LEVEL",
+     "RS/CL selector switch"
+    ],
+    "switch_alternate": "RS",
+    "notes": ""
+   },
+   {
+    "label": "RS",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "LEVEL",
+     "RS/CL selector switch"
+    ],
+    "switch_alternate": "CL",
+    "notes": ""
+   },
+   {
+    "label": "MA",
+    "name": "Maracas",
+    "type": "Shaker",
+    "controls": [
+     "LEVEL",
+     "CP/MA selector switch"
+    ],
+    "switch_alternate": "CP",
+    "notes": "Pack files named Cabasa / Shaker are probably this voice (inferred)."
+   },
+   {
+    "label": "CP",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "LEVEL",
+     "CP/MA selector switch"
+    ],
+    "switch_alternate": "MA",
+    "notes": ""
+   },
+   {
+    "label": "CB",
+    "name": "Cow Bell",
+    "type": "Cowbell",
+    "controls": [
+     "LEVEL"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CY",
+    "name": "Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "LEVEL",
+     "TONE",
+     "DECAY"
+    ],
+    "switch_alternate": null,
+    "notes": "Only one cymbal voice. Pack files named Crash / Ride are probably this voice at different TONE/DECAY settings (inferred)."
+   },
+   {
+    "label": "OH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "LEVEL",
+     "DECAY"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CH",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "LEVEL"
+    ],
+    "switch_alternate": null,
+    "notes": "Rightmost voice."
+   }
+  ],
+  "choke_groups": [
+   [
+    "OH",
+    "CH"
+   ],
+   [
+    "LC",
+    "LT"
+   ],
+   [
+    "MC",
+    "MT"
+   ],
+   [
+    "HC",
+    "HT"
+   ],
+   [
+    "CL",
+    "RS"
+   ],
+   [
+    "MA",
+    "CP"
+   ]
+  ],
+  "accent": "One global accent track (AC, leftmost on the panel) programmed per step like an instrument. It makes no sound; it raises every voice on that step. One ACCENT LEVEL knob sets the amount. No per-voice accent.",
+  "built_in_effects": [],
+  "global_features": [
+   "No shuffle/swing and no humanise (Music Technology 1986)",
+   "No flam (none documented)",
+   "Tuning: only the three tom/conga TUNING knobs; tuning is not programmable per step",
+   "Pre-scale selector (listed on Roland's TR-08 page; number of positions not confirmed here)",
+   "Basic Variation A/B and Intro/Fill-in; 12 basic-rhythm + 4 fill-in pattern slots in pattern play (iO-808 recreation)",
+   "Individual audio outputs per voice (Music Technology 1986)",
+   "No MIDI on the original"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "82 WAVs plus 82 Ableton .asd analysis files (only pack with .asd). Two naming sets. (1) Plain names, stereo 44.1 kHz/16-bit: Bassdrum-01..05, Snaredrum, Clap, Claves, Cowbell, Cabasa, Crash-01, Crash-02, Hat Closed, Hat Open, Rimshot, Tom L/M/H (18). (2) 'TR-808' prefix, mono 44.1 kHz/16-bit: Kick01-16, Snare01-16, Tom01-07, Conga01-05, Hat_C01-05, Hat_O01-03, Ride01-04, Clap01-02, Rim01-02, Shaker01-02, Clave, Cow (64). Numbers are just variants; names do not state knob settings, but kick lengths run 0.04 s to 2.05 s, so they are probably TONE/DECAY variations (inferred). No mid/hi conga split in names; Crash/Ride/Cabasa/Shaker names do not match 808 panel voices (one CY voice, MA voice). No loops.",
+  "preset_patterns": [
+   {
+    "name": "Owner's manual sections 'The Factory-Programmed Rhythm Patterns' and 'Sample Rhythm' exist (seen in ManualsLib table of contents); pattern names and grids NOT retrieved",
+    "source": "https://www.manualslib.com/manual/695754/Roland-Tr-808.html"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "Ryuichi Sakamoto",
+    "title": "Riot in Lagos",
+    "year": 1980,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-808 - says B-2 Unit (1980, incl. 'Riot in Lagos') introduced the 808 to clubs; cites The Long and Short (2016) and BBC Radio 6 Music (2020)",
+    "grid_source": null
+   },
+   {
+    "artist": "Marvin Gaye",
+    "title": "Sexual Healing",
+    "year": 1982,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-808 - first US hit single to feature the 808; cites CBC News (2008)",
+    "grid_source": null
+   },
+   {
+    "artist": "Afrika Bambaataa & the Soulsonic Force",
+    "title": "Planet Rock",
+    "year": 1982,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-808 - used the 808; cites The Guardian (2014)",
+    "grid_source": null
+   },
+   {
+    "artist": "Beastie Boys",
+    "title": "Paul Revere",
+    "year": 1986,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-808 - built on a reversed 808 recording; cites MTV News (2012)",
+    "grid_source": null
+   },
+   {
+    "artist": "Whitney Houston",
+    "title": "I Wanna Dance with Somebody (Who Loves Me)",
+    "year": 1987,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-808 - makes extensive use of the 808; cites BBC News (2014)",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.roland.com/au/products/tr-08/specifications/",
+   "https://www.muzines.co.uk/articles/beat-box-chic/983",
+   "https://en.wikipedia.org/wiki/Roland_TR-808",
+   "https://io808.com/tutorial",
+   "https://www.manualslib.com/manual/695754/Roland-Tr-808.html",
+   "https://support.roland.com/hc/en-us/articles/201963539-TR-808-Technical-Specifications"
+  ]
+ },
+ {
+  "machine": "Roland TR-909 Rhythm Composer",
+  "pack_folders": [
+   "Roland TR-909"
+  ],
+  "maker": "Roland",
+  "year": 1983,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "BD",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "TUNE",
+     "LEVEL",
+     "ATTACK",
+     "DECAY"
+    ],
+    "switch_alternate": null,
+    "notes": "Analog."
+   },
+   {
+    "label": "SD",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "TUNE",
+     "LEVEL",
+     "TONE",
+     "SNAPPY"
+    ],
+    "switch_alternate": null,
+    "notes": "Analog. Shares a noise source with the hand clap, so the two phase when played together (Wikipedia)."
+   },
+   {
+    "label": "LT",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [
+     "TUNE",
+     "LEVEL",
+     "DECAY"
+    ],
+    "switch_alternate": null,
+    "notes": "Analog."
+   },
+   {
+    "label": "MT",
+    "name": "Mid Tom",
+    "type": "Tom",
+    "controls": [
+     "TUNE",
+     "LEVEL",
+     "DECAY"
+    ],
+    "switch_alternate": null,
+    "notes": "Analog."
+   },
+   {
+    "label": "HT",
+    "name": "Hi Tom",
+    "type": "Tom",
+    "controls": [
+     "TUNE",
+     "LEVEL",
+     "DECAY"
+    ],
+    "switch_alternate": null,
+    "notes": "Analog."
+   },
+   {
+    "label": "RS",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "LEVEL"
+    ],
+    "switch_alternate": null,
+    "notes": "Roland's TR-09 recreation shares one RIM/CLAP LEVEL knob; separate knobs on the original are likely but not confirmed here."
+   },
+   {
+    "label": "HC",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "LEVEL"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel prints HAND CLAP; 'HC' abbreviation not confirmed for the original."
+   },
+   {
+    "label": "CH",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "LEVEL (shared with OH)",
+     "CH DECAY"
+    ],
+    "switch_alternate": null,
+    "notes": "Sampled (6-bit per common descriptions; bit depth not confirmed here)."
+   },
+   {
+    "label": "OH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "LEVEL (shared with CH)",
+     "OH DECAY"
+    ],
+    "switch_alternate": null,
+    "notes": "Sampled."
+   },
+   {
+    "label": "CC",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "LEVEL",
+     "TUNE"
+    ],
+    "switch_alternate": null,
+    "notes": "Sampled."
+   },
+   {
+    "label": "RC",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "LEVEL",
+     "TUNE"
+    ],
+    "switch_alternate": null,
+    "notes": "Sampled. Rightmost voice."
+   }
+  ],
+  "choke_groups": [
+   [
+    "CH",
+    "OH"
+   ]
+  ],
+  "accent": "TOTAL ACCENT knob sets the level of a global accent track applied per step. Whether each instrument also stores its own per-step accent could not be confirmed from a fetched source.",
+  "built_in_effects": [],
+  "global_features": [
+   "Shuffle and flam in the sequencer (SHUFFLE/FLAM button); ranges not confirmed here",
+   "TUNE knobs on BD, SD, the three toms, crash and ride (not per step)",
+   "Analog: BD, SD, toms, rim shot, hand clap. Sampled: hi-hats, crash, ride",
+   "MIDI In/Out (first Roland drum machine with MIDI) and DIN sync in"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "BD",
+    "midi_note": 35,
+    "sound": "Bass Drum"
+   },
+   {
+    "pad_or_key": "BD",
+    "midi_note": 36,
+    "sound": "Bass Drum"
+   },
+   {
+    "pad_or_key": "RS",
+    "midi_note": 37,
+    "sound": "Rim Shot"
+   },
+   {
+    "pad_or_key": "SD",
+    "midi_note": 38,
+    "sound": "Snare Drum"
+   },
+   {
+    "pad_or_key": "HC",
+    "midi_note": 39,
+    "sound": "Hand Clap"
+   },
+   {
+    "pad_or_key": "SD",
+    "midi_note": 40,
+    "sound": "Snare Drum"
+   },
+   {
+    "pad_or_key": "LT",
+    "midi_note": 41,
+    "sound": "Low Tom"
+   },
+   {
+    "pad_or_key": "CH",
+    "midi_note": 42,
+    "sound": "Closed Hi-Hat"
+   },
+   {
+    "pad_or_key": "LT",
+    "midi_note": 43,
+    "sound": "Low Tom"
+   },
+   {
+    "pad_or_key": "CH",
+    "midi_note": 44,
+    "sound": "Closed Hi-Hat"
+   },
+   {
+    "pad_or_key": "MT",
+    "midi_note": 45,
+    "sound": "Mid Tom"
+   },
+   {
+    "pad_or_key": "OH",
+    "midi_note": 46,
+    "sound": "Open Hi-Hat"
+   },
+   {
+    "pad_or_key": "MT",
+    "midi_note": 47,
+    "sound": "Mid Tom"
+   },
+   {
+    "pad_or_key": "HT",
+    "midi_note": 48,
+    "sound": "Hi Tom"
+   },
+   {
+    "pad_or_key": "CC",
+    "midi_note": 49,
+    "sound": "Crash Cymbal"
+   },
+   {
+    "pad_or_key": "HT",
+    "midi_note": 50,
+    "sound": "Hi Tom"
+   },
+   {
+    "pad_or_key": "RC",
+    "midi_note": 51,
+    "sound": "Ride Cymbal"
+   }
+  ],
+  "pack_contents": "78 WAVs, 44.1 kHz/16-bit. Two naming sets. (1) Plain names, stereo: Bassdrum-01..04, Clap, Crash, Hat Closed, Hat Open, Ride, Tom L/M/H, plus two misspelled files 'Rimhot.wav' (rim shot) and 'naredrum.wav' (snare) (14). (2) 'TR-909' prefix, mono: Kick 01-17, Snare 01-32, Tom Low/Mid/Hi 01-02, Hat C 01-02, Hat O 01-03, Clap, Rim, Crash, Ride (64). Numbers are variants; no knob values in names. No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "Skinny Puppy",
+    "title": "Remission (EP)",
+    "year": 1984,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-909 - used the 909; cites DJ Mag (2019)",
+    "grid_source": null
+   },
+   {
+    "artist": "Adamski",
+    "title": "Killer",
+    "year": 1990,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-909 - used the 909; cites The Guardian (2013)",
+    "grid_source": null
+   },
+   {
+    "artist": "Daft Punk",
+    "title": "Revolution 909",
+    "year": 1997,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-909 - used the 909; cites MusicRadar (2024)",
+    "grid_source": null
+   },
+   {
+    "artist": "Björk",
+    "title": "Hunter",
+    "year": 1997,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-909 - Mark Bell used the 909 for its percussion; cites Pytlik (2003) and Mixmag (2016)",
+    "grid_source": null
+   },
+   {
+    "artist": "Radiohead",
+    "title": "Videotape",
+    "year": 2007,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-909 - used the 909; cites MusicRadar (2024)",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.roland.com/global/products/tr-09/specifications/",
+   "https://en.wikipedia.org/wiki/Roland_TR-909",
+   "https://notebook.zoeblade.com/Roland_TR_MIDI_map.html",
+   "https://djjondent.blogspot.com/2020/04/roland-tr-909-drum-mapping.html",
+   "https://hollowsun.com/nostalgia/vintage/909/index.html",
+   "https://support.roland.com/hc/en-us/articles/201921899-TR-909-Technical-Specifications"
+  ]
+ },
+ {
+  "machine": "Roland TR-606 Drumatix",
+  "pack_folders": [
+   "Roland TR-606"
+  ],
+  "maker": "Roland",
+  "year": 1981,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "BD",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "LEVEL"
+    ],
+    "switch_alternate": null,
+    "notes": "Sounds cannot be edited beyond level."
+   },
+   {
+    "label": "SD",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "LEVEL"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LT",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [
+     "LEVEL (one knob shared with HT, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HT",
+    "name": "High Tom",
+    "type": "Tom",
+    "controls": [
+     "LEVEL (one knob shared with LT, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CY",
+    "name": "Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "LEVEL"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "OH",
+    "name": "Open Hi-hat",
+    "type": "Open Hat",
+    "controls": [
+     "LEVEL (one knob shared with CH, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CH",
+    "name": "Closed Hi-hat",
+    "type": "Closed Hat",
+    "controls": [
+     "LEVEL (one knob shared with OH, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": "AC (accent) follows CH as the last selector position."
+   }
+  ],
+  "choke_groups": [
+   [
+    "OH",
+    "CH"
+   ]
+  ],
+  "accent": "AC step track (last position on the instrument selector) applied to all voices on that step; one ACCENT level knob. The pack's Readme says accent adds a subtle overdrive.",
+  "built_in_effects": [],
+  "global_features": [
+   "Five voice level knobs for seven sounds ('four of the sounds are squeezed into two'), plus ACCENT, TEMPO and VOLUME",
+   "No tone/decay/tuning controls: 'The sounds cannot be edited'",
+   "Four SCALE settings incl. triplet-type scales; pattern length settable (e.g. 12 steps)",
+   "No flam or shuffle documented",
+   "32 patterns (16 locations x Pattern Group I/II), 8 tracks",
+   "DIN sync in/out, trigger outputs, no MIDI"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "55 WAVs + Readme.txt. (1) Plain names, stereo 44.1 kHz/16-bit: Bassdrum, Snaredrum, Tom L, Tom H, Cymbal, Hat Closed, Hat Open (7). (2) 'TR606' prefix, mono: Kick, Snare, TomLo, TomHi, Cymb, Hat_C, Hat_O and Hat_P, each 01-05 plus _OD (48). Readme: 01-05 are five accent levels (1 = low, 5 = high); _OD = overdriven high-accent hits. 'Hat_P' is not a 606 panel voice; its length (0.33-1.07 s) sits between closed (0.11-0.19 s) and open (1.27-1.86 s), so it may be a part-open/'pedal' hat (unknown). Mid tom does not exist on the 606.",
+  "preset_patterns": [
+   {
+    "name": "No factory presets in memory; owner's manual has a 'Sample Rhythms' section (manual p. 34) whose names and grids were NOT retrieved",
+    "source": "https://all-guidesbox.com/manual/1001808/roland-tr-606-owner-s-manual-48.html"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "Big Black",
+    "title": "",
+    "year": null,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-606 - artist named as a TR-606 user (cites Roland article 'Drumatix: The Perpetual Appeal of the TR-606', 2024); no specific recording named",
+    "grid_source": null
+   },
+   {
+    "artist": "Aphex Twin",
+    "title": "",
+    "year": null,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-606 - artist named as a TR-606 user; no specific recording named",
+    "grid_source": null
+   },
+   {
+    "artist": "Autechre",
+    "title": "",
+    "year": null,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-606 - artist named as a TR-606 user; no specific recording named",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/roland-tr606/3696",
+   "https://en.wikipedia.org/wiki/Roland_TR-606",
+   "https://rolandindonesia.com/roland-drum-machine-chronicle-1964-2016/",
+   "https://all-guidesbox.com/manual/1001808/roland-tr-606-owner-s-manual-48.html"
+  ]
+ },
+ {
+  "machine": "Roland TR-707 Rhythm Composer",
+  "pack_folders": [
+   "Roland TR-707"
+  ],
+  "maker": "Roland",
+  "year": 1984,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "BD1",
+    "name": "Bass Drum 1",
+    "type": "Kick",
+    "controls": [
+     "LEVEL slider (shared with BD2, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": "Labels in this entry are descriptive, not confirmed panel abbreviations."
+   },
+   {
+    "label": "BD2",
+    "name": "Bass Drum 2",
+    "type": "Kick",
+    "controls": [
+     "LEVEL slider (shared with BD1, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SD1",
+    "name": "Snare Drum 1",
+    "type": "Snare",
+    "controls": [
+     "LEVEL slider (shared with SD2, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SD2",
+    "name": "Snare Drum 2",
+    "type": "Snare",
+    "controls": [
+     "LEVEL slider (shared with SD1, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": "One review says flam applies to Snare 2 and the toms."
+   },
+   {
+    "label": "LT",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [
+     "LEVEL slider"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "MT",
+    "name": "Mid Tom",
+    "type": "Tom",
+    "controls": [
+     "LEVEL slider"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HT",
+    "name": "High Tom",
+    "type": "Tom",
+    "controls": [
+     "LEVEL slider"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "RS",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "LEVEL slider shared with CB"
+    ],
+    "switch_alternate": null,
+    "notes": "Rim shot channel also drives the trigger out."
+   },
+   {
+    "label": "CB",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "LEVEL slider shared with RS"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HCP",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "LEVEL slider shared with TAMB"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "TAMB",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "LEVEL slider shared with HCP"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CH",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "LEVEL slider (shared with OH, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": "Open and closed hats come from one sample shaped by analog envelopes (Roland)."
+   },
+   {
+    "label": "OH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "LEVEL slider (shared with CH, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "LEVEL slider (whether shared with RIDE is unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "RIDE",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "LEVEL slider (whether shared with CRASH is unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   }
+  ],
+  "choke_groups": [
+   [
+    "BD1",
+    "BD2"
+   ],
+   [
+    "SD1",
+    "SD2"
+   ],
+   [
+    "RS",
+    "CB"
+   ],
+   [
+    "HCP",
+    "TAMB"
+   ],
+   [
+    "CH",
+    "OH"
+   ]
+  ],
+  "accent": "Accent slider sets the level; accent is programmed per step and applies to every voice on that step (E&MM describes this for the identical TR-727 system). One review says two basic accent levels.",
+  "built_in_effects": [],
+  "global_features": [
+   "15 sounds, max 10 at once (so 5 pairs share a voice channel)",
+   "Shuffle: four levels, global",
+   "Flam: four selectable intervals; one review says it applies to Snare 2 and the three toms, Wikipedia says any step (conflict)",
+   "No tuning",
+   "Individual outputs per voice channel plus pre-panned stereo mix",
+   "MIDI In/Out, DIN sync, rim-shot trigger out (5 V, 20 ms)",
+   "64 patterns (groups A-D), 4 tracks/songs, M64C RAM cartridge",
+   "Samples: 25 kHz, 8-bit, some 6-bit"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "BD1",
+    "midi_note": 35,
+    "sound": "Bass Drum 1"
+   },
+   {
+    "pad_or_key": "BD2",
+    "midi_note": 36,
+    "sound": "Bass Drum 2"
+   },
+   {
+    "pad_or_key": "RS",
+    "midi_note": 37,
+    "sound": "Rim Shot"
+   },
+   {
+    "pad_or_key": "SD1",
+    "midi_note": 38,
+    "sound": "Snare Drum 1"
+   },
+   {
+    "pad_or_key": "HCP",
+    "midi_note": 39,
+    "sound": "Hand Clap"
+   },
+   {
+    "pad_or_key": "SD2",
+    "midi_note": 40,
+    "sound": "Snare Drum 2"
+   },
+   {
+    "pad_or_key": "LT",
+    "midi_note": 41,
+    "sound": "Low Tom"
+   },
+   {
+    "pad_or_key": "CH",
+    "midi_note": 42,
+    "sound": "Closed Hi-Hat"
+   },
+   {
+    "pad_or_key": "LT",
+    "midi_note": 43,
+    "sound": "Low Tom"
+   },
+   {
+    "pad_or_key": "MT",
+    "midi_note": 45,
+    "sound": "Mid Tom"
+   },
+   {
+    "pad_or_key": "OH",
+    "midi_note": 46,
+    "sound": "Open Hi-Hat"
+   },
+   {
+    "pad_or_key": "MT",
+    "midi_note": 47,
+    "sound": "Mid Tom"
+   },
+   {
+    "pad_or_key": "HT",
+    "midi_note": 48,
+    "sound": "High Tom"
+   },
+   {
+    "pad_or_key": "CRASH",
+    "midi_note": 49,
+    "sound": "Crash Cymbal"
+   },
+   {
+    "pad_or_key": "HT",
+    "midi_note": 50,
+    "sound": "High Tom"
+   },
+   {
+    "pad_or_key": "RIDE",
+    "midi_note": 51,
+    "sound": "Ride Cymbal"
+   },
+   {
+    "pad_or_key": "TAMB",
+    "midi_note": 54,
+    "sound": "Tambourine"
+   },
+   {
+    "pad_or_key": "CB",
+    "midi_note": 56,
+    "sound": "Cowbell"
+   }
+  ],
+  "pack_contents": "29 WAVs, 44.1 kHz/16-bit. (1) Plain names, stereo: Bassdrum-01/02, Snaredrum-01/02, Tom L/M/H, Rimshot, Cowbell, Clap, Tambourine, Hat Closed, Hat Open, Crash (14; no Ride). (2) 'TR-707' prefix, mono: Kick01/02, Snare01/02, Tom_Lo/Mid/Hi, RimShot, Cow, Clap, Tamborine (sic), Hat_C, Hat_O, Crash, Ride (15; complete one-to-one set). No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "Marshall Jefferson",
+    "title": "Move Your Body",
+    "year": 1986,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-707 - listed among songs that use the TR-707 (year not given on the page; 1986 from general knowledge)",
+    "grid_source": null
+   },
+   {
+    "artist": "Mr. Fingers",
+    "title": "Washing Machine",
+    "year": 1986,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-707 - listed among songs that use the TR-707 (year from general knowledge)",
+    "grid_source": null
+   },
+   {
+    "artist": "INXS",
+    "title": "Need You Tonight",
+    "year": 1987,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_TR-707 - listed among songs that use the TR-707; cites Mixonline 'Classic Track' (year from general knowledge)",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/roland-tr707/8027",
+   "https://www.muzines.co.uk/articles/roland-tr707/8864",
+   "https://www.muzines.co.uk/articles/roland-tr-707/12363",
+   "https://articles.roland.com/mod-squad-a-history-of-tr-707-and-tr-727-modifications/",
+   "https://en.wikipedia.org/wiki/Roland_TR-707",
+   "https://notebook.zoeblade.com/Roland_TR_MIDI_map.html",
+   "https://djjondent.blogspot.com/2020/05/roland-tr-707-drum-mapping-midi.html",
+   "https://support.roland.com/hc/en-us/articles/201925909-TR-707-Technical-Specifications"
+  ]
+ },
+ {
+  "machine": "Roland TR-727 Rhythm Composer",
+  "pack_folders": [
+   "Roland TR-727"
+  ],
+  "maker": "Roland",
+  "year": 1985,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "HB",
+    "name": "Hi Bongo",
+    "type": "Bongo",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": "Labels in this entry are descriptive, not confirmed panel abbreviations. Order follows the review sound list and the MIDI map."
+   },
+   {
+    "label": "LB",
+    "name": "Low Bongo",
+    "type": "Bongo",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "MHC",
+    "name": "Mute Hi Conga",
+    "type": "Conga",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "OHC",
+    "name": "Open Hi Conga",
+    "type": "Conga",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LC",
+    "name": "Low Conga",
+    "type": "Conga",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HTB",
+    "name": "Hi Timbale",
+    "type": "Timbale",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LTB",
+    "name": "Low Timbale",
+    "type": "Timbale",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HA",
+    "name": "Hi Agogo",
+    "type": "Agogo",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": "The agogo channel drives the trigger out."
+   },
+   {
+    "label": "LA",
+    "name": "Low Agogo",
+    "type": "Agogo",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CBS",
+    "name": "Cabasa",
+    "type": "Shaker",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "MRC",
+    "name": "Maracas",
+    "type": "Shaker",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SW",
+    "name": "Short Whistle",
+    "type": "Perc",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LW",
+    "name": "Long Whistle",
+    "type": "Perc",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "QJ",
+    "name": "Quijada",
+    "type": "Perc",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SC",
+    "name": "Star Chime",
+    "type": "Perc",
+    "controls": [
+     "LEVEL slider (grouping unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   }
+  ],
+  "choke_groups": [
+   [
+    "HA",
+    "LA"
+   ]
+  ],
+  "accent": "Variable accent applied per beat; every voice on that beat gets the same accent, no per-voice accent (E&MM 1985).",
+  "built_in_effects": [],
+  "global_features": [
+   "15 sounds, max 10 at once; 10 individual outputs; which 5 pairs share a channel is not documented in fetched sources (agogo pair inferred from the 'agogo channel' trigger out)",
+   "Accents and flams can be added to any drum (In Tune 1985); shuffle and flam also listed by Roland Indonesia",
+   "No pitch tuning",
+   "MIDI In/Out, Sync 24 In/Out, trigger out (agogo channel), tape save/load",
+   "64 patterns (A-D), 4 tracks, M64C cartridge; same programming system and LCD as TR-707"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "HB",
+    "midi_note": 60,
+    "sound": "Hi Bongo"
+   },
+   {
+    "pad_or_key": "LB",
+    "midi_note": 61,
+    "sound": "Low Bongo"
+   },
+   {
+    "pad_or_key": "MHC",
+    "midi_note": 62,
+    "sound": "Mute Hi Conga"
+   },
+   {
+    "pad_or_key": "OHC",
+    "midi_note": 63,
+    "sound": "Open Hi Conga"
+   },
+   {
+    "pad_or_key": "LC",
+    "midi_note": 64,
+    "sound": "Low Conga"
+   },
+   {
+    "pad_or_key": "HTB",
+    "midi_note": 65,
+    "sound": "Hi Timbale"
+   },
+   {
+    "pad_or_key": "LTB",
+    "midi_note": 66,
+    "sound": "Low Timbale"
+   },
+   {
+    "pad_or_key": "HA",
+    "midi_note": 67,
+    "sound": "Hi Agogo"
+   },
+   {
+    "pad_or_key": "LA",
+    "midi_note": 68,
+    "sound": "Low Agogo"
+   },
+   {
+    "pad_or_key": "CBS",
+    "midi_note": 69,
+    "sound": "Cabasa"
+   },
+   {
+    "pad_or_key": "MRC",
+    "midi_note": 70,
+    "sound": "Maracas"
+   },
+   {
+    "pad_or_key": "SW",
+    "midi_note": 71,
+    "sound": "Short Whistle"
+   },
+   {
+    "pad_or_key": "LW",
+    "midi_note": 72,
+    "sound": "Long Whistle"
+   },
+   {
+    "pad_or_key": "QJ",
+    "midi_note": 73,
+    "sound": "Quijada"
+   },
+   {
+    "pad_or_key": "SC",
+    "midi_note": 74,
+    "sound": "Star Chime"
+   }
+  ],
+  "pack_contents": "27 WAVs, 44.1 kHz/16-bit. (1) Plain names: Agogo H/L, Bongo H/L, Conga L, Timbale H/L, Cabasa, Maracas, Whistle, Quijada, Star-chimes (12; missing Mute Hi Conga, Open Hi Conga and one of the two whistles). (2) 'TR-727' prefix: AgogoHi/Lo, Bongo_Hi/Lo, Conga_HiMut, Conga_HiOp, Conga_Lo, Timbale_Hi/Lo, Cabasa, Maracas, Whistle_S, Whistle_L, Quijada, Starchime (15; complete one-to-one set). No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.muzines.co.uk/articles/roland-tr727-rhythm-composer/5584",
+   "https://www.muzines.co.uk/articles/latin-lessons/9115",
+   "https://notebook.zoeblade.com/Roland_TR_MIDI_map.html",
+   "https://articles.roland.com/mod-squad-a-history-of-tr-707-and-tr-727-modifications/",
+   "https://en.wikipedia.org/wiki/Roland_TR-707",
+   "https://rolandindonesia.com/roland-drum-machine-chronicle-1964-2016/"
+  ]
+ },
+ {
+  "machine": "Roland TR-505 Rhythm Composer",
+  "pack_folders": [
+   "Roland TR-505"
+  ],
+  "maker": "Roland",
+  "year": 1986,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "LCG",
+    "name": "Low Conga",
+    "type": "Conga",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Labels are descriptive, not confirmed panel abbreviations. Order follows the review/spec list (pads 1-16 order is likely but not confirmed)."
+   },
+   {
+    "label": "HCG",
+    "name": "Hi Conga",
+    "type": "Conga",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "TIMB",
+    "name": "Timbale",
+    "type": "Timbale",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares a voice with the three toms."
+   },
+   {
+    "label": "LCB",
+    "name": "Low Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HCB",
+    "name": "Hi Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HCP",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CC",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "RC",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "BD",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SD",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LT",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "MT",
+    "name": "Mid Tom",
+    "type": "Tom",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HT",
+    "name": "Hi Tom",
+    "type": "Tom",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "RS",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Bonedo calls it Rim Shot (Sidestick)."
+   },
+   {
+    "label": "CH",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "OH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "LEVEL 0-5 (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   }
+  ],
+  "choke_groups": [
+   [
+    "CH",
+    "OH"
+   ],
+   [
+    "LT",
+    "MT",
+    "HT",
+    "TIMB"
+   ],
+   [
+    "LCG",
+    "HCG"
+   ],
+   [
+    "LCB",
+    "HCB"
+   ],
+   [
+    "HCP",
+    "RS"
+   ],
+   [
+    "CC",
+    "RC"
+   ]
+  ],
+  "accent": "Per-step accent with strength 0-5; on MIDI out, accented notes send higher velocity. Accent counts toward the 8-voice limit (Bonedo).",
+  "built_in_effects": [],
+  "global_features": [
+   "8-voice polyphony; sounds in the same group cannot play together, and programming one erases the other from that step",
+   "Levels 0-5 per sound, global (not stored per pattern)",
+   "No tuning, no individual outputs; stereo pre-panned L/R + phones",
+   "Shuffle/flam: not mentioned in fetched sources (unknown)",
+   "MIDI In/Out with velocity; no DIN sync",
+   "48 preset patterns (groups A-C) + 48 user (D-F); 6 tracks, 423 measures; battery or 9 V"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "BD",
+    "midi_note": 35,
+    "sound": "Bass Drum"
+   },
+   {
+    "pad_or_key": "RS",
+    "midi_note": 37,
+    "sound": "Rim Shot"
+   },
+   {
+    "pad_or_key": "SD",
+    "midi_note": 38,
+    "sound": "Snare Drum"
+   },
+   {
+    "pad_or_key": "HCP",
+    "midi_note": 39,
+    "sound": "Hand Clap"
+   },
+   {
+    "pad_or_key": "LT",
+    "midi_note": 41,
+    "sound": "Low Tom"
+   },
+   {
+    "pad_or_key": "CH",
+    "midi_note": 42,
+    "sound": "Closed Hi-Hat"
+   },
+   {
+    "pad_or_key": "MT",
+    "midi_note": 45,
+    "sound": "Mid Tom"
+   },
+   {
+    "pad_or_key": "OH",
+    "midi_note": 46,
+    "sound": "Open Hi-Hat"
+   },
+   {
+    "pad_or_key": "HT",
+    "midi_note": 48,
+    "sound": "Hi Tom"
+   },
+   {
+    "pad_or_key": "CC",
+    "midi_note": 49,
+    "sound": "Crash Cymbal"
+   },
+   {
+    "pad_or_key": "RC",
+    "midi_note": 51,
+    "sound": "Ride Cymbal"
+   },
+   {
+    "pad_or_key": "HCG",
+    "midi_note": 62,
+    "sound": "Hi Conga"
+   },
+   {
+    "pad_or_key": "LCG",
+    "midi_note": 63,
+    "sound": "Low Conga"
+   },
+   {
+    "pad_or_key": "TIMB",
+    "midi_note": 65,
+    "sound": "Timbale"
+   },
+   {
+    "pad_or_key": "HCB",
+    "midi_note": 67,
+    "sound": "Hi Cowbell"
+   },
+   {
+    "pad_or_key": "LCB",
+    "midi_note": 68,
+    "sound": "Low Cowbell"
+   }
+  ],
+  "pack_contents": "32 WAVs: two complete 16-sound sets. (1) Plain names: Bassdrum, Snaredrum, Rimshot, Clap, Tom L/M/H, Timbale, Conga H/L, Cowbell H/L, Hat Closed, Hat Open, Crash, Ride. (2) 'TR-505' prefix: Kick, Snare, Rim, Clap, Tom_Lo/Mid/Hi, Timbale, Conga_Hi/Lo, Cow_Hi/Lo, Hat_C, Hat_O, Crash, Ride. No loops.",
+  "preset_patterns": [
+   {
+    "name": "A6 Electric Pop",
+    "source": "https://www.bonedo.de/?p=530195"
+   },
+   {
+    "name": "A8 16 Beat Rock",
+    "source": "https://www.bonedo.de/?p=530195"
+   },
+   {
+    "name": "C1 Rock Bossa 1",
+    "source": "https://www.bonedo.de/?p=530195"
+   },
+   {
+    "name": "C2 Rock Bossa 2",
+    "source": "https://www.bonedo.de/?p=530195"
+   },
+   {
+    "name": "C3 Samba 1",
+    "source": "https://www.bonedo.de/?p=530195"
+   },
+   {
+    "name": "C4 Samba 2",
+    "source": "https://www.bonedo.de/?p=530195"
+   },
+   {
+    "name": "C9 Bossanova 1",
+    "source": "https://www.bonedo.de/?p=530195"
+   },
+   {
+    "name": "C10 Bossanova 2",
+    "source": "https://www.bonedo.de/?p=530195"
+   },
+   {
+    "name": "C11 Samba 3",
+    "source": "https://www.bonedo.de/?p=530195"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/roland-tr505/4806",
+   "https://www.muzines.co.uk/articles/roland-tr505/13420",
+   "https://www.bonedo.de/?p=530195",
+   "https://en.wikipedia.org/wiki/Roland_TR-505",
+   "https://notebook.zoeblade.com/Roland_TR_MIDI_map.html",
+   "https://support.roland.com/hc/en-us/articles/201940129-TR-505-Technical-Specifications"
+  ]
+ },
+ {
+  "machine": "Roland TR-626 Rhythm Composer",
+  "pack_folders": [
+   "Roland TR-626"
+  ],
+  "maker": "Roland",
+  "year": 1987,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "BD1",
+    "name": "Bass Drum 1",
+    "type": "Kick",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Labels are descriptive. Order follows the SOS sound list, not the pad order: pads 1-14 each hold two sounds (INST CHANGE), pad 15 = open hat, pad 16 = closed hat; full pad pairing not found."
+   },
+   {
+    "label": "BD2",
+    "name": "Bass Drum 2",
+    "type": "Kick",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SD1",
+    "name": "Snare Drum 1",
+    "type": "Snare",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SD2",
+    "name": "Snare Drum 2",
+    "type": "Snare",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SD3",
+    "name": "Snare Drum 3",
+    "type": "Snare",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "RS",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Rim shot track drives the trigger out."
+   },
+   {
+    "label": "LT1",
+    "name": "Low Tom 1",
+    "type": "Tom",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LT2",
+    "name": "Low Tom 2",
+    "type": "Tom",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "MT1",
+    "name": "Mid Tom 1",
+    "type": "Tom",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "MT2",
+    "name": "Mid Tom 2",
+    "type": "Tom",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HT1",
+    "name": "High Tom 1",
+    "type": "Tom",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HT2",
+    "name": "High Tom 2",
+    "type": "Tom",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CH",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 16."
+   },
+   {
+    "label": "OH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 15."
+   },
+   {
+    "label": "TAMB",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CB",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LA",
+    "name": "Low Agogo",
+    "type": "Agogo",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HA",
+    "name": "High Agogo",
+    "type": "Agogo",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LTB",
+    "name": "Low Timbale",
+    "type": "Timbale",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HTB",
+    "name": "High Timbale",
+    "type": "Timbale",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LCG",
+    "name": "Low Conga",
+    "type": "Conga",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "OHC",
+    "name": "Open High Conga",
+    "type": "Conga",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "MHC",
+    "name": "Mute High Conga",
+    "type": "Conga",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HCP",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SHK",
+    "name": "Shaker",
+    "type": "Shaker",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CLV",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CHN",
+    "name": "China Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares a pad with Crash; the second hit cuts the first."
+   },
+   {
+    "label": "CC",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CUP",
+    "name": "Cup",
+    "type": "Ride",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Ride bell. Shares a pad with Ride; the second hit cuts the first."
+   },
+   {
+    "label": "RC",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "LEVEL (global)",
+     "PITCH +/-7 semitones (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   }
+  ],
+  "choke_groups": [
+   [
+    "BD1",
+    "BD2"
+   ],
+   [
+    "SD1",
+    "SD2",
+    "LTB",
+    "HTB"
+   ],
+   [
+    "HCP",
+    "CLV",
+    "SHK",
+    "MHC"
+   ],
+   [
+    "RC",
+    "CUP"
+   ],
+   [
+    "CC",
+    "CHN"
+   ],
+   [
+    "CH",
+    "OH"
+   ]
+  ],
+  "accent": "Per-step, per-instrument accent: SOS says three levels; Music Technology says +/-3 relative to the voice level. Different voices can carry different accents on the same step.",
+  "built_in_effects": [],
+  "global_features": [
+   "8-voice polyphony in 8 sound groups (only 2 groups fully documented)",
+   "Pitch +/-7 semitones per sound, global (also affects presets)",
+   "Shuffle and flam programmable (Music Technology 1987)",
+   "8 individual outputs (BD, SD, LT, MT, HT, HH, Crash, Ride) + stereo; plugging in removes that voice from the mix",
+   "MIDI In/Out, user-assignable note per voice, song position pointer; tape sync; rim-shot trigger out",
+   "48 preset + 48 user patterns; 6 songs per reviews (Roland spec snippet says 20 songs); M-128D memory card"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "BD1",
+    "midi_note": 35,
+    "sound": "Bass Drum 1"
+   },
+   {
+    "pad_or_key": "BD2",
+    "midi_note": 36,
+    "sound": "Bass Drum 2"
+   },
+   {
+    "pad_or_key": "RS",
+    "midi_note": 37,
+    "sound": "Rim Shot"
+   },
+   {
+    "pad_or_key": "SD1",
+    "midi_note": 38,
+    "sound": "Snare Drum 1"
+   },
+   {
+    "pad_or_key": "HCP",
+    "midi_note": 39,
+    "sound": "Hand Clap"
+   },
+   {
+    "pad_or_key": "SD2",
+    "midi_note": 40,
+    "sound": "Snare Drum 2"
+   },
+   {
+    "pad_or_key": "LT1",
+    "midi_note": 41,
+    "sound": "Low Tom 1"
+   },
+   {
+    "pad_or_key": "CH",
+    "midi_note": 42,
+    "sound": "Closed Hi-Hat"
+   },
+   {
+    "pad_or_key": "LT2",
+    "midi_note": 43,
+    "sound": "Low Tom 2"
+   },
+   {
+    "pad_or_key": "MT1",
+    "midi_note": 45,
+    "sound": "Mid Tom 1"
+   },
+   {
+    "pad_or_key": "OH",
+    "midi_note": 46,
+    "sound": "Open Hi-Hat"
+   },
+   {
+    "pad_or_key": "MT2",
+    "midi_note": 47,
+    "sound": "Mid Tom 2"
+   },
+   {
+    "pad_or_key": "HT1",
+    "midi_note": 48,
+    "sound": "High Tom 1"
+   },
+   {
+    "pad_or_key": "CC",
+    "midi_note": 49,
+    "sound": "Crash Cymbal"
+   },
+   {
+    "pad_or_key": "HT2",
+    "midi_note": 50,
+    "sound": "High Tom 2"
+   },
+   {
+    "pad_or_key": "RC",
+    "midi_note": 51,
+    "sound": "Ride Cymbal"
+   },
+   {
+    "pad_or_key": "CHN",
+    "midi_note": 52,
+    "sound": "China Cymbal"
+   },
+   {
+    "pad_or_key": "CUP",
+    "midi_note": 53,
+    "sound": "Cup"
+   },
+   {
+    "pad_or_key": "TAMB",
+    "midi_note": 54,
+    "sound": "Tambourine"
+   },
+   {
+    "pad_or_key": "CB",
+    "midi_note": 56,
+    "sound": "Cowbell"
+   },
+   {
+    "pad_or_key": "SD3",
+    "midi_note": 58,
+    "sound": "Snare Drum 3"
+   },
+   {
+    "pad_or_key": "MHC",
+    "midi_note": 62,
+    "sound": "Mute High Conga"
+   },
+   {
+    "pad_or_key": "OHC",
+    "midi_note": 63,
+    "sound": "Open High Conga"
+   },
+   {
+    "pad_or_key": "LCG",
+    "midi_note": 64,
+    "sound": "Low Conga"
+   },
+   {
+    "pad_or_key": "HTB",
+    "midi_note": 65,
+    "sound": "High Timbale"
+   },
+   {
+    "pad_or_key": "LTB",
+    "midi_note": 66,
+    "sound": "Low Timbale"
+   },
+   {
+    "pad_or_key": "HA",
+    "midi_note": 67,
+    "sound": "High Agogo"
+   },
+   {
+    "pad_or_key": "LA",
+    "midi_note": 68,
+    "sound": "Low Agogo"
+   },
+   {
+    "pad_or_key": "SHK",
+    "midi_note": 69,
+    "sound": "Shaker"
+   },
+   {
+    "pad_or_key": "CLV",
+    "midi_note": 75,
+    "sound": "Claves"
+   }
+  ],
+  "pack_contents": "60 WAVs: two 30-sound sets. (1) Plain names, stereo 44.1 kHz/16-bit: Bassdrum-01/02, Snaredrum-01/02/03, Rimshot, Clap, Tom L/M/H-01/02, Hat Closed, Hat Open, Crash, China, Ride-01, Ride-02, Tambourine, Cowbell, Agogo H/L, Timbale H/L, Conga H/M/L, Shaker, Clave. Here 'Ride-02' is probably the Cup and 'Conga H/M' the open/mute hi congas (inferred). (2) 'TR-626' prefix, mono: Kick01/02, Snare01/02/03, Rimshot, Clap, Tom_L/M/H01/02, Hat_C, Hat_O, Crash, China, Ride, Cup, Tamborine (sic), Cow, Agogo_Hi/Lo, Timbale_Hi/Lo, Conga_HiOp, Conga_MutHi, Conga_Lo, Shaker, Claves (complete, explicit names). No loops.",
+  "preset_patterns": [
+   {
+    "name": "48 presets in three banks of 16: rock, disco, latin and swing patterns each with fill-ins, plus some funk and reggae (individual names NOT retrieved)",
+    "source": "https://www.muzines.co.uk/articles/roland-tr626/2125"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/roland-tr626/2125",
+   "https://www.soundonsound.com/reviews/roland-tr626",
+   "https://notebook.zoeblade.com/Roland_TR_MIDI_map.html",
+   "https://support.roland.com/hc/en-us/articles/201926399-TR-626-Technical-Specifications"
+  ]
+ },
+ {
+  "machine": "Roland TR-33 (Rhythm 33)",
+  "pack_folders": [
+   "Rhythm 33"
+  ],
+  "maker": "Roland",
+  "year": 1972,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "BD",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Hardware voice list and panel order NOT found; these entries mirror the pack files (rhythm33_bd)."
+   },
+   {
+    "label": "SD",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "From pack file rhythm33_sn."
+   },
+   {
+    "label": "RS",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "From pack file rhythm33_rim."
+   },
+   {
+    "label": "TOM",
+    "name": "Tom",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "From pack file rhythm33_tom."
+   },
+   {
+    "label": "CB",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "From pack file rhythm33_cow."
+   },
+   {
+    "label": "CH",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "From pack file rhythm33_ch."
+   },
+   {
+    "label": "OH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "From pack file rhythm33_oh."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none documented",
+  "built_in_effects": [],
+  "global_features": [
+   "Preset-only rhythm machine (no user programming)",
+   "Number of presets conflicts: 8 (soundprogramming.net) vs about 20 (Roland Indonesia)",
+   "A balance knob that can mute certain drum sounds; a Wikipedia-mirror snippet describes one control balancing the bass drum against cymbal/hi-hat/maracas",
+   "Body with a cut-out for mounting under a piano or organ"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "7 mono WAVs, 44.1 kHz/16-bit, lowercase names: rhythm33_bd, _sn, _rim, _tom, _cow, _ch, _oh (all 0.01-0.29 s). No embedded metadata naming the source machine; identity rests on the folder/file name matching Roland's 'Rhythm 33' (TR-33). No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://soundprogramming.net/drum-machines/roland/roland-tr-33/",
+   "https://rolandindonesia.com/roland-drum-machine-chronicle-1964-2016/",
+   "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Roland_Rhythm_33.html",
+   "https://en.wikipedia.org/wiki/Roland_Rhythm_33"
+  ]
+ },
+ {
+  "machine": "Roland TR-77 (Rhythm 77)",
+  "pack_folders": [
+   "Rhythm 77"
+  ],
+  "maker": "Roland",
+  "year": 1972,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "BD",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "BASS volume slider"
+    ],
+    "switch_alternate": null,
+    "notes": "Voice list from a repair blog; order is the blog's, not confirmed panel order."
+   },
+   {
+    "label": "LCG",
+    "name": "Low Conga",
+    "type": "Conga",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LBG",
+    "name": "Low Bongo",
+    "type": "Bongo",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Pack 'low_tom' may be this voice (inferred)."
+   },
+   {
+    "label": "HBG",
+    "name": "High Bongo",
+    "type": "Bongo",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Pack 'high_tom' may be this voice (inferred)."
+   },
+   {
+    "label": "RS",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CB",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Not in pack."
+   },
+   {
+    "label": "CL",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Not in pack."
+   },
+   {
+    "label": "TAMB",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Not in pack."
+   },
+   {
+    "label": "CY",
+    "name": "Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "shared MARACAS/HI-HAT/CYMBAL volume slider"
+    ],
+    "switch_alternate": null,
+    "notes": "Not clearly in pack (pack 'oh' could be hi-hat or cymbal; unknown)."
+   },
+   {
+    "label": "HH",
+    "name": "Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "shared MARACAS/HI-HAT/CYMBAL volume slider"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack has 'ch' and 'oh' files."
+   },
+   {
+    "label": "MA",
+    "name": "Maracas",
+    "type": "Shaker",
+    "controls": [
+     "shared MARACAS/HI-HAT/CYMBAL volume slider"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SD",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "SNARE volume slider"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "GU",
+    "name": "Guiro",
+    "type": "Perc",
+    "controls": [
+     "GUIRO volume slider"
+    ],
+    "switch_alternate": null,
+    "notes": "Not in pack."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none documented",
+  "built_in_effects": [],
+  "global_features": [
+   "18 preset rhythms (8 basic + 10 Latin), push-button/rotary selection; no user patterns (diode matrix)",
+   "Patterns: 32 steps = two bars of 16th notes",
+   "2 BEAT / 4 BEAT variations, BASS & SNARE mode, SHUFFLE mode, a lever that splits the rhythm",
+   "Four volume sliders (bass, snare, guiro, maracas/hi-hat/cymbal), tempo slider, fade-out, touch-plate start, first-beat LED, footswitch/external trigger jack"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "9 mono WAVs, 44.1 kHz/16-bit, lowercase names: rhythm77_bd, _sn, _rim, _conga, _high_tom, _low_tom, _maracas, _ch, _oh (0.01-0.22 s). No embedded metadata. The TR-77 has no toms in the documented voice list, so 'high_tom'/'low_tom' are probably the bongos (inferred). Missing: cowbell, claves, tambourine, guiro, and possibly cymbal. No loops.",
+  "preset_patterns": [
+   {
+    "name": "Rock'n Roll 1",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Rock'n Roll 2",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Slow Rock",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Ballad",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Western",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "6/8 March",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Jazz Waltz",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Waltz",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Rhumba",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Beguine",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Cha-Cha",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Mambo",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Samba 1",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Samba 2",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Bossa Nova",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Baion",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Bolero",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   },
+   {
+    "name": "Tango",
+    "source": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "George McCrae",
+    "title": "Rock Your Baby",
+    "year": 1974,
+    "evidence": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html - names it as an early TR-77 hit; Wikipedia (https://en.wikipedia.org/wiki/Rock_Your_Baby) confirms only 'a drum machine', no model",
+    "grid_source": null
+   },
+   {
+    "artist": "David Bowie",
+    "title": "Art Decade",
+    "year": 1977,
+    "evidence": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html - 'reportedly' using his own TR-77 (album Low; year from general knowledge)",
+    "grid_source": null
+   },
+   {
+    "artist": "Ultravox",
+    "title": "Hiroshima Mon Amour",
+    "year": 1977,
+    "evidence": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html - named as a TR-77 recording (album Ha! Ha! Ha!; year from general knowledge)",
+    "grid_source": null
+   },
+   {
+    "artist": "Tubeway Army (Gary Numan)",
+    "title": "I Nearly Married a Human",
+    "year": 1979,
+    "evidence": "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html - named as a TR-77 recording (album Replicas; year from general knowledge)",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://en.audiofanzine.com/drum-machine/roland/TR-77/editorial/articles/the-roland-tr-77-history-and-features-of-monophonic-and-analog-drum-machines.html",
+   "https://mezzoauto.blogspot.com/2017/05/roland-rhythm-tr-77-how-it-works.html",
+   "https://soundprogramming.net/drum-machines/roland/roland-tr-77/",
+   "https://rolandindonesia.com/roland-drum-machine-chronicle-1964-2016/",
+   "https://en.wikipedia.org/wiki/Roland_TR-77",
+   "https://en.wikipedia.org/wiki/Rock_Your_Baby"
+  ]
+ }
+]

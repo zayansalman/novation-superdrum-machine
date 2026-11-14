@@ -1,0 +1,1477 @@
+[
+ {
+  "machine": "Roland CR-78 CompuRhythm",
+  "pack_folders": [
+   "Roland CR-78",
+   "Roland CompuRhythm-78"
+  ],
+  "maker": "Roland",
+  "year": 1978,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "BASS DRUM",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "CANCEL VOICE: BASS DRUM button",
+     "BALANCE slider (low side)",
+     "programmable (Instrument Selector)"
+    ],
+    "switch_alternate": null,
+    "notes": "Spec-sheet SOUND SOURCE #1. No per-voice level, tune or decay."
+   },
+   {
+    "label": "SNARE DRUM",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "CANCEL VOICE: SNARE DRUM button",
+     "programmable"
+    ],
+    "switch_alternate": null,
+    "notes": "Manual abbreviates it SD. VARIATION 'ROLLING-SD' adds a snare roll."
+   },
+   {
+    "label": "RIM SHOT",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "programmable"
+    ],
+    "switch_alternate": null,
+    "notes": "No cancel button."
+   },
+   {
+    "label": "HI-HAT",
+    "name": "Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "CANCEL VOICE: CYMBAL + HIGH HAT button (shared)",
+     "BALANCE slider (high side)",
+     "programmable"
+    ],
+    "switch_alternate": null,
+    "notes": "Manual abbreviates it HH. Only one hi-hat voice is listed in the manual; no separate open hi-hat."
+   },
+   {
+    "label": "CYMBAL",
+    "name": "Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "CANCEL VOICE: CYMBAL + HIGH HAT button (shared)",
+     "BALANCE slider (high side)",
+     "programmable"
+    ],
+    "switch_alternate": null,
+    "notes": "Manual abbreviates it CY."
+   },
+   {
+    "label": "MARACAS",
+    "name": "Maracas",
+    "type": "Shaker",
+    "controls": [
+     "BALANCE slider (high side)",
+     "programmable"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CLAVES",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "CANCEL VOICE: COW BELL + CLAVES button (shared)",
+     "programmable"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "COW BELL",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "CANCEL VOICE: COW BELL + CLAVES button (shared)",
+     "programmable"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HIGH BONGO",
+    "name": "High Bongo",
+    "type": "Bongo",
+    "controls": [
+     "programmable"
+    ],
+    "switch_alternate": null,
+    "notes": "Manual abbreviates it HB. VARIATION 'ROLLING-HB' adds a bongo roll. TRIG OUT 'COMBI' outputs bass drum + high bongo pulses."
+   },
+   {
+    "label": "LOW BONGO",
+    "name": "Low Bongo",
+    "type": "Bongo",
+    "controls": [
+     "programmable"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LOW CONGA",
+    "name": "Low Conga",
+    "type": "Conga",
+    "controls": [
+     "programmable"
+    ],
+    "switch_alternate": null,
+    "notes": "The only conga on the hardware."
+   },
+   {
+    "label": "TAMBOURINE",
+    "name": "Tambourine (Add Voice)",
+    "type": "Tambourine",
+    "controls": [
+     "ADD VOICE: TAMBOURINE LEVEL slider"
+    ],
+    "switch_alternate": null,
+    "notes": "Not programmable. Plays a fixed rhythm independent of the preset."
+   },
+   {
+    "label": "GUIRO",
+    "name": "Guiro (Add Voice)",
+    "type": "Perc",
+    "controls": [
+     "ADD VOICE: GUIRO LEVEL slider"
+    ],
+    "switch_alternate": null,
+    "notes": "Not programmable; fixed rhythm. The Cherry Audio emulation splits it into Low and High Guiro (two strokes)."
+   },
+   {
+    "label": "METALLIC BEAT",
+    "name": "Metallic Beat (CY HH)",
+    "type": "Other",
+    "controls": [
+     "CY HH METALLIC BEAT: METALLIC BEAT LEVEL slider"
+    ],
+    "switch_alternate": null,
+    "notes": "Not programmable. Plays with the preset's cymbal and hi-hat pattern. When the CY+HH cancel is on, it plays its own 8-beat rhythm. Roland calls it buzzy and electronic-sounding."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "Global accent. Accents are built into the presets and can be programmed via the 'Accent' position of the Instrument Selector. The ACCENT (Accent Volume) knob sets the amount (turn right for more). Not per voice.",
+  "built_in_effects": [],
+  "global_features": [
+   "34 preset patterns: 17 rhythm buttons x RHYTHM A/B switch, 20 rhythm names. From the manual's notation pages, FOX TROT/TANGO, MAMBO/CHA CHA and BEGUINE/RHUMBA appear to share a button as A/B (medium confidence, low-resolution scan).",
+   "Pressing two rhythm buttons together combines both patterns; pressing three selects two by priority.",
+   "VARIATION selector: FILL IN 1-7, BREAK (one bar of rhythm, then one bar of rest), RHYTHM (A-B), ROLLING-HB, ROLLING-SD. MEASURE selector 2/4/8/12/16. AUTO/MANUAL switch plus MANUAL button.",
+   "FADE IN and FADE OUT (long and short).",
+   "BALANCE slider: emphasises the high percussion (cymbal, hi-hat, maracas) or the low (bass drum).",
+   "CANCEL VOICE buttons: CYMBAL + HIGH HAT, BASS DRUM, SNARE DRUM, COW BELL + CLAVES.",
+   "Programmer: 4 user rhythms (I-IV), each 2 bars = 96 counts (48 per bar), up to 4 voices (tracks 1-4) per rhythm. Real-time write with the TS-1 switch or a DP-1/DP-2 pedal. The optional WS-1 step writer splits the pattern into 8, 12, 24 or 48 steps.",
+   "No flam, no shuffle control, no per-voice tuning or decay.",
+   "TRIG OUT (8 beat / 16 beat / COMBI = bass drum + high bongo), EXT CLOCK in at 48 pulses per bar (+5 to +15 V), VARIATION and START/STOP pedal jacks, mono output (high and low impedance jacks)."
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 36,
+    "sound": "Bass Drum"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 37,
+    "sound": "Rim Shot"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 38,
+    "sound": "Snare Drum"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 39,
+    "sound": "Claves"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 40,
+    "sound": "Accent (not a sound)"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 41,
+    "sound": "Low Conga"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 42,
+    "sound": "High Hat"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 43,
+    "sound": "Low Bongo"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 44,
+    "sound": "Metallic Beat"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 45,
+    "sound": "High Bongo"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 46,
+    "sound": "Tambourine"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 48,
+    "sound": "Low Guiro"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 49,
+    "sound": "Cymbal"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 50,
+    "sound": "High Guiro"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 51,
+    "sound": "Maracas"
+   },
+   {
+    "pad_or_key": "Cherry Audio CR-78 emulation default (hardware has no MIDI)",
+    "midi_note": 52,
+    "sound": "Cowbell"
+   }
+  ],
+  "pack_contents": "'Roland CR-78': 14 one-shot WAVs, flat: CR78Cowbell, CR78Guiro, CR78Hat_C, CR78Hat_O, CR78Kick, CR78Perc01-06, CR78Rimshot, CR78Snare, CR78Tamborine [sic]. Cymbal, maracas, claves, bongos, low conga and metallic beat are not named (they may be among Perc01-06; unknown). Hat_O is not a hardware voice. 'Roland CompuRhythm-78': 20 WAVs, flat: Bassdrum, Conga H/M/L, Cowbell, Hat Closed-01/02, Hat Open-01/02, Hit, Quid-01..04 (probably guiro; inferred), Snaredrum, Tambourine, Woodblock-01..04 (possibly claves; inferred). The hardware has one conga plus two bongos, so Conga H/M are probably the bongos (inferred). No rim shot, cymbal or maracas are named. No loops or MIDI.",
+  "preset_patterns": [
+   {
+    "name": "ROCK 1",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ROCK 2",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ROCK 3",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ROCK 4",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "DISCO 1",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "DISCO 2",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "WALTZ",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "SHUFFLE",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "SLOW ROCK",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "SWING",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "FOX TROT",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "TANGO",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "BOOGIE",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ENKA",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "BOSSANOVA",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "SAMBA",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "MAMBO",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "CHACHA",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "BEGUINE",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "RHUMBA",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "Blondie",
+    "title": "Heart of Glass",
+    "year": 1978,
+    "evidence": "https://articles.roland.com/?p=75463 - Roland: the opening rhythm combines the Mambo and Beguine presets, and trigger out drove an SH-5's filter for the bass (album Parallel Lines 1978, single 1979)",
+    "grid_source": null
+   },
+   {
+    "artist": "Phil Collins",
+    "title": "In the Air Tonight",
+    "year": 1981,
+    "evidence": "https://articles.roland.com/?p=75463 - Roland: uses the Disco 2 preset in its A variation; Collins' autobiography is also cited by Wikipedia",
+    "grid_source": null
+   },
+   {
+    "artist": "Daryl Hall & John Oates",
+    "title": "I Can't Go for That (No Can Do)",
+    "year": 1981,
+    "evidence": "https://articles.roland.com/?p=75463 - Roland: Rock 1 pattern; also https://www.theguardian.com/music/2018/apr/02/hall-and-oates-how-we-made-i-cant-go-for-that-no-can-do-interview",
+    "grid_source": null
+   },
+   {
+    "artist": "Ultravox",
+    "title": "Vienna",
+    "year": 1980,
+    "evidence": "https://articles.roland.com/?p=75463 - Roland: Rock 4 pattern",
+    "grid_source": null
+   },
+   {
+    "artist": "OMD",
+    "title": "Enola Gay",
+    "year": 1980,
+    "evidence": "https://en.wikipedia.org/wiki/Roland_CR-78 - lists the CR-78 on Enola Gay, citing a MusicRadar interview",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.synthmanuals.com/manuals/roland/cr-78/owners_manual/roland_cr-78_owners_manual_rvgm.pdf",
+   "https://articles.roland.com/?p=75463",
+   "https://www.polynominal.com/roland-cr78/",
+   "https://docs.cherryaudio.com/cherry-audio/instruments/cr-78/midi-sound-module",
+   "https://en.wikipedia.org/wiki/Roland_CR-78",
+   "https://www.attackmagazine.com/technique/beat-dissected/cr-78-redux/"
+  ]
+ },
+ {
+  "machine": "Roland CR-8000 CompuRhythm",
+  "pack_folders": [
+   "Roland CR-8000",
+   "Roland CompuRhythm 8000"
+  ],
+  "maker": "Roland",
+  "year": 1981,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "BD",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "VOICE LEVEL: BASS DRUM knob",
+     "programmable (BD)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "SD",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "VOICE LEVEL: TOM TOM/RIM SHOT/SNARE DRUM knob (shared)",
+     "programmable (SD)"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares a level knob, and per polynominal a sound channel, with RS, LT and HT."
+   },
+   {
+    "label": "RS",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "VOICE LEVEL: TOM TOM/RIM SHOT/SNARE DRUM knob (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": "Used in presets only (e.g. Bossa Nova); not on the program instrument selector."
+   },
+   {
+    "label": "LT",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [
+     "VOICE LEVEL: TOM TOM/RIM SHOT/SNARE DRUM knob (shared)",
+     "programmable (LT)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HT",
+    "name": "Hi Tom",
+    "type": "Tom",
+    "controls": [
+     "VOICE LEVEL: TOM TOM/RIM SHOT/SNARE DRUM knob (shared)",
+     "programmable (HT)"
+    ],
+    "switch_alternate": null,
+    "notes": "The hardware has only two toms."
+   },
+   {
+    "label": "LC",
+    "name": "Low Conga",
+    "type": "Conga",
+    "controls": [
+     "VOICE LEVEL: CONGA knob (shared)",
+     "programmable (LC)",
+     "ARRANGER: CONGA"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "MC",
+    "name": "Middle Conga",
+    "type": "Conga",
+    "controls": [
+     "VOICE LEVEL: CONGA knob (shared)",
+     "programmable (MC)",
+     "ARRANGER: CONGA"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HC",
+    "name": "Hi Conga",
+    "type": "Conga",
+    "controls": [
+     "VOICE LEVEL: CONGA knob (shared)",
+     "ARRANGER: CONGA"
+    ],
+    "switch_alternate": null,
+    "notes": "Presets and arranger only; not on the program instrument selector."
+   },
+   {
+    "label": "CB",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "VOICE LEVEL: CLAVES/COWBELL knob (shared)",
+     "programmable (CB)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "C",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "VOICE LEVEL: CLAVES/COWBELL knob (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": "Presets only. The grid row 'C' in RHUMBA and BEGUINE is inferred to be claves; the panel prints only 'CLAVES' on the level knob."
+   },
+   {
+    "label": "CY",
+    "name": "Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "VOICE LEVEL: CYMBAL/HI HAT knob (shared)",
+     "programmable (CY)",
+     "ARRANGER: CY-4\", CY-8\"",
+     "CRASH button (crash sound of cymbal on the first beat after an intro/fill-in)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "HH",
+    "name": "Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "VOICE LEVEL: CYMBAL/HI HAT knob (shared)",
+     "programmable (HH)",
+     "ARRANGER: HH-4\", HH-16\""
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "OHH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "VOICE LEVEL: CYMBAL/HI HAT knob (shared)",
+     "programmable (OHH)",
+     "ARRANGER: OPEN HH"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CP",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "VOICE LEVEL: HAND CLAP knob",
+     "programmable (CP)",
+     "ARRANGER: HAND CLAP"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   }
+  ],
+  "choke_groups": [
+   [
+    "HH",
+    "OHH",
+    "CY"
+   ],
+   [
+    "SD",
+    "RS",
+    "LT",
+    "HT"
+   ],
+   [
+    "LC",
+    "MC",
+    "HC"
+   ],
+   [
+    "CB",
+    "C"
+   ]
+  ],
+  "accent": "Global accent row (AC) programmed per step: 'The Accent can give emphasis to any other voices programmed on the same step.' The ACCENT knob sets the amount. TRIGGER OUT can also be set to fire on accents (ACC).",
+  "built_in_effects": [],
+  "global_features": [
+   "24 preset rhythms: 3 banks (BANK SELECTOR I-III) x 8 PRESET RHYTHM buttons.",
+   "Two presets can be combined by pressing two buttons. A 3-beat or shuffle rhythm combined with a 4-beat one re-arranges the 4-beat pattern.",
+   "ARRANGER (8 buttons, any combination): CY-4\" (4-beat cymbal), CY-8\" (8-beat cymbal), HH-4\", HH-16\", OPEN HH (8-beat after-beat open hat), CONGA (hi, mid and lo conga), HAND CLAP (after-beat), SHUFFLE.",
+   "SHUFFLE converts rhythms to a shuffle beat (not WALTZ, SWING 1/2, SLOW ROCK or 12-step programs).",
+   "CRASH button; REGISTER alternates two patterns.",
+   "INTRO/FILL-IN: presets 1-8 (8 = BREAK), programs 9-12; auto fill every 16/12/8/4/2 bars, or MANUAL.",
+   "Programming: 8 basic programs of 2 bars x 16 steps (12 steps per bar with shuffle). Intro/fill programs are 1 bar. Step write uses note and rest buttons.",
+   "6 VOICE LEVEL knobs: BASS DRUM; TOM TOM/RIM SHOT/SNARE DRUM; CONGA; CLAVES/COWBELL; CYMBAL/HI HAT; HAND CLAP. No per-voice tuning or decay.",
+   "Choke groups shown are voices that share a level knob (manual) and per polynominal a sound channel. Whether they actually cut each other off is unverified; HH/OHH choking is a safe Drum Rack choice.",
+   "Mono output. TRIGGER OUT +5 V 10 ms, selectable 8\"/16\"/ACC. DIN SYNC IN/OUT (CSQ-600, MC-4, JP-8). Remote jacks: START/STOP, RESTART, INTRO/FILL-IN, REGISTER. LED tempo display."
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "'Roland CR-8000': 13 WAVs: CR8000Clap, CR8000Clave, CR8000CongaHi, CR8000CongaLo, CR8000Cowbell, CR8000Cymbal, CR8000Hat_C, CR8000Hat_O, CR8000Kick, CR8000Rimshot, CR8000Snare, CR8000Tom_Hi, CR8000Tom_Lo (middle conga missing). 'Roland CompuRhythm 8000': 13 WAVs: Bassdrum, Clap, Claves, Cowbell, Cr8kmcng (probably the mid conga; inferred), Cymball [sic], Hat Closed, Hat Open, Rimshot, Snarderum [sic], Tom H, Tom M, Tom L. Tom M is not a hardware voice (only LOW and HI TOM exist). No loops or MIDI.",
+  "preset_patterns": [
+   {
+    "name": "WALTZ",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "SWING 1",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "SWING 2",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "S.ROCK (SLOW ROCK)",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "TANGO",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "HABANERA",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ENKA",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "BD-4\"",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ROCK 1",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ROCK 2",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ROCK 3",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ROCK 4 (A/B)",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ROCK 5 (A/B)",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ROCK 6",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "DISCO",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "FOX TROT",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "SAMBA 1",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "SAMBA 2",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "MERENGUE",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "MAMBO (A/B)",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "CHACHA",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "RHUMBA (A/B)",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "BEGUINE (A/B)",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "BOSSANOVA (A/B)",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ARRANGER: OPEN HH",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ARRANGER: HAND CLAP",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ARRANGER: CONGA",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "ARRANGER: CY-4\", CY-8\", HH-4\", HH-16\", SHUFFLE",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   },
+   {
+    "name": "INTRO/FILL-IN 1-8 (8 = BREAK)",
+    "source": "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.synthmanuals.com/manuals/roland/cr-8000/owners_manual/roland_cr-8000_owners_manual_rvgm.pdf",
+   "https://www.polynominal.com/roland-cr8000/",
+   "https://www.vintagesynth.com/roland/cr-8000",
+   "https://support.roland.com/hc/en-us/articles/201963649-CR-8000-Technical-Specifications"
+  ]
+ },
+ {
+  "machine": "Roland CR-1000 CompuRhythm (Digital Drummer)",
+  "pack_folders": [
+   "Roland CompuRhythm 1000"
+  ],
+  "maker": "Roland",
+  "year": 1986,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "unknown",
+    "name": "Kick",
+    "type": "Kick",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Sound names and order are from a secondary source (polynominal); panel labels unknown."
+   },
+   {
+    "label": "unknown",
+    "name": "Snare",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "unknown",
+    "name": "Rimshot",
+    "type": "Rim",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "unknown",
+    "name": "Clap",
+    "type": "Clap",
+    "controls": [
+     "clap variation (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "unknown",
+    "name": "Tom (x3)",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Three toms."
+   },
+   {
+    "label": "unknown",
+    "name": "Timbale",
+    "type": "Timbale",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "unknown",
+    "name": "Hi-hat closed",
+    "type": "Closed Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Source says 'hh (open/close)'."
+   },
+   {
+    "label": "unknown",
+    "name": "Hi-hat open",
+    "type": "Open Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "unknown",
+    "name": "Crash",
+    "type": "Crash",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "unknown",
+    "name": "Cymbal",
+    "type": "Ride",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Pack calls it Ride."
+   },
+   {
+    "label": "unknown",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Listed by polynominal but absent from the pack."
+   },
+   {
+    "label": "unknown",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Listed by polynominal but absent from the pack (the pack has a Cowbell instead)."
+   },
+   {
+    "label": "unknown",
+    "name": "Conga (x2)",
+    "type": "Conga",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "High and low."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "Accent button and accent level control, per a secondary source. Exact behaviour unknown.",
+  "built_in_effects": [],
+  "global_features": [
+   "24 fixed ROM preset rhythms; no pattern programming.",
+   "Variation controls: shuffle groove amount, accent, intro/ending, fill-in, rhythm variation, accent level, clap variation.",
+   "16 PCM sounds (8-bit, 25 kHz, 128 kb ROM), 8-voice polyphony; described as a preset version of the TR-505 sound set.",
+   "MIDI IN/THRU (note on/off only); tempo 40-240 bpm or MIDI clock.",
+   "Mono out; pedal inputs for start/stop, fill-in, restart; 9 V DC."
+  ],
+  "sound_bank": {
+   "total": 16,
+   "categories": [],
+   "ordered_list": [],
+   "list_source": "https://www.polynominal.com/roland-cr1000/ (unofficial list: kick, snare, rimshot, clap, tom x3, timbale, hh open/close, crash, cymbal, tambourine, claves, conga x2)"
+  },
+  "default_kit": [],
+  "pack_contents": "15 WAVs, flat: Bassdrum, Clap, Conga H, Conga L, Cowbell, Crash, Hat Closed, Hat Open, Ride, Rimshot, Snaredrum, Timbale, Tom H, Tom M, Tom L. No tambourine or claves; the cowbell is not in the secondary source's list. No loops or MIDI.",
+  "preset_patterns": [
+   {
+    "name": "rock (x4)",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "disco (x2)",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "16 beat (x2)",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "swing (x2)",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "shuffle",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "ballad",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "reggae",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "tango",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "samba (x2)",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "merengue",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "mambo",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "chacha",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "rumba",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "beguine",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   },
+   {
+    "name": "bossanova",
+    "source": "https://www.polynominal.com/roland-cr1000/"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.polynominal.com/roland-cr1000/"
+  ]
+ },
+ {
+  "machine": "Roland R-5 Human Rhythm Composer",
+  "pack_folders": [
+   "Roland R-5"
+  ],
+  "maker": "Roland",
+  "year": 1989,
+  "kind": "digital drum machine",
+  "voices": [],
+  "choke_groups": [],
+  "accent": "No separate accent documented. Dynamics come from velocity; the R-5's pad sensitivity is not verified. 8 Feel Patches vary feel; nuance carried over from the R-8.",
+  "built_in_effects": [],
+  "global_features": [
+   "68 internal + 26 copy instruments (same counts as the R-8); 20 internal sounds differ from the R-8 (e.g. electronic kick and snare, jazz snare, rimshot 3, electronic and jazz toms, timbale, bongo, surdo, blast).",
+   "Per-instrument pitch, decay and nuance (nuance and feel parameters carried over from the R-8).",
+   "8 Feel Patches.",
+   "32 preset and 100 user patterns; 6 songs.",
+   "Quantise limited to 1/96; lower tempo limit 40 bpm; no micro/macro timing shift.",
+   "No RAM/ROM card slots (cassette data storage via the tape sync sockets).",
+   "Fewer individual outputs than the R-8 (the review implies 4).",
+   "Assign/exclusive (choke) groups probably work as on the R-8 (inferred)."
+  ],
+  "sound_bank": {
+   "total": 68,
+   "categories": [
+    {
+     "name": "Internal instruments",
+     "count": 68,
+     "range": "unknown"
+    },
+    {
+     "name": "Copy instruments (user-edited copies of internal sounds)",
+     "count": 26,
+     "range": "unknown"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.manualslib.com/manual/691657/Roland-R-5.html (Owner's Manual 'Instrument List' on p.229; not accessible in this session)"
+  },
+  "default_kit": [],
+  "pack_contents": "64 WAVs, flat, named 'R-5 <Instrument Name>': 10 kicks (Double Head Kick 1/2, Dry Kick 1/2, Electronic Kick, Mondo Kick, Room Ambient Kick 1/2, Solid Kick, Wood Kick); 15 snares (Back, Brush Hit, Brush Roll, Electronic, Fat, Impact, Jazz, Open, Ouchi, Reverb, Rimshot Snare 1-3, Tight, Wood) + Side Stick; 13 toms (Dry 1-3, Electronic 1-3, FX, Jazz 1-3, Room Ambient 1-3); 3 hats (Closed Hihat, Open Hihat, Pedal Closed Hat); 6 cymbals (Back Cymbal, Crash, Mallet Crash, Ride, 'Ride Bell Cymbal' and 'Ride Cymbal Bell', possibly duplicates); 808 Hand Clap; 15 percussion (Agogo, Blast, Bongo, Cabasa, Can, Claves, Cowbell, Mute High Conga, Open Low Conga, Shaker, Slap High Conga, Surdo, Tambourine, Timbale, Whistle). 64 of 68 ROM sounds; 'Back' = reversed (inferred). No loops or MIDI.",
+  "preset_patterns": [
+   {
+    "name": "32 factory preset patterns (names not found)",
+    "source": "https://www.muzines.co.uk/articles/roland-r5/102"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/roland-r5/102",
+   "https://support.roland.com/hc/en-us/articles/201937679-R-5-Technical-Specifications",
+   "https://www.manualslib.com/manual/691657/Roland-R-5.html"
+  ]
+ },
+ {
+  "machine": "Roland R-8 Human Rhythm Composer",
+  "pack_folders": [
+   "Roland R-8",
+   "Roland R8"
+  ],
+  "maker": "Roland",
+  "year": 1989,
+  "kind": "digital drum machine",
+  "voices": [],
+  "choke_groups": [],
+  "accent": "No accent button. Dynamics come from 16 velocity- and pressure-sensitive pads, with 8 velocity sense curves per instrument. 8 Feel Patches (Groove + Random) vary velocity, pitch, nuance and decay.",
+  "built_in_effects": [],
+  "global_features": [
+   "68 internal instruments (16-bit), 26 copy instruments, 26 external instruments from an SN-R8 ROM card.",
+   "Per instrument: Pitch ±4800 cents, Decay, Nuance (strike position), velocity curve 1-8, assign mode Mono/Poly/Exclusive (exclusive groups 1-8, e.g. for open/closed hats), output and pan (7 stereo positions or 8 separate outs).",
+   "Pad offsets for pitch, decay, nuance and pan; Roll and Flam pads; Macros.",
+   "Pad Banks: 5 kits x 16 pads (80 instruments at once); one review says 6.",
+   "32 preset and 100 user patterns (up to 99 bars), 10 songs, 32 user kits.",
+   "Quantise 1/4 to 1/96, micro-shift to 1/384; tempo 20-250 bpm; 32-voice polyphony; 4-part multitimbral.",
+   "8 individual outputs + stereo + headphones; MIDI In/Out/Thru; FSK tape sync.",
+   "ROM cards SN-R8-01..11: Contemporary Percussion, Jazz Brush, Sound Effects, Electronic, Jazz, Ethnic Percussion, Mallet, Dry, Power Drums U.S.A., Dance, Metallic Percussion."
+  ],
+  "sound_bank": {
+   "total": 68,
+   "categories": [
+    {
+     "name": "Bass drums",
+     "count": 9,
+     "range": "unknown"
+    },
+    {
+     "name": "Snares (H&SR count; MT says 14 snares)",
+     "count": 12,
+     "range": "unknown"
+    },
+    {
+     "name": "Side sticks",
+     "count": 2,
+     "range": "unknown"
+    },
+    {
+     "name": "Toms",
+     "count": 13,
+     "range": "unknown"
+    },
+    {
+     "name": "Hi-hats (incl. pedal-closed)",
+     "count": 3,
+     "range": "unknown"
+    },
+    {
+     "name": "Cymbals",
+     "count": 5,
+     "range": "unknown"
+    },
+    {
+     "name": "Hand clap (TR-808 style)",
+     "count": 1,
+     "range": "unknown"
+    },
+    {
+     "name": "Latin/ethnic percussion (agogo, cowbell, congas, clave, taiko...)",
+     "count": 13,
+     "range": "unknown"
+    },
+    {
+     "name": "Whistles",
+     "count": 2,
+     "range": "unknown"
+    },
+    {
+     "name": "Other: reversed snare/tom/cymbal, effects (e.g. Surf, Wheel1), Rest (count = remainder, inferred)",
+     "count": 8,
+     "range": "unknown"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.muzines.co.uk/articles/roland-r8/1373 (category counts only; official ordered list is in the Owner's Manual, https://www.manualslib.com/manual/691656/Roland-R-8.html, not accessible in this session)"
+  },
+  "default_kit": [],
+  "pack_contents": "'Roland R-8': 243 WAVs + 243 Ableton .asd analysis files, flat, named R8<Name><nn>: Kick01-33, Snare01-46, Tom01-38 + TomB/TomE/TomH2/TomHeavy, Rim01-05, Brush01-06, Hat_C01-05, Hat_O01-06, Hat_P01, Crash01-09, Ride01-08, Splash01-02, Chinese, CymbHand, FingerCym, Clap01-02, FingerSnap, plus 74 percussion/FX files (Agogo, Bells, Block1-3, Bongo, Cabasa, Castanet, Caxixi, Conga Hi/Lo/Mute, Cow1-2, Cuica1-2, Daiko1-3, Darbuka1-2, Djembe1-3, Gong, Guiro1-2, Kalimba, Maraca1-3, Pandiero1-3, Surdo1-2, Tabla1-4, Taiko, Talk1-2, Timbale Hi/Lo, Timpani, Triangle, Tsuzumi Hi/Lo, Vibra, Whistle1-2, Thriller, Ohkawa, Satellite, Spark, Noise...). 243 is far more than 68, so the pack evidently includes SN-R8 card and/or R-8 MKII sounds (inferred). 'Roland R8': 52 WAVs in 5 subfolders: Bassdrums (Bassdrum-01..07), CYMBALS (Crash, Hat Closed, Hat Open, Hat Pedal, Ride-01/02), Percussion (Bell-01/02, Bongo H/L, Cabasa1/2, Clap, Conga, Cowbell, Metal, Tambourine, Whistle, Wood Block), SNARES (Rimshot1/2, Snaredrum-01..12), Toms (Tom H/M/L-01..04). No loops or MIDI.",
+  "preset_patterns": [
+   {
+    "name": "32 factory preset patterns (names not found)",
+    "source": "https://www.muzines.co.uk/articles/roland-r8/2188"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/roland-r8/2188",
+   "https://www.muzines.co.uk/articles/roland-r8/1373",
+   "https://support.roland.com/hc/en-us/articles/201940509-R-8-Technical-Specifications",
+   "https://en.wikipedia.org/wiki/Roland_R-8",
+   "https://soundprogramming.net/drum-machines/roland/roland-r-8",
+   "https://www.vintagesynth.com/roland/r-8"
+  ]
+ },
+ {
+  "machine": "Roland DDR-30 Digital Drums",
+  "pack_folders": [
+   "Roland Digital Drum Brain DDR-30"
+  ],
+  "maker": "Roland",
+  "year": 1985,
+  "kind": "drum sound module",
+  "voices": [
+   {
+    "label": "Bass Drum",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "Attack",
+     "Decay",
+     "Pitch",
+     "EQ",
+     "Bend",
+     "Gate"
+    ],
+    "switch_alternate": null,
+    "notes": "XLR trigger input (PD-10/PD-11 kick pad) and its own individual output. The bass-to-tom-4 order comes from prototype knob labels that were later removed (Wikipedia). 16 parameters in total across these edit groups."
+   },
+   {
+    "label": "Snare",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "Attack",
+     "Decay",
+     "Pitch",
+     "EQ",
+     "Bend",
+     "Gate"
+    ],
+    "switch_alternate": null,
+    "notes": "PD-20 pad input; individual output."
+   },
+   {
+    "label": "Tom 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "Attack",
+     "Decay",
+     "Pitch",
+     "EQ",
+     "Bend",
+     "Gate"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Tom 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "Attack",
+     "Decay",
+     "Pitch",
+     "EQ",
+     "Bend",
+     "Gate"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Tom 3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [
+     "Attack",
+     "Decay",
+     "Pitch",
+     "EQ",
+     "Bend",
+     "Gate"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Tom 4",
+    "name": "Tom 4",
+    "type": "Tom",
+    "controls": [
+     "Attack",
+     "Decay",
+     "Pitch",
+     "EQ",
+     "Bend",
+     "Gate"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   }
+  ],
+  "choke_groups": [],
+  "accent": "Unknown. Dynamics presumably follow pad or MIDI velocity (not verified).",
+  "built_in_effects": [],
+  "global_features": [
+   "6 voices with 6 XLR pad inputs; also triggers from MIDI (e.g. Octapad/Pad-8). MIDI In/Out/Thru.",
+   "Four 12-bit PCM samples per voice (Wikipedia), shaped by 16 parameters in the Attack, Decay, Pitch, EQ, Bend and Gate groups.",
+   "48 preset patches (8 per voice) and 32 drum kits; M-16C memory cartridge.",
+   "Mix section: volume, treble and bass for all voices; no panning.",
+   "Stereo main outs (R doubles as mono) + 6 individual voice outs; bank-shift and set-shift footswitches.",
+   "Year conflict: Wikipedia says launched at Summer NAMM 1985 ($1,195); soundprogramming says 1984."
+  ],
+  "sound_bank": {
+   "total": 48,
+   "categories": [
+    {
+     "name": "Bass drum",
+     "count": 8,
+     "range": "unknown"
+    },
+    {
+     "name": "Snare drum",
+     "count": 8,
+     "range": "unknown"
+    },
+    {
+     "name": "Toms (4 voices x 8)",
+     "count": 32,
+     "range": "unknown"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://soundprogramming.net/drum-machines/roland/roland-ddr-30 (counts only; waveform names not found)"
+  },
+  "default_kit": [],
+  "pack_contents": "24 WAVs, flat: Bassdrum-01..08, Snaredrum-01..08, Tom-01..08. Plausibly the 8 factory patches each for bass drum, snare and one tom voice (inferred). No loops or MIDI.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Roland_DDR-30",
+   "https://soundprogramming.net/drum-machines/roland/roland-ddr-30",
+   "https://www.moderndrummer.com/2018/06/on-the-beat-with-alister-score-of-a-flock-of-seagulls/"
+  ]
+ },
+ {
+  "machine": "Roland MC-303 Groovebox",
+  "pack_folders": [
+   "Roland MC-303"
+  ],
+  "maker": "Roland",
+  "year": 1996,
+  "kind": "sampler/groovebox",
+  "voices": [],
+  "choke_groups": [],
+  "accent": "No drum accent documented. Drum step recording offers four editable velocity values; the arpeggiator has an Accent Rate.",
+  "built_in_effects": [
+   {
+    "name": "Reverb/Delay",
+    "type": "reverb",
+    "notes": "One of two effects available per sound (reverb or delay types). Whether it applies to the rhythm part is not stated."
+   },
+   {
+    "name": "Chorus/Flanger",
+    "type": "other",
+    "notes": "Second per-sound effect."
+   },
+   {
+    "name": "Resonant low-pass filter (per part)",
+    "type": "filter",
+    "notes": "Cutoff and resonance, with a 3-stage envelope and LFO."
+   },
+   {
+    "name": "Low Boost",
+    "type": "eq",
+    "notes": "Rear-panel knob boosting the low end (kick / TR-808 bass)."
+   }
+  ],
+  "global_features": [
+   "8-track pattern sequencer: 1 rhythm part + 7 melodic parts; up to 32 bars per pattern.",
+   "12 rhythm sets, drawing on TR-909, TR-808, CR-78 (and per Wikipedia TR-606) sounds plus electro, techno, jungle, house, drum & bass and breakbeat kits.",
+   "Per part: filter cutoff and resonance, 3-stage envelope (attack, decay, release), LFO, portamento. Edits are saved with the pattern.",
+   "Grid, Shuffle and Groove quantize.",
+   "RPS: 30 banks x 16 phrases on the 16 keys (up to 8 at once).",
+   "Arpeggiator: 34 styles, Accent Rate and Shuffle Rate.",
+   "133 preset patterns (SOS; VSE says 120), 50 user patterns, 300 variations, 10 songs; about 14,000 notes.",
+   "28-voice polyphony; 16-key micro keyboard doubles as the drum step sequencer (Shift + pad selects a drum).",
+   "MIDI In/Out (no Thru); stereo out."
+  ],
+  "sound_bank": {
+   "total": 448,
+   "categories": [
+    {
+     "name": "Synth bass (incl. TB-303-style)",
+     "count": 40,
+     "range": "unknown"
+    },
+    {
+     "name": "Synth lead",
+     "count": 35,
+     "range": "unknown"
+    },
+    {
+     "name": "Synth pad",
+     "count": 33,
+     "range": "unknown"
+    },
+    {
+     "name": "Rhythm sets (drum kits)",
+     "count": 12,
+     "range": "unknown"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.roland.com/global/support/by_product/mc-303/owners_manuals/ (Owner's Manual holds the tone and rhythm-set lists; not accessible in this session)"
+  },
+  "default_kit": [],
+  "pack_contents": "148 WAVs in 6 subfolders with 8.3-style names: Bassdrums (16: 606bd1-3, Afrofeet, Blipbd, Cavebd/Cavebd2, Distbd1-3, Drybd1-3, Elecbd, Junglebd/Jnglebd2), Cymbals (14: 606ch, 707ch, 707oh, 78ch, 78oh, Asiangon, Realch1/2, Realoh1/2, Ridecymb/Ridecym2, Roomch, Roomoh), Misc (9: Fnkygost, Fxsd1/2, Hrtbeat, Mgblip1, Mutecuic, Opencuic, Slap, Whitnoiz), Percussion (59, e.g. 626shake, 707clap, 78cowbel, 78guiro, 78metalb, 78tamb, agogos, bongos, congas, timbales, hyoshigi, triangles, surdo, pandeiro, tabla, claps, shakers, whistles), Snaredrums (32: 606sd1-3, 78sd, 80809sd, Rimshot, Tinyrim2-4, Jnglesd1-4...), Toms (18: 78hi/mid/lotom, acoustic, electronic and synth toms, Opensurd, Udo). The 606/707/626/78 prefixes indicate TR-606, TR-707, TR-626 and CR-78-derived sounds (inferred from names; the CR-78 itself has no toms). No loops or MIDI.",
+  "preset_patterns": [
+   {
+    "name": "133 preset patterns (trance, Goa trance, techno, house, hip hop, jazz funk, jungle, trip hop, salsa, samba); names not found",
+    "source": "https://www.soundonsound.com/reviews/roland-mc303"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.soundonsound.com/reviews/roland-mc303",
+   "https://en.wikipedia.org/wiki/Roland_MC-303",
+   "https://soundprogramming.net/sequencers/roland/roland-mc-303/",
+   "https://www.vintagesynth.com/roland/mc-303",
+   "https://www.roland.com/de/products/mc-303/",
+   "https://theprodigy.info/equipment/roland-mc-303-groovebox.html"
+  ]
+ },
+ {
+  "machine": "Roland MC-09 PhraseLab",
+  "pack_folders": [
+   "Roland MC09"
+  ],
+  "maker": "Roland",
+  "year": 2002,
+  "kind": "sampler/groovebox",
+  "voices": [
+   {
+    "label": "unknown",
+    "name": "Kick (inferred)",
+    "type": "Kick",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "The rhythm instruments are not named in Roland sources. Inferred from the pack's 10 x Kick/Snare/HatC/HatO matching the 10 preset rhythm tones."
+   },
+   {
+    "label": "unknown",
+    "name": "Snare (inferred)",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Inferred."
+   },
+   {
+    "label": "unknown",
+    "name": "Closed Hat (inferred)",
+    "type": "Closed Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Inferred. With only 3-voice rhythm polyphony, the closed and open hat may share a voice (inferred, unverified)."
+   },
+   {
+    "label": "unknown",
+    "name": "Open Hat (inferred)",
+    "type": "Open Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Inferred."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "The step sequencer emulates TB-303 accents and slides. Accent behaviour for the rhythm part is unknown.",
+  "built_in_effects": [
+   {
+    "name": "Filter",
+    "type": "filter",
+    "notes": "One of four built-in effect algorithms; sequencer-controllable."
+   },
+   {
+    "name": "Isolator",
+    "type": "eq",
+    "notes": "Built-in effect algorithm."
+   },
+   {
+    "name": "Phaser",
+    "type": "other",
+    "notes": "Built-in effect algorithm."
+   },
+   {
+    "name": "Slicer",
+    "type": "other",
+    "notes": "Built-in effect algorithm."
+   },
+   {
+    "name": "Overdrive / Distortion / Ring Modulator",
+    "type": "other",
+    "notes": "Lead sound group effects. 30 effect types in total."
+   }
+  ],
+  "global_features": [
+   "Analog-modeling DSP synth: Lead (1 voice), Bass (1 voice), Rhythm (3 voices); 128 lead, 128 bass and 10 rhythm preset tones.",
+   "Analog-type rhythm sounds; TR-REC drum programming.",
+   "Step sequencer up to 32 steps (16ths), TB-303-style slides and accents; tempo 40-240 bpm.",
+   "Preset patterns: Lead 40, Bass 60, Rhythm 100, Effect 30; 20 user patterns.",
+   "4-track audio looper / phrase sampler (mono phrases up to 6 s); Chop splits a loop into 16 slices.",
+   "SmartMedia card: 50 patterns, loops or full-data sets; WAV Convert app.",
+   "24-bit AD/DA at 44.1 kHz; RCA in/out; MIDI In/Out; 6 control knobs."
+  ],
+  "sound_bank": {
+   "total": 10,
+   "categories": [
+    {
+     "name": "Rhythm preset tones",
+     "count": 10,
+     "range": "unknown"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.roland.com/us/products/mc-09/specifications/ (count only)"
+  },
+  "default_kit": [],
+  "pack_contents": "40 WAVs, flat: 'MC09 Kick01-10', 'MC09 Snare01-10', 'MC09 HatC_01-10', 'MC09 HatO_01-10'. Probably one set per rhythm preset tone (inferred). No loops or MIDI.",
+  "preset_patterns": [
+   {
+    "name": "100 Rhythm preset patterns (names not found)",
+    "source": "https://www.roland.com/us/products/mc-09/specifications/"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.roland.com/us/products/mc-09/specifications/",
+   "https://www.roland.com/us/products/mc-09/features/",
+   "https://en.wikipedia.org/wiki/Roland_MC-09"
+  ]
+ },
+ {
+  "machine": "Roland MC-202 MicroComposer",
+  "pack_folders": [
+   "Roland MC-202"
+  ],
+  "maker": "Roland",
+  "year": 1983,
+  "kind": "synth (drums made by synthesis)",
+  "voices": [
+   {
+    "label": "VCO/VCF/VCA",
+    "name": "Monophonic synth voice",
+    "type": "Bass",
+    "controls": [
+     "VCO: sawtooth, square/pulse-width, sub-oscillator",
+     "VCF (24 dB resonant low-pass): cutoff, resonance, envelope, modulation, keyboard",
+     "VCA: envelope or gate",
+     "ADSR envelope",
+     "LFO (sine): rate, delay"
+    ],
+    "switch_alternate": null,
+    "notes": "No drum voices and no noise generator (unlike the SH-101). Inferred: kick, tom and click sounds come from a low VCO note or high-resonance filter with fast decay plus step accent. Snares and hats need an external noise source or a DIN-synced drum machine."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "Per-step accent (and slide) in the sequencer, similar to the TB-303.",
+  "built_in_effects": [],
+  "global_features": [
+   "2-channel sequencer: channel 1 plays the internal synth, channel 2 drives an external synth via CV/gate (two sets of CV/gate jacks).",
+   "Accent and slide per note.",
+   "DIN sync in/out (master or slave with the TB-303/TR-808); FSK tape sync.",
+   "No drum voices; drums come from a synced drum machine or from synthesis tricks (inferred)."
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "9 WAVs, flat: Bassdrum-01..05, Click, Tom H-02..04 (no Tom H-01). Synthesized percussion recorded from the synth voice (inferred). No loops or MIDI.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Roland_MC-202",
+   "https://www.vintagesynth.com/roland/mc-202"
+  ]
+ }
+]

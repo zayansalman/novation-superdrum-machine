@@ -1,0 +1,3856 @@
+[
+ {
+  "machine": "Casio RZ-1 Digital Sampling Rhythm Composer",
+  "pack_folders": [
+   "Casio RZ-1",
+   "Casio RZ1"
+  ],
+  "maker": "Casio",
+  "year": 1986,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "Tom 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "level fader (own fader/output, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label and position follow the order listed by VSE and Polynominal; the printed panel legend and left-to-right order are unverified (IM review describes voice buttons along the bottom but not their order). Which of Tom 1/2/3 is high, mid or low is undocumented; pack files are 'Tom H/M/L' and 'RZ1TomHi/Mid/Lo'."
+   },
+   {
+    "label": "Tom 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "level fader (own fader/output, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label and position follow the order listed by VSE and Polynominal; the printed panel legend and left-to-right order are unverified (IM review describes voice buttons along the bottom but not their order)."
+   },
+   {
+    "label": "Tom 3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [
+     "level fader (own fader/output, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label and position follow the order listed by VSE and Polynominal; the printed panel legend and left-to-right order are unverified (IM review describes voice buttons along the bottom but not their order)."
+   },
+   {
+    "label": "Snare",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "level fader shared with Rim"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares a fader and individual output with Rim (VSE). Label and position follow the order listed by VSE and Polynominal; the printed panel legend and left-to-right order are unverified (IM review describes voice buttons along the bottom but not their order)."
+   },
+   {
+    "label": "Kick",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "level fader (own fader/output, inferred)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label and position follow the order listed by VSE and Polynominal; the printed panel legend and left-to-right order are unverified (IM review describes voice buttons along the bottom but not their order)."
+   },
+   {
+    "label": "Rim",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "level fader shared with Snare"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares fader/output with Snare (VSE)."
+   },
+   {
+    "label": "Open HH",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "level fader shared with Closed HH"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares fader/output with Closed HH (IM review, VSE). Closed-cuts-open choke is inferred, not documented."
+   },
+   {
+    "label": "Closed HH",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "level fader shared with Open HH"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares fader/output with Open HH."
+   },
+   {
+    "label": "Ride",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "level fader shared with Clap"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares fader/output with Clap (VSE)."
+   },
+   {
+    "label": "Crash",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "level fader shared with Cowbell"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares fader/output with Cowbell (VSE)."
+   },
+   {
+    "label": "Clap",
+    "name": "Claps",
+    "type": "Clap",
+    "controls": [
+     "level fader shared with Ride"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares fader/output with Ride (VSE)."
+   },
+   {
+    "label": "Cowbell",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "level fader shared with Crash"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares fader/output with Crash (VSE)."
+   },
+   {
+    "label": "Sample 1",
+    "name": "User sample pad 1",
+    "type": "Other",
+    "controls": [
+     "Sample Level fader (record level)",
+     "rear tone pot shared with Sample 2",
+     "fader/output shared with Sample 2"
+    ],
+    "switch_alternate": null,
+    "notes": "RAM sample: 0.2 s at 20 kHz, or combined 0.4 s / 0.8 s. Grey button. No pack file."
+   },
+   {
+    "label": "Sample 2",
+    "name": "User sample pad 2",
+    "type": "Other",
+    "controls": [
+     "rear tone pot shared with Sample 1",
+     "fader/output shared with Sample 1"
+    ],
+    "switch_alternate": null,
+    "notes": "No pack file."
+   },
+   {
+    "label": "Sample 3",
+    "name": "User sample pad 3",
+    "type": "Other",
+    "controls": [
+     "rear tone pot shared with Sample 4",
+     "fader/output shared with Sample 4"
+    ],
+    "switch_alternate": null,
+    "notes": "No pack file."
+   },
+   {
+    "label": "Sample 4",
+    "name": "User sample pad 4",
+    "type": "Other",
+    "controls": [
+     "rear tone pot shared with Sample 3",
+     "fader/output shared with Sample 3"
+    ],
+    "switch_alternate": null,
+    "notes": "No pack file."
+   }
+  ],
+  "choke_groups": [
+   [
+    "Open HH",
+    "Closed HH"
+   ]
+  ],
+  "accent": "Purple ACCENT and MUTE buttons sit left of the voice buttons (IM review). Each sound has three dynamic levels: Accent, Normal, Mute (Polynominal). The exact accent gain and programming method are not documented in sources found; inferred per-step, per-instrument.",
+  "built_in_effects": [
+   {
+    "name": "Sample tone pots",
+    "type": "filter",
+    "notes": "Two rear mini-pots set the low-pass tone of the user samples only (one pot per pair of samples). No effects on the preset voices; Polynominal: no built-in effects."
+   }
+  ],
+  "global_features": [
+   "No pitch, envelope or pan control on any voice (Music Technology 'Beauty and the Beat')",
+   "10 voice faders for 16 voices, plus Sample Level fader; 10 individual outs + L/R (IM review); Polynominal says 12 separate outputs (conflict)",
+   "Sampling: 20 kHz bandwidth, 4 x 0.2 s, 2 x 0.4 s or 1 x 0.8 s; mic/line input; samples kept at power-off",
+   "Sequencer: 99 (IM) or 100 (VSE/Polynominal) patterns, 20 songs; tempo 40-250 BPM; quantise ('Auto-compensate') 1/2 to 1/96 incl. triplets; real-time and step entry",
+   "MIDI In/Out/Thru on any channel; fixed note numbers following the Yamaha drum-machine standard (numbers not given in sources found); MIDI clock only, no DIN sync",
+   "16-voice polyphony (Polynominal)",
+   "Swing/shuffle and flam: not documented"
+  ],
+  "sound_bank": {
+   "total": 12,
+   "categories": [
+    {
+     "name": "Preset PCM drum sounds (ROM)",
+     "count": 12,
+     "range": "n/a (ROM order not published in sources found)"
+    },
+    {
+     "name": "User sample pads (RAM)",
+     "count": 4,
+     "range": "Sample 1-4"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.vintagesynth.com/casio/rz-1"
+  },
+  "default_kit": [],
+  "pack_contents": "'Casio RZ-1': 12 stereo 16-bit/44.1 kHz WAVs named by sound (Bassdrum, Snaredrum, Rim Shot, Tom H, Tom M, Tom L, Hat Closed, Hat Open, Clap, Cowbell, Ride, Crash). 'Casio RZ1': the same 12 voices as mono 16-bit/44.1 kHz (RZ1Kick, RZ1Snare, RZ1Rimshot, RZ1TomHi, RZ1TomMid, RZ1TomLo, RZ1Hat_C, RZ1Hat_O, RZ1Clap, RZ1Cowbell, RZ1Ride, RZ1Crash). Two separate captures of the full 12-voice factory set; lengths differ slightly. No user-sample content, no loops, no gaps.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/casio-digital-sampling-rhythm-composer-rz-1/5164",
+   "https://www.muzines.co.uk/articles/beauty-and-the-beat/9279",
+   "https://www.vintagesynth.com/casio/rz-1",
+   "https://www.polynominal.com/sample-packs/casio-rz1/",
+   "https://www.circuitbenders.co.uk/newsarchive/RZ1.html",
+   "https://attackmagazine.com/features/ten-of-the-best-hardware-drum-machines/3",
+   "https://reverb.com/news/the-casio-rz-1-an-entry-level-sampler-behind-top-tier-beats"
+  ]
+ },
+ {
+  "machine": "Casio SK-1 sampling keyboard (built-in rhythm section)",
+  "pack_folders": [
+   "Casio SK-1",
+   "Casio SK1"
+  ],
+  "maker": "Casio",
+  "year": 1985,
+  "kind": "sampler/groovebox",
+  "voices": [
+   {
+    "label": "Bassdrum",
+    "name": "Bass Drum",
+    "type": "Kick",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Label taken from the pack file name; the hardware label and how this sound is triggered (rhythm patterns only, keys or pads) are undocumented in sources found. Mono copy: SK1Kick.wav."
+   },
+   {
+    "label": "Snaredrum",
+    "name": "Snare Drum",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Label taken from the pack file name; the hardware label and how this sound is triggered (rhythm patterns only, keys or pads) are undocumented in sources found. Mono copy: SK1Snare.wav."
+   },
+   {
+    "label": "Hat Closed",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Label taken from the pack file name; the hardware label and how this sound is triggered (rhythm patterns only, keys or pads) are undocumented in sources found. Mono copy: SK1Hat_C.wav. Choke with Hat Open inferred."
+   },
+   {
+    "label": "Hat Open",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Label taken from the pack file name; the hardware label and how this sound is triggered (rhythm patterns only, keys or pads) are undocumented in sources found. Mono copy: SK1Hat_O.wav."
+   },
+   {
+    "label": "Tom H",
+    "name": "High Tom",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Label taken from the pack file name; the hardware label and how this sound is triggered (rhythm patterns only, keys or pads) are undocumented in sources found. Mono copy: SK1Tom_Hi.wav."
+   },
+   {
+    "label": "Tom L",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Label taken from the pack file name; the hardware label and how this sound is triggered (rhythm patterns only, keys or pads) are undocumented in sources found. Mono copy: SK1Tom_Lo.wav."
+   }
+  ],
+  "choke_groups": [
+   [
+    "Hat Closed",
+    "Hat Open"
+   ]
+  ],
+  "accent": "none documented",
+  "built_in_effects": [],
+  "global_features": [
+   "11 preset rhythms (VSE)",
+   "8 preset tones: PCM piano, brass ensemble, trumpet, synth drums, human voice; synth flute, pipe organ, jazz organ (VSE)",
+   "One sample at a time: 8-bit, 9.38 kHz, about 1.4 s; mic or line in; loop and envelope select; memory clears at power-off (VSE)",
+   "4-voice polyphony, 32 mini keys, 13 envelope shapes, no filter, no VCA, no MIDI, no effects (VSE)",
+   "Sequencer: 100 polyphonic steps or 99-step chord sequence, plus 198 steps for each of two solo voices (VSE)"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "'Casio SK-1': 6 stereo 16-bit/44.1 kHz WAVs (Bassdrum, Snaredrum, Hat Closed, Hat Open, Tom H, Tom L). 'Casio SK1': the same 6 sounds as mono (SK1Kick, SK1Snare, SK1Hat_C, SK1Hat_O, SK1Tom_Hi, SK1Tom_Lo). Two captures of the same set; no loops, no tones, no sampled content.",
+  "preset_patterns": [
+   {
+    "name": "Disco",
+    "source": "https://www.vintagesynth.com/casio/sk-1"
+   },
+   {
+    "name": "Rock",
+    "source": "https://www.vintagesynth.com/casio/sk-1"
+   },
+   {
+    "name": "Pops",
+    "source": "https://www.vintagesynth.com/casio/sk-1"
+   },
+   {
+    "name": "March",
+    "source": "https://www.vintagesynth.com/casio/sk-1"
+   },
+   {
+    "name": "Samba",
+    "source": "https://www.vintagesynth.com/casio/sk-1"
+   },
+   {
+    "name": "Bossa Nova",
+    "source": "https://www.vintagesynth.com/casio/sk-1"
+   },
+   {
+    "name": "Rhumba",
+    "source": "https://www.vintagesynth.com/casio/sk-1"
+   },
+   {
+    "name": "4 Beat",
+    "source": "https://www.vintagesynth.com/casio/sk-1"
+   },
+   {
+    "name": "Swing",
+    "source": "https://www.vintagesynth.com/casio/sk-1"
+   },
+   {
+    "name": "Slow Rock",
+    "source": "https://www.vintagesynth.com/casio/sk-1"
+   },
+   {
+    "name": "Waltz",
+    "source": "https://www.vintagesynth.com/casio/sk-1"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "Blur",
+    "title": "Advert",
+    "year": null,
+    "evidence": "https://en.wikipedia.org/wiki/Casio_SK-1 - says Damon Albarn used the SK-1 on 'Advert' (Modern Life Is Rubbish); no citation; not stated to be the rhythm section",
+    "grid_source": null
+   },
+   {
+    "artist": "Turnstyle",
+    "title": "Happier Than Metallica",
+    "year": null,
+    "evidence": "https://en.wikipedia.org/wiki/Casio_SK-1 - sample function used (not drums); no citation",
+    "grid_source": null
+   },
+   {
+    "artist": "Mount Eerie",
+    "title": "Eleven Old Songs of Mount Eerie",
+    "year": null,
+    "evidence": "https://en.wikipedia.org/wiki/Casio_SK-1 - album of vocals and SK-1; no citation",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.vintagesynth.com/casio/sk-1",
+   "https://en.wikipedia.org/wiki/Casio_SK-1"
+  ]
+ },
+ {
+  "machine": "Casio VL-1 (VL-Tone)",
+  "pack_folders": [
+   "Casio VL-1",
+   "Casio VL-Tone"
+  ],
+  "maker": "Casio",
+  "year": 1981,
+  "kind": "synth with drum kit",
+  "voices": [
+   {
+    "label": "Po",
+    "name": "'Po' low blip (bass-drum role)",
+    "type": "Kick",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Casio's internal name, 30 ms, per English Wikipedia (uncited). Pack file 'Casio VL-1/Bassdrum.wav' (0.050 s, low) matches by length and pitch (inferred)."
+   },
+   {
+    "label": "Pi",
+    "name": "'Pi' high blip",
+    "type": "Closed Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "20 ms per English Wikipedia (uncited). Pack file 'Hi Hat.wav' (0.028 s) matches (inferred); it is a pitched blip, not a noise hat."
+   },
+   {
+    "label": "Sha",
+    "name": "'Sha' noise burst",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "160 ms per English Wikipedia (uncited). Pack file 'Snaredrum-01.wav' (0.194 s, noise) matches (inferred)."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none documented",
+  "built_in_effects": [],
+  "global_features": [
+   "10 preset rhythms; no user rhythm programming documented",
+   "Rhythm section built from three basic digital drum sounds: Po, Pi, Sha (Wikipedia, uncited)",
+   "Preset tones: Piano, Fantasy, Violin, Flute, Guitar (German Wikipedia)",
+   "No per-drum level, tune or accent controls documented",
+   "Year conflict: English Wikipedia says released 1981 but is categorised under 1979; German Wikipedia says manufactured 1981-1984"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "'Casio VL-1': 3 stereo 16-bit/44.1 kHz drum one-shots: Bassdrum.wav (0.050 s), Hi Hat.wav (0.028 s), Snaredrum-01.wav (0.194 s). 'Casio VL-Tone': 6 mono files: the five preset tones as single notes (Piano, Fantasy, Violin, Flute, Guitar; 0.47-0.58 s) and 'Casio VL1 DaDaDa.wav' (3.4 s, probably a phrase or loop referencing Trio's 'Da Da Da'; not played, so content unverified).",
+  "preset_patterns": [
+   {
+    "name": "March",
+    "source": "https://de.wikipedia.org/wiki/Casio_VL-1"
+   },
+   {
+    "name": "Waltz",
+    "source": "https://de.wikipedia.org/wiki/Casio_VL-1"
+   },
+   {
+    "name": "4-Beat",
+    "source": "https://de.wikipedia.org/wiki/Casio_VL-1"
+   },
+   {
+    "name": "Swing",
+    "source": "https://de.wikipedia.org/wiki/Casio_VL-1"
+   },
+   {
+    "name": "Rock-1",
+    "source": "https://de.wikipedia.org/wiki/Casio_VL-1"
+   },
+   {
+    "name": "Rock-2",
+    "source": "https://de.wikipedia.org/wiki/Casio_VL-1"
+   },
+   {
+    "name": "Bossanova",
+    "source": "https://de.wikipedia.org/wiki/Casio_VL-1"
+   },
+   {
+    "name": "Samba",
+    "source": "https://de.wikipedia.org/wiki/Casio_VL-1"
+   },
+   {
+    "name": "Rhumba",
+    "source": "https://de.wikipedia.org/wiki/Casio_VL-1"
+   },
+   {
+    "name": "Beguine",
+    "source": "https://de.wikipedia.org/wiki/Casio_VL-1"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "Trio",
+    "title": "Da Da Da",
+    "year": 1982,
+    "evidence": "https://en.wikipedia.org/wiki/Casio_VL-1 - used the Rock-1 rhythm preset and Piano voice (cites Paphides, The Times 2009; link flagged dead). German Wikipedia says the same, uncited.",
+    "grid_source": null
+   },
+   {
+    "artist": "Hazel O'Connor",
+    "title": "Hanging Around",
+    "year": null,
+    "evidence": "https://en.wikipedia.org/wiki/Casio_VL-1 - used the 'Rock-2' drum sound (album Cover Plus); no citation",
+    "grid_source": null
+   },
+   {
+    "artist": "The Human League",
+    "title": "Get Carter",
+    "year": null,
+    "evidence": "https://en.wikipedia.org/wiki/Casio_VL-1 - VL-1 used (album Dare); cites Adams, Herald Sun 2009; feature not named",
+    "grid_source": null
+   },
+   {
+    "artist": "Fergie",
+    "title": "Clumsy",
+    "year": 2007,
+    "evidence": "https://en.wikipedia.org/wiki/Casio_VL-1 - a default electronic beep used for the melody, not the rhythm (cites Happy Mag 2017)",
+    "grid_source": null
+   },
+   {
+    "artist": "The Fall",
+    "title": "The Man Whose Head Expanded",
+    "year": null,
+    "evidence": "https://de.wikipedia.org/wiki/Casio_VL-1 - listed as using the VL-1; no citation",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Casio_VL-1",
+   "https://de.wikipedia.org/wiki/Casio_VL-1",
+   "https://www.matrixsynth.com/2018/03/casio-ck-200-casio-vl-1-rock-1-rhythm.html",
+   "https://en.wikipedia.org/wiki/Da_Da_Da"
+  ]
+ },
+ {
+  "machine": "Kawai R-50",
+  "pack_folders": [
+   "Kawai R50"
+  ],
+  "maker": "Kawai",
+  "year": null,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "Kick01",
+    "name": "Bass Drum 1",
+    "type": "Kick",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Kick02",
+    "name": "Bass Drum 2",
+    "type": "Kick",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Kick03",
+    "name": "Bass Drum 3",
+    "type": "Kick",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Snare01",
+    "name": "Snare 1",
+    "type": "Snare",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Snare02",
+    "name": "Snare 2",
+    "type": "Snare",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Snare03",
+    "name": "Snare 3",
+    "type": "Snare",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "TomH",
+    "name": "High Tom",
+    "type": "Tom",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "TomM",
+    "name": "Mid Tom",
+    "type": "Tom",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "TomL",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "HatC",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown. Choke with HatO inferred."
+   },
+   {
+    "label": "HatO",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Crash01",
+    "name": "Crash 1",
+    "type": "Crash",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Crash02",
+    "name": "Crash 2",
+    "type": "Crash",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "China",
+    "name": "China Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Ride01",
+    "name": "Ride 1",
+    "type": "Ride",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Ride02",
+    "name": "Ride 2",
+    "type": "Ride",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Claps",
+    "name": "Hand Claps",
+    "type": "Clap",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Cowbell",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Claves",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Agogo",
+    "name": "Agogo",
+    "type": "Agogo",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Conga",
+    "name": "Conga",
+    "type": "Conga",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Timbale",
+    "name": "Timbale",
+    "type": "Timbale",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Shaker",
+    "name": "Shaker",
+    "type": "Shaker",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Tamborine",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown. Spelled 'Tamborine' in the pack."
+   }
+  ],
+  "choke_groups": [
+   [
+    "HatC",
+    "HatO"
+   ]
+  ],
+  "accent": "unknown; R-50 pads are reportedly not velocity-sensitive, and a per-sound 'dynamics' parameter is listed (sequencer.de)",
+  "built_in_effects": [],
+  "global_features": [
+   "24 PCM sounds, 12-bit, 32 kHz (sequencer.de; Sonic State)",
+   "8-voice polyphony, 8-part multitimbral (sequencer.de)",
+   "Per-sound pan, volume, tuning, dynamics (sequencer.de)",
+   "R-50: '10 pads without dynamics' (sequencer.de; unverified)",
+   "Fewer outputs than the R-100, no MIDI Thru, no DIN sync (sequencer.de)",
+   "Sounds stored in ROM chips (Sonic State photo link)",
+   "Year: 'Released 1988?' (Sonic State); sequencer.de's shared R100/R50 page says 1985",
+   "Effects, swing and flam: none documented"
+  ],
+  "sound_bank": {
+   "total": 24,
+   "categories": [
+    {
+     "name": "PCM drum and percussion sounds (12-bit, 32 kHz)",
+     "count": 24,
+     "range": "unknown"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.sequencer.de/syns/kawai/R100_R50.html"
+  },
+  "default_kit": [],
+  "pack_contents": "24 mono 16-bit/44.1 kHz WAVs named by sound with an 'R50 ' prefix: Kick01-03, Snare01-03, TomH/M/L, HatC, HatO, Crash01, Crash02, China, Ride01, Ride02, Claps, Cowbell, Claves, Agogo, Conga, Timbale, Shaker, Tamborine. The count matches the 24-sound ROM (inferred: one file per ROM sound). No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.sequencer.de/syns/kawai/R100_R50.html",
+   "https://sonicstate.com/synth/kawai_r50/"
+  ]
+ },
+ {
+  "machine": "Kawai R-50e",
+  "pack_folders": [
+   "Kawai R50e"
+  ],
+  "maker": "Kawai",
+  "year": null,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "Kick01",
+    "name": "Bass Drum 1",
+    "type": "Kick",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown. Controls assumed same as R-50 (inferred)."
+   },
+   {
+    "label": "Kick02",
+    "name": "Bass Drum 2",
+    "type": "Kick",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Kick03",
+    "name": "Bass Drum 3",
+    "type": "Kick",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Snare01",
+    "name": "Snare 1",
+    "type": "Snare",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Snare02",
+    "name": "Snare 2",
+    "type": "Snare",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Snare03",
+    "name": "Snare 3",
+    "type": "Snare",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Snare04",
+    "name": "Snare 4",
+    "type": "Snare",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Rimshot",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "TomA_Hi",
+    "name": "Tom A High",
+    "type": "Tom",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown. 'A' probably acoustic (inferred)."
+   },
+   {
+    "label": "TomA_Lo",
+    "name": "Tom A Low",
+    "type": "Tom",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "TomE_Hi",
+    "name": "Tom E High",
+    "type": "Tom",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown. 'E' probably electronic (inferred)."
+   },
+   {
+    "label": "TomE_Mid",
+    "name": "Tom E Mid",
+    "type": "Tom",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "TomE_Lo",
+    "name": "Tom E Low",
+    "type": "Tom",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Hat_C",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown. Choke with Hat_O inferred."
+   },
+   {
+    "label": "Hat_O",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Crash",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Clap",
+    "name": "Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Snap",
+    "name": "Finger Snap",
+    "type": "Snap",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "HiQ",
+    "name": "Hi-Q",
+    "type": "FX",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Timp",
+    "name": "Timpani",
+    "type": "Perc",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown. File is 'R50Timp.wav' (no 'e' in prefix)."
+   },
+   {
+    "label": "Orch01",
+    "name": "Orchestra Hit 1",
+    "type": "FX",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Orch02",
+    "name": "Orchestra Hit 2",
+    "type": "FX",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Guitar1",
+    "name": "Guitar 1",
+    "type": "Other",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   },
+   {
+    "label": "Guitar2",
+    "name": "Guitar 2",
+    "type": "Other",
+    "controls": [
+     "tuning",
+     "volume",
+     "pan",
+     "dynamics"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; official ROM name and panel position unknown."
+   }
+  ],
+  "choke_groups": [
+   [
+    "Hat_C",
+    "Hat_O"
+   ]
+  ],
+  "accent": "unknown",
+  "built_in_effects": [],
+  "global_features": [
+   "Variant of the R-50 with a different sound ROM (inferred from pack content: orchestra hits, guitars, timpani, Hi-Q, snap); no primary description found",
+   "Sonic State links R-50e samples and ROM-chip photos but gives no list"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "24 mono 16-bit/44.1 kHz WAVs prefixed 'R50e' (one is 'R50Timp.wav'): Kick01-03, Snare01-04, Rimshot, TomA_Hi, TomA_Lo, TomE_Hi, TomE_Mid, TomE_Lo, Hat_C, Hat_O, Crash, Clap, Snap, HiQ, Timp, Orch01, Orch02, Guitar1, Guitar2. 24 files, same count as the R-50 ROM (inferred one file per sound). No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://sonicstate.com/synth/kawai_r50/",
+   "https://www.sequencer.de/syns/kawai/R100_R50.html"
+  ]
+ },
+ {
+  "machine": "Kawai XD-5 Percussion Synthesizer",
+  "pack_folders": [
+   "Kawai XD5"
+  ],
+  "maker": "Kawai",
+  "year": 1989,
+  "kind": "drum sound module",
+  "voices": [
+   {
+    "label": "Kick01",
+    "name": "Kick 1",
+    "type": "Kick",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "Kick02",
+    "name": "Kick 2",
+    "type": "Kick",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "Kick03",
+    "name": "Kick 3",
+    "type": "Kick",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "Kick04",
+    "name": "Kick 4",
+    "type": "Kick",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "Kick05",
+    "name": "Kick 5",
+    "type": "Kick",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "Snare01",
+    "name": "Snare 1",
+    "type": "Snare",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "Snare02",
+    "name": "Snare 2",
+    "type": "Snare",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "Snare03",
+    "name": "Snare 3",
+    "type": "Snare",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "Snare04",
+    "name": "Snare 4",
+    "type": "Snare",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "Snare05",
+    "name": "Snare 5",
+    "type": "Snare",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "Snare06",
+    "name": "Snare 6",
+    "type": "Snare",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "Snare07",
+    "name": "Snare 7",
+    "type": "Snare",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "TomHi",
+    "name": "High Tom",
+    "type": "Tom",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "TomLo",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "TomE",
+    "name": "Tom E (probably electronic tom, inferred)",
+    "type": "Tom",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   },
+   {
+    "label": "HatC",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices. Choke with HatO inferred."
+   },
+   {
+    "label": "HatO",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "waveform select (1-4 waveforms combined per voice)",
+     "digital resonant low-pass filter (DCF)",
+     "digital envelope amplifier (DCA)"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; the XD-5 builds each sound from 1-4 of 256 waveforms, so these are recorded patches, not fixed ROM voices."
+   }
+  ],
+  "choke_groups": [
+   [
+    "HatC",
+    "HatO"
+   ]
+  ],
+  "accent": "none documented (MIDI-driven module)",
+  "built_in_effects": [
+   {
+    "name": "Delay-type effect",
+    "type": "delay",
+    "notes": "VSE; routing (per voice or global) not documented"
+   },
+   {
+    "name": "Ring modulator",
+    "type": "other",
+    "notes": "VSE; how it is applied is not documented"
+   }
+  ],
+  "global_features": [
+   "256 PCM waveforms; 1-4 combined per voice",
+   "Digital resonant low-pass filter and digital envelope; no LFO",
+   "64 patches and 16 drum kits; memory-card storage",
+   "16-voice polyphony; MIDI on 1 channel",
+   "Stereo outs + 6 individual outs",
+   "Produced 1989-1990 (VSE); Sonic State gives no date"
+  ],
+  "sound_bank": {
+   "total": 256,
+   "categories": [
+    {
+     "name": "PCM waveforms (building blocks, 1-4 per voice)",
+     "count": 256,
+     "range": "unknown"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.vintagesynth.com/kawai/xd-5"
+  },
+  "default_kit": [],
+  "pack_contents": "17 mono 16-bit/44.1 kHz WAVs prefixed 'XD5': Kick01-05, Snare01-07, TomHi, TomLo, TomE, HatC, HatO. Named by type and number only; no cymbals, no percussion, no loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.vintagesynth.com/kawai/xd-5",
+   "https://sonicstate.com/synth/kawai_xd5/"
+  ]
+ },
+ {
+  "machine": "Kawai K3 / K3m",
+  "pack_folders": [
+   "Kawai K3"
+  ],
+  "maker": "Kawai",
+  "year": 1986,
+  "kind": "synth (drums made by synthesis)",
+  "voices": [],
+  "choke_groups": [],
+  "accent": "none (synth; keyboard has velocity and aftertouch)",
+  "built_in_effects": [],
+  "global_features": [
+   "6-voice hybrid synth: 32 digital waveforms plus a user-editable additive waveform; two oscillators",
+   "Analog SSM2044 4-pole resonant low-pass filter with its own envelope, plus high-pass filter, LFO, ADSR VCA",
+   "61 keys with velocity and aftertouch; 50 memories; MIDI",
+   "Drum sounds are made by picking a percussive or sampled waveform (VSE says some waves are acoustic samples) and shaping it with fast filter and VCA envelopes (inferred)"
+  ],
+  "sound_bank": {
+   "total": 32,
+   "categories": [
+    {
+     "name": "ROM digital waveforms",
+     "count": 32,
+     "range": "pack K3M_00-K3M_31 (files empty)"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.vintagesynth.com/kawai/k3"
+  },
+  "default_kit": [],
+  "pack_contents": "32 files K3M_00.wav-K3M_31.wav, each 44 bytes: a RIFF/WAVE header (44.1 kHz, 16-bit mono) with a zero-length data chunk. No audio at all. The count matches the K3/K3m's 32 ROM waveforms (inferred: intended one file per waveform).",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.vintagesynth.com/kawai/k3",
+   "https://www.sequencer.de/syns/kawai/K3_K3m.html"
+  ]
+ },
+ {
+  "machine": "Kawai SX-240 (Teisco SX-240)",
+  "pack_folders": [
+   "Kawai SX240"
+  ],
+  "maker": "Kawai",
+  "year": 1984,
+  "kind": "synth (drums made by synthesis)",
+  "voices": [
+   {
+    "label": "hightom",
+    "name": "High Tom",
+    "type": "Tom",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth."
+   },
+   {
+    "label": "medtom",
+    "name": "Mid Tom",
+    "type": "Tom",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth."
+   },
+   {
+    "label": "lowtom",
+    "name": "Low Tom",
+    "type": "Tom",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth."
+   },
+   {
+    "label": "floortom",
+    "name": "Floor Tom",
+    "type": "Tom",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth."
+   },
+   {
+    "label": "snare1",
+    "name": "Snare 1",
+    "type": "Snare",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth."
+   },
+   {
+    "label": "snare2",
+    "name": "Snare 2",
+    "type": "Snare",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth."
+   },
+   {
+    "label": "zap",
+    "name": "Zap",
+    "type": "FX",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth. 0.04 s."
+   },
+   {
+    "label": "ringmod",
+    "name": "Ring-mod hit",
+    "type": "FX",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth. Probably uses the ring-mod 'Brass' function (inferred)."
+   },
+   {
+    "label": "bigrez1",
+    "name": "Big resonance 1",
+    "type": "FX",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth. 3.3 s."
+   },
+   {
+    "label": "bigrez2",
+    "name": "Big resonance 2",
+    "type": "FX",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth. 3.2 s."
+   },
+   {
+    "label": "fatbass-c2",
+    "name": "Fat bass C2",
+    "type": "Bass",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth. Pitched note C2."
+   },
+   {
+    "label": "fatbass-g2",
+    "name": "Fat bass G2",
+    "type": "Bass",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth. Pitched note G2."
+   },
+   {
+    "label": "fatbass-c3",
+    "name": "Fat bass C3",
+    "type": "Bass",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth. Pitched note C3."
+   },
+   {
+    "label": "fatbass-c4",
+    "name": "Fat bass C4",
+    "type": "Bass",
+    "controls": [
+     "synth patch: 2 DCOs + sub-osc and noise into SSM2044 24 dB/oct resonant VCF and VCA, with ADSRs"
+    ],
+    "switch_alternate": null,
+    "notes": "Descriptive file name, not a hardware label; a patch recorded from the synth. Pitched note C4."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none",
+  "built_in_effects": [
+   {
+    "name": "Ensemble",
+    "type": "other",
+    "notes": "chorus on the synth output (VSE); NM3009 chorus chip (sequencer.de)"
+   },
+   {
+    "name": "Brass",
+    "type": "other",
+    "notes": "ring-modulation function (VSE)"
+   }
+  ],
+  "global_features": [
+   "8-voice analog poly; poly-8, poly-4 and mono modes (mono stacks all 24 oscillators)",
+   "2 DCOs + sub-oscillator per voice; saw, sine, pulse with PWM; noise generator",
+   "SSM2044 24 dB/oct resonant low-pass filter per voice; self-oscillates around settings 98-99; dedicated ADSR",
+   "LFO (saw/square/triangle) with delay; portamento, glissando, hold; split and dual modes; 48 memories; 61 keys; basic MIDI",
+   "Sequencer conflict: VSE says real-time sequencer of 1,500 notes with 8 memories; sequencer.de lists none",
+   "How drums are made (inferred): noise plus fast VCF/VCA envelopes for snares and hats; self-oscillating filter or DCO with short decay for kicks and toms; ring-mod 'Brass' for metallic and zap sounds"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "14 mono 16-bit/44.1 kHz one-shots with descriptive names: toms hightom, medtom, lowtom, floortom (0.6-0.7 s); snare1, snare2 (0.44-0.50 s); zap (0.04 s); ringmod (0.58 s); bigrez1, bigrez2 (3.2-3.3 s resonant sounds); fatbass-c2, -g2, -c3, -c4 (2.2-2.7 s pitched bass notes). No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.vintagesynth.com/kawai/sx-240",
+   "https://www.sequencer.de/syns/kawai/SX240.html"
+  ]
+ },
+ {
+  "machine": "Cheetah MD16",
+  "pack_folders": [
+   "Cheetah MD16"
+  ],
+  "maker": "Cheetah",
+  "year": 1990,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "BD Gated",
+    "name": "Bass Drum 'Gated'",
+    "type": "Kick",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "BD Hip",
+    "name": "Bass Drum 'Hip'",
+    "type": "Kick",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "BD Slap",
+    "name": "Bass Drum 'Slap'",
+    "type": "Kick",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "BD Thump",
+    "name": "Bass Drum 'Thump'",
+    "type": "Kick",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "BD Electro",
+    "name": "Bass Drum 'Electro'",
+    "type": "Kick",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "SD Killer",
+    "name": "Snare 'Killer'",
+    "type": "Snare",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable. One search summary placed 'Killer' among the bass drums; the review page itself lists it as a snare."
+   },
+   {
+    "label": "SD Acoustic",
+    "name": "Snare 'Acoustic'",
+    "type": "Snare",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "SD Fusion",
+    "name": "Snare 'Fusion'",
+    "type": "Snare",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "SD Ska",
+    "name": "Snare 'Ska'",
+    "type": "Snare",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "SD House",
+    "name": "Snare 'House'",
+    "type": "Snare",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "SD Up",
+    "name": "Snare 'Up'",
+    "type": "Snare",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Tom Electro",
+    "name": "Tom 'Electro'",
+    "type": "Tom",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Tom Hi",
+    "name": "Tom 'Hi'",
+    "type": "Tom",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Tom Mid",
+    "name": "Tom 'Mid'",
+    "type": "Tom",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Tom Low",
+    "name": "Tom 'Low'",
+    "type": "Tom",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable. The reviewer says 'Low' and 'Deep' sound like the same sample."
+   },
+   {
+    "label": "Tom Deep",
+    "name": "Tom 'Deep'",
+    "type": "Tom",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "HH Closed",
+    "name": "Hi-hat 'Closed'",
+    "type": "Closed Hat",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable. To choke hats, route them to one output (each output is monophonic per SOS)."
+   },
+   {
+    "label": "HH Mid",
+    "name": "Hi-hat 'Mid' (half-open, inferred)",
+    "type": "Open Hat",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "HH Open",
+    "name": "Hi-hat 'Open'",
+    "type": "Open Hat",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "HH Pedal Closed",
+    "name": "Hi-hat 'Pedal Closed'",
+    "type": "Pedal Hat",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Crash",
+    "name": "Crash",
+    "type": "Crash",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Ride",
+    "name": "Ride",
+    "type": "Ride",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Splash",
+    "name": "Splash",
+    "type": "Cymbal",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Cowbell",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Electro Bell",
+    "name": "Electro Bell",
+    "type": "Perc",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Acid Flick",
+    "name": "Acid Flick",
+    "type": "FX",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Sidestick",
+    "name": "Sidestick",
+    "type": "Rim",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Temple Block",
+    "name": "Temple Block",
+    "type": "Wood Block",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Claves",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Castanet",
+    "name": "Castanet",
+    "type": "Perc",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Snap",
+    "name": "Snap",
+    "type": "Snap",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Tambourine",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Shaker",
+    "name": "Shaker",
+    "type": "Shaker",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Cabasa",
+    "name": "Cabasa",
+    "type": "Shaker",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Tabla",
+    "name": "Tabla",
+    "type": "Perc",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "High Bongo",
+    "name": "High Bongo",
+    "type": "Bongo",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Agogo",
+    "name": "Agogo",
+    "type": "Agogo",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Samba Whistle",
+    "name": "Samba Whistle",
+    "type": "Perc",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Claps",
+    "name": "Claps",
+    "type": "Clap",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Timbale",
+    "name": "Timbale",
+    "type": "Timbale",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   },
+   {
+    "label": "Bass Guitar",
+    "name": "Slap bass guitar sample",
+    "type": "Bass",
+    "controls": [
+     "sample number",
+     "tuning (+1/-6 oct or chromatic +/-1 oct)",
+     "reverse / forward-reverse",
+     "pan 0-15 (+ Auto/Roll/Opposite Pan)",
+     "volume envelope 1-8",
+     "level 1-31",
+     "velocity curve 1-8",
+     "output 1-8",
+     "voices 1-8",
+     "MIDI note 0-127"
+    ],
+    "switch_alternate": null,
+    "notes": "ROM sound name from the 1991 Music Technology review (listed by category, not ROM order); pads are freely assignable."
+   }
+  ],
+  "choke_groups": [
+   [
+    "HH Closed",
+    "HH Mid",
+    "HH Open",
+    "HH Pedal Closed"
+   ]
+  ],
+  "accent": "Desktop MD16 has 16 velocity-sensitive pads and a velocity curve (1-8) per voice; velocity can affect tuning, length, attack and start. An 'Accent/Level' key exists (Shift + Accent/Level cycles the four pad levels). How a dedicated accent works is not described in the reviews found. The MD16R/RP use non-velocity buttons (velocity via MIDI).",
+  "built_in_effects": [
+   {
+    "name": "Pad echo / echo banks",
+    "type": "delay",
+    "notes": "MIDI-style repeats on pad levels 3-4 (MT) or programmable echo banks assignable to any pad (SOS): rate 1-120 MIDI clocks straight/triplet, 1-16 repeats, fade -8..+8, can link to pitch changes. No reverb."
+   }
+  ],
+  "global_features": [
+   "41 ROM samples, 16-bit 44 kHz, no ambience; ROM cartridge port for extra samples",
+   "16 pads x 4 levels plus auxiliary set = 128 pad assignments; level 4 allows up to 3 samples per pad crossfaded by velocity",
+   "Chromatic Pad spreads one sound across 16 pads in semitones",
+   "Humanise: random start, random pitch, human level; Auto Pan/Pitch/Reverse",
+   "Swing +/-8 (MD16R/RP add negative swing), timing randomisation, cyclic randomisation, quantise down to 1/192",
+   "254 patterns (1-682 beats) and 254 songs, song chain x20, tempo track",
+   "8-note polyphony; stereo out + 8 mono outs on 4 stereo jacks; each out monophonic",
+   "MIDI In/Out/Thru, tape sync, SysEx and tape dumps",
+   "Shown at Frankfurt 1990 (SOS); Music Technology review March 1991 at GBP 299.95"
+  ],
+  "sound_bank": {
+   "total": 41,
+   "categories": [
+    {
+     "name": "Kick drums",
+     "count": 5,
+     "range": "unknown"
+    },
+    {
+     "name": "Snares",
+     "count": 6,
+     "range": "unknown"
+    },
+    {
+     "name": "Toms",
+     "count": 5,
+     "range": "unknown"
+    },
+    {
+     "name": "Hi-hats",
+     "count": 4,
+     "range": "unknown"
+    },
+    {
+     "name": "Cymbals",
+     "count": 3,
+     "range": "unknown"
+    },
+    {
+     "name": "Percussion",
+     "count": 17,
+     "range": "unknown"
+    },
+    {
+     "name": "Slap bass guitar",
+     "count": 1,
+     "range": "unknown"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.soundonsound.com/reviews/cheetah-md16"
+  },
+  "default_kit": [],
+  "pack_contents": "48 mono 16-bit/44.1 kHz WAVs named only by number, CHTMD01-CHTMD48, plus readme.txt: 'Unfortunately I no longer own this machine or its manuals and don't have a list of the sound names.' 48 files vs 41 documented ROM sounds: 7 unexplained. Rough grouping inferred from length and brightness only (low confidence): 01-05 kicks; 06-12 snare-type; 13-16 hi-hats (13 0.12 s, 14 0.30 s, 15 0.60 s, 16 0.18 s, fitting Closed/Mid/Open/Pedal); 17-20 toms; 21-28 low-mid toms or tonal perc; 29-32 cymbals; 33-47 percussion; 48 low (possibly the bass guitar). Numbering cannot be matched to official names without the ROM order.",
+  "preset_patterns": [
+   {
+    "name": "Preset demo programs: dance, techno and hip-hop beats (names not given)",
+    "source": "https://www.soundonsound.com/reviews/cheetah-md16"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/cheetah-md16/792",
+   "https://www.soundonsound.com/reviews/cheetah-md16",
+   "https://www.muzines.co.uk/articles/cheetah-md16r-and-md16rp/1004",
+   "https://cykong.com/Synths/Cheetah%20MD16RP/Cheetah-MD16RP.htm"
+  ]
+ },
+ {
+  "machine": "Quasimidi Rave-O-Lution 309",
+  "pack_folders": [
+   "Quasimidi 309"
+  ],
+  "maker": "Quasimidi",
+  "year": 1996,
+  "kind": "sampler/groovebox",
+  "voices": [
+   {
+    "label": "KICK",
+    "name": "Kick Drum section",
+    "type": "Kick",
+    "controls": [
+     "Instrument",
+     "Tune",
+     "Attack",
+     "Decay",
+     "Level",
+     "Sound",
+     "plus VCF Drive, Cutoff, Resonance, Env Mod, Dyn Mod, Accent, EG A/D/S/R via menus"
+    ],
+    "switch_alternate": null,
+    "notes": "Monophonic. Raw instrument is one of 26 kicks (D_Kick1...AnaKick4); 64 user sound memories. MIDI ch 1 by default."
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare Drum section",
+    "type": "Snare",
+    "controls": [
+     "Instrument",
+     "Tune",
+     "Tone",
+     "Decay",
+     "Level",
+     "Sound",
+     "plus VCF Drive, Resonance, Env Mod, Dyn Mod, Accent, EG A/S/R via menus"
+    ],
+    "switch_alternate": null,
+    "notes": "Monophonic. One of 25 snares (606Snare...Noise3); snares can also be built from modelled white noise (SOS). MIDI ch 2."
+   },
+   {
+    "label": "CLOSED HH",
+    "name": "Hi-hat section, closed",
+    "type": "Closed Hat",
+    "controls": [
+     "Instrument",
+     "Tune",
+     "Decay",
+     "Level",
+     "Sound",
+     "plus VCF and EG via menus"
+    ],
+    "switch_alternate": "OPEN HH",
+    "notes": "HIHAT section is duophonic for open and closed hi-hat; drumgrid lane choice 'ClosedHH'. One of 7 hi-hat instruments. MIDI ch 3. Note numbers for open vs closed not found."
+   },
+   {
+    "label": "OPEN HH",
+    "name": "Hi-hat section, open",
+    "type": "Open Hat",
+    "controls": [
+     "shares the HIHAT section knobs"
+    ],
+    "switch_alternate": "CLOSED HH",
+    "notes": "Drumgrid lane choice 'OpenHH'. Same section as CLOSED HH; whether closed chokes open is not documented."
+   },
+   {
+    "label": "PERC C",
+    "name": "Percussion Set instrument on key C",
+    "type": "Perc",
+    "controls": [
+     "instrument wave (any of the 128 drumset instruments)",
+     "tune",
+     "level",
+     "pan",
+     "FX1 send",
+     "FX2 send",
+     "set-wide: Perc Set, Tone (cutoff), Decay, Level, Sound knobs"
+    ],
+    "switch_alternate": null,
+    "notes": "One of 12 instruments in the selected Percussion Set (10 editable sets, 0-9). Default set contents not found; the manual's example puts 808Kic1F on key C of set 3. MIDI ch 4."
+   },
+   {
+    "label": "PERC C#",
+    "name": "Percussion Set instrument on key C#",
+    "type": "Perc",
+    "controls": [
+     "instrument wave (any of the 128 drumset instruments)",
+     "tune",
+     "level",
+     "pan",
+     "FX1 send",
+     "FX2 send",
+     "set-wide: Perc Set, Tone (cutoff), Decay, Level, Sound knobs"
+    ],
+    "switch_alternate": null,
+    "notes": "One of 12 instruments in the selected Percussion Set (10 editable sets, 0-9). Default set contents not found; the manual's example puts 808Kic1F on key C of set 3. MIDI ch 4."
+   },
+   {
+    "label": "PERC D",
+    "name": "Percussion Set instrument on key D",
+    "type": "Perc",
+    "controls": [
+     "instrument wave (any of the 128 drumset instruments)",
+     "tune",
+     "level",
+     "pan",
+     "FX1 send",
+     "FX2 send",
+     "set-wide: Perc Set, Tone (cutoff), Decay, Level, Sound knobs"
+    ],
+    "switch_alternate": null,
+    "notes": "One of 12 instruments in the selected Percussion Set (10 editable sets, 0-9). Default set contents not found; the manual's example puts 808Kic1F on key C of set 3. MIDI ch 4."
+   },
+   {
+    "label": "PERC D#",
+    "name": "Percussion Set instrument on key D#",
+    "type": "Perc",
+    "controls": [
+     "instrument wave (any of the 128 drumset instruments)",
+     "tune",
+     "level",
+     "pan",
+     "FX1 send",
+     "FX2 send",
+     "set-wide: Perc Set, Tone (cutoff), Decay, Level, Sound knobs"
+    ],
+    "switch_alternate": null,
+    "notes": "One of 12 instruments in the selected Percussion Set (10 editable sets, 0-9). Default set contents not found; the manual's example puts 808Kic1F on key C of set 3. MIDI ch 4."
+   },
+   {
+    "label": "PERC E",
+    "name": "Percussion Set instrument on key E",
+    "type": "Perc",
+    "controls": [
+     "instrument wave (any of the 128 drumset instruments)",
+     "tune",
+     "level",
+     "pan",
+     "FX1 send",
+     "FX2 send",
+     "set-wide: Perc Set, Tone (cutoff), Decay, Level, Sound knobs"
+    ],
+    "switch_alternate": null,
+    "notes": "One of 12 instruments in the selected Percussion Set (10 editable sets, 0-9). Default set contents not found; the manual's example puts 808Kic1F on key C of set 3. MIDI ch 4."
+   },
+   {
+    "label": "PERC F",
+    "name": "Percussion Set instrument on key F",
+    "type": "Perc",
+    "controls": [
+     "instrument wave (any of the 128 drumset instruments)",
+     "tune",
+     "level",
+     "pan",
+     "FX1 send",
+     "FX2 send",
+     "set-wide: Perc Set, Tone (cutoff), Decay, Level, Sound knobs"
+    ],
+    "switch_alternate": null,
+    "notes": "One of 12 instruments in the selected Percussion Set (10 editable sets, 0-9). Default set contents not found; the manual's example puts 808Kic1F on key C of set 3. MIDI ch 4."
+   },
+   {
+    "label": "PERC F#",
+    "name": "Percussion Set instrument on key F#",
+    "type": "Perc",
+    "controls": [
+     "instrument wave (any of the 128 drumset instruments)",
+     "tune",
+     "level",
+     "pan",
+     "FX1 send",
+     "FX2 send",
+     "set-wide: Perc Set, Tone (cutoff), Decay, Level, Sound knobs"
+    ],
+    "switch_alternate": null,
+    "notes": "One of 12 instruments in the selected Percussion Set (10 editable sets, 0-9). Default set contents not found; the manual's example puts 808Kic1F on key C of set 3. MIDI ch 4."
+   },
+   {
+    "label": "PERC G",
+    "name": "Percussion Set instrument on key G",
+    "type": "Perc",
+    "controls": [
+     "instrument wave (any of the 128 drumset instruments)",
+     "tune",
+     "level",
+     "pan",
+     "FX1 send",
+     "FX2 send",
+     "set-wide: Perc Set, Tone (cutoff), Decay, Level, Sound knobs"
+    ],
+    "switch_alternate": null,
+    "notes": "One of 12 instruments in the selected Percussion Set (10 editable sets, 0-9). Default set contents not found; the manual's example puts 808Kic1F on key C of set 3. MIDI ch 4."
+   },
+   {
+    "label": "PERC G#",
+    "name": "Percussion Set instrument on key G#",
+    "type": "Perc",
+    "controls": [
+     "instrument wave (any of the 128 drumset instruments)",
+     "tune",
+     "level",
+     "pan",
+     "FX1 send",
+     "FX2 send",
+     "set-wide: Perc Set, Tone (cutoff), Decay, Level, Sound knobs"
+    ],
+    "switch_alternate": null,
+    "notes": "One of 12 instruments in the selected Percussion Set (10 editable sets, 0-9). Default set contents not found; the manual's example puts 808Kic1F on key C of set 3. MIDI ch 4."
+   },
+   {
+    "label": "PERC A",
+    "name": "Percussion Set instrument on key A",
+    "type": "Perc",
+    "controls": [
+     "instrument wave (any of the 128 drumset instruments)",
+     "tune",
+     "level",
+     "pan",
+     "FX1 send",
+     "FX2 send",
+     "set-wide: Perc Set, Tone (cutoff), Decay, Level, Sound knobs"
+    ],
+    "switch_alternate": null,
+    "notes": "One of 12 instruments in the selected Percussion Set (10 editable sets, 0-9). Default set contents not found; the manual's example puts 808Kic1F on key C of set 3. MIDI ch 4."
+   },
+   {
+    "label": "PERC A#",
+    "name": "Percussion Set instrument on key A#",
+    "type": "Perc",
+    "controls": [
+     "instrument wave (any of the 128 drumset instruments)",
+     "tune",
+     "level",
+     "pan",
+     "FX1 send",
+     "FX2 send",
+     "set-wide: Perc Set, Tone (cutoff), Decay, Level, Sound knobs"
+    ],
+    "switch_alternate": null,
+    "notes": "One of 12 instruments in the selected Percussion Set (10 editable sets, 0-9). Default set contents not found; the manual's example puts 808Kic1F on key C of set 3. MIDI ch 4."
+   },
+   {
+    "label": "PERC B (H)",
+    "name": "Percussion Set instrument on key B (H)",
+    "type": "Perc",
+    "controls": [
+     "instrument wave (any of the 128 drumset instruments)",
+     "tune",
+     "level",
+     "pan",
+     "FX1 send",
+     "FX2 send",
+     "set-wide: Perc Set, Tone (cutoff), Decay, Level, Sound knobs"
+    ],
+    "switch_alternate": null,
+    "notes": "One of 12 instruments in the selected Percussion Set (10 editable sets, 0-9). Default set contents not found; the manual's example puts 808Kic1F on key C of set 3. MIDI ch 4."
+   },
+   {
+    "label": "BASS/LEAD",
+    "name": "Bass/Lead synthesizer",
+    "type": "Bass",
+    "controls": [
+     "Wave",
+     "Cutoff",
+     "Resonance",
+     "Env Mod",
+     "Dyn Mod",
+     "EG Attack/Decay/Sustain",
+     "Level",
+     "Tune",
+     "Glide",
+     "LFO"
+    ],
+    "switch_alternate": null,
+    "notes": "Monophonic synth with 28 waves (MoogWav1...MixWav_4), 128 sound memories; not a drum voice. MIDI ch 5 by default (MIDI chart default '1-5'; inferred)."
+   }
+  ],
+  "choke_groups": [
+   [
+    "CLOSED HH",
+    "OPEN HH"
+   ]
+  ],
+  "accent": "Drumgrid and step sequencer give each step one of 4 velocity levels (buttons 9-12, quietest to loudest; level values set in Edit Pads pages 41-44). Each section's ACCENT parameter sets how much velocity changes level and filter, strongest at the middle setting 64. MIDI CC25 '(Accent) Velocity Response'.",
+  "built_in_effects": [
+   {
+    "name": "FX-1",
+    "type": "reverb",
+    "notes": "Room 1-3, Hall 1-2, Plate, Delay, Pan-Delay. Fed by each section's FX1 send; within the Percussion Set each of the 12 instruments has its own FX1 send."
+   },
+   {
+    "name": "FX-2",
+    "type": "other",
+    "notes": "Chorus 1-4, Feedback Chorus, Flanger, Short Delay, Feedback Delay. Fed by FX2 sends (per section and per percussion instrument)."
+   },
+   {
+    "name": "FX-3 2-band parametric EQ",
+    "type": "eq",
+    "notes": "On the stereo sum (all sections equally)."
+   },
+   {
+    "name": "Overblast",
+    "type": "other",
+    "notes": "Bass-boost knob on the whole mix."
+   },
+   {
+    "name": "VCF Drive + 24 dB/oct resonant low-pass filter with ADSR",
+    "type": "filter",
+    "notes": "In every section, including Kick, Snare, HiHat and Perc Set."
+   }
+  ],
+  "global_features": [
+   "Sections: Kick (mono), Snare (mono), HiHat (duophonic open/closed), Percussion Set (12-voice), Bass/Lead (mono synth); 16 drum/percussion voices + mono bass (manual specs)",
+   "Raw instruments: 26 kicks, 25 snares, 7 hi-hats, 128 drumset samples (126 names printed), 28 bass waves",
+   "64 user sounds per drum section; 10 editable percussion sets of 12; per-instrument wave, tune, level, pan, FX sends",
+   "Groove (shuffle %) per pattern track",
+   "Drumgrid 16 steps per bar; resolutions 8th, 12th (triplet), 16th, 24th, 32nd",
+   "Tempo 50-250 BPM with tap tempo; MIDI clock master or slave",
+   "Default MIDI channels: Kick 1, Snare 2, HiHat 3, Percussion 4 (shift with system channel); note range 36-96",
+   "100 ROM patterns, 99 preset motifs, 100 user motifs, 16 songs",
+   "Options: 2 individual outs, 2 audio inputs, 2 expansion slots (synth and drum expansions)",
+   "Polyphony conflict: manual says mono bass + 16 drum voices; VSE says 17 voices; Wikipedia says 32"
+  ],
+  "sound_bank": {
+   "total": 214,
+   "categories": [
+    {
+     "name": "Bass-Waves (Bass/Lead section)",
+     "count": 28,
+     "range": "ordered_list positions 1-28"
+    },
+    {
+     "name": "Kicks",
+     "count": 26,
+     "range": "ordered_list positions 29-54"
+    },
+    {
+     "name": "Snares",
+     "count": 25,
+     "range": "ordered_list positions 55-79"
+    },
+    {
+     "name": "HiHats",
+     "count": 7,
+     "range": "ordered_list positions 80-86"
+    },
+    {
+     "name": "Drumset-Instr. (Percussion Set), headed '128 Samples'",
+     "count": 128,
+     "range": "ordered_list positions 87-212 (126 names printed in the manual)"
+    }
+   ],
+   "ordered_list": [
+    "MoogWav1",
+    "MoogWav2",
+    "DistSin1",
+    "DistSin2",
+    "D_Trian1",
+    "D_Trian2",
+    "MixWavA2",
+    "Form_A_1",
+    "Form_A_2",
+    "Form_B_1",
+    "Form_B_2",
+    "Form_C_1",
+    "Form_C_2",
+    "RolSaw_1",
+    "RolSaw_2",
+    "Sawtoth1",
+    "Sawtoth2",
+    "Sine_1",
+    "Sine_2",
+    "SineSaw2",
+    "SineSqu2",
+    "SineTri2",
+    "Square_1",
+    "Square_2",
+    "SqarSaw2",
+    "TriaSaw2",
+    "TriaSqu2",
+    "MixWav_4",
+    "D_Kick1",
+    "D_Kick2",
+    "D_Kick3",
+    "D_Kick4",
+    "D_Kick5",
+    "808Kick1",
+    "808Kick2",
+    "808Kick3",
+    "909Kick1",
+    "909Kick2",
+    "909Kick3",
+    "909Kick4",
+    "909Kick5",
+    "HipKick",
+    "DistorBD",
+    "KickShrt",
+    "KicRev",
+    "KlickKic",
+    "KxiuKick",
+    "LongBD",
+    "ShrtBD",
+    "MS_Kick",
+    "AnaKick1",
+    "AnaKick2",
+    "AnaKick3",
+    "AnaKick4",
+    "606Snare",
+    "808Snar1",
+    "808Snar2",
+    "808Snar3",
+    "909Snar1",
+    "909Snar2",
+    "HipSnar",
+    "EfSnare1",
+    "EfSnare2",
+    "EfSnare3",
+    "EfSnare4",
+    "EfSnare5",
+    "FlSnare",
+    "IndSnare",
+    "HiSnare",
+    "DrySnar1",
+    "DrySnar2",
+    "MS20_Snr",
+    "Snare1",
+    "Snare2",
+    "Snare3",
+    "Snare4",
+    "Noise1",
+    "Noise2",
+    "Noise3",
+    "MS_HiHat",
+    "NatHiHat",
+    "808HiHat",
+    "909HiHat",
+    "606HiHat",
+    "Fx_HiHat",
+    "MS_20_HH",
+    "606ClHH",
+    "606Cymb",
+    "606_hTom",
+    "606_lTom",
+    "606_opHH",
+    "606SnarF",
+    "808_clHH",
+    "808_Clap",
+    "808Clave",
+    "808_Cow",
+    "808_Cymb",
+    "808hCong",
+    "808_hTom",
+    "808Kic1F",
+    "808Kic2F",
+    "808_lTom",
+    "808_mTom",
+    "808_Rim",
+    "808Sna2F",
+    "808Sna3F",
+    "808SnarF",
+    "909_Clap",
+    "909_clHH",
+    "909Crash",
+    "909hiTom",
+    "909Kic1F",
+    "909Kic2F",
+    "909Kic3F",
+    "909Kic4F",
+    "909loTom",
+    "909_mTom",
+    "909_opHH",
+    "909_Ride",
+    "909_Rim",
+    "909Sna1F",
+    "909Sna2F",
+    "Brickn",
+    "Cng1Mute",
+    "Cng1Palm",
+    "Cng1Slap",
+    "Cng2Mute",
+    "Cng2Palm",
+    "Cng3_OT",
+    "Cng3Palm",
+    "Cng2Slap",
+    "CngMuffl",
+    "CngMute",
+    "CngOpen",
+    "CngOTOF",
+    "CngOTOF2",
+    "CngOTOFF",
+    "CngPalm",
+    "CngSlap",
+    "CngSlOf",
+    "CngSlpHd",
+    "CngTips",
+    "DeepShak",
+    "DirtClap",
+    "DirtClp2",
+    "DirtHH",
+    "DistorBF",
+    "DrySna1F",
+    "DrySna2F",
+    "D_Kick1F",
+    "D_Kick2F",
+    "D_Kick3F",
+    "D_Kick4F",
+    "D_Kick5F",
+    "EfSnar1F",
+    "EfSnar2F",
+    "EfSnar3F",
+    "EfSnar4F",
+    "EfSnar5F",
+    "FingSnip",
+    "FipSnap",
+    "FlngClp",
+    "FlSnareF",
+    "F_Drum_1",
+    "F_Drum_2",
+    "F_Drum_3",
+    "F_Drum_4",
+    "F_Drum_5",
+    "F_Drum_6",
+    "F_Drum_7",
+    "F_Revs1",
+    "HighStck",
+    "HipKick",
+    "HipSnaF",
+    "HiSnarF",
+    "Ito_HDMT",
+    "Ito_HDOT",
+    "Ito_HDS",
+    "Ito_LDM",
+    "Ito_LDOT",
+    "Ito_LDS",
+    "Iya_AHDO",
+    "Iya_AHDS",
+    "Iya_HDM",
+    "Iya_HDOT",
+    "Iya_HDS",
+    "Iya_LDM",
+    "Iya_LDO",
+    "Iya_LDS",
+    "KickShrF",
+    "KicRevF",
+    "KlickKiF",
+    "LongBF",
+    "MS_20HHF",
+    "MS_20SF",
+    "MS_KicF",
+    "NcHHFoot",
+    "NclHH",
+    "NormClap",
+    "Revers1",
+    "Ride",
+    "ShrtBF",
+    "Snare1F",
+    "Snare2F",
+    "Snare3F",
+    "Snare4F",
+    "Ticker",
+    "Udus1",
+    "Udus2",
+    "Udus3",
+    "Udus4",
+    "Metronom"
+   ],
+   "list_source": "https://www.vintagesynth.com/sites/default/files/2017-05/309Man.pdf (German manual, p. 25; printed order within each category; numbering restarts per section on the machine)"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "KICK section",
+    "midi_note": null,
+    "sound": "MIDI channel 1 with default system channel"
+   },
+   {
+    "pad_or_key": "SNARE section",
+    "midi_note": null,
+    "sound": "MIDI channel 2"
+   },
+   {
+    "pad_or_key": "HIHAT section (ClosedHH / OpenHH)",
+    "midi_note": null,
+    "sound": "MIDI channel 3; note numbers for open vs closed not found"
+   },
+   {
+    "pad_or_key": "PERC key C",
+    "midi_note": null,
+    "sound": "Percussion Set instrument on this key (MIDI channel 4); octave/note numbers not given"
+   },
+   {
+    "pad_or_key": "PERC key C#",
+    "midi_note": null,
+    "sound": "Percussion Set instrument on this key (MIDI channel 4); octave/note numbers not given"
+   },
+   {
+    "pad_or_key": "PERC key D",
+    "midi_note": null,
+    "sound": "Percussion Set instrument on this key (MIDI channel 4); octave/note numbers not given"
+   },
+   {
+    "pad_or_key": "PERC key D#",
+    "midi_note": null,
+    "sound": "Percussion Set instrument on this key (MIDI channel 4); octave/note numbers not given"
+   },
+   {
+    "pad_or_key": "PERC key E",
+    "midi_note": null,
+    "sound": "Percussion Set instrument on this key (MIDI channel 4); octave/note numbers not given"
+   },
+   {
+    "pad_or_key": "PERC key F",
+    "midi_note": null,
+    "sound": "Percussion Set instrument on this key (MIDI channel 4); octave/note numbers not given"
+   },
+   {
+    "pad_or_key": "PERC key F#",
+    "midi_note": null,
+    "sound": "Percussion Set instrument on this key (MIDI channel 4); octave/note numbers not given"
+   },
+   {
+    "pad_or_key": "PERC key G",
+    "midi_note": null,
+    "sound": "Percussion Set instrument on this key (MIDI channel 4); octave/note numbers not given"
+   },
+   {
+    "pad_or_key": "PERC key G#",
+    "midi_note": null,
+    "sound": "Percussion Set instrument on this key (MIDI channel 4); octave/note numbers not given"
+   },
+   {
+    "pad_or_key": "PERC key A",
+    "midi_note": null,
+    "sound": "Percussion Set instrument on this key (MIDI channel 4); octave/note numbers not given"
+   },
+   {
+    "pad_or_key": "PERC key A#",
+    "midi_note": null,
+    "sound": "Percussion Set instrument on this key (MIDI channel 4); octave/note numbers not given"
+   },
+   {
+    "pad_or_key": "PERC key B (H)",
+    "midi_note": null,
+    "sound": "Percussion Set instrument on this key (MIDI channel 4); octave/note numbers not given"
+   }
+  ],
+  "pack_contents": "224 mono 16-bit/44.1 kHz WAVs named only by number: 'QuasiA 001-050' (50), 'QuasiB 001-135' (135), 'QuasiC 001-039' (39), plus readme.txt with the same 'no list of the sound names' note. Numbering does not line up with the manual's categories (28/26/25/7/128). B's count equals 128 + 7 numerically, but B001 is a low tonal sound while the first printed drumset entry is '606ClHH', so B is not in manual order. Header profile: A001-029 long (0.7-17.3 s), mostly noisy/bright; A030-050 short and very bright; B mostly 0.5-1.0 s with several clicks; B124-B135 are 12 files of about 30-150 ms at full scale with almost no zero crossings (click/pulse-like); C mixed, several low. Treat as unlabelled.",
+  "preset_patterns": [
+   {
+    "name": "100 ROM patterns (numbered 00-99, unnamed) built from 99 preset motifs; rave/dance styles incl. a Kraftwerk nod",
+    "source": "https://www.soundonsound.com/reviews/quasimidi-rave-o-lution-309"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.vintagesynth.com/sites/default/files/2017-05/309Man.pdf",
+   "https://www.soundonsound.com/reviews/quasimidi-rave-o-lution-309",
+   "https://www.vintagesynth.com/quasimidi/rave-o-lution-309",
+   "https://en.wikipedia.org/wiki/Quasimidi_Rave-O-Lution_309"
+  ]
+ },
+ {
+  "machine": "Novation DrumStation",
+  "pack_folders": [
+   "Novation Drumstation"
+  ],
+  "maker": "Novation",
+  "year": 1996,
+  "kind": "drum sound module",
+  "voices": [
+   {
+    "label": "808 BD",
+    "name": "TR-808 Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay",
+     "Tone"
+    ],
+    "switch_alternate": null,
+    "notes": "ASM modelled. Pack: DSxx808Kick.wav."
+   },
+   {
+    "label": "808 SD",
+    "name": "TR-808 Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "Tune",
+     "Level",
+     "Tone",
+     "Snappy"
+    ],
+    "switch_alternate": null,
+    "notes": "ASM. Pack: DSxx808Snare.wav."
+   },
+   {
+    "label": "808 LT",
+    "name": "TR-808 Low Tom",
+    "type": "Tom",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay",
+     "3-position tom select switch"
+    ],
+    "switch_alternate": "808 MT, 808 HT",
+    "notes": "Toms share one control set via a 3-position switch. Pack: DSxx808TomLo.wav."
+   },
+   {
+    "label": "808 MT",
+    "name": "TR-808 Mid Tom",
+    "type": "Tom",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay",
+     "3-position tom select switch"
+    ],
+    "switch_alternate": "808 LT, 808 HT",
+    "notes": "Pack: DSxx808TomMid.wav."
+   },
+   {
+    "label": "808 HT",
+    "name": "TR-808 High Tom",
+    "type": "Tom",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay",
+     "3-position tom select switch"
+    ],
+    "switch_alternate": "808 LT, 808 MT",
+    "notes": "Pack: DSxx808TomHi.wav."
+   },
+   {
+    "label": "808 LC",
+    "name": "TR-808 Low Conga",
+    "type": "Conga",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "MIDI note 64. Panel controls unknown (inferred to share the tom section). Pack: DSxx808CongaLo.wav."
+   },
+   {
+    "label": "808 MC",
+    "name": "TR-808 Mid Conga",
+    "type": "Conga",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "MIDI note 63. Pack: DSxx808CongaMid.wav."
+   },
+   {
+    "label": "808 HC",
+    "name": "TR-808 High Conga",
+    "type": "Conga",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "MIDI note 62. Pack: DSxx808CongaHi.wav."
+   },
+   {
+    "label": "808 RS",
+    "name": "TR-808 Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "Tune",
+     "Level"
+    ],
+    "switch_alternate": null,
+    "notes": "PCM sample. Pack: DSxx808Rimshot.wav."
+   },
+   {
+    "label": "808 CL",
+    "name": "TR-808 Claves",
+    "type": "Clave",
+    "controls": [
+     "Tune",
+     "Level"
+    ],
+    "switch_alternate": null,
+    "notes": "PCM; MIDI note 75. Pack: DSxx808Clave.wav (Kit21: 'Claves')."
+   },
+   {
+    "label": "808 CP",
+    "name": "TR-808 Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "Tune",
+     "Level"
+    ],
+    "switch_alternate": null,
+    "notes": "PCM. Pack: DSxx808Clap.wav."
+   },
+   {
+    "label": "808 MA",
+    "name": "TR-808 Maracas",
+    "type": "Shaker",
+    "controls": [
+     "Tune",
+     "Level"
+    ],
+    "switch_alternate": null,
+    "notes": "PCM; MIDI note 70. Pack: DSxx808Maracas.wav."
+   },
+   {
+    "label": "808 CB",
+    "name": "TR-808 Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "Tune",
+     "Level"
+    ],
+    "switch_alternate": null,
+    "notes": "PCM; MIDI note 56. Pack: DSxx808Cowbell.wav."
+   },
+   {
+    "label": "808 CY",
+    "name": "TR-808 Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay"
+    ],
+    "switch_alternate": null,
+    "notes": "ASM, 808 mode only; MIDI map calls it '808 crash'. Pack: DSxx808Cymbal.wav."
+   },
+   {
+    "label": "808 OH",
+    "name": "TR-808 Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay"
+    ],
+    "switch_alternate": null,
+    "notes": "ASM. Choke with 808 CH inferred from the TR-808, not documented for the DrumStation. Pack: DSxx808Hat_O.wav."
+   },
+   {
+    "label": "808 CH",
+    "name": "TR-808 Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay"
+    ],
+    "switch_alternate": null,
+    "notes": "ASM. Pack: DSxx808Hat_C.wav."
+   },
+   {
+    "label": "909 BD",
+    "name": "TR-909 Bass Drum",
+    "type": "Kick",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay",
+     "Attack"
+    ],
+    "switch_alternate": null,
+    "notes": "ASM. Pack: DSxx909Kick.wav."
+   },
+   {
+    "label": "909 SD",
+    "name": "TR-909 Snare Drum",
+    "type": "Snare",
+    "controls": [
+     "Tune",
+     "Level",
+     "Tone",
+     "Snappy"
+    ],
+    "switch_alternate": null,
+    "notes": "ASM. Pack: DSxx909Snare.wav."
+   },
+   {
+    "label": "909 LT",
+    "name": "TR-909 Low Tom",
+    "type": "Tom",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay",
+     "3-position tom select switch"
+    ],
+    "switch_alternate": "909 MT, 909 HT",
+    "notes": "Pack: DSxx909TomLo.wav."
+   },
+   {
+    "label": "909 MT",
+    "name": "TR-909 Mid Tom",
+    "type": "Tom",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay",
+     "3-position tom select switch"
+    ],
+    "switch_alternate": "909 LT, 909 HT",
+    "notes": "Pack: DSxx909TomMid.wav."
+   },
+   {
+    "label": "909 HT",
+    "name": "TR-909 High Tom",
+    "type": "Tom",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay",
+     "3-position tom select switch"
+    ],
+    "switch_alternate": "909 LT, 909 MT",
+    "notes": "Pack: DSxx909TomHi.wav (Kit09: 'TomHI')."
+   },
+   {
+    "label": "909 RS",
+    "name": "TR-909 Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "Tune",
+     "Level"
+    ],
+    "switch_alternate": null,
+    "notes": "PCM. Pack: DSxx909Rimshot.wav."
+   },
+   {
+    "label": "909 CP",
+    "name": "TR-909 Hand Clap",
+    "type": "Clap",
+    "controls": [
+     "Tune",
+     "Level"
+    ],
+    "switch_alternate": null,
+    "notes": "PCM. Pack: DSxx909Clap.wav."
+   },
+   {
+    "label": "909 CH",
+    "name": "TR-909 Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay"
+    ],
+    "switch_alternate": null,
+    "notes": "ASM. Choke with 909 OH inferred. Pack: DSxx909Hat_C.wav."
+   },
+   {
+    "label": "909 OH",
+    "name": "TR-909 Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay"
+    ],
+    "switch_alternate": null,
+    "notes": "ASM. Pack: DSxx909Hat_O.wav."
+   },
+   {
+    "label": "909 CR",
+    "name": "TR-909 Crash",
+    "type": "Crash",
+    "controls": [
+     "Tune",
+     "Level",
+     "Decay"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: DSxx909Crash.wav."
+   },
+   {
+    "label": "909 RD",
+    "name": "TR-909 Ride",
+    "type": "Ride",
+    "controls": [
+     "Tune",
+     "Level"
+    ],
+    "switch_alternate": null,
+    "notes": "PCM sample per SOS (ride listed among sample-only voices). Pack: DSxx909Ride.wav."
+   }
+  ],
+  "choke_groups": [
+   [
+    "808 CH",
+    "808 OH"
+   ],
+   [
+    "909 CH",
+    "909 OH"
+   ]
+  ],
+  "accent": "No accent control; accent comes from MIDI velocity. Velocity (or a MIDI CC) can be assigned per parameter, e.g. snare tone and tune to velocity (SOS); the 'Velo...' and 'Tune Me Up' kits store such routings.",
+  "built_in_effects": [
+   {
+    "name": "Distortion",
+    "type": "other",
+    "notes": "Soft-knee distortion on the currently selected drum voice (per voice); used in 'Power' (bass, snare, hats) and 'Hardcore' (bass drums) kits."
+   },
+   {
+    "name": "Front Cut",
+    "type": "other",
+    "notes": "Removes up to 99 ms from the start of a drum sound."
+   }
+  ],
+  "global_features": [
+   "Analogue Sound Modelling (ASM) for bass drum, snare, toms, congas, hi-hats and cymbals, often layered with a sample; PCM only for cowbell, maracas, claves, ride, rim shot, hand clap (SOS)",
+   "Polyphony 'up to 8' (reviewer told) vs 12 in the manual; ASM drums reduce it",
+   "Per-drum setting to accept or ignore note-off (decides whether a retrigger cuts the sound)",
+   "25 preset + 15 user kits; SysEx dumps",
+   "Stereo out + 6 individual outs, assignable per drum and stored per kit; per-drum pan",
+   "About 100 MIDI CCs; all 22 knobs send CC; CC7 master volume",
+   "Assign Bank maps one drum across an octave; GM remap with 808/909 mode",
+   "Sync24 (DIN) clock out driven by incoming MIDI clock",
+   "No sequencer",
+   "Year: 1996 (SOS July 1996 review); Sonic State says 1995"
+  ],
+  "sound_bank": {
+   "total": 27,
+   "categories": [
+    {
+     "name": "TR-808 voices",
+     "count": 16,
+     "range": "n/a"
+    },
+    {
+     "name": "TR-909 voices",
+     "count": 11,
+     "range": "n/a"
+    },
+    {
+     "name": "Factory preset kits",
+     "count": 25,
+     "range": "programs 1-25 (pack Kit00-Kit22 = programs 1-23)"
+    }
+   ],
+   "ordered_list": [
+    "Program 1 (pack Kit00): Classic TR909 V1",
+    "Program 2 (pack Kit01): FX TR909/TR808",
+    "Program 3 (pack Kit02): Garage 909/808",
+    "Program 4 (pack Kit03): Classic TR909 V2",
+    "Program 5 (pack Kit04): Hardcore TR909",
+    "Program 6 (pack Kit05): Rave / Jungle TR808",
+    "Program 7 (pack Kit06): Classic TR808 V1",
+    "Program 8 (pack Kit07): Tune Me Up",
+    "Program 9 (pack Kit08): Cut TR909",
+    "Program 10 (pack Kit09): Dynamic TR909",
+    "Program 11 (pack Kit10): Cut TR808",
+    "Program 12 (pack Kit11): Grunge TR909",
+    "Program 13 (pack Kit12): Dynamic TR808",
+    "Program 14 (pack Kit13): Grunge TR808",
+    "Program 15 (pack Kit14): Classic TR909 V3",
+    "Program 16 (pack Kit15): Power TR909",
+    "Program 17 (pack Kit16): Power TR808",
+    "Program 18 (pack Kit17): A Bit Off TR909",
+    "Program 19 (pack Kit18): A Bit off TR808",
+    "Program 20 (pack Kit19): Velo TR909",
+    "Program 21 (pack Kit20): Velo Dis TR909",
+    "Program 22 (pack Kit21): Velo Tom TR909",
+    "Program 23 (pack Kit22): Velo Tom TR808",
+    "Program 24 (not in pack): Classic TR909 Ind. - individual outputs 1 = bass, 2 = snare, 3 = hi-hats (manual snippet)",
+    "Program 25 (not in pack): name unknown - individual-output duplicate kit per pack Readme"
+   ],
+   "list_source": "Kit names from the pack's Readme.txt; program numbering checked against manual factory-list snippets (https://manualshive.com/en/manual/novation/drumstation/1711554?page=46, page itself blocked); voices from https://notebook.zoeblade.com/DrumStation_MIDI_map.html"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "C1",
+    "midi_note": 24,
+    "sound": "808 mode: 909 BD | 909 mode: 808 BD"
+   },
+   {
+    "pad_or_key": "C#1",
+    "midi_note": 25,
+    "sound": "808 mode: 909 RS | 909 mode: 808 RS"
+   },
+   {
+    "pad_or_key": "D1",
+    "midi_note": 26,
+    "sound": "808 mode: 909 SD | 909 mode: 808 SD"
+   },
+   {
+    "pad_or_key": "D#1",
+    "midi_note": 27,
+    "sound": "808 mode: 909 CP | 909 mode: 808 CP"
+   },
+   {
+    "pad_or_key": "E1",
+    "midi_note": 28,
+    "sound": "808 mode: 909 LT | 909 mode: 808 LT"
+   },
+   {
+    "pad_or_key": "F1",
+    "midi_note": 29,
+    "sound": "808 mode: 909 MT | 909 mode: 808 MT"
+   },
+   {
+    "pad_or_key": "F#1",
+    "midi_note": 30,
+    "sound": "808 mode: 909 CH | 909 mode: 808 CH"
+   },
+   {
+    "pad_or_key": "G1",
+    "midi_note": 31,
+    "sound": "808 mode: 909 HT | 909 mode: 808 HT"
+   },
+   {
+    "pad_or_key": "G#1",
+    "midi_note": 32,
+    "sound": "808 mode: 909 crash | 909 mode: 808 crash (cymbal)"
+   },
+   {
+    "pad_or_key": "A1",
+    "midi_note": 33,
+    "sound": "808 mode: 909 ride | 909 mode: none"
+   },
+   {
+    "pad_or_key": "A#1",
+    "midi_note": 34,
+    "sound": "808 mode: 909 OH | 909 mode: 808 OH"
+   },
+   {
+    "pad_or_key": "C2",
+    "midi_note": 36,
+    "sound": "808 mode: 808 BD | 909 mode: 909 BD"
+   },
+   {
+    "pad_or_key": "C#2",
+    "midi_note": 37,
+    "sound": "808 mode: 808 RS | 909 mode: 909 RS"
+   },
+   {
+    "pad_or_key": "D2",
+    "midi_note": 38,
+    "sound": "808 mode: 808 SD | 909 mode: 909 SD"
+   },
+   {
+    "pad_or_key": "D#2",
+    "midi_note": 39,
+    "sound": "808 mode: 808 CP | 909 mode: 909 CP"
+   },
+   {
+    "pad_or_key": "E2",
+    "midi_note": 40,
+    "sound": "808 mode: 808 SD | 909 mode: 909 SD"
+   },
+   {
+    "pad_or_key": "F2",
+    "midi_note": 41,
+    "sound": "808 mode: 808 LT | 909 mode: 909 LT"
+   },
+   {
+    "pad_or_key": "F#2",
+    "midi_note": 42,
+    "sound": "808 mode: 808 CH | 909 mode: 909 CH"
+   },
+   {
+    "pad_or_key": "G2",
+    "midi_note": 43,
+    "sound": "808 mode: 808 LT | 909 mode: 909 LT"
+   },
+   {
+    "pad_or_key": "G#2",
+    "midi_note": 44,
+    "sound": "808 mode: 808 CH | 909 mode: 909 CH"
+   },
+   {
+    "pad_or_key": "A2",
+    "midi_note": 45,
+    "sound": "808 mode: 808 MT | 909 mode: 909 MT"
+   },
+   {
+    "pad_or_key": "A#2",
+    "midi_note": 46,
+    "sound": "808 mode: 808 OH | 909 mode: 909 OH"
+   },
+   {
+    "pad_or_key": "B2",
+    "midi_note": 47,
+    "sound": "808 mode: 808 MT | 909 mode: 909 MT"
+   },
+   {
+    "pad_or_key": "C3",
+    "midi_note": 48,
+    "sound": "808 mode: 808 HT | 909 mode: 909 HT"
+   },
+   {
+    "pad_or_key": "C#3",
+    "midi_note": 49,
+    "sound": "808 mode: 808 crash (cymbal) | 909 mode: 909 crash"
+   },
+   {
+    "pad_or_key": "D3",
+    "midi_note": 50,
+    "sound": "808 mode: 808 HT | 909 mode: 909 HT"
+   },
+   {
+    "pad_or_key": "D#3",
+    "midi_note": 51,
+    "sound": "808 mode: none | 909 mode: 909 ride"
+   },
+   {
+    "pad_or_key": "G#3",
+    "midi_note": 56,
+    "sound": "808 mode: 808 CB | 909 mode: 808 CB"
+   },
+   {
+    "pad_or_key": "D4",
+    "midi_note": 62,
+    "sound": "808 mode: 808 HC | 909 mode: 808 HC"
+   },
+   {
+    "pad_or_key": "D#4",
+    "midi_note": 63,
+    "sound": "808 mode: 808 MC | 909 mode: 808 MC"
+   },
+   {
+    "pad_or_key": "E4",
+    "midi_note": 64,
+    "sound": "808 mode: 808 LC | 909 mode: 808 LC"
+   },
+   {
+    "pad_or_key": "A#4",
+    "midi_note": 70,
+    "sound": "808 mode: 808 MA | 909 mode: 808 MA"
+   },
+   {
+    "pad_or_key": "D#5",
+    "midi_note": 75,
+    "sound": "808 mode: 808 CL | 909 mode: 808 CL"
+   }
+  ],
+  "pack_contents": "23 folders Kit00-Kit22, each with 27 mono WAVs (621 total) named DS<kit><808|909><Sound>.wav, plus Readme.txt listing the kit names. 808: Kick, Snare, TomLo, TomMid, TomHi, CongaLo, CongaMid, CongaHi, Rimshot, Clave, Clap, Maracas, Cowbell, Cymbal, Hat_C, Hat_O. 909: Kick, Snare, TomLo, TomMid, TomHi, Rimshot, Clap, Hat_C, Hat_O, Crash, Ride. Every kit holds both 808 and 909 sets. Pack kit NN = factory program NN+1. Readme: 'Kits 023 and 024 are duplicate kits using individual outputs so have not been included' (= programs 24-25). Name glitches: Kit09 'DS09909TomHI.wav', Kit21 'DS21808Claves.wav'.",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "Underworld",
+    "title": "Everything, Everything",
+    "year": 2000,
+    "evidence": "https://notebook.zoeblade.com/DrumStation.html - lists Underworld as a DrumStation user, citing Paul Tingen, 'Underworld: The Making of Everything, Everything', Sound On Sound, Dec 2000 (SOS article not opened)",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.soundonsound.com/reviews/novation-drumstation",
+   "https://notebook.zoeblade.com/DrumStation.html",
+   "https://notebook.zoeblade.com/DrumStation_MIDI_map.html",
+   "https://www.polynominal.com/novation-drum-station/index.html",
+   "https://en.wikipedia.org/wiki/Novation_DrumStation",
+   "https://manualshive.com/en/manual/novation/drumstation/1711554?page=46"
+  ]
+ }
+]

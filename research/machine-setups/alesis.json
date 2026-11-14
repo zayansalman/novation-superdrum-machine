@@ -1,0 +1,1948 @@
+[
+ {
+  "machine": "Alesis HR-16",
+  "pack_folders": [
+   "Alesis HR-16",
+   "Alesis HR16"
+  ],
+  "maker": "Alesis",
+  "year": 1987,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "TOM 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 1 in the SOS Jan 1988 default list. Default MIDI note 48 (manual OCR)."
+   },
+   {
+    "label": "TOM 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 2. Default MIDI note 45 (manual OCR)."
+   },
+   {
+    "label": "TOM 3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 3. Default MIDI note 41 (manual OCR)."
+   },
+   {
+    "label": "TOM 4",
+    "name": "Tom 4",
+    "type": "Tom",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 4. Default MIDI note unclear: the OCR reads 063, which is doubtful."
+   },
+   {
+    "label": "RIDE",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 5. Default MIDI note 51 (manual OCR)."
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 6. Default MIDI note 49 (manual OCR)."
+   },
+   {
+    "label": "PERC 1",
+    "name": "Percussion 1",
+    "type": "Perc",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 7. Default MIDI note and default sound unknown (OCR unreadable)."
+   },
+   {
+    "label": "PERC 2",
+    "name": "Percussion 2",
+    "type": "Perc",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 8. Default MIDI note and default sound unknown (OCR unreadable)."
+   },
+   {
+    "label": "KICK",
+    "name": "Kick",
+    "type": "Kick",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 9. The manual's example shows the KICK pad on 24\" Power Kick. Default MIDI note 35 (manual OCR)."
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare",
+    "type": "Snare",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 10. Default MIDI note 38 (manual OCR)."
+   },
+   {
+    "label": "CLS HAT",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 11. Default MIDI note 42 (manual OCR). Cut-off behaviour with MID/OPN HAT is not documented in the sources found."
+   },
+   {
+    "label": "MID HAT",
+    "name": "Mid (half-open) Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 12. Half-open hat pad. Default MIDI note 44 (manual OCR)."
+   },
+   {
+    "label": "OPN HAT",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 13. Default MIDI note 46 (manual OCR)."
+   },
+   {
+    "label": "CLAPS",
+    "name": "Hand Claps",
+    "type": "Clap",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 14. Default MIDI note 39 (manual OCR)."
+   },
+   {
+    "label": "PERC 3",
+    "name": "Percussion 3",
+    "type": "Perc",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 15. Default MIDI note 67 (manual OCR)."
+   },
+   {
+    "label": "PERC 4",
+    "name": "Percussion 4",
+    "type": "Perc",
+    "controls": [
+     "VOICE: any of the 49 ROM sounds",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad 16. Default MIDI note 68 (manual OCR)."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "No accent control. Pads are velocity-sensitive with eight levels and three response curves (Soft, Medium, Loud), or sensitivity can be turned off (SOS Jan 1988).",
+  "built_in_effects": [
+   {
+    "name": "None (no effects processor)",
+    "type": "other",
+    "notes": "Vintage Synth Explorer: 'Effects - None'. A few ROM samples carry recorded ambience or gating by name: Ambient Snare ('wood ambient snare' in SOS), 22\" Gated Kick, Gated Snare."
+   }
+  ],
+  "global_features": [
+   "16 velocity-sensitive pads, 16 voices (one per pad)",
+   "49 sounds, 16-bit; claimed 47 kHz sample rate and 20 kHz bandwidth",
+   "kit (VOICE/TUNE/MIX including pan) stored per pattern; empty patterns default to the standard voice assignment, no pitch shift, nominal mix",
+   "tuning -16 to +15 per pad ('from 12 semitones flat to almost seven semitones sharp' per SOS Nov 1988)",
+   "7-position pan; two stereo output pairs; front volume slider controls output 1 only",
+   "100 patterns (up to 682 beats each) and 100 songs (up to 255 steps)",
+   "quantise 1/4 to 1/64 or off; SWING function (values not documented in the sources found)",
+   "OFFSET shifts drum events in 1/384-note steps up to 99/384 (per SOS Jan 1988 review)",
+   "MIDI note per pad; MIDI drum receive/transmit off by default",
+   "UK price GBP 449 inc VAT (1988)"
+  ],
+  "sound_bank": {
+   "total": 49,
+   "categories": [
+    {
+     "name": "Kicks",
+     "count": 10,
+     "range": "1-10"
+    },
+    {
+     "name": "Snares, rimshot, sidestick, brush",
+     "count": 8,
+     "range": "11-18"
+    },
+    {
+     "name": "Toms",
+     "count": 5,
+     "range": "19-23"
+    },
+    {
+     "name": "Hi-hats (closed A/B, half open, open, foot closed)",
+     "count": 5,
+     "range": "24-28"
+    },
+    {
+     "name": "Cymbals (ride, ride bell, crash)",
+     "count": 3,
+     "range": "29-31"
+    },
+    {
+     "name": "Percussion (timbale, congas, blocks, claves, cabasa, maracas, shaker, agogo, cowbells, triangle, tambourine, claps, snap, sticks)",
+     "count": 18,
+     "range": "32-49"
+    }
+   ],
+   "ordered_list": [
+    "24\" Power Kick",
+    "22\" Deep Kick",
+    "22\" Power Kick",
+    "20\" Swift Kick",
+    "22\" Dbl Hd Kick A",
+    "22\" Dbl Hd Kick B",
+    "22\" 60's Kick",
+    "22\" Gated Kick",
+    "Electronic Kick 1",
+    "Electronic Kick 2",
+    "8x14\" Wood Snare",
+    "Ambient Snare",
+    "13\" Brass Piccolo",
+    "Gated Snare",
+    "Electronic Snare",
+    "Rimshot Snare",
+    "Sidestick",
+    "Brush Hit Snare",
+    "10\" Power Tom",
+    "16\" Power Tom",
+    "10\" Dbl Head Tom",
+    "14\" Dbl Head Tom",
+    "Electronic Tom",
+    "Closed HiHat A",
+    "Closed HiHat B",
+    "Half Open HiHat",
+    "Open HiHat",
+    "Foot Closed HiHat",
+    "Ride Cymbal",
+    "Ride Cymbal Bell",
+    "Crash Cymbal",
+    "Timbale",
+    "High Conga Slap",
+    "Low Conga Slap",
+    "Small Wood Block",
+    "Large Wood Block",
+    "Rosewood Claves",
+    "Cabasa",
+    "Maracas A",
+    "Maracas B",
+    "Shaker",
+    "Agogo Bell",
+    "Medium Cowbell",
+    "Large Cowbell",
+    "Triangle",
+    "Tambourine",
+    "Hand Claps",
+    "Finger Snap",
+    "Drum Sticks"
+   ],
+   "list_source": "https://www.matrixsynth.com/2011/04/alesis-hr-16-custom-sounds-eproms-linn.html"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "Pad 1 TOM 1",
+    "midi_note": 48,
+    "sound": "unknown (default tom sound not documented)"
+   },
+   {
+    "pad_or_key": "Pad 2 TOM 2",
+    "midi_note": 45,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 3 TOM 3",
+    "midi_note": 41,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 4 TOM 4",
+    "midi_note": null,
+    "sound": "unknown (OCR note reads 063, doubtful)"
+   },
+   {
+    "pad_or_key": "Pad 5 RIDE",
+    "midi_note": 51,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 6 CRASH",
+    "midi_note": 49,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 7 PERC 1",
+    "midi_note": null,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 8 PERC 2",
+    "midi_note": null,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 9 KICK",
+    "midi_note": 35,
+    "sound": "24\" Power Kick (manual example)"
+   },
+   {
+    "pad_or_key": "Pad 10 SNARE",
+    "midi_note": 38,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 11 CLS HAT",
+    "midi_note": 42,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 12 MID HAT",
+    "midi_note": 44,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 13 OPN HAT",
+    "midi_note": 46,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 14 CLAPS",
+    "midi_note": 39,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 15 PERC 3",
+    "midi_note": 67,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 16 PERC 4",
+    "midi_note": 68,
+    "sound": "unknown"
+   }
+  ],
+  "pack_contents": "'Alesis HR-16': 19 WAVs, 16-bit/44.1 kHz, 2-channel but L/R nearly identical (centred mono), named by instrument without numbers: Agogo Bell, Bassdrum, Cabasa, Clap, Claves, Closed Hat, Conga H, Conga L, Maracas, Open Hat, Rim, Shaker, Snaredrum, Timbale, Tom-1, Tom-2, Triangle, Wood Block H, Wood Block L. No ride, crash, mid hat, toms 3-4, cowbells, tambourine, snap or sticks. 'Alesis HR16': 44 mono 16-bit/44.1 kHz WAVs prefixed HR16: Kick01-06, Snare01-07, Rimshot, Sidestick, Tom01-04, Hat_C1, Hat_C2, Hat_M, Hat_O, Hat_P, Ride01-02, Crash, Timbale, HiConga, LoConga, Shaker, Block1-2, Clave, Cabasa, Maracas01-02, Agogo, Cowbell01-02, Triangle, Tamborine (sic), Clap, Snap. Against the 49-sound ROM: 6 of 10 kicks, 4 of 5 toms, Drum Sticks missing, one more snare than the ROM's 6 (unexplained). Pack numbers do not follow ROM numbers. No loops or MIDI.",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "Godflesh",
+    "title": "Streetcleaner (album)",
+    "year": 1989,
+    "evidence": "https://en.wikipedia.org/wiki/Streetcleaner - says Broadrick and G.C. Green used an Alesis HR-16 for nearly all the album's percussion (secondary; seen via search summary).",
+    "grid_source": null
+   },
+   {
+    "artist": "They Might Be Giants",
+    "title": "Lincoln (album)",
+    "year": 1988,
+    "evidence": "https://tmbw.net/wiki/Drum_Machine - 'It was heavily used on Lincoln, and to a lesser extent on Flood', citing John Flansburgh's Tumblr.",
+    "grid_source": null
+   },
+   {
+    "artist": "Big Daddy Kane (prod. Prince Paul)",
+    "title": "It's a Big Daddy Thing",
+    "year": 1989,
+    "evidence": "https://www.visualartsdb.com/artwork/si-nmaahc-ld1-1658220228681-1658220241664-0-alesis-hr-16-drum-machine-used-by-prince-paul - mirror of a Smithsonian NMAAHC object 'Alesis HR-16 drum machine used by Prince Paul'; says its sound 'can clearly be heard' on this record (seen only in search snippets; page returned 403).",
+    "grid_source": null
+   },
+   {
+    "artist": "Orbital",
+    "title": "Chime",
+    "year": 1989,
+    "evidence": "https://www.soundonsound.com/techniques/classic-tracks-orbital-chime - Paul Hartnoll: 'after that I added 909 and [Alesis] HR16 drum machines' (the HR16 was borrowed from Phil); which drum parts it played is not stated.",
+    "grid_source": null
+   },
+   {
+    "artist": "Stereo MC's",
+    "title": "Connected",
+    "year": 1992,
+    "evidence": "https://mixdownmag.com.au/features/mixdowns-greatest-drum-machines-of-all-time-part-one/ - says the HR-16 is 'Famed for being the drum machine used on Stereo MC's track Connected' (uncited); a band interview says only 'an Alesis drum machine'. Low confidence.",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/alesis-hr-16-drum-machine/3449",
+   "https://www.muzines.co.uk/articles/using-the-alesis-hr16-as-an-expander/4005",
+   "https://www.manualsdir.com/manuals/724207/alesis-hr-16b-mmt-8.html?page=18",
+   "https://www.manualsdir.com/manuals/724207/alesis-hr-16b-mmt-8.html?page=19",
+   "https://www.manualsdir.com/manuals/724207/alesis-hr-16b-mmt-8.html?page=25",
+   "https://www.manualsdir.com/manuals/46570/alesis-hr-16.html?page=32",
+   "https://www.matrixsynth.com/2011/04/alesis-hr-16-custom-sounds-eproms-linn.html",
+   "https://www.vintagesynth.com/alesis/hr-16",
+   "https://mixdownmag.com.au/features/mixdowns-greatest-drum-machines-of-all-time-part-one/",
+   "https://tmbw.net/wiki/Drum_Machine",
+   "https://www.soundonsound.com/techniques/classic-tracks-orbital-chime",
+   "https://en.wikipedia.org/wiki/Streetcleaner",
+   "https://www.visualartsdb.com/artwork/si-nmaahc-ld1-1658220228681-1658220241664-0-alesis-hr-16-drum-machine-used-by-prince-paul"
+  ]
+ },
+ {
+  "machine": "Alesis HR-16:B",
+  "pack_folders": [
+   "Alesis HR16B"
+  ],
+  "maker": "Alesis",
+  "year": 1989,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "TOM 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Pad set assumed identical to the HR-16 (shared operating system and manual; inferred). Default note 48 per the HR-16:B manual OCR."
+   },
+   {
+    "label": "TOM 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note 45 (manual OCR)."
+   },
+   {
+    "label": "TOM 3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note 41 (manual OCR)."
+   },
+   {
+    "label": "TOM 4",
+    "name": "Tom 4",
+    "type": "Tom",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note unclear (OCR reads 063)."
+   },
+   {
+    "label": "RIDE",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note 51 (manual OCR)."
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note 49 (manual OCR)."
+   },
+   {
+    "label": "PERC 1",
+    "name": "Percussion 1",
+    "type": "Perc",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note unknown."
+   },
+   {
+    "label": "PERC 2",
+    "name": "Percussion 2",
+    "type": "Perc",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note unknown."
+   },
+   {
+    "label": "KICK",
+    "name": "Kick",
+    "type": "Kick",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note 35 (manual OCR). Default :B kick sound unknown."
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare",
+    "type": "Snare",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note 38 (manual OCR)."
+   },
+   {
+    "label": "CLS HAT",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note 42 (manual OCR). Hat cut-off behaviour undocumented."
+   },
+   {
+    "label": "MID HAT",
+    "name": "Mid (half-open) Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note 44 (manual OCR)."
+   },
+   {
+    "label": "OPN HAT",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note 46 (manual OCR)."
+   },
+   {
+    "label": "CLAPS",
+    "name": "Claps",
+    "type": "Clap",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note 39 (manual OCR)."
+   },
+   {
+    "label": "PERC 3",
+    "name": "Percussion 3",
+    "type": "Perc",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note 67 (manual OCR)."
+   },
+   {
+    "label": "PERC 4",
+    "name": "Percussion 4",
+    "type": "Perc",
+    "controls": [
+     "VOICE: any ROM sound",
+     "TUNE: -16 to +15",
+     "MIX: volume 00-99 (slider)",
+     "pan: 7 positions (<3 .. <> .. 3>)",
+     "output: stereo pair 1 or 2",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default note 68 (manual OCR)."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "No accent control (inferred same as HR-16): velocity-sensitive pads with eight levels and Soft/Medium/Loud response curves.",
+  "built_in_effects": [
+   {
+    "name": "None (no effects processor; inferred same hardware as HR-16)",
+    "type": "other",
+    "notes": "Sample names indicate recorded room, reverb or gating on some sounds: 002 Tiled Room Kick, 013 90s Gated Snare, 014 Reverb Snare, 019 Gated Sidestick, 032 Ambient Bongo, 036 Gated Claps, 041 Ambient Puh (inferred from names)."
+   }
+  ],
+  "global_features": [
+   "operating system identical to the HR-16 'with a few exceptions' (manual)",
+   "new sound ROM aimed at techno/electronic/rap (names in pack); black case (HR-16 is grey)",
+   "16 pads, 16 voices; 100 patterns, 100 songs (inferred same as HR-16)",
+   "tuning -16 to +15, volume 00-99, 7-position pan, two stereo output pairs (shared manual)"
+  ],
+  "sound_bank": {
+   "total": 47,
+   "categories": [
+    {
+     "name": "Kicks (per pack numbering; official list not found)",
+     "count": 7,
+     "range": "1-7"
+    },
+    {
+     "name": "Snares incl. one rim (per pack numbering)",
+     "count": 10,
+     "range": "8-17"
+    },
+    {
+     "name": "Sidesticks (per pack numbering)",
+     "count": 2,
+     "range": "18-19"
+    },
+    {
+     "name": "Hi-hats (per pack numbering)",
+     "count": 5,
+     "range": "20-24"
+    },
+    {
+     "name": "Toms (per pack numbering)",
+     "count": 3,
+     "range": "25-27"
+    },
+    {
+     "name": "Cymbals (per pack numbering)",
+     "count": 2,
+     "range": "28-29"
+    },
+    {
+     "name": "Percussion (per pack numbering)",
+     "count": 8,
+     "range": "30-37"
+    },
+    {
+     "name": "FX / found sounds (per pack numbering)",
+     "count": 10,
+     "range": "38-47"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": null
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "Pad 1 TOM 1",
+    "midi_note": 48,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 2 TOM 2",
+    "midi_note": 45,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 3 TOM 3",
+    "midi_note": 41,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 4 TOM 4",
+    "midi_note": null,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 5 RIDE",
+    "midi_note": 51,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 6 CRASH",
+    "midi_note": 49,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 7 PERC 1",
+    "midi_note": null,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 8 PERC 2",
+    "midi_note": null,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 9 KICK",
+    "midi_note": 35,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 10 SNARE",
+    "midi_note": 38,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 11 CLS HAT",
+    "midi_note": 42,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 12 MID HAT",
+    "midi_note": 44,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 13 OPN HAT",
+    "midi_note": 46,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 14 CLAPS",
+    "midi_note": 39,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 15 PERC 3",
+    "midi_note": 67,
+    "sound": "unknown"
+   },
+   {
+    "pad_or_key": "Pad 16 PERC 4",
+    "midi_note": 68,
+    "sound": "unknown"
+   }
+  ],
+  "pack_contents": "'Alesis HR16B': 47 mono 16-bit/44.1 kHz WAVs numbered 001-047 with no gaps, named 'HR16B NNN <name>': 001 Monster Kick, 002 Tiled Room Kick, 003 Big Foot, 004 Rap Kick, 005 Techno Kick, 006 Deep Wood Kick, 007 Tight Kick, 008 Combination Snare, 009 Techno Snare, 010 Hi Picolo Rim, 011 HI Picolo Snare, 012 Rap Snare, 013 90s Gated Snare, 014 Reverb Snare, 015 Mid Punch Snare, 016 Fat Snare, 017 Aggressive Snare, 018 Sidestick, 019 Gated Sidestick, 020 Closed Hihat, 021 Mid Hihat, 022 Open Hihat, 023 R&B Closed Hat, 024 Rock Hihat, 025 Hi Power Tom, 026 Mid Power Tom, 027 Aggressive Tom, 028 Crash Cymbal, 029 Ride Cymbal, 030 Open Conga, 031 Conga Slap, 032 Ambient Bongo, 033 Cabasa, 034 Fast Cabasa, 035 Tambourine, 036 Gated Claps, 037 Hi Agogo Bell, 038 Bottles, 039 Pipe, 040 Lip Pop, 041 Ambient Puh, 042 Scratch, 043 Synth Block, 044 Torque Wrench, 045 Trash Can, 046 Glass Break, 047 Jam Block. Looks complete if the :B ROM has 47 sounds (unverified; the manual's inherited text says 49). No loops or MIDI.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://www.manualsdir.com/manuals/724207/alesis-hr-16b-mmt-8.html?page=2",
+   "https://www.manualsdir.com/manuals/724207/alesis-hr-16b-mmt-8.html?page=18",
+   "https://www.manualsdir.com/manuals/724207/alesis-hr-16b-mmt-8.html?page=19",
+   "https://www.manualsdir.com/manuals/724207/alesis-hr-16b-mmt-8.html?page=25",
+   "https://www.vintagesynth.com/alesis/hr-16",
+   "https://mixdownmag.com.au/features/mixdowns-greatest-drum-machines-of-all-time-part-one/",
+   "https://tmbw.net/wiki/Drum_Machine"
+  ]
+ },
+ {
+  "machine": "Alesis SR-16",
+  "pack_folders": [
+   "Alesis SR-16",
+   "Alesis SR16"
+  ],
+  "maker": "Alesis",
+  "year": 1990,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "KICK",
+    "name": "Kick",
+    "type": "Kick",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions (hard L, soft L, left of centre, centre, right of centre, soft R, hard R)",
+     "tuning: +3 to -4 (0 = normal)",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux stereo pair",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 36 (C1). Pad numbering 1-12 inferred from the order of the manual's default note table."
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare",
+    "type": "Snare",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 38 (D1)."
+   },
+   {
+    "label": "CLS HAT",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 42 (F#1). The manual gives closed/open hat in a shared Group as the classic use; factory group membership is not documented."
+   },
+   {
+    "label": "OPEN HAT",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 46 (A#1)."
+   },
+   {
+    "label": "CLAPS",
+    "name": "Claps",
+    "type": "Clap",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 39 (D#1)."
+   },
+   {
+    "label": "PERC 2",
+    "name": "Percussion 2",
+    "type": "Perc",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 67 (G3)."
+   },
+   {
+    "label": "TOM 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 48 (C2)."
+   },
+   {
+    "label": "TOM 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 45 (A1)."
+   },
+   {
+    "label": "TOM 3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 41 (F1)."
+   },
+   {
+    "label": "RIDE",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 51 (D#2)."
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 49 (C#2)."
+   },
+   {
+    "label": "PERC 1",
+    "name": "Percussion 1",
+    "type": "Perc",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 65 (F3)."
+   }
+  ],
+  "choke_groups": [
+   [
+    "CLS HAT",
+    "OPEN HAT"
+   ]
+  ],
+  "accent": "No accent control. Pads have eight velocity levels; MIDI triggering uses all 127. The VELOCITY page offers Soft, Medium, Loud or Fixed 1-8. 'Dynamic articulation' changes timbre on hard hits for many sounds (clearly audible on a few kicks, snares, congas, toms). A hit's volume can be edited per step in step mode.",
+  "built_in_effects": [
+   {
+    "name": "Reverb/ambience recorded into many ROM samples (no effects processor)",
+    "type": "reverb",
+    "notes": "Music Technology 1991: 'a mixture of dry and reverbed sounds'; 94 of 233 sounds are stereo, many of them the reverbed ones (room/hall/ambient kicks, snares, toms). Dry sounds have none. Vintage Synth Explorer: 'Some samples have reverb & ambience in them'."
+   }
+  ],
+  "global_features": [
+   "12 velocity-sensitive pads; 16-voice polyphony with voice stealing",
+   "233 16-bit sounds (94 stereo) with dynamic articulation",
+   "50 preset + 50 user drum sets (per pad: sound, volume, pan, tuning, ASN mode, output)",
+   "50 preset + 50 user patterns, each with Main A, Main B, Fill A, Fill B (400 total), 1-128 beats; 100 user songs",
+   "quantise 1/4, 1/4T, 1/8, 1/8T, 1/16, 1/16T, 1/32, 1/32T or off (1/384)",
+   "swing 54%, 58% or 62% (or off)",
+   "96 ppqn record resolution (Music Technology review)",
+   "11 velocity responses: Soft, Medium, Loud, Fixed 1-8",
+   "tuning +3 to -4 per pad; 7-position pan; Main and Aux stereo outputs",
+   "SoundStacking: merge one pad's part onto another pad to layer sounds",
+   "MIDI: global note per pad; NORMAL or MULTI-DRUMSET note map (notes 0-119); program change selects user drum sets; clock in/out",
+   "start/stop footswitch; tap tempo via footswitch (Quickstart Rev C); tape and MIDI sysex backup; over 15,000 events of memory",
+   "UK price GBP 299 inc VAT (1991)"
+  ],
+  "sound_bank": {
+   "total": 233,
+   "categories": [
+    {
+     "name": "Kicks",
+     "count": 49,
+     "range": "unknown"
+    },
+    {
+     "name": "Snares",
+     "count": 59,
+     "range": "unknown"
+    },
+    {
+     "name": "Toms (hi/mid/lo versions; 52 in another summary)",
+     "count": 51,
+     "range": "unknown"
+    },
+    {
+     "name": "Hi-hats",
+     "count": 19,
+     "range": "unknown"
+    },
+    {
+     "name": "Cymbals (ride, crash)",
+     "count": 12,
+     "range": "unknown"
+    },
+    {
+     "name": "Percussion (incl. 808 cowbell x3, Impact, Sample & Hold)",
+     "count": 42,
+     "range": "unknown"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.muzines.co.uk/articles/alesis-sr16/776"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "Pad 1 KICK (pad number inferred)",
+    "midi_note": 36,
+    "sound": "kick (exact factory ROM sound not documented)"
+   },
+   {
+    "pad_or_key": "Pad 2 SNARE",
+    "midi_note": 38,
+    "sound": "snare (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 3 CLS HAT",
+    "midi_note": 42,
+    "sound": "closed hat (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 4 OPEN HAT",
+    "midi_note": 46,
+    "sound": "open hat (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 5 CLAPS",
+    "midi_note": 39,
+    "sound": "claps (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 6 PERC 2",
+    "midi_note": 67,
+    "sound": "percussion (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 7 TOM 1",
+    "midi_note": 48,
+    "sound": "tom (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 8 TOM 2",
+    "midi_note": 45,
+    "sound": "tom (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 9 TOM 3",
+    "midi_note": 41,
+    "sound": "tom (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 10 RIDE",
+    "midi_note": 51,
+    "sound": "ride (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 11 CRASH",
+    "midi_note": 49,
+    "sound": "crash (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 12 PERC 1",
+    "midi_note": 65,
+    "sound": "percussion (exact ROM sound unknown)"
+   }
+  ],
+  "pack_contents": "'Alesis SR-16': 52 WAVs, 16-bit/44.1 kHz, 2-channel but effectively mono (L/R corr >= 0.998) except Guiro and Hit, in sub-folders Bassdrums (Bassdrum-01..13), Snaredrums (Rim, Snaredrum-01..12), Cymbals (Crash-01..02, Hat Closed-01..03, Hat Open-01..03, Hat Reverse, Ride-01..03), Percussion (Block, Bongo, Clap, Congo, Cowbell, Finger, Guiro, Shaker, Tamb, Timbale, Triangle), Misc (Hit, Metal, Synth Cymbal). 'Alesis SR16': 52 mono 16-bit/44.1 kHz WAVs prefixed SR16: Kick01-13, Snare01-12, Rimshot, Hat_C1-C3, Hat_O1-O4, Ride01-03, Crash01-02, Block, Bongo, Clap, Conga, Cowbell01-02, FSnap, Guiro, Shaker, Spark, Tamborine, Tank, Timbale, Triangle. Both have the same structure (13 kicks, 12 snares + rim, 3 rides, 2 crashes, 7 hats, 14 percussion/misc), a small subset of the 233-sound ROM, similar to the free 53-sound Polynominal pack. Pack numbers are not ROM numbers. No loops or MIDI. For the near-complete ROM, see the 'Alesis SR15' folder.",
+  "preset_patterns": [
+   {
+    "name": "Rap 3",
+    "source": "https://www.muzines.co.uk/articles/alesis-sr16/776"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.alesis.com/rscdn/920/documents/SR16%20Reference%20Rev%20C.pdf",
+   "https://www.alesis.com/rscdn/920/documents/SR16_Quickstart_Guide_RevC.pdf",
+   "https://www.muzines.co.uk/articles/alesis-sr16/776",
+   "https://www.vintagesynth.com/alesis/sr-16",
+   "https://www.polynominal.com/sample-packs/Alesis-SR16-sample-pack/"
+  ]
+ },
+ {
+  "machine": "Alesis SR-16 (pack folder labelled 'Alesis SR15'; no SR-15 model found)",
+  "pack_folders": [
+   "Alesis SR15"
+  ],
+  "maker": "Alesis",
+  "year": 1990,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "KICK",
+    "name": "Kick",
+    "type": "Kick",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4 (0 = normal)",
+     "ASN mode: Multi / Single / Group 1 / Group 2",
+     "output: Main or Aux stereo pair",
+     "MIDI note number (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Same hardware as the SR-16 entry. Default MIDI note 36. Pad numbering inferred."
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare",
+    "type": "Snare",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode",
+     "output: Main or Aux",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 38."
+   },
+   {
+    "label": "CLS HAT",
+    "name": "Closed Hi-Hat",
+    "type": "Closed Hat",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode",
+     "output: Main or Aux",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 42."
+   },
+   {
+    "label": "OPEN HAT",
+    "name": "Open Hi-Hat",
+    "type": "Open Hat",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode",
+     "output: Main or Aux",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 46."
+   },
+   {
+    "label": "CLAPS",
+    "name": "Claps",
+    "type": "Clap",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode",
+     "output: Main or Aux",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 39."
+   },
+   {
+    "label": "PERC 2",
+    "name": "Percussion 2",
+    "type": "Perc",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode",
+     "output: Main or Aux",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 67."
+   },
+   {
+    "label": "TOM 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode",
+     "output: Main or Aux",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 48."
+   },
+   {
+    "label": "TOM 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode",
+     "output: Main or Aux",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 45."
+   },
+   {
+    "label": "TOM 3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode",
+     "output: Main or Aux",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 41."
+   },
+   {
+    "label": "RIDE",
+    "name": "Ride Cymbal",
+    "type": "Ride",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode",
+     "output: Main or Aux",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 51."
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash Cymbal",
+    "type": "Crash",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode",
+     "output: Main or Aux",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 49."
+   },
+   {
+    "label": "PERC 1",
+    "name": "Percussion 1",
+    "type": "Perc",
+    "controls": [
+     "sound: any of 233",
+     "volume 00-99",
+     "pan: 7 positions",
+     "tuning: +3 to -4",
+     "ASN mode",
+     "output: Main or Aux",
+     "MIDI note number"
+    ],
+    "switch_alternate": null,
+    "notes": "Default MIDI note 65."
+   }
+  ],
+  "choke_groups": [
+   [
+    "CLS HAT",
+    "OPEN HAT"
+   ]
+  ],
+  "accent": "Same as SR-16: no accent control; 8 pad velocity levels (127 via MIDI); Soft/Medium/Loud/Fixed 1-8 responses; dynamic articulation.",
+  "built_in_effects": [
+   {
+    "name": "Reverb/ambience recorded into many ROM samples (no effects processor)",
+    "type": "reverb",
+    "notes": "In this folder, 91 of 224 files are stereo and 46 of those are genuinely wide (L/R correlation < 0.9): the Room/Hall/Ambient/Gated/Wet kicks, snares, toms and a few hats/percussion. Cymbals are all mono. Dry sounds have no reverb. Matches the review's 'mixture of dry and reverbed sounds' and 94 stereo ROM sounds."
+   }
+  ],
+  "global_features": [
+   "identical hardware to the SR-16 entry (12 pads, 233 sounds, 16 voices, 50+50 drum sets, 50+50 patterns with A/B/fills, swing 54/58/62%)"
+  ],
+  "sound_bank": {
+   "total": 233,
+   "categories": [
+    {
+     "name": "Kicks (folder has 48)",
+     "count": 49,
+     "range": "unknown"
+    },
+    {
+     "name": "Snares (folder has 57)",
+     "count": 59,
+     "range": "unknown"
+    },
+    {
+     "name": "Toms hi/mid/lo (folder has 50)",
+     "count": 51,
+     "range": "unknown"
+    },
+    {
+     "name": "Hi-hats (folder has 17)",
+     "count": 19,
+     "range": "unknown"
+    },
+    {
+     "name": "Cymbals (folder has 12)",
+     "count": 12,
+     "range": "unknown"
+    },
+    {
+     "name": "Percussion (folder has 40)",
+     "count": 42,
+     "range": "unknown"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.muzines.co.uk/articles/alesis-sr16/776"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "Pad 1 KICK (pad number inferred)",
+    "midi_note": 36,
+    "sound": "kick (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 2 SNARE",
+    "midi_note": 38,
+    "sound": "snare (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 3 CLS HAT",
+    "midi_note": 42,
+    "sound": "closed hat (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 4 OPEN HAT",
+    "midi_note": 46,
+    "sound": "open hat (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 5 CLAPS",
+    "midi_note": 39,
+    "sound": "claps (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 6 PERC 2",
+    "midi_note": 67,
+    "sound": "percussion (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 7 TOM 1",
+    "midi_note": 48,
+    "sound": "tom (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 8 TOM 2",
+    "midi_note": 45,
+    "sound": "tom (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 9 TOM 3",
+    "midi_note": 41,
+    "sound": "tom (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 10 RIDE",
+    "midi_note": 51,
+    "sound": "ride (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 11 CRASH",
+    "midi_note": 49,
+    "sound": "crash (exact ROM sound unknown)"
+   },
+   {
+    "pad_or_key": "Pad 12 PERC 1",
+    "midi_note": 65,
+    "sound": "percussion (exact ROM sound unknown)"
+   }
+  ],
+  "pack_contents": "'Alesis SR15': 224 WAVs (91 stereo, 133 mono; 16-bit/44.1 kHz), every file prefixed 'SR16', so this is inferred to be a near-complete Alesis SR-16 ROM set with a mislabelled folder. Sub-folders: sr16_kik22 (48: Dry01-12, Dry Wood 1-2, Dry Flabby, Dry Loose, Dbl Head, Room 1-6, Room Flab/Lo1/Lo2/Punch, Hall 1-6, Ambient 1-3, Amb Elect, Amb Low, Elect Boom/Hi/Long/Low/Mid, Flange 1-2, Gated 1-2, Garage), sr16_snares (57: Dry01-08, Dry Deep, Dry Hi Ring, Room01-12, Room Ring/Stick/Wide, Hall Lo/Long/Mid, Gated1-2, Gated stick, Elect Hi/Mid/Lo, Ring Hi/Mid/Lo, Ring Tone 1-2, ClapSnare1-3, Coaw 1-2, Crack, Crack2, Burst, Flange, Flutter, Heavy, Nasty, Piccollo, Sidestick, Smacky01-02, Tight Hi, Tite), sr16_toms (50, in sets of 3-5: Dry 1-5, Room 1-5, Amb 1-5, Hall 1-4, Big Hall 1-4, Cannon 1-4, Hall Can 1-4, Gated 1-4, Flat 1-3, Flat Hall 1-3, Flat Room 1-3, Elect 1-3, Flange 1-3), sr16_hats22 (17: Closed, Tight, Thin, Small, Sweet, Hard, Edge, Half, Vari, Open1-2, Wet1-2, Reverse1-4), sr16_cym22 (12: Crash, Crash Hi/Mid/Lo/Trash/Flange, Ride Soft/Hard/Bell/Flange/Live1/Live2), sr16_perc22 (40: Agogo Hi/Lo, Bamboo, Block Hi/Mid/Lo, Coldblok, Cabasa, Claps Hi/Lo, Clave Hi/Lo/Wet, Conga Hi/Lo/HiSlap/LoSlap/DynHi/DynLo, Cowbell Hi/Mid/Lo, RapCow Hi/Mid/Lo, Fingersnap, Finger Wide, Firecrack, Fish Lo, Fishstick, Frogfish, Impact, Shaker, Sticks Hi/Lo, Tambourine, Timbale Hi/Mid/Lo (one spelled 'Timable'), Triangle). Named by sound type, not ROM number. About 9 ROM sounds are missing, including the random 'Sample & Hold', which cannot be a single file. No loops or MIDI.",
+  "preset_patterns": [
+   {
+    "name": "Rap 3",
+    "source": "https://www.muzines.co.uk/articles/alesis-sr16/776"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/alesis-sr16/776",
+   "https://www.alesis.com/rscdn/920/documents/SR16%20Reference%20Rev%20C.pdf",
+   "https://www.vintagesynth.com/alesis/sr-16"
+  ]
+ },
+ {
+  "machine": "Alesis DM5 18-Bit Drum Module",
+  "pack_folders": [
+   "Alesis DM5"
+  ],
+  "maker": "Alesis",
+  "year": 1995,
+  "kind": "drum sound module",
+  "voices": [
+   {
+    "label": "TRIG 1 HH",
+    "name": "Hi-Hat (open), note Bb1/46",
+    "type": "Open Hat",
+    "controls": [
+     "Voice: family (Kik/Snr/Tom/Hat/Cym/Prc/Efx/Rnd) + number",
+     "Tune: +3.00 to -4.00 semitones, in semitone or cent steps",
+     "Mix: volume 00-99, pan 7 positions (<3 .. 0 .. 3>)",
+     "Output: Main or Aux",
+     "Group: Multi / Single / Group 1 / Group 2",
+     "trigger input: gain, velocity curve, crosstalk, decay, noise"
+    ],
+    "switch_alternate": "HH CLOSED",
+    "notes": "Trigger input 1 default. Note 46 'is always the Open Hi-Hat sound (except in Drum Set 18)'. A hi-hat footswitch makes the trigger play another note, e.g. F#1/42 closed hat."
+   },
+   {
+    "label": "TRIG 2 BD",
+    "name": "Bass Drum, note C1/36",
+    "type": "Kick",
+    "controls": [
+     "Voice",
+     "Tune +3.00/-4.00",
+     "Mix: volume 00-99, pan 7 positions",
+     "Output: Main or Aux",
+     "Group mode",
+     "trigger parameters"
+    ],
+    "switch_alternate": null,
+    "notes": "Trigger input 2 default."
+   },
+   {
+    "label": "TRIG 3 SD",
+    "name": "Snare, note D1/38",
+    "type": "Snare",
+    "controls": [
+     "Voice",
+     "Tune +3.00/-4.00",
+     "Mix: volume 00-99, pan 7 positions",
+     "Output: Main or Aux",
+     "Group mode",
+     "trigger parameters"
+    ],
+    "switch_alternate": null,
+    "notes": "Trigger input 3 default."
+   },
+   {
+    "label": "TRIG 4 TOM 1",
+    "name": "Tom 1, note C2/48",
+    "type": "Tom",
+    "controls": [
+     "Voice",
+     "Tune +3.00/-4.00",
+     "Mix: volume 00-99, pan 7 positions",
+     "Output: Main or Aux",
+     "Group mode",
+     "trigger parameters"
+    ],
+    "switch_alternate": null,
+    "notes": "Trigger input 4 default."
+   },
+   {
+    "label": "TRIG 5 TOM 2",
+    "name": "Tom 2, note A1/45",
+    "type": "Tom",
+    "controls": [
+     "Voice",
+     "Tune +3.00/-4.00",
+     "Mix: volume 00-99, pan 7 positions",
+     "Output: Main or Aux",
+     "Group mode",
+     "trigger parameters"
+    ],
+    "switch_alternate": null,
+    "notes": "Trigger input 5 default."
+   },
+   {
+    "label": "TRIG 6 TOM 3",
+    "name": "Tom 3, note F1/41",
+    "type": "Tom",
+    "controls": [
+     "Voice",
+     "Tune +3.00/-4.00",
+     "Mix: volume 00-99, pan 7 positions",
+     "Output: Main or Aux",
+     "Group mode",
+     "trigger parameters"
+    ],
+    "switch_alternate": null,
+    "notes": "Trigger input 6 default."
+   },
+   {
+    "label": "TRIG 7 RIDE",
+    "name": "Ride Cymbal, note Eb2/51",
+    "type": "Ride",
+    "controls": [
+     "Voice",
+     "Tune +3.00/-4.00",
+     "Mix: volume 00-99, pan 7 positions",
+     "Output: Main or Aux",
+     "Group mode",
+     "trigger parameters"
+    ],
+    "switch_alternate": null,
+    "notes": "Trigger input 7 default."
+   },
+   {
+    "label": "TRIG 8 CRASH 1",
+    "name": "Crash Cymbal 1, note C#2/49",
+    "type": "Crash",
+    "controls": [
+     "Voice",
+     "Tune +3.00/-4.00",
+     "Mix: volume 00-99, pan 7 positions",
+     "Output: Main or Aux",
+     "Group mode",
+     "trigger parameters"
+    ],
+    "switch_alternate": null,
+    "notes": "Trigger input 8 default."
+   },
+   {
+    "label": "TRIG 9 CRASH 2",
+    "name": "Crash Cymbal 2, note A2/57",
+    "type": "Crash",
+    "controls": [
+     "Voice",
+     "Tune +3.00/-4.00",
+     "Mix: volume 00-99, pan 7 positions",
+     "Output: Main or Aux",
+     "Group mode",
+     "trigger parameters"
+    ],
+    "switch_alternate": null,
+    "notes": "Trigger input 9 default."
+   },
+   {
+    "label": "TRIG 10 CONGA",
+    "name": "Conga, note D3/62",
+    "type": "Conga",
+    "controls": [
+     "Voice",
+     "Tune +3.00/-4.00",
+     "Mix: volume 00-99, pan 7 positions",
+     "Output: Main or Aux",
+     "Group mode",
+     "trigger parameters"
+    ],
+    "switch_alternate": null,
+    "notes": "Trigger input 10 default."
+   },
+   {
+    "label": "TRIG 11 HI TIMBALE",
+    "name": "Hi Timbale, note F3/65",
+    "type": "Timbale",
+    "controls": [
+     "Voice",
+     "Tune +3.00/-4.00",
+     "Mix: volume 00-99, pan 7 positions",
+     "Output: Main or Aux",
+     "Group mode",
+     "trigger parameters"
+    ],
+    "switch_alternate": null,
+    "notes": "Trigger input 11 default."
+   },
+   {
+    "label": "TRIG 12 HI AGOGO",
+    "name": "Hi Agogo, note G3/67",
+    "type": "Agogo",
+    "controls": [
+     "Voice",
+     "Tune +3.00/-4.00",
+     "Mix: volume 00-99, pan 7 positions",
+     "Output: Main or Aux",
+     "Group mode",
+     "trigger parameters"
+    ],
+    "switch_alternate": null,
+    "notes": "Trigger input 12 default."
+   },
+   {
+    "label": "HH CLOSED",
+    "name": "Closed Hi-Hat, note F#1/42",
+    "type": "Closed Hat",
+    "controls": [
+     "Voice",
+     "Tune +3.00/-4.00",
+     "Mix: volume 00-99, pan 7 positions",
+     "Output: Main or Aux",
+     "Group mode"
+    ],
+    "switch_alternate": "TRIG 1 HH",
+    "notes": "Reached from the hi-hat trigger via footswitch, or by MIDI note 42. The manual calls F#1 'the Closed Hi-Hat sound'."
+   }
+  ],
+  "choke_groups": [
+   [
+    "TRIG 1 HH",
+    "HH CLOSED"
+   ]
+  ],
+  "accent": "No accent control. Every note responds to velocity (MIDI velocity, or trigger level through per-input gain and velocity curve). Dynamic Articulation changes timbre and pitch with velocity.",
+  "built_in_effects": [
+   {
+    "name": "Ambience/reverb recorded into many samples (no effects processor)",
+    "type": "reverb",
+    "notes": "SOS Feb 1996: many sounds are recorded with ambience or reverb, so external processing 'isn't always necessary'. The manual's functions (Voice, Tune, Mix, Output, Drum Set, Ext Trig, Group, MIDI) include no effects."
+   }
+  ],
+  "global_features": [
+   "drum sound module: no pads, no sequencer (demo sequence only); 12 trigger inputs plus MIDI",
+   "21 drum sets (00-20); factory presets restorable from ROM",
+   "61 notes per drum set (MIDI 36-96 by default; root note shiftable so the window can sit anywhere from 0-60 to 67-127)",
+   "16-voice polyphony shared across the kit, with voice stealing; more DM5s can be chained for polyphony",
+   "8 voice families, including Random (a different sample of the same type on each hit)",
+   "4 MB of samples; 18-bit DACs at 48 kHz",
+   "per note: tune +3.00 to -4.00 semitones in cent steps, volume 00-99, 7-position pan, Main/Aux output, Multi/Single/Group 1/Group 2",
+   "trigger settings: gain, velocity curve, crosstalk, decay, noise; footswitch hi-hat mode or kit stepping",
+   "Main L/R and Aux L/R outputs plus headphones; MIDI program-change table; sysex save/load",
+   "UK price GBP 499 inc VAT (SOS Feb 1996)"
+  ],
+  "sound_bank": {
+   "total": null,
+   "categories": [
+    {
+     "name": "Kik (Kick)",
+     "count": null,
+     "range": "unknown"
+    },
+    {
+     "name": "Snr (Snare)",
+     "count": null,
+     "range": "unknown"
+    },
+    {
+     "name": "Tom",
+     "count": null,
+     "range": "unknown"
+    },
+    {
+     "name": "Hat (Hi-hats)",
+     "count": null,
+     "range": "unknown"
+    },
+    {
+     "name": "Cym (Cymbals and hi hats)",
+     "count": null,
+     "range": "unknown"
+    },
+    {
+     "name": "Prc (Percussion)",
+     "count": null,
+     "range": "unknown"
+    },
+    {
+     "name": "Efx (Effects)",
+     "count": null,
+     "range": "unknown"
+    },
+    {
+     "name": "Rnd (Random)",
+     "count": 15,
+     "range": "unknown"
+    }
+   ],
+   "ordered_list": [],
+   "list_source": "https://www.manualslib.com/manual/207485/Alesis-Dm5.html"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "Trigger 1 (Hi-Hat)",
+    "midi_note": 46,
+    "sound": "Open Hi-Hat (kit-dependent voice)"
+   },
+   {
+    "pad_or_key": "Trigger 1 + footswitch / MIDI",
+    "midi_note": 42,
+    "sound": "Closed Hi-Hat (kit-dependent voice)"
+   },
+   {
+    "pad_or_key": "Trigger 2",
+    "midi_note": 36,
+    "sound": "Bass Drum (kit-dependent voice)"
+   },
+   {
+    "pad_or_key": "Trigger 3",
+    "midi_note": 38,
+    "sound": "Snare (kit-dependent voice)"
+   },
+   {
+    "pad_or_key": "Trigger 4",
+    "midi_note": 48,
+    "sound": "Tom 1 (kit-dependent voice)"
+   },
+   {
+    "pad_or_key": "Trigger 5",
+    "midi_note": 45,
+    "sound": "Tom 2 (kit-dependent voice)"
+   },
+   {
+    "pad_or_key": "Trigger 6",
+    "midi_note": 41,
+    "sound": "Tom 3 (kit-dependent voice)"
+   },
+   {
+    "pad_or_key": "Trigger 7",
+    "midi_note": 51,
+    "sound": "Ride Cymbal (kit-dependent voice)"
+   },
+   {
+    "pad_or_key": "Trigger 8",
+    "midi_note": 49,
+    "sound": "Crash Cymbal 1 (kit-dependent voice)"
+   },
+   {
+    "pad_or_key": "Trigger 9",
+    "midi_note": 57,
+    "sound": "Crash Cymbal 2 (kit-dependent voice)"
+   },
+   {
+    "pad_or_key": "Trigger 10",
+    "midi_note": 62,
+    "sound": "Conga (kit-dependent voice)"
+   },
+   {
+    "pad_or_key": "Trigger 11",
+    "midi_note": 65,
+    "sound": "Hi Timbale (kit-dependent voice)"
+   },
+   {
+    "pad_or_key": "Trigger 12",
+    "midi_note": 67,
+    "sound": "Hi Agogo (kit-dependent voice)"
+   }
+  ],
+  "pack_contents": "'Alesis DM5': 470 mono 16-bit/44.1 kHz WAVs in one flat folder, numbered by the pack's own scheme (not the DM5 chart): DM5FX01-64 (64), DM5Kick01-95 (95), DM5Snare001-109 (108; 028 missing), DM5Rim01-09 (9), DM5Hat_C01-10 (9; C08 missing), DM5Hat_O01-10 (9; O07 missing), DM5Perc001-114 (114), DM5Tom01-25 as _Hi/_M/_Lo variants (62 files; incomplete sets: Tom03/04/05/16/18/19 Hi+Lo only, Tom07 and Tom09 Hi only, Tom08 Lo+M, Tom10 Lo only; Tom25 uses '_Mid'). No cymbals (Cym family) and no Random family. 'Rim' is not a DM5 family. No loops or MIDI.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.alesis.com/rscdn/1580/documents/alesis_dm5_refmanual.pdf",
+   "https://www.soundonsound.com/reviews/alesis-dm5-0",
+   "https://www.soundonsound.com/reviews/alesis-dm5",
+   "https://www.manualslib.com/manual/207485/Alesis-Dm5.html"
+  ]
+ }
+]

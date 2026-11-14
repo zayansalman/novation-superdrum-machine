@@ -1,0 +1,3508 @@
+[
+ {
+  "machine": "Korg DDM-110 Super Drums (Programmable Digital Drum Machine)",
+  "pack_folders": [
+   "Korg DDM110"
+  ],
+  "maker": "Korg",
+  "year": 1984,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "BASS",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "no individual control (MASTER volume only)",
+     "step ACCENT (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Instrument key 2 (key 1 is ACCENT). Manual sound no. 1."
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "no individual control (MASTER volume only)",
+     "step ACCENT (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares a channel with RIM; snare has priority if both are on one step."
+   },
+   {
+    "label": "RIM",
+    "name": "Rimshot",
+    "type": "Rim",
+    "controls": [
+     "no individual control (MASTER volume only)",
+     "step ACCENT (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Cannot sound on the same step as SNARE (snare wins)."
+   },
+   {
+    "label": "HI TOM",
+    "name": "High tom",
+    "type": "Tom",
+    "controls": [
+     "no individual control (MASTER volume only)",
+     "step ACCENT (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "LO TOM",
+    "name": "Low tom",
+    "type": "Tom",
+    "controls": [
+     "no individual control (MASTER volume only)",
+     "step ACCENT (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CLOSED HH",
+    "name": "Closed hi-hat",
+    "type": "Closed Hat",
+    "controls": [
+     "HH CYMBAL volume knob (shared with OPEN HH and CYMBAL)",
+     "step ACCENT (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Closed hat has priority over open hat on the same step."
+   },
+   {
+    "label": "OPEN HH",
+    "name": "Open hi-hat",
+    "type": "Open Hat",
+    "controls": [
+     "HH CYMBAL volume knob (shared)",
+     "step ACCENT (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Shares a channel with CLOSED HH."
+   },
+   {
+    "label": "CYMBAL",
+    "name": "Cymbal (crash)",
+    "type": "Crash",
+    "controls": [
+     "HH CYMBAL volume knob (shared)",
+     "step ACCENT (global)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "CLAPS(TRIG)",
+    "name": "Handclaps",
+    "type": "Clap",
+    "controls": [
+     "TRIG OUT jack fires on every CLAPS step; a plug in TRIG OUT mutes the claps",
+     "step ACCENT (global)"
+    ],
+    "switch_alternate": null,
+    "notes": "Rightmost instrument key (key 0)."
+   }
+  ],
+  "choke_groups": [
+   [
+    "SNARE",
+    "RIM"
+   ],
+   [
+    "CLOSED HH",
+    "OPEN HH"
+   ]
+  ],
+  "accent": "Number key 1 ACCENT (left of BASS) is written into steps like an instrument. Manual p.14: if you put an accent in a step then all instruments played on that step sound louder (one fixed accent level; global per step). Vintage Synth Explorer's claim of an accent control for each sound conflicts with the manual.",
+  "built_in_effects": [],
+  "global_features": [
+   "Built-in effects: none",
+   "9 PCM sounds; 8-bit at 15.6 kHz and 8-voice polyphony per Vintage Synth Explorer (not stated in the manual pages read)",
+   "Volume knobs: MASTER, HH CYMBAL (hi-hat + cymbal), METRONOME; tempo COARSE + FINE knobs",
+   "No per-voice level, tuning, pan, flam or shuffle documented",
+   "32 patterns of 1-2 bars: 01-16 up to 32 steps, 17-32 up to 16 steps",
+   "Resolution per pattern: 1/16 (4 steps/beat), 1/16 triplet (6 steps/beat), 1/32 (8 steps/beat)",
+   "6 songs (pattern chains with repeats)",
+   "Outputs: STEREO R/MIX and L, PHONES; internal stereo placement of voices not documented",
+   "DIN SYNC in/out (Korg 48 ppqn per Hollow Sun; runs Roland 24 ppqn gear at double speed), START/STOP footswitch jack, TRIG OUT, cassette tape interface; no MIDI (KMS-30 sync box)",
+   "Year: 1984 (E&MM reviewed the DDM series in Oct 1984); Hollow Sun and Vintage Synth Explorer say 1985"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "18 one-shot WAVs, flat, no loops, all 44.1 kHz/16-bit. Two complete 9-voice sets. Set A (mono, named by voice): Ddm110Kick, Ddm110Snare, Ddm110Rimshot, Ddm110Tom_Hi, Ddm110Tom_Lo, Ddm110Hat_C, Ddm110Hat_O, Ddm110Cymbal, Ddm110Clap (0.07-0.70 s). Set B (stereo, generic names): Bassdrum, Snaredrum, Rim Shot, Tom-01, Tom-02, Hat Closed, Hat Open, Crash, Clap (0.08-0.78 s). Tom-01 is the higher tom and Tom-02 the lower (inferred from spectrum). No gaps.",
+  "preset_patterns": [
+   {
+    "name": "Manual step-time example 'Pattern number 01' (1/16 resolution, 8/4 = two bars of 4/4). Not a factory preset. Transcribed from the scanned step chart on manual p.15; CLAPS(TRIG) hit at step 21 (vs 20) is uncertain.",
+    "source": "https://www.korg.com/us/support/download/manual/1/371/3751/"
+   },
+   {
+    "name": "Factory demo patterns and demo song (loaded at the factory, also supplied on cassette); no charts published in the manual pages read",
+    "source": "https://www.korg.com/us/support/download/manual/1/371/3751/"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.korg.com/us/support/download/manual/1/371/3751/",
+   "https://hollowsun.com/nostalgia/vintage/korg_ddm/index.html",
+   "https://www.vintagesynth.com/korg/ddm-110",
+   "https://www.muzines.co.uk/articles/korg-ddm220/1468"
+  ]
+ },
+ {
+  "machine": "Korg DDM-220 Super Percussion",
+  "pack_folders": [
+   "Korg DDM220"
+  ],
+  "maker": "Korg",
+  "year": 1984,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "Hi Conga",
+    "name": "High conga",
+    "type": "Conga",
+    "controls": [
+     "no individual control (MASTER volume only)",
+     "step ACCENT"
+    ],
+    "switch_alternate": null,
+    "notes": "Voice order as listed in the E&MM Oct 1984 review; exact panel printing not verified."
+   },
+   {
+    "label": "Lo Conga",
+    "name": "Low conga",
+    "type": "Conga",
+    "controls": [
+     "no individual control (MASTER volume only)",
+     "step ACCENT"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Timbale",
+    "name": "Timbale",
+    "type": "Timbale",
+    "controls": [
+     "no individual control (MASTER volume only)",
+     "step ACCENT"
+    ],
+    "switch_alternate": null,
+    "notes": "Single timbale sound."
+   },
+   {
+    "label": "Wood Block",
+    "name": "Wood block",
+    "type": "Wood Block",
+    "controls": [
+     "no individual control (MASTER volume only)",
+     "step ACCENT"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack file DDM220Block.wav."
+   },
+   {
+    "label": "Cowbell",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "no individual control (MASTER volume only)",
+     "step ACCENT"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack file DM220Cow.wav."
+   },
+   {
+    "label": "Hi Agogo",
+    "name": "High agogo",
+    "type": "Agogo",
+    "controls": [
+     "no individual control (MASTER volume only)",
+     "step ACCENT"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Lo Agogo",
+    "name": "Low agogo",
+    "type": "Agogo",
+    "controls": [
+     "no individual control (MASTER volume only)",
+     "step ACCENT"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Cabasa",
+    "name": "Cabasa",
+    "type": "Shaker",
+    "controls": [
+     "Cabasa/Tambourine volume knob (shared)",
+     "step ACCENT"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Tambourine",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "Cabasa/Tambourine volume knob (shared)",
+     "step ACCENT",
+     "Trig Out fires on Tambourine steps"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack file DDM220Tamborine.wav (sic)."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "A fixed-level Accent can be placed on any step (E&MM Oct 1984). By analogy with the DDM-110 it is probably an ACCENT key that boosts every voice on that step (inferred).",
+  "built_in_effects": [],
+  "global_features": [
+   "Built-in effects: none mentioned",
+   "Which voices share a channel or cut each other off: unknown (DDM-110 sister model has snare/rim and CH/OH priority pairs)",
+   "9 PCM Latin percussion sounds; soundprogramming.net lists 10 pads and 9 8-bit samples at 15.6 kHz (search snippet)",
+   "Volume controls: Master, Metronome, Cabasa/Tambourine; no per-voice level; no tuning; outputs L and R/MIX",
+   "32 patterns of 1-2 bars: 01-16 up to 32 steps, 17-32 up to 16 steps; resolution 1/16, 1/16 triplet or 1/32",
+   "Up to 6 songs, 390 bars in total (max 385 bars in one song)",
+   "DIN Sync socket with In/Out selector (syncs with DDM-110; KMS-30 for MIDI), Start/Stop footswitch socket, Trig Out (Tambourine steps), cassette interface",
+   "Year: reviewed Oct 1984 (E&MM); Hollow Sun says 1985"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "9 mono one-shots, flat, no loops, 44.1 kHz/16-bit, 0.04-0.36 s: DDM220Conga_Hi, DDM220Conga_Lo, DDM220Timbale, DDM220Block, DM220Cow (prefix typo), DDM220Agogo_Hi, DDM220Agogo_Lo, DDM220Cabasa, DDM220Tamborine (spelling). All 9 hardware voices present; no gaps.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.muzines.co.uk/articles/korg-ddm220/1468",
+   "https://hollowsun.com/nostalgia/vintage/korg_ddm/index.html",
+   "https://soundprogramming.net/drum-machines/korg/korg-ddm-220-super-percussion"
+  ]
+ },
+ {
+  "machine": "Korg KPR-77 Programmable Rhythm",
+  "pack_folders": [
+   "Korg KPR-77",
+   "Korg KPR77"
+  ],
+  "maker": "Korg",
+  "year": 1983,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "SYM",
+    "name": "Cymbal (SYM/CLPS row, cymbal setting)",
+    "type": "Cymbal",
+    "controls": [
+     "level slider (7 sliders for 8 sounds; mapping unverified)",
+     "accent"
+    ],
+    "switch_alternate": "CLPS",
+    "notes": "Order follows Korg's official programming sheet (top to bottom); front-panel key order not verified. Charts abbreviate it CY."
+   },
+   {
+    "label": "CLPS",
+    "name": "Hand claps (SYM/CLPS row, claps setting)",
+    "type": "Clap",
+    "controls": [
+     "level slider (mapping unverified)",
+     "accent"
+    ],
+    "switch_alternate": "SYM",
+    "notes": "Cymbal and claps are one switchable voice (Vintage Synth Explorer). Polynominal mentions a separate rear output for a 'snare/claps channel'."
+   },
+   {
+    "label": "OPEN HH",
+    "name": "Open hi-hat",
+    "type": "Open Hat",
+    "controls": [
+     "level slider (mapping unverified)",
+     "accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Charts abbreviate OH."
+   },
+   {
+    "label": "CLOSED HH",
+    "name": "Closed hi-hat",
+    "type": "Closed Hat",
+    "controls": [
+     "level slider (mapping unverified)",
+     "accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Charts abbreviate CH (HH in C-14, C-15)."
+   },
+   {
+    "label": "SNARE DRUM",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "level slider (mapping unverified)",
+     "accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Charts abbreviate SD."
+   },
+   {
+    "label": "HIGH TOM/FLAM",
+    "name": "High tom (with flam option)",
+    "type": "Tom",
+    "controls": [
+     "level slider (mapping unverified)",
+     "accent",
+     "flam (HTF in charts)",
+     "trigger out (per Vintage Synth Explorer: trigger outs from toms)"
+    ],
+    "switch_alternate": null,
+    "notes": "Charts abbreviate HT, or HTF when flammed."
+   },
+   {
+    "label": "LOW TOM/FLAM",
+    "name": "Low tom (with flam option)",
+    "type": "Tom",
+    "controls": [
+     "level slider (mapping unverified)",
+     "accent",
+     "flam (LTF in charts)",
+     "trigger out (per Vintage Synth Explorer)"
+    ],
+    "switch_alternate": null,
+    "notes": "Charts abbreviate LT, or LTF when flammed."
+   },
+   {
+    "label": "BASS DRUM",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "level slider (mapping unverified)",
+     "accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Charts abbreviate BD."
+   }
+  ],
+  "choke_groups": [
+   [
+    "SYM",
+    "CLPS"
+   ]
+  ],
+  "accent": "Separate ACCENT row/track on Korg's programming sheet and an ACC row in nearly every factory chart. Polynominal says accent can be set for each instrument; a manual excerpt says to hold the ACCENT pad while playing an instrument to hear accent on that sound. Exact behaviour (global per step vs per instrument) is unresolved.",
+  "built_in_effects": [],
+  "global_features": [
+   "Built-in effects: none",
+   "8 analog sounds on 6 voice channels (Vintage Synth Explorer: 6-voice polyphony; Polynominal: up to 6 channels) - so some sounds share channels; open/closed hat sharing is unverified",
+   "Flam on HIGH TOM and LOW TOM",
+   "48 pattern memories = 3 groups (A, B, C) x 16 basic banks, up to 32 steps each; shipped with 48 preprogrammed rhythms (Korg Rhythm Charts)",
+   "Resolutions 1/16, 1/16 triplet, 1/32, 1/32 triplet (Polynominal)",
+   "Chains: 6 chain banks x 256 measures (Polynominal) vs two songs (Vintage Synth Explorer) - conflicting",
+   "Tempo 35-208 BPM (Polynominal); Korg suggests 6-8 on the tempo dial for the factory charts",
+   "DIN SYNC in/out at 48 ppqn (half speed vs Roland 24 ppqn), two +5 V trigger outs, cassette interface, battery or 9 V power",
+   "No shuffle or per-voice tuning documented"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "'Korg KPR-77': 7 stereo one-shots (Bassdrum, Snaredrum, Tom H, Tom L, Hat Closed, Hat Open 1.54 s, Clap); no cymbal. 'Korg KPR77': 8 mono one-shots = full voice set (KPRKick, KPRSnare, KPRTom_Hi, KPRTom_Lo, KPRHat_C, KPRHat_O, KPRCymbal 1.37 s, KPRClap); five files carry smpl/inst root notes (Clap 36, Hat_C 37, Hat_O 38, Cymbal 42, Snare 43) that look arbitrary; three carry dBpoweramp tags dated 2003-11-15. All 44.1 kHz/16-bit, no loops.",
+  "preset_patterns": [
+   {
+    "name": "A-1 (rows: ACC, SD, LT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-2 (rows: ACC, CY, OH, CH, SD, LT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-3 (rows: ACC, CY, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-4 (rows: ACC, OH, CH, SD, LTF, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-5 (rows: ACC, CH, CLPS, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-6 (rows: ACC, SD, LT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-7 (rows: ACC, CH, SD, HT, LT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-8 (rows: ACC, CH)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-9 (rows: ACC, OH, CH, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-10 (rows: ACC, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-11 (blank in the chart)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-12 (rows: ACC, CY, CH, SD, HT, LT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-13 (rows: ACC, CY, SD, HTF, LTF, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-14 (rows: ACC, OH, CH, HT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-15 (rows: ACC, CH, CLPS, SD, HT, LT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "A-16 (rows: ACC, CY, OH, CH, SD, HT, LT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-1 (rows: ACC, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-2 (rows: ACC, CY, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-3 (rows: ACC, OH, CH, CLPS, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-4 (rows: ACC, CY, OH, CH, SD, HT, LT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-5 (rows: ACC, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-6 (rows: ACC, CY, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-7 (rows: ACC, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-8 (rows: ACC, OH, CH, SD, HT, LT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-9 (rows: ACC, CY, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-10 (rows: ACC, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-11 (rows: ACC, CY, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-12 (rows: ACC, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-13 (rows: ACC, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-14 (rows: ACC, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-15 (rows: ACC, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "B-16 (rows: ACC, OH, CH, SD, HT, LT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-1 (rows: ACC, CY, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-2 (rows: ACC, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-3 (rows: ACC, CY, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-4 (rows: ACC, CY, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-5 (rows: ACC, CY, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-6 (rows: ACC, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-7 (rows: ACC, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-8 (rows: ACC, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-9 (rows: ACC, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-10 (rows: ACC, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-11 (rows: ACC, CY, SD, HT, LT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-12 (rows: CY, SD, LT, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-13 (rows: ACC, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-14 (rows: ACC, HH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-15 (rows: ACC, HH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   },
+   {
+    "name": "C-16 (rows: ACC, OH, CH, SD, BD)",
+    "source": "https://www.korg.com/us/support/download/manual/1/129/2119/"
+   }
+  ],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.korg.com/us/support/download/manual/1/129/2119/",
+   "https://www.vintagesynth.com/korg/kpr-77",
+   "https://www.polynominal.com/korg-kpr77/index.html",
+   "https://www.scribd.com/document/634906521/korg-kpr77-manual",
+   "https://synthpedia.net/korg/kpr-77"
+  ]
+ },
+ {
+  "machine": "Korg KR-55 Rhythm 55 (preset rhythm machine)",
+  "pack_folders": [
+   "Korg KR-55"
+  ],
+  "maker": "Korg",
+  "year": 1979,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "Bass Drum",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "Bass Drum volume knob"
+    ],
+    "switch_alternate": null,
+    "notes": "Labels are Bonedo's names; exact panel printing not verified. Bridged-T circuit (Electric Druid)."
+   },
+   {
+    "label": "Snare",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "Snare volume knob"
+    ],
+    "switch_alternate": null,
+    "notes": "Bridged-T body plus gated white noise."
+   },
+   {
+    "label": "Rim",
+    "name": "Rimshot",
+    "type": "Rim",
+    "controls": [
+     "Rim/CowBell/Claves volume knob (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": "Rim, claves and cowbell share two ROM outputs through a 4052 multiplexer (Electric Druid)."
+   },
+   {
+    "label": "Cow Bell",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "Rim/CowBell/Claves volume knob (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Claves",
+    "name": "Claves",
+    "type": "Clave",
+    "controls": [
+     "Rim/CowBell/Claves volume knob (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Cymbal",
+    "name": "Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "Cymbal volume knob"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Hi-Hat 1",
+    "name": "Closed hi-hat (inferred)",
+    "type": "Closed Hat",
+    "controls": [
+     "Hi-Hat volume knob (shared by both hats)"
+    ],
+    "switch_alternate": null,
+    "notes": "Closed trigger resets the open hat."
+   },
+   {
+    "label": "Hi-Hat 2",
+    "name": "Open hi-hat (inferred)",
+    "type": "Open Hat",
+    "controls": [
+     "Hi-Hat volume knob (shared)"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Tom 1",
+    "name": "High tom ('Tom Tom', inferred)",
+    "type": "Tom",
+    "controls": [
+     "Tom/Conga volume knob (shared)"
+    ],
+    "switch_alternate": "High Conga",
+    "notes": "Same circuit as High Conga; a control line switches conga/tom per rhythm."
+   },
+   {
+    "label": "Tom 2",
+    "name": "Low tom ('Bass Tom', inferred)",
+    "type": "Tom",
+    "controls": [
+     "Tom/Conga volume knob (shared)"
+    ],
+    "switch_alternate": "Low Conga",
+    "notes": "Same circuit as Low Conga."
+   },
+   {
+    "label": "High Conga",
+    "name": "High conga",
+    "type": "Conga",
+    "controls": [
+     "Tom/Conga volume knob (shared)"
+    ],
+    "switch_alternate": "Tom 1",
+    "notes": "Conga mode adds a pink-noise burst."
+   },
+   {
+    "label": "Low Conga",
+    "name": "Low conga",
+    "type": "Conga",
+    "controls": [
+     "Tom/Conga volume knob (shared)"
+    ],
+    "switch_alternate": "Tom 2",
+    "notes": ""
+   }
+  ],
+  "choke_groups": [
+   [
+    "Hi-Hat 1",
+    "Hi-Hat 2"
+   ],
+   [
+    "Tom 1",
+    "High Conga"
+   ],
+   [
+    "Tom 2",
+    "Low Conga"
+   ],
+   [
+    "Rim",
+    "Claves",
+    "Cow Bell"
+   ]
+  ],
+  "accent": "unknown (no accent mentioned by Bonedo, Electric Druid or Cherry Audio)",
+  "built_in_effects": [],
+  "global_features": [
+   "Built-in effects: none",
+   "12 sounds, no claps (Bonedo)",
+   "6 volume knobs: Bass Drum, Snare, Cymbal, Hi-Hat, Tom/Conga, Rim/CowBell/Claves (Bonedo)",
+   "No per-voice tuning",
+   "48 preset rhythms: 16 rhythm-group buttons x A/B/C variation buttons; 16 one-bar intros and 16 one-bar fill-ins (one per group button); Intro/Fill-In button and footswitches for Start/Stop and Fill-In",
+   "Wikipedia instead describes 48 presets as 16 patterns + 16 intros + 16 fills (conflicts with Bonedo/Cherry Audio)",
+   "Swing applied automatically on swing patterns; a switch set to 'All Rhythms' changes this (Electric Druid)",
+   "Tempo range 38-380 bpm (Electric Druid)",
+   "Trigger out switchable to whole/half/quarter/8th/16th notes or the pattern's bass-drum figure (Bonedo)",
+   "KR-55B (1982): 96 presets, 32 intros, 32 fills"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "10 stereo one-shots, flat, no loops, 44.1 kHz/16-bit: Bassdrum, Snaredrum, Rim Shot, Claves (0.03 s), Cowbell, Conga, Tom, Cymbal (1.07 s), Hat Closed, Hat Open. Gap: hardware has two congas and two toms; the pack has one of each (which one is unknown).",
+  "preset_patterns": [
+   {
+    "name": "01 Foxtrot",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "02 Shuffle",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "03 March",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "04 Waltz",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "05 Jazz Waltz",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "06 Rock Waltz",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "07 Swing 1",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "08 Swing 2",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "09 Swing 3",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "10 Ballad 1",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "11 Ballad 2",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "12 Ballad 3",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "13 Bossa Nova 1",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "14 Bossa Nova 2",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "15 Bossa Nova 3",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "16 5/4 Beat 1",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "17 5/4 Beat 2",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "18 5/4 Beat 3",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "19 Cha Cha",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "20 Samba",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "21 Afro",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "22 Mambo",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "23 Rumba",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "24 Beguine",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "25 Enka",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "26 Tango",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "27 Habanera",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "28 Pops 1",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "29 Pops 2",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "30 Pops 3",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "31 Rock 1",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "32 Rock 2",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "33 Rock 3",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "34 Rock 4",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "35 Rock 5",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "36 Rock 6",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "37 Rock 7",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "38 Rock 8",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "39 Rock 9",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "40 Rock 10",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "41 Rock 11",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "42 Rock 12",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "43 Disco 1",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "44 Disco 2",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "45 Disco 3",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "46 Disco 4",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "47 Disco 5",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   },
+   {
+    "name": "48 Disco 6",
+    "source": "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "Depeche Mode",
+    "title": "Just Can't Get Enough",
+    "year": 1981,
+    "evidence": "https://dmlive.wiki/wiki/List_of_Depeche_Mode_sample_sources_by_album/Speak_%26_Spell - fan sample-source wiki says the snare heard throughout is derived from the Korg KR-55 (seen in a search snippet; page blocked direct fetch)",
+    "grid_source": null
+   },
+   {
+    "artist": "Depeche Mode",
+    "title": "Speak & Spell (album)",
+    "year": 1981,
+    "evidence": "https://www.synthtopia.com/content/2023/11/03/the-drum-sounds-of-classic-depeche-mode/ - write-up of Alex Ball's reconstruction video, which has a 'KR-55 Snare' segment; the kick is credited to an ARP 2600. Bonedo also names Speak & Spell.",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://www.bonedo.de/artikel/vintage-drum-machine-korg-kr-55-rhythm-55/",
+   "https://electricdruid.net/?p=72032",
+   "https://docs.cherryaudio.com/cherry-audio/instruments/kr-55c/patt-mode-pres",
+   "https://en.wikipedia.org/wiki/Korg_KR_55",
+   "https://www.synthtopia.com/content/2023/11/03/the-drum-sounds-of-classic-depeche-mode/",
+   "https://dmlive.wiki/wiki/List_of_Depeche_Mode_sample_sources_by_album/Speak_%26_Spell"
+  ]
+ },
+ {
+  "machine": "Unidentified source labelled 'Korg KRZ'",
+  "pack_folders": [
+   "Korg KRZ"
+  ],
+  "maker": "unknown",
+  "year": null,
+  "kind": "unknown",
+  "voices": [
+   {
+    "label": "Bassdrum",
+    "name": "Bass drum (pack file name)",
+    "type": "Kick",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Hardware unidentified; labels and order come from file names, not a front panel."
+   },
+   {
+    "label": "Snaredrum-01",
+    "name": "Snare 1 (pack)",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Snaredrum-02",
+    "name": "Snare 2 (pack)",
+    "type": "Snare",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "0.89 s, long tail"
+   },
+   {
+    "label": "Tom-01",
+    "name": "Tom 1 (pack)",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "Darker of the two, probably the lower tom (inferred from spectral roll-off only)"
+   },
+   {
+    "label": "Tom-02",
+    "name": "Tom 2 (pack)",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Hat Closed",
+    "name": "Closed hi-hat (pack)",
+    "type": "Closed Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "0.05 s"
+   },
+   {
+    "label": "Hat Open",
+    "name": "Open hi-hat (pack)",
+    "type": "Open Hat",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "0.13 s (very short for an open hat)"
+   },
+   {
+    "label": "Ride",
+    "name": "Ride (pack)",
+    "type": "Ride",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "0.16 s (truncated?)"
+   },
+   {
+    "label": "Crash",
+    "name": "Crash (pack)",
+    "type": "Crash",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "Bell",
+    "name": "Bell (pack)",
+    "type": "Perc",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "FX-01",
+    "name": "Effect 1 (pack)",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "FX-02",
+    "name": "Effect 2 (pack)",
+    "type": "FX",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": ""
+   }
+  ],
+  "choke_groups": [],
+  "accent": "unknown",
+  "built_in_effects": [],
+  "global_features": [
+   "Machine not identified: no Korg product called 'KRZ' turned up in any search; 'KRZ' may be a mislabel (one untested idea: KRZ is a common abbreviation for Kurzweil)",
+   "All 12 files have almost no energy above ~12.4 kHz, which fits an original sample rate near 25 kHz or a low-pass source (inferred from analysis of the pack files)",
+   "No audio in this folder duplicates any other pack in the Splice packs directory"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "12 stereo one-shots, flat, no loops, 44.1 kHz/16-bit: Bassdrum (0.14 s), Snaredrum-01 (0.32), Snaredrum-02 (0.89), Tom-01 (0.64), Tom-02 (0.32), Hat Closed (0.05), Hat Open (0.13), Ride (0.16), Crash (0.81), Bell (0.15), FX-01 (0.17), FX-02 (0.90).",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": []
+ },
+ {
+  "machine": "Korg M1 Music Workstation (drum kits)",
+  "pack_folders": [
+   "Korg M1"
+  ],
+  "maker": "Korg",
+  "year": 1988,
+  "kind": "synth with drum kit",
+  "voices": [
+   {
+    "label": "01 Kick 1",
+    "name": "Kick 1",
+    "type": "Kick",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Bassdrums/Bassdrum-01.wav (by number, inferred)"
+   },
+   {
+    "label": "02 Kick 2",
+    "name": "Kick 2",
+    "type": "Kick",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Bassdrums/Bassdrum-02.wav (inferred)"
+   },
+   {
+    "label": "03 Kick 3",
+    "name": "Kick 3",
+    "type": "Kick",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Bassdrums/Bassdrum-03.wav (inferred)"
+   },
+   {
+    "label": "04 Snare 1",
+    "name": "Snare 1",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Snaredrums/Snaredrum-01.wav (inferred)"
+   },
+   {
+    "label": "05 Snare 2",
+    "name": "Snare 2",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Snaredrums/Snaredrum-02.wav (inferred)"
+   },
+   {
+    "label": "06 Snare 3",
+    "name": "Snare 3",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Snaredrums/Snaredrum-03.wav (inferred)"
+   },
+   {
+    "label": "07 Snare 4",
+    "name": "Snare 4",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Snaredrums/Snaredrum-04.wav (inferred)"
+   },
+   {
+    "label": "08 Side Stick",
+    "name": "Side Stick",
+    "type": "Rim",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Snaredrums/Sideststick.wav"
+   },
+   {
+    "label": "09 Tom 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Tom-01.wav (inferred)"
+   },
+   {
+    "label": "10 Tom 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Tom-02.wav (inferred)"
+   },
+   {
+    "label": "11 Closed HH 1",
+    "name": "Closed HH 1",
+    "type": "Closed Hat",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Cymbals/Hat Closed-01.wav (inferred)"
+   },
+   {
+    "label": "12 Open HH 1",
+    "name": "Open HH 1",
+    "type": "Open Hat",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Cymbals/Hat Open-01.wav (inferred)"
+   },
+   {
+    "label": "13 Closed HH 2",
+    "name": "Closed HH 2",
+    "type": "Closed Hat",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Cymbals/Hat Closed-02.wav (inferred)"
+   },
+   {
+    "label": "14 Open HH 2",
+    "name": "Open HH 2",
+    "type": "Open Hat",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Cymbals/Hat Open-02.wav (inferred)"
+   },
+   {
+    "label": "15 Crash",
+    "name": "Crash",
+    "type": "Crash",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Cymbals/Crash.wav"
+   },
+   {
+    "label": "16 Conga 1",
+    "name": "Conga 1",
+    "type": "Conga",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Conga-01.wav (inferred)"
+   },
+   {
+    "label": "17 Conga 2",
+    "name": "Conga 2",
+    "type": "Conga",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Conga-02.wav (inferred)"
+   },
+   {
+    "label": "18 Timbales 1",
+    "name": "Timbales 1",
+    "type": "Timbale",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Timbale-01.wav (inferred)"
+   },
+   {
+    "label": "19 Timbales 2",
+    "name": "Timbales 2",
+    "type": "Timbale",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Timbale-02.wav (inferred)"
+   },
+   {
+    "label": "20 Cowbell",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Cowbel.wav"
+   },
+   {
+    "label": "21 Claps",
+    "name": "Claps",
+    "type": "Clap",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Clap.wav"
+   },
+   {
+    "label": "22 Tambourine",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Tambourine.wav"
+   },
+   {
+    "label": "23 E. Tom",
+    "name": "E. Tom (electronic tom)",
+    "type": "Tom",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Tom-03.wav (inferred)"
+   },
+   {
+    "label": "24 Ride",
+    "name": "Ride",
+    "type": "Ride",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Cymbals/Ride.wav"
+   },
+   {
+    "label": "25 Rap",
+    "name": "Rap",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Scratch.wav (inferred)"
+   },
+   {
+    "label": "26 Whip",
+    "name": "Whip",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Whiplash.wav (inferred)"
+   },
+   {
+    "label": "27 Shaker",
+    "name": "Shaker",
+    "type": "Shaker",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Shakers.wav"
+   },
+   {
+    "label": "28 Pole",
+    "name": "Pole",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Pole.wav"
+   },
+   {
+    "label": "29 Block",
+    "name": "Block",
+    "type": "Wood Block",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Woodblock.wav"
+   },
+   {
+    "label": "30 FingerSnap",
+    "name": "FingerSnap",
+    "type": "Snap",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Snap.wav"
+   },
+   {
+    "label": "31 Drop",
+    "name": "Drop",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Drop.wav"
+   },
+   {
+    "label": "32 Vibe Hit",
+    "name": "Vibe Hit",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Hit.wav (inferred)"
+   },
+   {
+    "label": "33 Hammer",
+    "name": "Hammer",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Hammer.wav"
+   },
+   {
+    "label": "34 Metal Hit",
+    "name": "Metal Hit",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Metal.wav"
+   },
+   {
+    "label": "35 Pluck",
+    "name": "Pluck",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Pluck.wav"
+   },
+   {
+    "label": "36 FlexaTone",
+    "name": "FlexaTone",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Flexttone.wav"
+   },
+   {
+    "label": "37 Wind Bell",
+    "name": "Wind Bell",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Percussion/Windbells.wav"
+   },
+   {
+    "label": "38 Tubular 1",
+    "name": "Tubular 1",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Tubalar Bell-01.wav (inferred)"
+   },
+   {
+    "label": "39 Tubular 2",
+    "name": "Tubular 2",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Tubalar Bell-02.wav (inferred)"
+   },
+   {
+    "label": "40 Tubular 3",
+    "name": "Tubular 3",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Tubalar Bell-03.wav (inferred)"
+   },
+   {
+    "label": "41 Tubular 4",
+    "name": "Tubular 4",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Tubalar Bell-04.wav (inferred)"
+   },
+   {
+    "label": "42 Bell Ring",
+    "name": "Bell Ring",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Belrng.wav"
+   },
+   {
+    "label": "43 Metronome 1",
+    "name": "Metronome 1",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Metronome-01.wav"
+   },
+   {
+    "label": "44 Metronome 2",
+    "name": "Metronome 2",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: Misc/Metronome-02.wav"
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none (no accent function; dynamics come from note velocity through the Program's velocity settings - inferred)",
+  "built_in_effects": [
+   {
+    "name": "Effect 1",
+    "type": "other",
+    "notes": "Digital multi-effect, 33 types (01-25 stereo, 26-33 dual): reverbs, early reflections, delays, chorus, flanger, phaser, tremolo, EQ, overdrive/distortion, exciter, ensemble, rotary speaker and combination types. Drum instruments panned to A, A:B or B feed the effects."
+   },
+   {
+    "name": "Effect 2",
+    "type": "other",
+    "notes": "Second multi-effect. Serial placement: A/B go through Effect 1 then Effect 2; C and D go unprocessed to outputs 3 and 4 but can be mixed into Effect 2 via PAN3/PAN4. Parallel placement: Effect 2 processes C and D. So drum instruments panned to C, C+D or D bypass Effect 1."
+   }
+  ],
+  "global_features": [
+   "4 Drum Kits edited in Global mode (F4-1 to F4-4); up to 30 instruments per kit (Index 0-29)",
+   "Per instrument: Inst (drum sound 01-44 or card sound), Key C0-G8, Tune -120..+120 in 10-cent steps (+/-1 octave), Level and Decay (table says -99..+99, text says -50..+50, relative to the Program's oscillator level and VDA EG decay), Pan/output A, A:B (9:1-1:9), B, C, C+D, D",
+   "Two sounds cannot share a key; one sound can sit on several keys; an assigned sound also fills unassigned keys below it (re-pitched)",
+   "A kit is played through a Program in Drum Kit mode; Program parameters (level, VDA EG, filter, effects) act on the whole kit",
+   "No exclusive/choke-group parameter on the drum kit page (inferred: hats do not cut each other)",
+   "Outputs 1/L, 2/R, 3, 4; PCM ROM 4 MB, 16-bit; 16 voices",
+   "Year 1988: widely documented but not checked against a fetched source here"
+  ],
+  "sound_bank": {
+   "total": 44,
+   "categories": [
+    {
+     "name": "Kicks",
+     "count": 3,
+     "range": "1-3"
+    },
+    {
+     "name": "Snares and side stick",
+     "count": 5,
+     "range": "4-8"
+    },
+    {
+     "name": "Toms",
+     "count": 2,
+     "range": "9-10"
+    },
+    {
+     "name": "Hi-hats (closed/open pairs)",
+     "count": 4,
+     "range": "11-14"
+    },
+    {
+     "name": "Crash",
+     "count": 1,
+     "range": "15"
+    },
+    {
+     "name": "Latin and hand percussion (congas, timbales, cowbell, claps, tambourine)",
+     "count": 7,
+     "range": "16-22"
+    },
+    {
+     "name": "E. Tom and ride",
+     "count": 2,
+     "range": "23-24"
+    },
+    {
+     "name": "Percussion and effects (Rap to Bell Ring)",
+     "count": 18,
+     "range": "25-42"
+    },
+    {
+     "name": "Metronome clicks",
+     "count": 2,
+     "range": "43-44"
+    }
+   ],
+   "ordered_list": [
+    "Kick 1",
+    "Kick 2",
+    "Kick 3",
+    "Snare 1",
+    "Snare 2",
+    "Snare 3",
+    "Snare 4",
+    "Side Stick",
+    "Tom 1",
+    "Tom 2",
+    "Closed HH 1",
+    "Open HH 1",
+    "Closed HH 2",
+    "Open HH 2",
+    "Crash",
+    "Conga 1",
+    "Conga 2",
+    "Timbales 1",
+    "Timbales 2",
+    "Cowbell",
+    "Claps",
+    "Tambourine",
+    "E. Tom",
+    "Ride",
+    "Rap",
+    "Whip",
+    "Shaker",
+    "Pole",
+    "Block",
+    "FingerSnap",
+    "Drop",
+    "Vibe Hit",
+    "Hammer",
+    "Metal Hit",
+    "Pluck",
+    "FlexaTone",
+    "Wind Bell",
+    "Tubular 1",
+    "Tubular 2",
+    "Tubular 3",
+    "Tubular 4",
+    "Bell Ring",
+    "Metronome 1",
+    "Metronome 2"
+   ],
+   "list_source": "https://www.korg.com/us/support/download/manual/1/139/1685/"
+  },
+  "default_kit": [],
+  "pack_contents": "44 stereo one-shots in 5 subfolders (Bassdrums 3, Snaredrums 5, Cymbals 6, Percussion 15, Misc 15), 44.1 kHz/16-bit, 0.03-1.37 s, no loops. The 44 files match the 44 ROM drum sounds one-for-one (names differ; typos: Sideststick, Tubalar Bell, Flexttone, Belrng, Cowbel). Inferred name matches: Scratch = Rap, Whiplash = Whip, Hit = Vibe Hit, Tom-03 = E. Tom, Metal = Metal Hit.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.korg.com/us/support/download/manual/1/139/1685/",
+   "https://www.korg.com/us/support/download/manual/1/139/3743/"
+  ]
+ },
+ {
+  "machine": "Korg Mini Pops (pack model unidentified; Mini Pops 7 documented as the reference model)",
+  "pack_folders": [
+   "Korg Minipops"
+  ],
+  "maker": "Korg (Keio)",
+  "year": 1966,
+  "kind": "analog drum machine",
+  "voices": [
+   {
+    "label": "Bass Drum",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "bass/snare balance slider (Hollow Sun)",
+     "master volume"
+    ],
+    "switch_alternate": null,
+    "notes": "MP-7 voice named by Hollow Sun; exact panel label not verified. Pack: BASSDRUM/Bassdrum-01..07."
+   },
+   {
+    "label": "Snare Drum",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "bass/snare balance slider (Hollow Sun)",
+     "master volume"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack: SNARES/Snaredrum-01..13."
+   },
+   {
+    "label": "Cymbal",
+    "name": "Cymbal",
+    "type": "Cymbal",
+    "controls": [
+     "cymbal level slider (Hollow Sun)"
+    ],
+    "switch_alternate": null,
+    "notes": "The pack has no file called cymbal; its CYMBALS folder holds Hat Closed-01..04 and Hat Open-01..04 (link to this voice unverified)."
+   },
+   {
+    "label": "Quijada",
+    "name": "Quijada",
+    "type": "Perc",
+    "controls": [
+     "own knob (Aerozone JMJ)"
+    ],
+    "switch_alternate": null,
+    "notes": "Signature Oxygene sound per Aerozone; not in pack."
+   },
+   {
+    "label": "Guiro",
+    "name": "Guiro",
+    "type": "Perc",
+    "controls": [
+     "own knob (Aerozone JMJ)"
+    ],
+    "switch_alternate": null,
+    "notes": "Not in pack."
+   },
+   {
+    "label": "Tambourine",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "own knob (Aerozone JMJ)"
+    ],
+    "switch_alternate": null,
+    "notes": "Not in pack."
+   },
+   {
+    "label": "Tom (pack)",
+    "name": "Tom (pack label)",
+    "type": "Tom",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "MISC/Tom-01, Tom-02 are 21-27 ms clicks; hardware voice unverified."
+   },
+   {
+    "label": "Woodblock (pack)",
+    "name": "Wood block (pack label)",
+    "type": "Wood Block",
+    "controls": [],
+    "switch_alternate": null,
+    "notes": "MISC/Woodblock-01, -02; hardware voice unverified."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none documented",
+  "built_in_effects": [],
+  "global_features": [
+   "Built-in effects: none",
+   "Mini Pops 7: 15 drum sounds and 20 preset rhythms (Wikipedia, Aerozone); Hollow Sun's MP7 sample set has 16 sounds; only six sounds are named in the sources found",
+   "Rhythms chosen with large white push buttons plus a bank-select toggle; pressing two or more rhythm buttons at once layers patterns (Jarre's trick)",
+   "Top-panel tempo control, cymbal level slider and bass/snare balance slider (Hollow Sun); volume, balance and tempo knobs plus knobs for quijada, guiro and tambourine (Aerozone)",
+   "Start/stop foot pedal (Aerozone)",
+   "32 steps per pattern (Bucket Pops emulation manual, search snippet)",
+   "Also sold as Univox SR-95",
+   "Year: 1966 per Wikipedia; a 2025 article URL says 1971",
+   "Other models: Mini Pops 3 (1967, 4 sounds), 5 (1966), 20 S (1967, stereo), 35 (1976, 6 sounds, 9 patterns), 120 (1976, 6 sounds, 16 patterns), Junior (1972, 10 rhythms)"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "30 stereo one-shots in 4 upper-case subfolders, 44.1 kHz/16-bit, no loops: BASSDRUM Bassdrum-01..07 (0.13-0.69 s), SNARES Snaredrum-01..13 (0.05-0.24 s), CYMBALS Hat Closed-01..04 (0.06-0.15 s) and Hat Open-01..04 (0.26-0.50 s), MISC Tom-01, Tom-02 (0.02-0.03 s) and Woodblock-01, -02. Model not named anywhere in the folder; the many kick/snare variants and the missing guiro/quijada/tambourine do not match a single MP-7 one-shot set.",
+  "preset_patterns": [
+   {
+    "name": "Rock 1",
+    "source": "https://en.wikipedia.org/wiki/Korg_Mini_Pops"
+   },
+   {
+    "name": "Slow Rock",
+    "source": "https://www.kvraudio.com/product/pops-7-by-forgotten-keys"
+   },
+   {
+    "name": "Beguine",
+    "source": "https://www.kvraudio.com/product/pops-7-by-forgotten-keys"
+   },
+   {
+    "name": "Cha-Cha",
+    "source": "https://hollowsun.com/nostalgia/contributors/minipops/index.html"
+   },
+   {
+    "name": "Tango",
+    "source": "https://hollowsun.com/nostalgia/contributors/minipops/index.html"
+   },
+   {
+    "name": "Rhumba",
+    "source": "https://hollowsun.com/nostalgia/contributors/minipops/index.html"
+   },
+   {
+    "name": "Bossa Nova",
+    "source": "https://hollowsun.com/nostalgia/contributors/minipops/index.html"
+   },
+   {
+    "name": "Waltz",
+    "source": "https://hollowsun.com/nostalgia/contributors/minipops/index.html"
+   },
+   {
+    "name": "March",
+    "source": "https://hollowsun.com/nostalgia/contributors/minipops/index.html"
+   }
+  ],
+  "famous_tracks": [
+   {
+    "artist": "Jean-Michel Jarre",
+    "title": "Oxygene (Part IV)",
+    "year": 1976,
+    "evidence": "https://www.kvraudio.com/product/pops-7-by-forgotten-keys - combining BEGUINE and SLOW ROCK gives the classic Oxygene IV rhythm; Hollow Sun says the MP7 drove the album and Jarre layered presets by pressing several buttons; Aerozone JMJ says it is on Parts 2, 4 and 6",
+    "grid_source": null
+   },
+   {
+    "artist": "Jean-Michel Jarre",
+    "title": "Equinoxe (Part 5)",
+    "year": 1978,
+    "evidence": "https://en.wikipedia.org/wiki/Korg_Mini_Pops - Parts V, VI and VII used the Rock 1 pattern (marked citation needed)",
+    "grid_source": null
+   },
+   {
+    "artist": "Aphex Twin",
+    "title": "minipops 67 [120.2]",
+    "year": 2014,
+    "evidence": "https://en.wikipedia.org/wiki/Korg_Mini_Pops - Mini Pops used on Syro, track title is a tribute (cites FACT Magazine, 14 Apr 2017)",
+    "grid_source": null
+   },
+   {
+    "artist": "Echo & the Bunnymen",
+    "title": "The Pictures on My Wall",
+    "year": 1979,
+    "evidence": "https://en.wikipedia.org/wiki/Korg_Mini_Pops - Mini Pops Junior on the debut single (cites One Two Testing, Dec 1985)",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Korg_Mini_Pops",
+   "https://hollowsun.com/nostalgia/contributors/minipops/index.html",
+   "http://aerozonejmj.fr/korg-mini-pops-7/",
+   "https://www.kvraudio.com/product/pops-7-by-forgotten-keys",
+   "https://manualmachine.com/fullbucketmusic/bucketpops/26866459-manual-v1",
+   "https://www.patreon.com/posts/110158905"
+  ]
+ },
+ {
+  "machine": "Korg Poly-800",
+  "pack_folders": [
+   "Korg Poly-800"
+  ],
+  "maker": "Korg",
+  "year": 1983,
+  "kind": "synth (drums made by synthesis)",
+  "voices": [
+   {
+    "label": "BD (synth patch)",
+    "name": "Synthesised bass drum",
+    "type": "Kick",
+    "controls": [
+     "DCO1/DCO2 level, octave and waveform (saw/square)",
+     "white noise level",
+     "VCF cutoff, resonance and EG intensity (one filter shared by all voices)",
+     "DEG1-DEG3 six-stage envelopes (Attack, Decay, Break Point, Slope, Sustain, Release)",
+     "chorus on/off"
+    ],
+    "switch_alternate": null,
+    "notes": "No drum sounds or drum kit in the hardware; the pack holds 4 kick patches."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none documented",
+  "built_in_effects": [
+   {
+    "name": "Chorus",
+    "type": "other",
+    "notes": "Built-in chorus on the synth output; the 1986 Poly-800 II replaced it with a digital delay (Wikipedia)"
+   }
+  ],
+  "global_features": [
+   "8 voices with one DCO each (Double mode: 4 voices); saw and square waves mixed with a white-noise generator before the filter",
+   "One resonant low-pass VCF shared by all voices (paraphonic filter)",
+   "Three six-stage digital envelopes (DEG); each DCO has its own DEG for level, and the noise generator shares DEG3 with the filter (E&SM July 1985)",
+   "No pitch envelope documented (inferred from the DEG layout), so kick pitch sweeps are not directly available",
+   "One triangle LFO (MG) via the joystick; 256-step polyphonic step sequencer",
+   "E&SM (July 1985): drum synthesis is hard because lowering resonance to smooth DCO bass also loses the noise burst; percussive patch Voice 81 takes the filter out so DEG3 shapes a noise burst"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "4 stereo one-shot kicks, flat, 44.1 kHz/16-bit, no loops: Bassdrum-01 (0.18 s), Bassdrum-02 (0.55 s), Bassdrum-03 (1.96 s), Bassdrum-04 (0.33 s). No other drum types.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Korg_Poly-800",
+   "https://www.muzines.co.uk/articles/customise/3865"
+  ]
+ },
+ {
+  "machine": "Korg T3 Music Workstation (T1/T2/T3 drum kits)",
+  "pack_folders": [
+   "Korg T3"
+  ],
+  "maker": "Korg",
+  "year": 1989,
+  "kind": "synth with drum kit",
+  "voices": [
+   {
+    "label": "01 Kick 1",
+    "name": "Kick 1",
+    "type": "Kick",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack kicks Bassdrum-01..05 are not mapped to ROM numbers (unknown)."
+   },
+   {
+    "label": "02 Kick 2",
+    "name": "Kick 2",
+    "type": "Kick",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "03 Kick 3",
+    "name": "Kick 3",
+    "type": "Kick",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "04 Snare 1",
+    "name": "Snare 1",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack snares Snaredrum-01..05 are not mapped to ROM numbers (unknown)."
+   },
+   {
+    "label": "05 Snare 2",
+    "name": "Snare 2",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "06 Snare 3",
+    "name": "Snare 3",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "07 Snare 4",
+    "name": "Snare 4",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "08 Side Stick",
+    "name": "Side Stick",
+    "type": "Rim",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack 'Stick.wav' may be this or 55 Stick Hit (unknown)."
+   },
+   {
+    "label": "09 Tom 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "No toms in the pack."
+   },
+   {
+    "label": "10 Tom 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "11 Closed HH1",
+    "name": "Closed HH1",
+    "type": "Closed Hat",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "12 Open HH1",
+    "name": "Open HH1",
+    "type": "Open Hat",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "13 Closed HH2",
+    "name": "Closed HH2",
+    "type": "Closed Hat",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "14 Open HH2",
+    "name": "Open HH2",
+    "type": "Open Hat",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "15 Crash",
+    "name": "Crash",
+    "type": "Crash",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "No crash in the pack."
+   },
+   {
+    "label": "16 Conga 1",
+    "name": "Conga 1",
+    "type": "Conga",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack has one 'Conga.wav' (which ROM conga is unknown)."
+   },
+   {
+    "label": "17 Conga 2",
+    "name": "Conga 2",
+    "type": "Conga",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "18 Timbales 1",
+    "name": "Timbales 1",
+    "type": "Timbale",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "19 Timbales 2",
+    "name": "Timbales 2",
+    "type": "Timbale",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "20 Cowbell",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "21 Claps",
+    "name": "Claps",
+    "type": "Clap",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack 'Clap.wav' = this or 66 Claps 2 (unknown)."
+   },
+   {
+    "label": "22 Tambourine",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "23 E. Tom",
+    "name": "E. Tom",
+    "type": "Tom",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "24 Ride",
+    "name": "Ride",
+    "type": "Ride",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "25 Rap",
+    "name": "Rap",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "26 Whip",
+    "name": "Whip",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "27 Shaker",
+    "name": "Shaker",
+    "type": "Shaker",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack Shaker-01/02 may be Shaker and/or Maracas 1-2 (unknown)."
+   },
+   {
+    "label": "28 Pole",
+    "name": "Pole",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "29 Block",
+    "name": "Block",
+    "type": "Wood Block",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack 'Blocks.wav' = this or 70 Block 2 (unknown)."
+   },
+   {
+    "label": "30 FingerSnap",
+    "name": "FingerSnap",
+    "type": "Snap",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "31 Drop",
+    "name": "Drop",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "32 Vibe Hit",
+    "name": "Vibe Hit",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "33 Hammer",
+    "name": "Hammer",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "34 Metal Hit",
+    "name": "Metal Hit",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "35 Pluck",
+    "name": "Pluck",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "36 FlexaTone",
+    "name": "FlexaTone",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "37 Wind Bell",
+    "name": "Wind Bell",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "38 Tubular 1",
+    "name": "Tubular 1",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack 'Tubular Bell.wav' = one of Tubular 1-4 (unknown)."
+   },
+   {
+    "label": "39 Tubular 2",
+    "name": "Tubular 2",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "40 Tubular 3",
+    "name": "Tubular 3",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "41 Tubular 4",
+    "name": "Tubular 4",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "42 Bell Ring",
+    "name": "Bell Ring",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "43 Metronome1",
+    "name": "Metronome1",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "44 Metronome2",
+    "name": "Metronome2",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "45 Pro BD",
+    "name": "Pro BD",
+    "type": "Kick",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "46 Tight BD",
+    "name": "Tight BD",
+    "type": "Kick",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "47 Punch BD",
+    "name": "Punch BD",
+    "type": "Kick",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "48 Synth BD",
+    "name": "Synth BD",
+    "type": "Kick",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "49 Pro SD 1",
+    "name": "Pro SD 1",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "50 Pro SD 2",
+    "name": "Pro SD 2",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "51 Tight SD",
+    "name": "Tight SD",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "52 Ambient SD",
+    "name": "Ambient SD",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "53 Synth SD",
+    "name": "Synth SD",
+    "type": "Snare",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "54 Rim Shot",
+    "name": "Rim Shot",
+    "type": "Rim",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack 'Rim shot.wav' is an empty file (header only, 0 audio bytes)."
+   },
+   {
+    "label": "55 Stick Hit",
+    "name": "Stick Hit",
+    "type": "Rim",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Type inferred."
+   },
+   {
+    "label": "56 AmbientTom",
+    "name": "AmbientTom",
+    "type": "Tom",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "57 Closed HH3",
+    "name": "Closed HH3",
+    "type": "Closed Hat",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "58 Open HH3",
+    "name": "Open HH3",
+    "type": "Open Hat",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "59 Pedal HH",
+    "name": "Pedal HH",
+    "type": "Pedal Hat",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "60 Clang Hit",
+    "name": "Clang Hit",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "61 Bell Ride",
+    "name": "Bell Ride",
+    "type": "Ride",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "62 Ping Ride",
+    "name": "Ping Ride",
+    "type": "Ride",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "63 Bongo Low",
+    "name": "Bongo Low",
+    "type": "Bongo",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "64 Bongo High",
+    "name": "Bongo High",
+    "type": "Bongo",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "65 Bongo Slap",
+    "name": "Bongo Slap",
+    "type": "Bongo",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "66 Claps 2",
+    "name": "Claps 2",
+    "type": "Clap",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "67 Maracas 1",
+    "name": "Maracas 1",
+    "type": "Shaker",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "68 Maracas 2",
+    "name": "Maracas 2",
+    "type": "Shaker",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "69 Cabasa",
+    "name": "Cabasa",
+    "type": "Shaker",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack 'Cabasa.wav' (name match)."
+   },
+   {
+    "label": "70 Block 2",
+    "name": "Block 2",
+    "type": "Wood Block",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "71 Bell Hit",
+    "name": "Bell Hit",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack Bell01/Bell-02 and Hit may come from Bell Hit, Bell Ring, Cymbell, Clang/Vibe/Metal Hit (unknown)."
+   },
+   {
+    "label": "72 Techno Zap",
+    "name": "Techno Zap",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "73 Marimba",
+    "name": "Marimba",
+    "type": "Other",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "74 Gamelan 1",
+    "name": "Gamelan 1",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "75 Gamelan 2",
+    "name": "Gamelan 2",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "76 Potcover",
+    "name": "Potcover",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "77 Cymbell",
+    "name": "Cymbell",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "78 Timpani",
+    "name": "Timpani",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "79 Clicker 1",
+    "name": "Clicker 1",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack 'Click.wav' may be a Clicker (unknown)."
+   },
+   {
+    "label": "80 Clicker 2",
+    "name": "Clicker 2",
+    "type": "Perc",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "81 Spectrum4L",
+    "name": "Spectrum4L",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "82 Spectrum4H",
+    "name": "Spectrum4H",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "83 Noise",
+    "name": "Noise",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "84 Perc.WaveL",
+    "name": "Perc.WaveL",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   },
+   {
+    "label": "85 Perc.WaveH",
+    "name": "Perc.WaveH",
+    "type": "FX",
+    "controls": [
+     "Key",
+     "Tune",
+     "Level",
+     "Decay",
+     "Pan/Out"
+    ],
+    "switch_alternate": null,
+    "notes": ""
+   }
+  ],
+  "choke_groups": [],
+  "accent": "none (no accent function; dynamics come from note velocity through the Program's velocity settings - inferred)",
+  "built_in_effects": [
+   {
+    "name": "Effect 1",
+    "type": "other",
+    "notes": "Two digital multi-effect units, 33 types per the parameter table (Hall, Room, Live Stage, Early Reflection 1-3, Stereo Delay, Cross Delay, Stereo Chorus, Flanger, Phase Shifter, Stereo Tremolo, 3 Band EQ, Overdrive, Distortion, Exciter, Symphonic Ensemble, Rotary Speaker, and Delay/Hall, Delay/Room, Delay/Early Reflection, Delay/Delay, Delay/Chorus, Delay/Flanger, Delay/Phaser, Delay/Tremolo). Each drum instrument's Pan picks A, A:B, B (into the effects) or C, C+D, D."
+   },
+   {
+    "name": "Effect 2",
+    "type": "other",
+    "notes": "Same routing idea as the M1 (inferred). Reference Guide p.115: if a drum sound is set to C, C+D or D and the Program's Effect Placement is off, it is not heard from 1/L, 2/R or headphones."
+   }
+  ],
+  "global_features": [
+   "4 Drum Kits in Global mode (Page 1 Drum Kit 1, Pages 2-4 Drum Kits 2-4); up to 60 instruments per kit (Index 0-59)",
+   "Per instrument: Inst (drum sound 01-85, card or PCM-RAM sound), Inst Key C0-G8, Inst Tune -120..+120 (10-cent steps, +/-1 octave), Inst Level -99..+99, Inst Decay -99..+99, Pan A, 9:1-1:9, B, C, C+D, D",
+   "Keys without a sound play the sound on the next higher assigned key, re-pitched; a key can hold only one sound; one sound can sit on several keys",
+   "A kit is played through a Program in Drum Kit mode; Program settings act on the whole kit",
+   "No exclusive/choke-group parameter on the drum kit page (inferred: hats do not cut each other)",
+   "T3: 61 keys, 16 voices, PCM ROM 4 Mword (8 MB), 16-bit, 200 programs, 100 combinations, 3.5-inch floppy, outputs 1/L, 2/R, 3, 4",
+   "Factory programs with drum-type names in the Voice Name List: A09 M1 Drums, A49 Pitch Kit, B09 T1 Drums, B29 Drum Kit 2, B39 Tuned Drum, B49 Gate Drum, B99 TunedDrum2"
+  ],
+  "sound_bank": {
+   "total": 85,
+   "categories": [
+    {
+     "name": "M1-compatible drum set (same names and order as the M1 list)",
+     "count": 44,
+     "range": "1-44"
+    },
+    {
+     "name": "T-series additions: extra kicks, snares, rim/stick, ambient tom, third hat pair, pedal hat, rides",
+     "count": 18,
+     "range": "45-62"
+    },
+    {
+     "name": "T-series additions: bongos, claps 2, maracas, cabasa, block 2, bell hit",
+     "count": 9,
+     "range": "63-71"
+    },
+    {
+     "name": "T-series additions: tuned percussion and effects (Techno Zap to Perc.WaveH)",
+     "count": 14,
+     "range": "72-85"
+    }
+   ],
+   "ordered_list": [
+    "Kick 1",
+    "Kick 2",
+    "Kick 3",
+    "Snare 1",
+    "Snare 2",
+    "Snare 3",
+    "Snare 4",
+    "Side Stick",
+    "Tom 1",
+    "Tom 2",
+    "Closed HH1",
+    "Open HH1",
+    "Closed HH2",
+    "Open HH2",
+    "Crash",
+    "Conga 1",
+    "Conga 2",
+    "Timbales 1",
+    "Timbales 2",
+    "Cowbell",
+    "Claps",
+    "Tambourine",
+    "E. Tom",
+    "Ride",
+    "Rap",
+    "Whip",
+    "Shaker",
+    "Pole",
+    "Block",
+    "FingerSnap",
+    "Drop",
+    "Vibe Hit",
+    "Hammer",
+    "Metal Hit",
+    "Pluck",
+    "FlexaTone",
+    "Wind Bell",
+    "Tubular 1",
+    "Tubular 2",
+    "Tubular 3",
+    "Tubular 4",
+    "Bell Ring",
+    "Metronome1",
+    "Metronome2",
+    "Pro BD",
+    "Tight BD",
+    "Punch BD",
+    "Synth BD",
+    "Pro SD 1",
+    "Pro SD 2",
+    "Tight SD",
+    "Ambient SD",
+    "Synth SD",
+    "Rim Shot",
+    "Stick Hit",
+    "AmbientTom",
+    "Closed HH3",
+    "Open HH3",
+    "Pedal HH",
+    "Clang Hit",
+    "Bell Ride",
+    "Ping Ride",
+    "Bongo Low",
+    "Bongo High",
+    "Bongo Slap",
+    "Claps 2",
+    "Maracas 1",
+    "Maracas 2",
+    "Cabasa",
+    "Block 2",
+    "Bell Hit",
+    "Techno Zap",
+    "Marimba",
+    "Gamelan 1",
+    "Gamelan 2",
+    "Potcover",
+    "Cymbell",
+    "Timpani",
+    "Clicker 1",
+    "Clicker 2",
+    "Spectrum4L",
+    "Spectrum4H",
+    "Noise",
+    "Perc.WaveL",
+    "Perc.WaveH"
+   ],
+   "list_source": "https://www.korg.com/us/support/download/manual/1/207/3574/"
+  },
+  "default_kit": [
+   {
+    "pad_or_key": "C1 (Index #00; example screen on Reference Guide p.114, not confirmed as the factory Drum Kit 1)",
+    "midi_note": 24,
+    "sound": "01 Kick 1"
+   },
+   {
+    "pad_or_key": "D1 (Index #01; example screen)",
+    "midi_note": 26,
+    "sound": "02 Kick 2"
+   },
+   {
+    "pad_or_key": "E1 (Index #02; example screen)",
+    "midi_note": 28,
+    "sound": "03 Kick 3"
+   },
+   {
+    "pad_or_key": "F1 (Index #03; example screen)",
+    "midi_note": 29,
+    "sound": "04 Snare 1"
+   },
+   {
+    "pad_or_key": "G1 (Index #04; example screen)",
+    "midi_note": 31,
+    "sound": "05 Snare 2"
+   },
+   {
+    "pad_or_key": "A1 (Index #05; example screen)",
+    "midi_note": 33,
+    "sound": "06 Snare 3"
+   }
+  ],
+  "pack_contents": "27 stereo one-shots, flat, no loops, 44.1 kHz/16-bit: Bassdrum-01..05, Snaredrum-01..05, Hat Closed-01/02, Hat Open-01/02, Clap, Rim shot (EMPTY: 44-byte header, 0 audio bytes), Stick, Conga, Cabasa, Shaker-01/02, Blocks, Click, Hit, Bell01, Bell-02 (inconsistent naming), Tubular Bell. 26 usable sounds out of 85 in ROM; no toms, crash or ride. Names are not ROM numbers, so most cannot be mapped. All files have almost no energy above ~8.3 kHz, which suggests a low-sample-rate capture (inferred).",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.korg.com/us/support/download/manual/1/207/3574/",
+   "https://www.korg.com/us/support/download/manual/1/207/1556/",
+   "https://www.korg.com/us/support/download/product/1/207/",
+   "https://soundprogramming.net/synthesizers/korg/korg-t3/"
+  ]
+ }
+]

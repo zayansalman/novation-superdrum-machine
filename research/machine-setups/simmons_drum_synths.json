@@ -1,0 +1,1306 @@
+[
+ {
+  "machine": "Simmons SDS 400 (four-tom expander)",
+  "pack_folders": [
+   "Simmons SDS-400"
+  ],
+  "maker": "Simmons Electronic Drums (UK)",
+  "year": 1985,
+  "kind": "drum sound module",
+  "voices": [
+   {
+    "label": "TOM 1",
+    "name": "Tom 1 (with run generator)",
+    "type": "Tom",
+    "controls": [
+     "Trigger sensitivity (with trigger LED)",
+     "Filter pitch",
+     "Filter sweep",
+     "2nd skin level",
+     "Tone pitch",
+     "Bend",
+     "Decay",
+     "Balance (tone / white noise)",
+     "Click level",
+     "Output level",
+     "Run generator: Run Threshold, Step Time, Run Time, Balance (sequential to random), Up/Down, On/Off, footswitch"
+    ],
+    "switch_alternate": null,
+    "notes": "Control list and order from the 1994 sample-disk README; 1985 reviews give the same set (Sensitivity, Filter Pitch, Filter Sweep, Tone Pitch, Bend, Decay, Noise/Tone, Click Level, Level, Second Skin). Exact printed legends not verified. Only Tom 1 has the run generator, which steps this drum's pitch sequentially or randomly on successive hits. Year 1985 is inferred from the Sept 1985 reviews."
+   },
+   {
+    "label": "TOM 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "Trigger sensitivity (with trigger LED)",
+     "Filter pitch",
+     "Filter sweep",
+     "2nd skin level",
+     "Tone pitch",
+     "Bend",
+     "Decay",
+     "Balance (tone / white noise)",
+     "Click level",
+     "Output level"
+    ],
+    "switch_alternate": null,
+    "notes": "Same voice circuit as Tom 1, no run generator."
+   },
+   {
+    "label": "TOM 3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [
+     "Trigger sensitivity (with trigger LED)",
+     "Filter pitch",
+     "Filter sweep",
+     "2nd skin level",
+     "Tone pitch",
+     "Bend",
+     "Decay",
+     "Balance (tone / white noise)",
+     "Click level",
+     "Output level"
+    ],
+    "switch_alternate": null,
+    "notes": "Same voice circuit as Tom 1, no run generator."
+   },
+   {
+    "label": "TOM 4",
+    "name": "Tom 4",
+    "type": "Tom",
+    "controls": [
+     "Trigger sensitivity (with trigger LED)",
+     "Filter pitch",
+     "Filter sweep",
+     "2nd skin level",
+     "Tone pitch",
+     "Bend",
+     "Decay",
+     "Balance (tone / white noise)",
+     "Click level",
+     "Output level"
+    ],
+    "switch_alternate": null,
+    "notes": "Same voice circuit as Tom 1, no run generator."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "No accent control. Each tom is a pad-triggered analog voice with its own trigger-sensitivity control and LED; how hit strength changes level or tone is not described in the SDS 400 sources.",
+  "built_in_effects": [],
+  "global_features": [
+   "Four identical analog tom channels; same voice circuitry as the SDS 800 (tone oscillator, white noise, filter with sweep, click)",
+   "Second Skin: fixed-frequency modulation; subtle = double-headed tom, pushed = metallic clangs and ring-mod effects",
+   "Run generator on Tom 1 only: Run Threshold, Step Time, Run Time, Balance, Up/Down, On/Off; footswitch supplied; rear jack for remote on/off",
+   "Outputs: individual jack per tom, mono Mix (master volume), Stereo; headphone socket on the front",
+   "5-pin DIN socket for the SDS6 sequencer, Simmons CBM64 sequencer package or MPC programmers",
+   "No patch memory mentioned in any source (inferred: all settings are knobs)",
+   "Price GBP 549.99 inc VAT (Sept 1985)"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "Pad 1 / trigger input 1",
+    "midi_note": null,
+    "sound": "TOM 1"
+   },
+   {
+    "pad_or_key": "Pad 2 / trigger input 2",
+    "midi_note": null,
+    "sound": "TOM 2"
+   },
+   {
+    "pad_or_key": "Pad 3 / trigger input 3",
+    "midi_note": null,
+    "sound": "TOM 3"
+   },
+   {
+    "pad_or_key": "Pad 4 / trigger input 4",
+    "midi_note": null,
+    "sound": "TOM 4"
+   }
+  ],
+  "pack_contents": "20 stereo 16-bit/44.1 kHz WAVs in one flat folder: Slap-1, Slap-2, Slap-3 (white-noise 'slap' sounds) and Tom-01 to Tom-17 (electronic toms; the README says some may pass as snares). Count, order and names match Hallvard Tangeraas's 1994 TX16W sample disk (SLAP_1.W01 to TOM_17.W20), so the folder is very likely a WAV conversion of it (inferred). Files are not tied to a particular tom channel. Mixed numbering (Slap-1 vs Tom-01). No gaps, no loops. Lengths 0.23 to 1.16 s.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://nic.funet.fi/pub/sci/audio/instruments/yamaha/sds_400/00README.TXT",
+   "https://www.muzines.co.uk/articles/this-years-modules/3913",
+   "https://www.muzines.co.uk/articles/simmons-sds800-series/12653"
+  ]
+ },
+ {
+  "machine": "Simmons SDS-V (also written SDS5 / SDS 5)",
+  "pack_folders": [
+   "Simmons SDS-5",
+   "Simmons SDS5",
+   "Simmons SDSV"
+  ],
+  "maker": "Simmons Electronic Drums (Dave Simmons, with Richard James Burgess); first units built by Musicaid",
+  "year": 1981,
+  "kind": "drum sound module",
+  "voices": [
+   {
+    "label": "BASS DRUM",
+    "name": "Bass drum module",
+    "type": "Kick",
+    "controls": [
+     "Noise (noise pitch)",
+     "Tone (tone pitch)",
+     "Bend",
+     "Decay",
+     "Noise/Tone (balance)",
+     "Click/Drum (click balance)",
+     "4 memory buttons: 1 fixed factory preset + 3 user sounds",
+     "Mixer: Sensitivity",
+     "Mixer: Output level"
+    ],
+    "switch_alternate": null,
+    "notes": "Standard module. One monophonic analog voice (triangle oscillator + noise). Played from the 22-inch hexagonal bass pad. Reviews list modules as bass, snare, three toms; the physical left-to-right rack order and printed legends are not verified."
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare drum module",
+    "type": "Snare",
+    "controls": [
+     "Noise (noise pitch)",
+     "Tone (tone pitch)",
+     "Bend",
+     "Decay",
+     "Noise/Tone (balance)",
+     "Click/Drum (click balance)",
+     "4 memory buttons: 1 fixed factory preset + 3 user sounds",
+     "Mixer: Sensitivity",
+     "Mixer: Output level"
+    ],
+    "switch_alternate": "SNARE (rim)",
+    "notes": "Standard module. There is no separate rim channel: the pad's metal rim gives rimshot-style tones through the same module (1981 review). The packs' Rimshot / Crack files are therefore snare-channel sounds (inferred)."
+   },
+   {
+    "label": "SNARE (rim)",
+    "name": "Snare module struck on the pad rim",
+    "type": "Rim",
+    "controls": [
+     "Same controls as SNARE"
+    ],
+    "switch_alternate": "SNARE",
+    "notes": "Not a separate module; listed so rimshot samples can share the snare's choke group (inferred)."
+   },
+   {
+    "label": "TOM 1",
+    "name": "Tom tom module 1",
+    "type": "Tom",
+    "controls": [
+     "Noise (noise pitch)",
+     "Tone (tone pitch)",
+     "Bend",
+     "Decay",
+     "Noise/Tone (balance)",
+     "Click/Drum (click balance)",
+     "4 memory buttons: 1 fixed factory preset + 3 user sounds",
+     "Mixer: Sensitivity",
+     "Mixer: Output level"
+    ],
+    "switch_alternate": null,
+    "notes": "Standard module (three toms in the basic kit). Bend sweeps the pitch down (the classic Simmons tom)."
+   },
+   {
+    "label": "TOM 2",
+    "name": "Tom tom module 2",
+    "type": "Tom",
+    "controls": [
+     "Noise (noise pitch)",
+     "Tone (tone pitch)",
+     "Bend",
+     "Decay",
+     "Noise/Tone (balance)",
+     "Click/Drum (click balance)",
+     "4 memory buttons: 1 fixed factory preset + 3 user sounds",
+     "Mixer: Sensitivity",
+     "Mixer: Output level"
+    ],
+    "switch_alternate": null,
+    "notes": "Standard module."
+   },
+   {
+    "label": "TOM 3",
+    "name": "Tom tom module 3",
+    "type": "Tom",
+    "controls": [
+     "Noise (noise pitch)",
+     "Tone (tone pitch)",
+     "Bend",
+     "Decay",
+     "Noise/Tone (balance)",
+     "Click/Drum (click balance)",
+     "4 memory buttons: 1 fixed factory preset + 3 user sounds",
+     "Mixer: Sensitivity",
+     "Mixer: Output level"
+    ],
+    "switch_alternate": null,
+    "notes": "Standard module. The rack takes up to 7 modules, so a 4th tom (as in the SDSV pack's 'tom 4') was possible (inferred)."
+   },
+   {
+    "label": "HI-HAT (closed)",
+    "name": "Hi-hat module (optional), pedal closed",
+    "type": "Closed Hat",
+    "controls": [
+     "Hi-hat pedal input on the rack rear (open/closed)",
+     "Mixer: Sensitivity",
+     "Mixer: Output level",
+     "Module controls not documented"
+    ],
+    "switch_alternate": "HI-HAT (open)",
+    "notes": "Optional module; Music UK (1983) says the cymbal-type modules used digitally sampled sound passed through analog filters. One channel: the pedal moves it between closed and open."
+   },
+   {
+    "label": "HI-HAT (open)",
+    "name": "Hi-hat module, pedal open",
+    "type": "Open Hat",
+    "controls": [
+     "Same module as HI-HAT (closed)"
+    ],
+    "switch_alternate": "HI-HAT (closed)",
+    "notes": "Not a separate module; listed so the packs' open-hat samples can share the hi-hat choke group."
+   },
+   {
+    "label": "HI-HAT (pedal)",
+    "name": "Hi-hat module, pedal sound",
+    "type": "Pedal Hat",
+    "controls": [
+     "Same module as HI-HAT (closed)"
+    ],
+    "switch_alternate": "HI-HAT (closed)",
+    "notes": "Whether the hardware made a 'chick' sound from the pedal alone is unknown; the SDS-5 pack has two Hat Pedal files."
+   },
+   {
+    "label": "CYMBAL",
+    "name": "Cymbal module (optional)",
+    "type": "Cymbal",
+    "controls": [
+     "Mixer: Sensitivity",
+     "Mixer: Output level",
+     "Module controls not documented"
+    ],
+    "switch_alternate": null,
+    "notes": "Optional sampled-cymbal module. None of the three packs contains a crash/ride sample."
+   }
+  ],
+  "choke_groups": [
+   [
+    "HI-HAT (closed)",
+    "HI-HAT (open)",
+    "HI-HAT (pedal)"
+   ],
+   [
+    "SNARE",
+    "SNARE (rim)"
+   ]
+  ],
+  "accent": "No accent switch. Dynamics come from how hard the pad is struck: the pads are pressure-sensitive (dynamic range shrinks as Sensitivity is raised), and hit strength also changes the attack through the Click/Drum control. Each channel also has a trigger input for a sequencer such as the SDS6.",
+  "built_in_effects": [],
+  "global_features": [
+   "Rack holds up to 7 sound modules plus an output mixer; basic kit = bass, snare and three tom modules",
+   "Each module stores 4 sounds, picked with a square of 4 push-buttons: top-left = fixed factory preset; 3 user sounds (two set on rows of screwdriver trim-pots, one on front-panel knobs)",
+   "Every channel is one monophonic analog voice; samples taken from the same module are alternative settings of one channel, not sounds that can play together",
+   "Optional hi-hat module (rear hi-hat pedal input) and cymbal module",
+   "Mixer: Sensitivity and Output level per channel",
+   "Outputs (all XLR): individual per channel, pre-panned stereo pair, mono mix",
+   "Per-channel external trigger inputs (SDS6 sequencer, TR-808, MC-4 etc.)",
+   "No built-in sequencer (SDS6 sold separately)",
+   "Pads: hexagonal, piezo pickup, polycarbonate surface; 22-inch bass pad"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "22-inch hexagonal bass pad",
+    "midi_note": null,
+    "sound": "BASS DRUM (factory preset on the top-left memory button)"
+   },
+   {
+    "pad_or_key": "Snare hex pad",
+    "midi_note": null,
+    "sound": "SNARE"
+   },
+   {
+    "pad_or_key": "Tom hex pad 1",
+    "midi_note": null,
+    "sound": "TOM 1"
+   },
+   {
+    "pad_or_key": "Tom hex pad 2",
+    "midi_note": null,
+    "sound": "TOM 2"
+   },
+   {
+    "pad_or_key": "Tom hex pad 3",
+    "midi_note": null,
+    "sound": "TOM 3"
+   },
+   {
+    "pad_or_key": "Hi-hat hex pad + pedal (optional)",
+    "midi_note": null,
+    "sound": "HI-HAT"
+   }
+  ],
+  "pack_contents": "Three folders from the same machine; none labels which memory/preset a file came from. 'Simmons SDS-5': 64 stereo 16-bit/44.1 kHz WAVs in BASSDRUM (Bassdrum-01..12), SNARES (Snaredrum-01..21, Rimshot-01..07), Toms (Tom-01..17), CYMBALS (Hat Closed-01..03, Hat Open-01..02, Hat Pedal-01..02); numbered, no gaps, no crash/ride despite the CYMBALS name. 'Simmons SDS5': 23 mono WAVs with short names: SDKick01-04, SDSnare01-07, SDPop01-02, SDTomLo/Med/Mid/Hard/Noise/EHi/ELo, SDSTomE2 (naming outlier), SDHat_C, SDHat_O. 'Simmons SDSV': 45 mono WAVs: sds5_kits (SDS5 kick 1-3, Kick 4, Snare hi 1, snare hi 2, snare lo, snare mid, Crack, tom 1-4) and sds5_misc (SDS5 01-32, numbered only, no voice names). Four sds5_kits files are exactly 0.186 s long (possible truncation). No loops anywhere.",
+  "preset_patterns": [],
+  "famous_tracks": [
+   {
+    "artist": "Thomas Dolby",
+    "title": "She Blinded Me with Science",
+    "year": 1982,
+    "evidence": "https://www.mixonline.com/recording/classic-tracks-thomas-dolbys-she-blinded-me-science-365232 - Mix 'Classic Tracks' says the kick, snare and toms were Simmons, triggered from Dolby's PPG drum unit; the Simmons model is not named (SDS-V inferred from the date).",
+    "grid_source": null
+   },
+   {
+    "artist": "Spandau Ballet",
+    "title": "Chant No. 1 (I Don't Need This Pressure On)",
+    "year": 1981,
+    "evidence": "https://www.muzines.co.uk/articles/company-report-simmons/11795 - One Two Testing (June 1985) says drummer John Keeble bought one of the first SDS5s; the song itself is credited only in Wikipedia without a citation (https://en.wikipedia.org/wiki/Simmons_SDS-V). Low confidence.",
+    "grid_source": null
+   },
+   {
+    "artist": "Landscape",
+    "title": "From the Tea-Rooms of Mars... to the Hell-Holes of Uranus (album)",
+    "year": null,
+    "evidence": "https://en.wikipedia.org/wiki/Simmons_SDS-V - uncited claim that co-designer Richard Burgess triggered a prototype from a Roland MC-8 on this album; Burgess's design role is confirmed by https://hollowsun.com/nostalgia/vintage/sds5/index.html. Low confidence.",
+    "grid_source": null
+   }
+  ],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://blog.simmonsmuseum.com/?p=970",
+   "https://www.muzines.co.uk/articles/simmons-sds-5-electronic-drums-kit-and-sds-6-sequencer/12013",
+   "https://www.muzines.co.uk/articles/company-report-simmons/11795",
+   "https://synth-diy.org/yg-archives2/raw/Simmons_Drums/files/16_Manuals/4_SDS-V_SM.pdf",
+   "https://hollowsun.com/nostalgia/vintage/sds5/index.html",
+   "https://sequencer.de/syns/simmons/SDS5_SdsV.html",
+   "https://en.wikipedia.org/wiki/Simmons_SDS-V",
+   "https://www.mixonline.com/recording/classic-tracks-thomas-dolbys-she-blinded-me-science-365232",
+   "https://www.electricityclub.co.uk/mal-holmes/",
+   "https://samples.kb6.de/downloads.php"
+  ]
+ },
+ {
+  "machine": "AJK Percussion Synth (unidentified)",
+  "pack_folders": [
+   "AJK Percussion Synth"
+  ],
+  "maker": "unknown (no maker or model found for 'AJK')",
+  "year": null,
+  "kind": "synth (drums made by synthesis)",
+  "voices": [
+   {
+    "label": "Bassdrum",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; hardware panel unknown."
+   },
+   {
+    "label": "Snarepop",
+    "name": "Snare 'pop'",
+    "type": "Snare",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; hardware panel unknown. Very short (0.05 s)."
+   },
+   {
+    "label": "Tom",
+    "name": "Tom",
+    "type": "Tom",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; hardware panel unknown."
+   },
+   {
+    "label": "Cowbell",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; hardware panel unknown."
+   },
+   {
+    "label": "Noise",
+    "name": "Noise burst",
+    "type": "FX",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Label from the pack file name; hardware panel unknown."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "unknown",
+  "built_in_effects": [
+   {
+    "name": "unknown",
+    "type": "other",
+    "notes": "No hardware documentation found"
+   }
+  ],
+  "global_features": [
+   "unknown - no manual, review, photo or archive listing found; 'kind' is inferred only from the name 'Percussion Synth'"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "5 stereo 16-bit/44.1 kHz WAVs, flat folder, named by sound: Bassdrum (0.25 s), Cowbell (0.17 s), Noise (0.15 s), Snarepop (0.05 s), Tom (0.07 s). No numbering, no loops. Not in the KB6 archive's list (no 'AJK' entry).",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://samples.kb6.de/downloads.php"
+  ]
+ },
+ {
+  "machine": "Visco Space Drum (unidentified hardware)",
+  "pack_folders": [
+   "Visco SpaceDrum"
+  ],
+  "maker": "Visco (no maker documentation found)",
+  "year": null,
+  "kind": "unknown",
+  "voices": [
+   {
+    "label": "Bassdrum",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label (11 variants); hardware panel unknown."
+   },
+   {
+    "label": "Snaredrum",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label (3 variants)."
+   },
+   {
+    "label": "Rimshot",
+    "name": "Rim shot",
+    "type": "Rim",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label."
+   },
+   {
+    "label": "Tom",
+    "name": "Tom",
+    "type": "Tom",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label (7 variants: Tom-01..06, Tom7)."
+   },
+   {
+    "label": "Hat Closed",
+    "name": "Closed hi-hat",
+    "type": "Closed Hat",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label (4 variants + 1 reversed). Whether hats choke each other on the hardware is unknown."
+   },
+   {
+    "label": "Hat Open",
+    "name": "Open hi-hat",
+    "type": "Open Hat",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label (3 variants)."
+   },
+   {
+    "label": "Hat Pedal",
+    "name": "Pedal hi-hat",
+    "type": "Pedal Hat",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label."
+   },
+   {
+    "label": "Cowbell",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label."
+   },
+   {
+    "label": "Woodblock",
+    "name": "Wood block",
+    "type": "Wood Block",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label (2 variants)."
+   },
+   {
+    "label": "Synth Tom",
+    "name": "Synth tom H / M / L",
+    "type": "Tom",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label (H, L, M-01, M-02)."
+   },
+   {
+    "label": "Bleep",
+    "name": "Bleep",
+    "type": "FX",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label (2 variants)."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "unknown",
+  "built_in_effects": [
+   {
+    "name": "unknown",
+    "type": "other",
+    "notes": "No hardware documentation found"
+   }
+  ],
+  "global_features": [
+   "unknown - forum users report no information or photo of the hardware; a suggested link to the Coron DS-8 was rejected and a Univox-labelled unit was doubted"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "40 stereo 16-bit/44.1 kHz WAVs in 5 subfolders: BASSDRUM (Bassdrum-01..11), CYMBALS (Hat Closed-01..04, Hat Closed Reversed, Hat Open-01..03, Hat Pedal-01), MISC (Bleep-01..02, Cowbell, Synth Tom H, Synth Tom L, Synth Tom M-01..02, Woodblock1, Woodblock2), SNARES (Rimshot, Snaredrum-01..03), Toms (Tom-01..06, Tom7). Same 40-sample count as the KB6 archive's 'Visco Space Drum' set (likely source, inferred). Quirks: 'Tom7' and 'Woodblock1/2' break the numbering style; 'Hat Closed Reversed' is an edited sample, not a hardware sound (inferred). Short hits (0.03 to 0.72 s), no loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://samples.kb6.de/downloads.php",
+   "https://gearspace.com/threads/visco-space-drum.390269/"
+  ]
+ },
+ {
+  "machine": "X Drum LM8953 (unidentified)",
+  "pack_folders": [
+   "X Drum LM8953"
+  ],
+  "maker": "unknown",
+  "year": null,
+  "kind": "unknown",
+  "voices": [
+   {
+    "label": "Bassdrum",
+    "name": "Bass drum",
+    "type": "Kick",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label (2 variants); hardware panel unknown."
+   },
+   {
+    "label": "Snaredrum",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label (4 variants)."
+   },
+   {
+    "label": "Rim Shot",
+    "name": "Rim shot",
+    "type": "Rim",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label (2 variants)."
+   },
+   {
+    "label": "Tom",
+    "name": "Tom",
+    "type": "Tom",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label (6 variants)."
+   },
+   {
+    "label": "Hat Closed",
+    "name": "Closed hi-hat",
+    "type": "Closed Hat",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label. Whether hats choke each other on the hardware is unknown."
+   },
+   {
+    "label": "Hat Open",
+    "name": "Open hi-hat",
+    "type": "Open Hat",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label."
+   },
+   {
+    "label": "Hat Pedal",
+    "name": "Pedal hi-hat",
+    "type": "Pedal Hat",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label."
+   },
+   {
+    "label": "Crash",
+    "name": "Crash cymbal",
+    "type": "Crash",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label."
+   },
+   {
+    "label": "Ride",
+    "name": "Ride cymbal",
+    "type": "Ride",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label."
+   },
+   {
+    "label": "Tambourine",
+    "name": "Tambourine",
+    "type": "Tambourine",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label."
+   },
+   {
+    "label": "Snare Fill",
+    "name": "Snare fill",
+    "type": "Other",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived label; 1.17 s long, so probably a multi-hit phrase rather than one hit (inferred)."
+   },
+   {
+    "label": "phil-drm",
+    "name": "unexplained drum sample",
+    "type": "Other",
+    "controls": [
+     "unknown"
+    ],
+    "switch_alternate": null,
+    "notes": "Pack-derived file name; meaning unknown (0.28 s, same length as Bassdrum-02)."
+   }
+  ],
+  "choke_groups": [],
+  "accent": "unknown",
+  "built_in_effects": [
+   {
+    "name": "unknown",
+    "type": "other",
+    "notes": "No hardware documentation found"
+   }
+  ],
+  "global_features": [
+   "unknown - no machine, chip or maker called 'X Drum' / 'LM8953' found; not in the KB6 archive list (which has the unrelated Pearl Drum-X)"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "22 stereo 16-bit/44.1 kHz WAVs, flat folder: Bassdrum-01..02, Crash, Hat Closed, Hat Open, Hat Pedal, Ride, Rim Shot-01..02, Snare Fill, Snaredrum-01..04, Tambourine, Tom-01..06, phil-drm. No loops. Many files share identical lengths (0.4644 s for Rim Shot-01, Snaredrum-03 and Tom-01..03; 1.0107 s for Snaredrum-01..02), which suggests fixed-length cuts (inferred).",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "low",
+  "sources": [
+   "https://samples.kb6.de/downloads.php",
+   "http://www.hexawe.net/mess/200.Drum.Machines/"
+  ]
+ },
+ {
+  "machine": "MXR 185 Drum Computer",
+  "pack_folders": [
+   "MXR 185"
+  ],
+  "maker": "MXR",
+  "year": 1983,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "TOM 1",
+    "name": "Tom-tom 1",
+    "type": "Tom",
+    "controls": [
+     "Level slider",
+     "Individual output",
+     "Accent (per step, fixed level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Button grid row 1, column 1 (grid is 4 columns x 3 rows). Music UK calls the three toms high, mid and low; which number is which pitch is not stated. No per-voice tuning."
+   },
+   {
+    "label": "TOM 2",
+    "name": "Tom-tom 2",
+    "type": "Tom",
+    "controls": [
+     "Level slider",
+     "Individual output",
+     "Accent (per step, fixed level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Row 1, column 2."
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash cymbal",
+    "type": "Crash",
+    "controls": [
+     "Level slider",
+     "Individual output",
+     "Accent (per step, fixed level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Row 1, column 3. Uses 24K of the 52K sample PROM; reviewers say its decay is cut off rather than fading."
+   },
+   {
+    "label": "CLAPS",
+    "name": "Hand claps",
+    "type": "Clap",
+    "controls": [
+     "Level slider",
+     "Individual output",
+     "Accent (per step, fixed level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Row 1, column 4."
+   },
+   {
+    "label": "HH OPEN",
+    "name": "Hi-hat open",
+    "type": "Open Hat",
+    "controls": [
+     "Level slider (shared with HH CLOSED)",
+     "Individual output (shared with HH CLOSED)",
+     "Accent (per step, fixed level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Row 2, column 1. Programmed separately from the closed hat but premixed into one output and one slider. Whether closed cuts open off is not stated."
+   },
+   {
+    "label": "SNARE",
+    "name": "Snare drum",
+    "type": "Snare",
+    "controls": [
+     "Level slider",
+     "Individual output",
+     "Accent (per step, fixed level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Row 2, column 2 (snare sits above the kick)."
+   },
+   {
+    "label": "TOM 3",
+    "name": "Tom-tom 3",
+    "type": "Tom",
+    "controls": [
+     "Level slider",
+     "Individual output",
+     "Accent (per step, fixed level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Row 2, column 3."
+   },
+   {
+    "label": "BLOCK",
+    "name": "Wood block",
+    "type": "Wood Block",
+    "controls": [
+     "Level slider",
+     "Individual output",
+     "Accent (per step, fixed level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Row 2, column 4. Hollow Sun notes the sample seems to have a flam in it."
+   },
+   {
+    "label": "HH CLOSED",
+    "name": "Hi-hat closed",
+    "type": "Closed Hat",
+    "controls": [
+     "Level slider (shared with HH OPEN)",
+     "Individual output (shared with HH OPEN)",
+     "Accent (per step, fixed level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Row 3, column 1."
+   },
+   {
+    "label": "BASS",
+    "name": "Bass drum (kick)",
+    "type": "Kick",
+    "controls": [
+     "Level slider",
+     "Individual output",
+     "Accent (per step, fixed level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Row 3, column 2."
+   },
+   {
+    "label": "RIM SHOT",
+    "name": "Rim-shot snare",
+    "type": "Rim",
+    "controls": [
+     "Level slider",
+     "Individual output",
+     "Accent (per step, fixed level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Row 3, column 3. Hollow Sun found rim and snare nearly indistinguishable."
+   },
+   {
+    "label": "BELL",
+    "name": "Cowbell",
+    "type": "Cowbell",
+    "controls": [
+     "Level slider",
+     "Individual output",
+     "Accent (per step, fixed level)"
+    ],
+    "switch_alternate": null,
+    "notes": "Row 3, column 4. Music UK says the bell pad also drives the External Voice connection."
+   }
+  ],
+  "choke_groups": [
+   [
+    "HH OPEN",
+    "HH CLOSED"
+   ]
+  ],
+  "accent": "ACCENT button adds accents on chosen steps, separately for each voice; the accent boost is preset internally per voice and cannot be adjusted. Pads are not velocity-sensitive. Polynominal says accent can also come from the pedal input; the HKA Design MIDI retrofit maps note velocity to accent.",
+  "built_in_effects": [],
+  "global_features": [
+   "Global PITCH slider moves all voices together (no per-voice tuning; not stored in memory)",
+   "SHIFT 0-3: randomly pushes/pulls beats for a human feel; level 3 gives a jazz-type swing",
+   "ACCURACY (quantise): 7 settings from 1/4-note triplets to 1/32-note triplets",
+   "Tempo 40-250 BPM with digital readout",
+   "100 patterns (00-99) of up to 99 beats; 100 songs; Copy, double length, Insert/Delete in songs",
+   "14 sliders: 11 voice levels (hats share one) + tempo, pitch, click volume",
+   "Outputs: 1/4-inch individual out per voice, pre-panned stereo L/R (mono from one jack)",
+   "Sync: To Tape click track at 24 pulses per quarter note; From Tape external drive; tape dump/verify",
+   "15-pin Trigger Inputs (5 V TTL) and External Voice connector",
+   "Hardware: Z80 CPU, 8-bit linear DAC (DAC0800), 52K PROM sample memory; 12-voice polyphony",
+   "No MIDI (later HKA Design retrofit)"
+  ],
+  "sound_bank": null,
+  "default_kit": [
+   {
+    "pad_or_key": "Row 1, col 1",
+    "midi_note": null,
+    "sound": "TOM 1"
+   },
+   {
+    "pad_or_key": "Row 1, col 2",
+    "midi_note": null,
+    "sound": "TOM 2"
+   },
+   {
+    "pad_or_key": "Row 1, col 3",
+    "midi_note": null,
+    "sound": "CRASH"
+   },
+   {
+    "pad_or_key": "Row 1, col 4",
+    "midi_note": null,
+    "sound": "CLAPS"
+   },
+   {
+    "pad_or_key": "Row 2, col 1",
+    "midi_note": null,
+    "sound": "HH OPEN"
+   },
+   {
+    "pad_or_key": "Row 2, col 2",
+    "midi_note": null,
+    "sound": "SNARE"
+   },
+   {
+    "pad_or_key": "Row 2, col 3",
+    "midi_note": null,
+    "sound": "TOM 3"
+   },
+   {
+    "pad_or_key": "Row 2, col 4",
+    "midi_note": null,
+    "sound": "BLOCK"
+   },
+   {
+    "pad_or_key": "Row 3, col 1",
+    "midi_note": null,
+    "sound": "HH CLOSED"
+   },
+   {
+    "pad_or_key": "Row 3, col 2",
+    "midi_note": null,
+    "sound": "BASS"
+   },
+   {
+    "pad_or_key": "Row 3, col 3",
+    "midi_note": null,
+    "sound": "RIM SHOT"
+   },
+   {
+    "pad_or_key": "Row 3, col 4",
+    "midi_note": null,
+    "sound": "BELL"
+   }
+  ],
+  "pack_contents": "12 mono 16-bit/44.1 kHz WAVs in a subfolder 'mxr185', one per hardware voice, named 'MXR <sound>': Claps, Cowbell, Crash, Hat_closed, Hat_open, Kick, Rimshot, Snare, Tom 1, Tom 2, Tom 3, woodblock. Complete, no gaps, no extras, no loops. Total size 284,652 bytes, matching the KB6 archive's 12-sample/284 KB MXR 185 set (likely source, inferred). Crash 1.31 s; everything else 0.09 to 0.44 s.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "high",
+  "sources": [
+   "https://www.muzines.co.uk/articles/mxr-185-drum-computer/6203",
+   "https://www.muzines.co.uk/articles/mxr-drum-computer/3140",
+   "https://www.muzines.co.uk/articles/mxr-drum-computer/12004",
+   "https://hollowsun.com/nostalgia/vintage/mxr185/index.html",
+   "https://www.polynominal.com/sample-packs/mxr-185/",
+   "https://hkadesign.org.uk/mxr185midi.html",
+   "https://samples.kb6.de/downloads.php"
+  ]
+ },
+ {
+  "machine": "Sakata DPM-48 Digital Percussion Machine",
+  "pack_folders": [
+   "Sakata DPM-48"
+  ],
+  "maker": "Sakata (Japan); also sold as Hammond DPM48, Jugg Box and Multivox",
+  "year": 1984,
+  "kind": "digital drum machine",
+  "voices": [
+   {
+    "label": "BASS 1",
+    "name": "Bass drum 1",
+    "type": "Kick",
+    "controls": [
+     "Group level slider (shared)",
+     "Group individual output ('common bass out')",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown. 'BASS 1/2/3' label style from a 2024 seller listing."
+   },
+   {
+    "label": "BASS 2",
+    "name": "Bass drum 2",
+    "type": "Kick",
+    "controls": [
+     "Group level slider (shared)",
+     "Group individual output ('common bass out')",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   },
+   {
+    "label": "BASS 3",
+    "name": "Bass drum 3",
+    "type": "Kick",
+    "controls": [
+     "Group level slider (shared)",
+     "Group individual output ('common bass out')",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   },
+   {
+    "label": "SNARE 1",
+    "name": "Snare drum 1",
+    "type": "Snare",
+    "controls": [
+     "Group level slider (shared)",
+     "Group individual output ('common snare out')",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   },
+   {
+    "label": "SNARE 2",
+    "name": "Snare drum 2",
+    "type": "Snare",
+    "controls": [
+     "Group level slider (shared)",
+     "Group individual output ('common snare out')",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   },
+   {
+    "label": "RIM",
+    "name": "Rim shot",
+    "type": "Rim",
+    "controls": [
+     "Level slider (group unknown)",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Which of the 8 voice groups it belongs to is unknown."
+   },
+   {
+    "label": "TOM 1",
+    "name": "Tom 1",
+    "type": "Tom",
+    "controls": [
+     "Level slider (group unknown)",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "'TOMS 1-4' label style from a 2024 seller listing, who called toms 1-2 faint and 3-4 deep."
+   },
+   {
+    "label": "TOM 2",
+    "name": "Tom 2",
+    "type": "Tom",
+    "controls": [
+     "Level slider (group unknown)",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   },
+   {
+    "label": "TOM 3",
+    "name": "Tom 3",
+    "type": "Tom",
+    "controls": [
+     "Level slider (group unknown)",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   },
+   {
+    "label": "TOM 4",
+    "name": "Tom 4",
+    "type": "Tom",
+    "controls": [
+     "Level slider (group unknown)",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   },
+   {
+    "label": "CLOSED HH",
+    "name": "Closed hi-hat",
+    "type": "Closed Hat",
+    "controls": [
+     "Level slider (group unknown)",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Hats very likely share one voice with open/accent hat (usual design) but this is not documented."
+   },
+   {
+    "label": "OPEN HH",
+    "name": "Open hi-hat",
+    "type": "Open Hat",
+    "controls": [
+     "Level slider (group unknown)",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   },
+   {
+    "label": "ACCENT HH",
+    "name": "Accented hi-hat",
+    "type": "Closed Hat",
+    "controls": [
+     "Level slider (group unknown)"
+    ],
+    "switch_alternate": null,
+    "notes": "Listed as 'accenthh' in the 1990s sample set; exact nature unknown."
+   },
+   {
+    "label": "CRASH",
+    "name": "Crash cymbal",
+    "type": "Crash",
+    "controls": [
+     "Level slider (group unknown)",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Reviewers single out the cymbals as distinctive."
+   },
+   {
+    "label": "RIDE",
+    "name": "Ride cymbal",
+    "type": "Ride",
+    "controls": [
+     "Level slider (group unknown)",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   },
+   {
+    "label": "CLAP",
+    "name": "Hand clap",
+    "type": "Clap",
+    "controls": [
+     "Level slider (group unknown)",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   },
+   {
+    "label": "AGOGO 1",
+    "name": "Agogo bell 1",
+    "type": "Agogo",
+    "controls": [
+     "Level slider shared with agogo/cabasa",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Agogo and cabasa share one level slider (Hollow Sun)."
+   },
+   {
+    "label": "AGOGO 2",
+    "name": "Agogo bell 2",
+    "type": "Agogo",
+    "controls": [
+     "Level slider shared with agogo/cabasa",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   },
+   {
+    "label": "CABASA 1",
+    "name": "Cabasa 1",
+    "type": "Shaker",
+    "controls": [
+     "Level slider shared with agogo/cabasa",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   },
+   {
+    "label": "CABASA 2",
+    "name": "Cabasa 2",
+    "type": "Shaker",
+    "controls": [
+     "Level slider shared with agogo/cabasa",
+     "Accent"
+    ],
+    "switch_alternate": null,
+    "notes": "Panel position unknown."
+   }
+  ],
+  "choke_groups": [
+   [
+    "BASS 1",
+    "BASS 2",
+    "BASS 3"
+   ],
+   [
+    "SNARE 1",
+    "SNARE 2"
+   ],
+   [
+    "AGOGO 1",
+    "AGOGO 2",
+    "CABASA 1",
+    "CABASA 2"
+   ]
+  ],
+  "accent": "Pads are not velocity-sensitive. Accent plays a louder 'accented' variant of a sound; the 1990s sampler found 2 of his 22 recordings were identical sounds with the accent added. There is also a separate 'accent' hi-hat sound. How accents are entered is not documented in the sources found.",
+  "built_in_effects": [],
+  "global_features": [
+   "22 sampled sounds (8-bit PCM on EPROM) on 22 non-velocity pads; sequencer.de describes 'three sound groups (2x8 and 1x6)' matching the pad layout",
+   "8 voices: 8 voice level sliders (one per voice group) + master volume; sounds in a group share a slider and an individual output (e.g. common bass out, common snare out)",
+   "Outputs: stereo (sounds spread across the field), mono, 8 grouped individual outs, headphones, separate metronome out",
+   "48 patterns of up to 32 steps + 3 songs, kept on a battery-backed RAM cartridge; patterns cannot be programmed without the cartridge",
+   "Real-time recording in layers or step entry; tempo set with two wheels; 2-digit display",
+   "Roland DIN sync in/out; trigger inputs for drum pads",
+   "Alternative ROM sound sets (mid-1984) for the DPM-48E: Electronic Drums, Rock, Latin Percussion",
+   "No MIDI (FPB Synth retrofit uses the cartridge slot)",
+   "UK price GBP 699"
+  ],
+  "sound_bank": null,
+  "default_kit": [],
+  "pack_contents": "20 stereo 16-bit/44.1 kHz WAVs, flat folder: Agogo1, Agogo2, Bassdrum-01..03, Cabasa-01..02, Clap, Crash, Hat Closed-01..02, Hat Open, Ride, Rim, Snaredrum-01..02, Tom-01..04. These are the same 20 sounds as Kyle Farrell's sampling of the machine as converted by Hallvard Tangeraas (accenthh, agogo1-2, bass1-3, cabasa1-2, clap, closedhh, crash, openhh, ride, rim, snare1-2, tom1-4), so one of the two 'Hat Closed' files is probably the accent hi-hat (inferred). The 2 accent-only duplicates of the original 22 are missing. Not the KB6 set (which has 23 samples). Mixed naming (Agogo1 vs -01). No loops.",
+  "preset_patterns": [],
+  "famous_tracks": [],
+  "midi_sources": [],
+  "confidence": "medium",
+  "sources": [
+   "https://nic.funet.fi/pub/sci/audio/instruments/yamaha/DRUMS/sakata.txt",
+   "https://hollowsun.com/nostalgia/contributors/sakata/index.html",
+   "https://sequencer.de/syns/sakata/DPM48.html",
+   "https://en.audiofanzine.com/drum-machine/sakata/dpm-48/",
+   "https://www.matrixsynth.com/2025/08/jugg-box-dpm-48-1983-manual.html?m=0",
+   "https://www.matrixsynth.com/2025/04/sakata-dpm-48-digital-drum-machine-w.html",
+   "https://www.matrixsynth.com/2024/08/sakata-dpm-48-aka-multivox-demos.html?m=0",
+   "https://www.matrixsynth.com/2009/09/sakata-dpm-48-drum-machine.html",
+   "https://samples.kb6.de/downloads.php"
+  ]
+ }
+]
