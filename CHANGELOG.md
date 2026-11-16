@@ -4,6 +4,13 @@ All notable changes to this project are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Fixed
+
+- README: the samples come from free vintage drum-machine sample archives, not Splice. Those archives allow
+  use in music but not re-sharing, so the samples are still not included.
+
 ## [0.1.0] - 2026-11-14
 
 First public release.
@@ -36,7 +43,7 @@ First public release.
 
 ### Not included
 
-- Audio samples (Splice licence), Ableton factory content (read from your Live installation), and
+- Audio samples (their archives allow use but not re-sharing), Ableton factory content (read from your Live installation), and
   transcribed drum patterns (third-party sources). See the README for details.
 
 [0.1.0]: https://github.com/zayansalman/novation-superdrum-machine/releases/tag/v0.1.0

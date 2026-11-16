@@ -40,7 +40,7 @@ research is included, with sources, in [`research/`](research/).
 
 | Not included | Why | What to do |
 |---|---|---|
-| The audio samples | Splice's licence lets you use samples in your music but not redistribute them | Download the packs to your own Splice library ([`data/packs.json`](data/packs.json) lists them) |
+| The audio samples | They come from free vintage drum-machine sample archives (for example [polynominal.com](https://www.polynominal.com)). Those archives let you use the samples in your music, but they are not open-licensed and do not allow re-sharing | Download the packs from the archives into one folder ([`data/packs.json`](data/packs.json) lists the folder names) |
 | Ableton's factory files | Ableton's content licence | Read from your own Live installation at build time |
 | Drum patterns of famous records and factory preset rhythms | Transcribed from third-party charts, tabs and manuals | Add your own pattern files; see [`research/beats/README.md`](research/beats/README.md) |
 
@@ -49,7 +49,8 @@ research is included, with sources, in [`research/`](research/).
 - macOS (Windows should work with the environment variables below, but is untested)
 - Ableton Live 12 (built and tested with 12.4 Suite; the Core Library must be installed)
 - Python 3.10 or newer, with `numpy` and `scipy`
-- The vintage drum-machine packs in your Splice library, at `~/Splice/sounds/packs` by default
+- The vintage drum-machine sample packs (free downloads, see above), one folder per pack inside a single
+  folder. Point `SUPERDRUM_PACKS` at it; the default is `~/Splice/sounds/packs`, where the author keeps them
 
 ## Quick start
 
